@@ -74,7 +74,7 @@ Coordinates use a bottom-left origin. Adapt type size to content, but retain the
 7. Leave the large central region between the symbols and title substantially unobstructed so the commander art remains visible.
 8. Use a dark safety edge, a set-family accent border, and a fine inner highlight. Keep all important content within the inner frame.
 
-Use warm white for the deck title and true white for descriptions and set names. Do not put a black outline around any text. A restrained soft shadow may be used for contrast, but the footer background should be dark enough that the white lettering reads cleanly without a stroke. Keep overlays light enough that the printed artwork remains visible.
+Use neutral true white (RGB 255, 255, 255) for the deck title, description, and set name; do not use ivory, cream, tan, or another warm off-white. Do not put a black outline around any text. A restrained soft shadow may be used for contrast, but the footer background should be dark enough that the white lettering reads cleanly without a stroke. Keep overlays light enough that the printed artwork remains visible.
 
 ## 6. Content manifest
 

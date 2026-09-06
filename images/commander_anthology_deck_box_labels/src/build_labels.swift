@@ -117,7 +117,6 @@ let labels: [DeckLabel] = [
 
 let colorSpace = CGColorSpace(name: CGColorSpace.sRGB)!
 let nearBlack = CGColor(srgbRed: 0.015, green: 0.018, blue: 0.024, alpha: 1)
-let ivory = CGColor(srgbRed: 0.985, green: 0.965, blue: 0.90, alpha: 1)
 let trueWhite = CGColor(srgbRed: 1, green: 1, blue: 1, alpha: 1)
 let shadow = CGColor(srgbRed: 0, green: 0, blue: 0, alpha: 0.88)
 let anthologyGold = CGColor(srgbRed: 0.83, green: 0.57, blue: 0.20, alpha: 1)
@@ -511,7 +510,7 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
         minimumSize: 220,
         kern: 2.8,
         maxWidth: 2860,
-        fill: ivory,
+        fill: trueWhite,
         stroke: nearBlack,
         strokeWidth: 0
     )
