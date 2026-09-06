@@ -66,10 +66,10 @@ The format fills most of the Boulder lid's usable flat area while remaining clea
 Coordinates use a bottom-left origin. Adapt type size to content, but retain the compact structure.
 
 1. Draw authentic MTG mana symbols as 320 px circles centered at y=2530. Center the row horizontally with a 60 px gap. Keep every symbol fully inside the inner artwork frame and clear of the title.
-2. Draw the one-line deck title at baseline y=740. Start around 340 px condensed bold uppercase and reduce as needed, with a suggested minimum of 220 px.
-3. Draw an 8 px accent divider at y=605.
-4. Draw the one-line description at baseline y=450. Start around 150 px condensed uppercase and reduce as needed, with a suggested minimum of 104 px.
-5. Draw an 8 px accent divider at y=340.
+2. Draw the one-line deck title at baseline y=610. Start around 340 px condensed bold uppercase and reduce as needed, with a suggested minimum of 220 px.
+3. Draw an 8 px accent divider at y=515.
+4. Draw the one-line description at baseline y=365. Start around 150 px condensed uppercase and reduce as needed, with a suggested minimum of 104 px.
+5. Draw an 8 px accent divider at y=310.
 6. Draw the one-line set or product name at baseline y=150. Start around 192 px heavy uppercase and reduce as needed, with a suggested minimum of 136 px. Its lettering should visually meet the bottom edge while remaining inside the inner print-safe border.
 7. Leave the large central region between the symbols and title substantially unobstructed so the commander art remains visible.
 8. Use a dark safety edge, a set-family accent border, and a fine inner highlight. Keep all important content within the inner frame.

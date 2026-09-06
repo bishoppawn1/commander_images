@@ -515,12 +515,12 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
         stroke: nearBlack,
         strokeWidth: -4.0
     )
-    drawCenteredLine(deckLine, centerX: 1650, baselineY: 740, context: context)
+    drawCenteredLine(deckLine, centerX: 1650, baselineY: 610, context: context)
 
     context.setStrokeColor(accent.copy(alpha: 0.90)!)
     context.setLineWidth(8)
-    context.move(to: CGPoint(x: 240, y: 605))
-    context.addLine(to: CGPoint(x: 3060, y: 605))
+    context.move(to: CGPoint(x: 240, y: 515))
+    context.addLine(to: CGPoint(x: 3060, y: 515))
     context.strokePath()
 
     let goalLine = makeLine(
@@ -534,12 +534,12 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
         stroke: nearBlack,
         strokeWidth: -1.8
     )
-    drawCenteredLine(goalLine, centerX: 1650, baselineY: 450, context: context)
+    drawCenteredLine(goalLine, centerX: 1650, baselineY: 365, context: context)
 
     context.setStrokeColor(accent.copy(alpha: 0.90)!)
     context.setLineWidth(8)
-    context.move(to: CGPoint(x: 240, y: 340))
-    context.addLine(to: CGPoint(x: 3060, y: 340))
+    context.move(to: CGPoint(x: 240, y: 310))
+    context.addLine(to: CGPoint(x: 3060, y: 310))
     context.strokePath()
 
     let setLine = makeLine(
