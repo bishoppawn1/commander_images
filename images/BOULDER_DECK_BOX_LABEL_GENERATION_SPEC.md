@@ -22,7 +22,7 @@ The label should reveal as much of the background art as possible. Keep the mana
 
 1. **Deck title:** keep it on one line whenever it remains comfortably legible. Reduce the font size adaptively before introducing a line break. Break the title only when the one-line version would become materially harder to read at the physical print size.
 2. **Set or product name:** use one line by default. Preserve multiple lines only when an official visual identity or supplied reference contains a clearly intentional, established line treatment that must be retained.
-3. **Deck description:** use one line whenever a truthful short description is reasonable. Shorten wording before reducing the font excessively. Prefer one action and one payoff separated by a centered bullet.
+3. **Deck description:** use one line whenever a truthful short description is reasonable. Shorten wording before reducing the font excessively. Prefer one action and one payoff separated by a centered bullet. Use a large condensed-black or heavy face rather than a regular or demi-bold face so the descriptor remains clearly readable at print size.
 4. **Vertical spacing:** keep the title, description, and set name close together at the bottom. Use only enough separation to prevent outlines, shadows, rules, and glyphs from touching. Leave a large uninterrupted region of background artwork visible between the top mana symbols and the bottom information block.
 5. Never invent mechanics or strategic claims to make a line fit. If a factual description cannot be shortened safely, use a carefully spaced second line.
 
@@ -66,9 +66,9 @@ The format fills most of the Boulder lid's usable flat area while remaining clea
 Coordinates use a bottom-left origin. Adapt type size to content, but retain the compact structure.
 
 1. Draw authentic MTG mana symbols as 320 px circles centered at y=2530. Center the row horizontally with a 60 px gap. Keep every symbol fully inside the inner artwork frame and clear of the title.
-2. Draw the one-line deck title at baseline y=610. Start around 340 px condensed bold uppercase and reduce as needed, with a suggested minimum of 220 px.
-3. Draw an 8 px accent divider at y=515.
-4. Draw the one-line description at baseline y=365. Start around 150 px condensed uppercase and reduce as needed, with a suggested minimum of 104 px.
+2. Draw the one-line deck title at baseline y=630. Start around 340 px condensed bold uppercase and reduce as needed, with a suggested minimum of 220 px.
+3. Draw an 8 px accent divider at y=540.
+4. Draw the one-line description at baseline y=375. Start around 185 px condensed-black uppercase and reduce as needed, with a suggested minimum of 138 px. Shorten the wording before allowing it below that range.
 5. Draw an 8 px accent divider at y=310.
 6. Draw the one-line set or product name at baseline y=150. Start around 192 px heavy uppercase and reduce as needed, with a suggested minimum of 136 px. Its lettering should visually meet the bottom edge while remaining inside the inner print-safe border.
 7. Leave the large central region between the symbols and title substantially unobstructed so the commander art remains visible.

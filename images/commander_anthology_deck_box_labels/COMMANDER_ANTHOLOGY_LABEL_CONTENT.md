@@ -6,14 +6,14 @@ This file contains only Commander Anthology-specific content and implementation 
 
 | Product | Deck title | One-line description | Mana-symbol order |
 | --- | --- | --- | --- |
-| Commander Anthology | Heavenly Inferno | ATTACK WITH KAALIA • DROP BIG THREATS | Red, White, Black |
-| Commander Anthology | Evasive Maneuvers | EVADE BLOCKERS • TAP & UNTAP FOR VALUE | Green, White, Blue |
-| Commander Anthology | Guided by Nature | MAKE ELVES & MANA • OVERWHELM THE TABLE | Green |
-| Commander Anthology | Plunder the Graves | SACRIFICE CREATURES • REANIMATE THEM | Black, Green |
-| Commander Anthology Volume II | Devour for Power | FILL GRAVEYARDS • BUILD A HUGE MIMEOPLASM | Black, Green, Blue |
-| Commander Anthology Volume II | Built from Scratch | SACRIFICE ARTIFACTS • REANIMATE MACHINES | Red |
-| Commander Anthology Volume II | Wade into Battle | RAMP INTO GIANTS • ATTACK WITH EXPERIENCE | Red, White |
-| Commander Anthology Volume II | Breed Lethality | ADD COUNTERS • PROLIFERATE EVERY TURN | Green, White, Blue, Black |
+| Commander Anthology | Heavenly Inferno | KAALIA ATTACKS • DROP BIG THREATS | Red, White, Black |
+| Commander Anthology | Evasive Maneuvers | EVADE • TAP & UNTAP FOR VALUE | Green, White, Blue |
+| Commander Anthology | Guided by Nature | MAKE ELVES & MANA • OVERWHELM | Green |
+| Commander Anthology | Plunder the Graves | SACRIFICE CREATURES • REANIMATE | Black, Green |
+| Commander Anthology Volume II | Devour for Power | FILL GRAVEYARDS • GROW MIMEOPLASM | Black, Green, Blue |
+| Commander Anthology Volume II | Built from Scratch | SACRIFICE ARTIFACTS • REANIMATE | Red |
+| Commander Anthology Volume II | Wade into Battle | RAMP INTO GIANTS • ATTACK BIG | Red, White |
+| Commander Anthology Volume II | Breed Lethality | ADD COUNTERS • PROLIFERATE | Green, White, Blue, Black |
 
 The shortened descriptions preserve the central plan of each original deck while fitting as a single line.
 

@@ -44,7 +44,7 @@ let labels: [DeckLabel] = [
     DeckLabel(
         slug: "heavenly_inferno",
         deckName: "HEAVENLY INFERNO",
-        goalDescription: "ATTACK WITH KAALIA • DROP BIG THREATS",
+        goalDescription: "KAALIA ATTACKS • DROP BIG THREATS",
         setName: "COMMANDER ANTHOLOGY",
         artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/kaalia_of_the_vast_regenerated_v3_tall.png",
         colors: [.red, .white, .black],
@@ -53,7 +53,7 @@ let labels: [DeckLabel] = [
     DeckLabel(
         slug: "evasive_maneuvers",
         deckName: "EVASIVE MANEUVERS",
-        goalDescription: "EVADE BLOCKERS • TAP & UNTAP FOR VALUE",
+        goalDescription: "EVADE • TAP & UNTAP FOR VALUE",
         setName: "COMMANDER ANTHOLOGY",
         artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/derevi_empyrial_tactician_regenerated_v3_tall.png",
         colors: [.green, .white, .blue],
@@ -62,7 +62,7 @@ let labels: [DeckLabel] = [
     DeckLabel(
         slug: "guided_by_nature",
         deckName: "GUIDED BY NATURE",
-        goalDescription: "MAKE ELVES & MANA • OVERWHELM THE TABLE",
+        goalDescription: "MAKE ELVES & MANA • OVERWHELM",
         setName: "COMMANDER ANTHOLOGY",
         artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/freyalise_llanowars_fury_regenerated_v3_tall.png",
         colors: [.green],
@@ -71,7 +71,7 @@ let labels: [DeckLabel] = [
     DeckLabel(
         slug: "plunder_the_graves",
         deckName: "PLUNDER THE GRAVES",
-        goalDescription: "SACRIFICE CREATURES • REANIMATE THEM",
+        goalDescription: "SACRIFICE CREATURES • REANIMATE",
         setName: "COMMANDER ANTHOLOGY",
         artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/meren_of_clan_nel_toth_regenerated_v3_tall.png",
         colors: [.black, .green],
@@ -80,7 +80,7 @@ let labels: [DeckLabel] = [
     DeckLabel(
         slug: "devour_for_power",
         deckName: "DEVOUR FOR POWER",
-        goalDescription: "FILL GRAVEYARDS • BUILD A HUGE MIMEOPLASM",
+        goalDescription: "FILL GRAVEYARDS • GROW MIMEOPLASM",
         setName: "COMMANDER ANTHOLOGY VOLUME II",
         artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/the_mimeoplasm_regenerated_v3_tall.png",
         colors: [.black, .green, .blue],
@@ -89,7 +89,7 @@ let labels: [DeckLabel] = [
     DeckLabel(
         slug: "built_from_scratch",
         deckName: "BUILT FROM SCRATCH",
-        goalDescription: "SACRIFICE ARTIFACTS • REANIMATE MACHINES",
+        goalDescription: "SACRIFICE ARTIFACTS • REANIMATE",
         setName: "COMMANDER ANTHOLOGY VOLUME II",
         artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/daretti_scrap_savant_regenerated_v3_tall.png",
         colors: [.red],
@@ -98,7 +98,7 @@ let labels: [DeckLabel] = [
     DeckLabel(
         slug: "wade_into_battle",
         deckName: "WADE INTO BATTLE",
-        goalDescription: "RAMP INTO GIANTS • ATTACK WITH EXPERIENCE",
+        goalDescription: "RAMP INTO GIANTS • ATTACK BIG",
         setName: "COMMANDER ANTHOLOGY VOLUME II",
         artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/kalemne_disciple_of_iroas_regenerated_v3_tall.png",
         colors: [.red, .white],
@@ -107,7 +107,7 @@ let labels: [DeckLabel] = [
     DeckLabel(
         slug: "breed_lethality",
         deckName: "BREED LETHALITY",
-        goalDescription: "ADD COUNTERS • PROLIFERATE EVERY TURN",
+        goalDescription: "ADD COUNTERS • PROLIFERATE",
         setName: "COMMANDER ANTHOLOGY VOLUME II",
         artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/atraxa_praetors_voice_regenerated_v3_tall.png",
         colors: [.green, .white, .blue, .black],
@@ -193,7 +193,6 @@ func fontName(_ preferred: String, fallback: String) -> String {
 }
 
 let titleFontName = fontName("HelveticaNeue-CondensedBlack", fallback: "Helvetica-Bold")
-let smallFontName = fontName("AvenirNextCondensed-DemiBold", fallback: "Helvetica-Bold")
 
 func makeLine(
     _ text: String,
@@ -515,26 +514,26 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
         stroke: nearBlack,
         strokeWidth: -4.0
     )
-    drawCenteredLine(deckLine, centerX: 1650, baselineY: 610, context: context)
+    drawCenteredLine(deckLine, centerX: 1650, baselineY: 630, context: context)
 
     context.setStrokeColor(accent.copy(alpha: 0.90)!)
     context.setLineWidth(8)
-    context.move(to: CGPoint(x: 240, y: 515))
-    context.addLine(to: CGPoint(x: 3060, y: 515))
+    context.move(to: CGPoint(x: 240, y: 540))
+    context.addLine(to: CGPoint(x: 3060, y: 540))
     context.strokePath()
 
     let goalLine = makeLine(
         label.goalDescription,
-        fontName: smallFontName,
-        startingSize: 150,
-        minimumSize: 104,
-        kern: 3.6,
-        maxWidth: 2920,
+        fontName: titleFontName,
+        startingSize: 185,
+        minimumSize: 138,
+        kern: 1.2,
+        maxWidth: 2980,
         fill: trueWhite,
         stroke: nearBlack,
         strokeWidth: -1.8
     )
-    drawCenteredLine(goalLine, centerX: 1650, baselineY: 365, context: context)
+    drawCenteredLine(goalLine, centerX: 1650, baselineY: 375, context: context)
 
     context.setStrokeColor(accent.copy(alpha: 0.90)!)
     context.setLineWidth(8)
