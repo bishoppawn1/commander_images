@@ -6,9 +6,9 @@ import Foundation
 import ImageIO
 import UniformTypeIdentifiers
 
-private let canvasWidth = 1650
-private let canvasHeight = 1180
-private let outputDPI = 600
+private let canvasWidth = 3300
+private let canvasHeight = 2800
+private let outputDPI = 1200
 
 enum ManaColor: String {
     case white = "WHITE"
@@ -21,7 +21,7 @@ enum ManaColor: String {
 struct DeckLabel {
     let slug: String
     let deckName: String
-    let deckNameLines: [String]
+    let goalDescription: String
     let setName: String
     let artPath: String
     let colors: [ManaColor]
@@ -44,72 +44,72 @@ let labels: [DeckLabel] = [
     DeckLabel(
         slug: "heavenly_inferno",
         deckName: "HEAVENLY INFERNO",
-        deckNameLines: ["HEAVENLY", "INFERNO"],
+        goalDescription: "ATTACK WITH KAALIA • DROP BIG THREATS",
         setName: "COMMANDER ANTHOLOGY",
-        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v2_7x5/kaalia_of_the_vast_regenerated_v2_7x5.png",
+        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/kaalia_of_the_vast_regenerated_v3_tall.png",
         colors: [.red, .white, .black],
         series: 1
     ),
     DeckLabel(
         slug: "evasive_maneuvers",
         deckName: "EVASIVE MANEUVERS",
-        deckNameLines: ["EVASIVE", "MANEUVERS"],
+        goalDescription: "EVADE BLOCKERS • TAP & UNTAP FOR VALUE",
         setName: "COMMANDER ANTHOLOGY",
-        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v2_7x5/derevi_empyrial_tactician_regenerated_v2_7x5.png",
+        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/derevi_empyrial_tactician_regenerated_v3_tall.png",
         colors: [.green, .white, .blue],
         series: 1
     ),
     DeckLabel(
         slug: "guided_by_nature",
         deckName: "GUIDED BY NATURE",
-        deckNameLines: ["GUIDED BY", "NATURE"],
+        goalDescription: "MAKE ELVES & MANA • OVERWHELM THE TABLE",
         setName: "COMMANDER ANTHOLOGY",
-        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v2_7x5/freyalise_llanowars_fury_regenerated_v2_7x5.png",
+        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/freyalise_llanowars_fury_regenerated_v3_tall.png",
         colors: [.green],
         series: 1
     ),
     DeckLabel(
         slug: "plunder_the_graves",
         deckName: "PLUNDER THE GRAVES",
-        deckNameLines: ["PLUNDER THE", "GRAVES"],
+        goalDescription: "SACRIFICE CREATURES • REANIMATE THEM",
         setName: "COMMANDER ANTHOLOGY",
-        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v2_7x5/meren_of_clan_nel_toth_regenerated_v2_7x5.png",
+        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/meren_of_clan_nel_toth_regenerated_v3_tall.png",
         colors: [.black, .green],
         series: 1
     ),
     DeckLabel(
         slug: "devour_for_power",
         deckName: "DEVOUR FOR POWER",
-        deckNameLines: ["DEVOUR FOR", "POWER"],
+        goalDescription: "FILL GRAVEYARDS • BUILD A HUGE MIMEOPLASM",
         setName: "COMMANDER ANTHOLOGY VOLUME II",
-        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v2_7x5/the_mimeoplasm_regenerated_v2_7x5.png",
+        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/the_mimeoplasm_regenerated_v3_tall.png",
         colors: [.black, .green, .blue],
         series: 2
     ),
     DeckLabel(
         slug: "built_from_scratch",
         deckName: "BUILT FROM SCRATCH",
-        deckNameLines: ["BUILT FROM", "SCRATCH"],
+        goalDescription: "SACRIFICE ARTIFACTS • REANIMATE MACHINES",
         setName: "COMMANDER ANTHOLOGY VOLUME II",
-        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v2_7x5/daretti_scrap_savant_regenerated_v2_7x5.png",
+        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/daretti_scrap_savant_regenerated_v3_tall.png",
         colors: [.red],
         series: 2
     ),
     DeckLabel(
         slug: "wade_into_battle",
         deckName: "WADE INTO BATTLE",
-        deckNameLines: ["WADE INTO", "BATTLE"],
+        goalDescription: "RAMP INTO GIANTS • ATTACK WITH EXPERIENCE",
         setName: "COMMANDER ANTHOLOGY VOLUME II",
-        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v2_7x5/kalemne_disciple_of_iroas_regenerated_v2_7x5.png",
+        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/kalemne_disciple_of_iroas_regenerated_v3_tall.png",
         colors: [.red, .white],
         series: 2
     ),
     DeckLabel(
         slug: "breed_lethality",
         deckName: "BREED LETHALITY",
-        deckNameLines: ["BREED", "LETHALITY"],
+        goalDescription: "ADD COUNTERS • PROLIFERATE EVERY TURN",
         setName: "COMMANDER ANTHOLOGY VOLUME II",
-        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v2_7x5/atraxa_praetors_voice_regenerated_v2_7x5.png",
+        artPath: "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/atraxa_praetors_voice_regenerated_v3_tall.png",
         colors: [.green, .white, .blue, .black],
         series: 2
     )
@@ -228,7 +228,7 @@ func makeLine(
 func drawCenteredLine(_ line: CTLine, centerX: CGFloat, baselineY: CGFloat, context: CGContext) {
     let bounds = CTLineGetBoundsWithOptions(line, [.useGlyphPathBounds])
     context.saveGState()
-    context.setShadow(offset: CGSize(width: 0, height: -4), blur: 8, color: shadow)
+    context.setShadow(offset: CGSize(width: 0, height: -8), blur: 16, color: shadow)
     context.textPosition = CGPoint(x: centerX - bounds.midX, y: baselineY)
     CTLineDraw(line, context)
     context.restoreGState()
@@ -382,7 +382,7 @@ func drawPip(_ manaColor: ManaColor, center: CGPoint, diameter: CGFloat, context
     )
 
     context.saveGState()
-    context.setShadow(offset: CGSize(width: 0, height: -5), blur: 12, color: shadow)
+    context.setShadow(offset: CGSize(width: 0, height: -10), blur: 24, color: shadow)
     context.draw(symbol, in: rect)
     context.restoreGState()
 }
@@ -438,22 +438,21 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
     let art = loadImage(repositoryRoot.appendingPathComponent(label.artPath))
     drawAspectFill(art, in: bounds, context: context)
 
-    // Lift shadow detail before applying the color-family wash. The source art is
-    // already crisp; this brightens it without introducing another generation or
-    // enlarging a low-resolution intermediate.
+    // The v3 artwork was regenerated for this tall format. A restrained screen
+    // lift compensates for darkening on home printers while preserving color.
     let isBreedLethality = label.slug == "breed_lethality"
     context.setBlendMode(.screen)
     context.setFillColor(CGColor(
-        srgbRed: isBreedLethality ? 0.86 : 0.72,
-        green: isBreedLethality ? 0.89 : 0.78,
-        blue: isBreedLethality ? 0.94 : 0.86,
-        alpha: isBreedLethality ? 0.30 : 0.12
+        srgbRed: isBreedLethality ? 0.88 : 0.72,
+        green: isBreedLethality ? 0.91 : 0.78,
+        blue: isBreedLethality ? 0.96 : 0.86,
+        alpha: isBreedLethality ? 0.17 : 0.07
     ))
     context.fill(bounds)
     context.setBlendMode(.normal)
 
     context.setBlendMode(.color)
-    context.setFillColor(blendedWash(for: label.colors, alpha: 0.13))
+    context.setFillColor(blendedWash(for: label.colors, alpha: 0.09))
     context.fill(bounds)
     context.setBlendMode(.normal)
 
@@ -461,86 +460,100 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
         context: context,
         rect: bounds,
         colors: [
-            CGColor(srgbRed: 0.005, green: 0.008, blue: 0.014, alpha: isBreedLethality ? 0.34 : 0.54),
-            CGColor(srgbRed: 0.005, green: 0.008, blue: 0.014, alpha: isBreedLethality ? 0.09 : 0.16),
+            CGColor(srgbRed: 0.005, green: 0.008, blue: 0.014, alpha: 0.52),
+            CGColor(srgbRed: 0.005, green: 0.008, blue: 0.014, alpha: 0.12),
             CGColor(srgbRed: 0.005, green: 0.008, blue: 0.014, alpha: 0.00)
         ],
         locations: [0, 0.54, 1],
-        startY: 1180,
-        endY: 730
+        startY: 2800,
+        endY: 2180
     )
     drawVerticalGradient(
         context: context,
         rect: bounds,
         colors: [
-            CGColor(srgbRed: 0.004, green: 0.006, blue: 0.010, alpha: isBreedLethality ? 0.46 : 0.70),
-            CGColor(srgbRed: 0.004, green: 0.006, blue: 0.010, alpha: isBreedLethality ? 0.22 : 0.40),
-            CGColor(srgbRed: 0.004, green: 0.006, blue: 0.010, alpha: 0.02)
+            CGColor(srgbRed: 0.004, green: 0.006, blue: 0.010, alpha: isBreedLethality ? 0.28 : 0.38),
+            CGColor(srgbRed: 0.004, green: 0.006, blue: 0.010, alpha: isBreedLethality ? 0.14 : 0.22),
+            CGColor(srgbRed: 0.004, green: 0.006, blue: 0.010, alpha: 0.06)
         ],
-        locations: [0, 0.47, 1],
+        locations: [0, 0.56, 1],
         startY: 0,
-        endY: 760
+        endY: 1750
     )
 
     let accent = label.series == 1 ? anthologyGold : anthologyGreen
     let accentHighlight = label.series == 1 ? anthologyPaleGold : anthologySilver
     context.setStrokeColor(nearBlack)
-    context.setLineWidth(36)
-    context.stroke(bounds.insetBy(dx: 18, dy: 18))
+    context.setLineWidth(72)
+    context.stroke(bounds.insetBy(dx: 36, dy: 36))
     context.setStrokeColor(accent)
-    context.setLineWidth(14)
-    context.stroke(bounds.insetBy(dx: 34, dy: 34))
+    context.setLineWidth(28)
+    context.stroke(bounds.insetBy(dx: 68, dy: 68))
     context.setStrokeColor(accentHighlight.copy(alpha: 0.82)!)
-    context.setLineWidth(4)
-    context.stroke(bounds.insetBy(dx: 47, dy: 47))
+    context.setLineWidth(8)
+    context.stroke(bounds.insetBy(dx: 94, dy: 94))
 
-    let pipDiameter: CGFloat = 200
-    let pipGap: CGFloat = 32
+    // Keep every mana symbol fully inside the inner artwork frame. The prior
+    // 360 px row centered at y=2580 crossed the top frame line.
+    let pipDiameter: CGFloat = 320
+    let pipGap: CGFloat = 60
     let totalPipWidth = CGFloat(label.colors.count) * pipDiameter + CGFloat(max(0, label.colors.count - 1)) * pipGap
     var pipX = CGFloat(canvasWidth) / 2 - totalPipWidth / 2 + pipDiameter / 2
     for manaColor in label.colors {
-        drawPip(manaColor, center: CGPoint(x: pipX, y: 1015), diameter: pipDiameter, context: context)
+        drawPip(manaColor, center: CGPoint(x: pipX, y: 2530), diameter: pipDiameter, context: context)
         pipX += pipDiameter + pipGap
     }
 
-    let titleBaselines: [CGFloat] = [520, 330]
-    for (index, titleText) in label.deckNameLines.enumerated() {
-        let deckLine = makeLine(
-            titleText,
-            fontName: titleFontName,
-            startingSize: 224,
-            minimumSize: 168,
-            kern: 1.4,
-            maxWidth: 1460,
-            fill: ivory,
-            stroke: nearBlack,
-            strokeWidth: -4.8
-        )
-        drawCenteredLine(deckLine, centerX: 825, baselineY: titleBaselines[index], context: context)
-    }
+    let deckLine = makeLine(
+        label.deckName,
+        fontName: titleFontName,
+        startingSize: 340,
+        minimumSize: 220,
+        kern: 2.8,
+        maxWidth: 2860,
+        fill: ivory,
+        stroke: nearBlack,
+        strokeWidth: -4.0
+    )
+    drawCenteredLine(deckLine, centerX: 1650, baselineY: 2040, context: context)
 
     context.setStrokeColor(accent.copy(alpha: 0.90)!)
-    context.setLineWidth(6)
-    context.move(to: CGPoint(x: 120, y: 245))
-    context.addLine(to: CGPoint(x: 1530, y: 245))
+    context.setLineWidth(12)
+    context.move(to: CGPoint(x: 240, y: 1840))
+    context.addLine(to: CGPoint(x: 3060, y: 1840))
     context.strokePath()
 
-    let setLines = label.series == 1 ? [label.setName] : ["COMMANDER ANTHOLOGY", "VOLUME II"]
-    let setBaselines: [CGFloat] = label.series == 1 ? [122] : [151, 70]
-    for (index, setText) in setLines.enumerated() {
-        let setLine = makeLine(
-            setText,
-            fontName: titleFontName,
-            startingSize: index == 0 ? 94 : 76,
-            minimumSize: index == 0 ? 80 : 68,
-            kern: 2.8,
-            maxWidth: 1460,
-            fill: trueWhite,
-            stroke: nearBlack,
-            strokeWidth: -1.8
-        )
-        drawCenteredLine(setLine, centerX: 825, baselineY: setBaselines[index], context: context)
-    }
+    let goalLine = makeLine(
+        label.goalDescription,
+        fontName: smallFontName,
+        startingSize: 150,
+        minimumSize: 104,
+        kern: 3.6,
+        maxWidth: 2920,
+        fill: trueWhite,
+        stroke: nearBlack,
+        strokeWidth: -1.8
+    )
+    drawCenteredLine(goalLine, centerX: 1650, baselineY: 1660, context: context)
+
+    context.setStrokeColor(accent.copy(alpha: 0.90)!)
+    context.setLineWidth(12)
+    context.move(to: CGPoint(x: 240, y: 1490))
+    context.addLine(to: CGPoint(x: 3060, y: 1490))
+    context.strokePath()
+
+    let setLine = makeLine(
+        label.setName,
+        fontName: titleFontName,
+        startingSize: 192,
+        minimumSize: 136,
+        kern: 5.2,
+        maxWidth: 2860,
+        fill: trueWhite,
+        stroke: nearBlack,
+        strokeWidth: -1.8
+    )
+    drawCenteredLine(setLine, centerX: 1650, baselineY: 1265, context: context)
 
     guard let image = context.makeImage() else { fail("Could not render \(label.slug)") }
     return image
@@ -550,26 +563,26 @@ try? FileManager.default.createDirectory(at: outputDirectory, withIntermediateDi
 var rendered: [(DeckLabel, CGImage)] = []
 for label in labels {
     let image = renderLabel(label)
-    let outputURL = outputDirectory.appendingPathComponent("\(label.slug)_boulder_top_label_bright_1650x1180_600dpi.png")
+    let outputURL = outputDirectory.appendingPathComponent("\(label.slug)_boulder_top_label_tall_3300x2800_1200dpi.png")
     writePNG(image, to: outputURL, dpi: outputDPI)
     rendered.append((label, image))
     print("Wrote \(outputURL.path)")
 }
 
-let previewWidth = 1580
-let previewHeight = 2300
+let previewWidth = 1700
+let previewHeight = 2900
 let previewContext = makeContext(width: previewWidth, height: previewHeight)
 previewContext.setFillColor(CGColor(srgbRed: 0.035, green: 0.040, blue: 0.050, alpha: 1))
 previewContext.fill(CGRect(x: 0, y: 0, width: previewWidth, height: previewHeight))
-let previewCellWidth: CGFloat = 750
-let previewCellHeight: CGFloat = 536
+let previewCellWidth: CGFloat = 800
+let previewCellHeight: CGFloat = 679
 let margin: CGFloat = 20
-let rowGap: CGFloat = 30
+let rowGap: CGFloat = 35
 
 for (index, item) in rendered.enumerated() {
     let column = index % 2
     let row = index / 2
-    let x = margin + CGFloat(column) * (previewCellWidth + 40)
+    let x = margin + CGFloat(column) * (previewCellWidth + 60)
     let y = CGFloat(previewHeight) - margin - previewCellHeight - CGFloat(row) * (previewCellHeight + rowGap)
     previewContext.saveGState()
     previewContext.setShadow(offset: CGSize(width: 0, height: -5), blur: 12, color: shadow)
@@ -578,6 +591,6 @@ for (index, item) in rendered.enumerated() {
 }
 
 guard let previewImage = previewContext.makeImage() else { fail("Could not render the contact sheet") }
-let previewURL = outputDirectory.appendingPathComponent("commander_anthology_boulder_labels_bright_contact_sheet.png")
+let previewURL = outputDirectory.appendingPathComponent("commander_anthology_boulder_labels_tall_1200dpi_contact_sheet.png")
 writePNG(previewImage, to: previewURL, dpi: 144)
 print("Wrote \(previewURL.path)")

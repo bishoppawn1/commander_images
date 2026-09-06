@@ -19,8 +19,10 @@ The SVGs are the retained source artwork. The 600 × 600 transparent PNGs are de
 
 Product/deck identity sources:
 
-- Commander Anthology I deck inventory: the repository's verified `INVENTORY.md`, with original Wizards decklist articles linked from the Anthology source materials.
-- Commander Anthology Volume II deck inventory: Wizards of the Coast, “Commander Anthology Vol. II Legends and Decklists,” May 8, 2018.
+- Commander 2011 / Heavenly Inferno: https://magic.wizards.com/en/news/feature/magic-gathering-commander-decklists-2011-06-14
+- Commander 2013 / Evasive Maneuvers: https://magic.wizards.com/en/news/making-magic/all-five-commander-decklists-2013-10-18
+- Commander 2014 and 2015 / Guided by Nature, Built from Scratch, Plunder the Graves, and Wade into Battle: https://magic.wizards.com/en/news/feature/commander-2015-edition-decklists-2015-11-06
+- Commander Anthology Volume II / Devour for Power and Breed Lethality: https://magic.wizards.com/en/news/announcements/commander-anthology-vol-ii-legends-and-decklists-2018-05-08
 - Boulder 100+ top footprint: Ultimate Guard's current Boulder 100+ product specification, 76 mm wide × 75 mm deep.
 
 The three HEIC files supplied by the user were used only as layout and placement references. They were not copied into the labels.
@@ -28,6 +30,8 @@ The three HEIC files supplied by the user were used only as layout and placement
 ## Regenerated background art
 
 Eight high-detail background paintings were generated with built-in OpenAI ImageGen, one per face commander, using the exact official Commander Anthology art crop as the sole image reference. The originals remain unchanged. Generated files are retained under `regenerated_art_v1/`; the exact prompt set is recorded in `../prompts/regenerated_art_v1_prompts.md`.
+
+The current 1200 DPI tall-label revision uses the regenerated backgrounds in `regenerated_art_v3_tall/`. They were created from the clean v2 paintings as identity references, with a brighter print-oriented exposure and a taller 33:28 composition. Exact prompts are retained in `../prompts/regenerated_art_v3_tall_1200dpi_prompts.md`.
 
 | Generated file | Reference crop |
 | --- | --- |
