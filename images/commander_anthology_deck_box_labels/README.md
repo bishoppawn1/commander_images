@@ -12,7 +12,7 @@ This folder contains eight tall labels for the top of an Ultimate Guard Boulder 
 
 The contact sheet is for preview only. Print the eight individual PNG files at their embedded 1200 DPI size.
 
-The current revision follows the compact hierarchy demonstrated by the supplied physical-label references: authentic mana symbols remain at the top, while the one-line deck title, bold strategy line, and one-line true-white product title are grouped closely at the bottom. The set identifier is now the largest footer line; the deck title is smaller but remains larger than the descriptor. This leaves a large uninterrupted region of commander artwork visible through the center. Breed Lethality uses a brighter silver-blue Atraxa scene so it remains legible when printed. All text and graphic elements are rendered directly at the final 3300 × 2800 resolution.
+The current revision follows the compact hierarchy demonstrated by the supplied physical-label references: authentic mana symbols remain at the top, while the large one-line deck title, regular-weight strategy line, and smaller one-line true-white product title are grouped closely at the bottom. The white text has no black outline; a soft shadow and the naturally dark footer area provide contrast. This leaves a large uninterrupted region of commander artwork visible through the center. Breed Lethality uses a brighter silver-blue Atraxa scene so it remains legible when printed. All text and graphic elements are rendered directly at the final 3300 × 2800 resolution.
 
 ## Label contents
 

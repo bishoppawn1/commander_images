@@ -193,6 +193,7 @@ func fontName(_ preferred: String, fallback: String) -> String {
 }
 
 let titleFontName = fontName("HelveticaNeue-CondensedBlack", fallback: "Helvetica-Bold")
+let descriptorFontName = fontName("AvenirNextCondensed-Regular", fallback: "Helvetica")
 
 func makeLine(
     _ text: String,
@@ -229,24 +230,6 @@ func drawCenteredLine(_ line: CTLine, centerX: CGFloat, baselineY: CGFloat, cont
     context.saveGState()
     context.setShadow(offset: CGSize(width: 0, height: -8), blur: 16, color: shadow)
     context.textPosition = CGPoint(x: centerX - bounds.midX, y: baselineY)
-    CTLineDraw(line, context)
-    context.restoreGState()
-}
-
-func drawCenteredHorizontallyFittedLine(
-    _ line: CTLine,
-    centerX: CGFloat,
-    baselineY: CGFloat,
-    maxWidth: CGFloat,
-    context: CGContext
-) {
-    let bounds = CTLineGetBoundsWithOptions(line, [.useGlyphPathBounds])
-    let horizontalScale = min(1, maxWidth / bounds.width)
-    context.saveGState()
-    context.setShadow(offset: CGSize(width: 0, height: -8), blur: 16, color: shadow)
-    context.translateBy(x: centerX, y: baselineY)
-    context.scaleBy(x: horizontalScale, y: 1)
-    context.textPosition = CGPoint(x: -bounds.midX, y: 0)
     CTLineDraw(line, context)
     context.restoreGState()
 }
@@ -524,59 +507,53 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
     let deckLine = makeLine(
         label.deckName,
         fontName: titleFontName,
-        startingSize: 260,
-        minimumSize: 210,
+        startingSize: 340,
+        minimumSize: 220,
         kern: 2.8,
         maxWidth: 2860,
         fill: ivory,
         stroke: nearBlack,
-        strokeWidth: -4.0
+        strokeWidth: 0
     )
-    drawCenteredLine(deckLine, centerX: 1650, baselineY: 780, context: context)
+    drawCenteredLine(deckLine, centerX: 1650, baselineY: 630, context: context)
 
     context.setStrokeColor(accent.copy(alpha: 0.90)!)
     context.setLineWidth(8)
-    context.move(to: CGPoint(x: 240, y: 685))
-    context.addLine(to: CGPoint(x: 3060, y: 685))
+    context.move(to: CGPoint(x: 240, y: 540))
+    context.addLine(to: CGPoint(x: 3060, y: 540))
     context.strokePath()
 
     let goalLine = makeLine(
         label.goalDescription,
-        fontName: titleFontName,
+        fontName: descriptorFontName,
         startingSize: 185,
         minimumSize: 138,
         kern: 1.2,
         maxWidth: 2980,
         fill: trueWhite,
         stroke: nearBlack,
-        strokeWidth: -1.8
+        strokeWidth: 0
     )
-    drawCenteredLine(goalLine, centerX: 1650, baselineY: 505, context: context)
+    drawCenteredLine(goalLine, centerX: 1650, baselineY: 375, context: context)
 
     context.setStrokeColor(accent.copy(alpha: 0.90)!)
     context.setLineWidth(8)
-    context.move(to: CGPoint(x: 240, y: 435))
-    context.addLine(to: CGPoint(x: 3060, y: 435))
+    context.move(to: CGPoint(x: 240, y: 310))
+    context.addLine(to: CGPoint(x: 3060, y: 310))
     context.strokePath()
 
     let setLine = makeLine(
         label.setName,
         fontName: titleFontName,
-        startingSize: 320,
-        minimumSize: 320,
-        kern: 3.0,
-        maxWidth: 10000,
+        startingSize: 192,
+        minimumSize: 136,
+        kern: 5.2,
+        maxWidth: 2860,
         fill: trueWhite,
         stroke: nearBlack,
-        strokeWidth: -1.8
+        strokeWidth: 0
     )
-    drawCenteredHorizontallyFittedLine(
-        setLine,
-        centerX: 1650,
-        baselineY: 145,
-        maxWidth: 3020,
-        context: context
-    )
+    drawCenteredLine(setLine, centerX: 1650, baselineY: 150, context: context)
 
     guard let image = context.makeImage() else { fail("Could not render \(label.slug)") }
     return image
