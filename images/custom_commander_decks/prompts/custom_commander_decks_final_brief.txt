@@ -1,0 +1,29 @@
+Use case: stylized-concept
+Asset type: 3 x 3.5 inch portrait drawer-face illustration base for a personal fantasy card-deck collection
+Generation mode: create one brand-new original illustration with no input/reference images
+
+Primary request: Create a premium, original, full-frame fantasy collection scene that immediately conveys personalized Commander-style decks without copying any existing trading-card character, card illustration, branded frame, mana symbol, set logo, or trademark. The scene is a bespoke deck-builder's arcane workshop viewed from a slightly elevated frontal angle: an ornate open wooden deck case at center holds several thick decks of generic cards with richly patterned but non-symbolic backs; around it are distinct hand-crafted deck boxes in walnut, burgundy leather, deep teal lacquer, and dark hammered metal. Fine brass dividers, tiny blank vellum tags, jewel clasps, tasteful colored ribbons, a magnifying lens, a quill, scattered blank-edged cards, and subtle magical filaments suggest deliberate customization and many unique deck identities.
+
+Scene/backdrop: A richly detailed dark walnut tabletop and shallow cabinet backdrop, completely filled edge-to-edge with drawers, shelves, deck boxes, cards, brass fittings, papers, tools, and restrained magical light. Every corner should contain useful texture or collection detail. No sky, horizon, blank wall, empty tabletop expanse, or featureless fog.
+
+Subject: The central open deck case and its varied handmade deck boxes are the clear focal subject. The cards are generic fantasy-game cards seen mostly edge-on or from the back; no recognizable branded card face, icon, faction mark, five-color symbol set, or copyrighted illustration. No characters or creatures.
+
+Style/medium: Sophisticated cinematic fantasy still-life illustration, painterly realism, premium collector-edition finish, precise material rendering, sharp and print-friendly rather than hazy. Original worldbuilding only.
+
+Composition/framing: Portrait 6:7 intent, full bleed. Slightly elevated frontal viewpoint. Dense symmetrical-but-lived-in collection tableau with a central visual axis and layered depth. Keep the main open case and deck boxes clearly readable. Reserve the upper-middle region behind the future title as a dark, detail-rich band of cabinet wood, cards, brass filigree, and low-contrast magical texture—not an empty plaque—so deterministic title typography can be added later without covering the focal case. Important objects remain within a comfortable print-safe inset, but visual texture continues to every edge.
+
+Lighting/mood: Warm amber lamplight and cool restrained violet/teal magical rim light; intimate, ingenious, curated, confident. Strong tonal separation and crisp highlights on leather, wood grain, hammered metal, paper edges, wax, and glass.
+
+Color palette: Dark walnut, oxblood leather, antique brass, deep teal, aubergine, parchment ivory, with small jewel-tone accents. Avoid rainbow bands and avoid any color grouping that resembles a known mana/faction system.
+
+Materials/textures: Visible wood grain, worn leather, brushed brass, hammered dark metal, deck-edge paper texture, satin ribbons, vellum, sealing wax without emblems, gemstone clasps, faint luminous dust and threadlike arcane filaments.
+
+Text in generated base: none. Do not render letters, words, numerals, pseudo-writing, signatures, watermarks, labels, logos, UI, or title text. Blank vellum tags must stay truly blank.
+
+Deterministic finishing requirement: After generation, apply the exact identification text as three centered stacked lines: "CUSTOM" / "COMMANDER" / "DECKS". The final displayed phrase must read exactly "CUSTOM COMMANDER DECKS" with no other text anywhere. Use large uppercase Copperplate Bold-style pale-ivory lettering with an antique-gold stroke, deep near-black outer keyline/drop shadow, generous tracking, crisp edges, and strong contrast. It must span nearly the full usable width, be the dominant information element, remain comfortably inside print-safe margins, and read instantly at drawer-thumbnail scale. This deterministic title application is part of the final asset production, not ImageGen.
+
+Final output: exactly one unnumbered face at 1800 x 2100 pixels, exact 6:7 portrait aspect ratio, PNG, 600-DPI metadata, full bleed. Root directory contains only this finished PNG plus prompts/ and src/.
+
+Constraints: dense full-frame composition; no large blank, white, fog-only, flat, or featureless regions; no copied Magic: The Gathering character, card illustration, branded card back/frame, mana symbols, set insignia, or Wizards branding; no copyrighted set logo; no humanoid figures; no creature portrait; no readable generated text; no watermark; no signature; no numeric seal; no count marker; no circles that could be mistaken for a deck-count badge. Preserve the unmodified ImageGen output in src/ and document generation, deterministic title work, normalization, provenance, and QA in src/sources.md.
+
+Avoid: recognizable franchise imagery, five colored orbs, a pentagonal color wheel, tree/flame/skull/sun/droplet icon motifs, real card names, faux legible script, large empty title plaques, large empty margins, blurry materials, cropped title, tiny title, decorative flourishes crossing the title, extra words or numbers.

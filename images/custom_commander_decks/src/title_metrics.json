@@ -1,0 +1,55 @@
+{
+  "source": "imagegen_original.png",
+  "source_size_px": [
+    1163,
+    1353
+  ],
+  "source_crop_box_px": [
+    1,
+    0,
+    1161,
+    1353
+  ],
+  "final": "custom_commander_decks_unnumbered.png",
+  "final_size_px": [
+    1800,
+    2100
+  ],
+  "dpi": [
+    600,
+    600
+  ],
+  "font": "Copperplate Bold",
+  "font_path": "/System/Library/Fonts/Supplemental/Copperplate.ttc",
+  "font_collection_index": 2,
+  "safe_title_width_px": 1640,
+  "title_block_top_px": 337,
+  "title_block_bottom_px": 993,
+  "lines": [
+    {
+      "text": "CUSTOM",
+      "font_size_px": 359,
+      "tracking_px": 16.16,
+      "render_width_px": 1634.8,
+      "visible_top_px": 337,
+      "visible_bottom_px": 563
+    },
+    {
+      "text": "COMMANDER",
+      "font_size_px": 231,
+      "tracking_px": 10.39,
+      "render_width_px": 1636.12,
+      "visible_top_px": 571,
+      "visible_bottom_px": 729
+    },
+    {
+      "text": "DECKS",
+      "font_size_px": 400,
+      "tracking_px": 18.0,
+      "render_width_px": 1473.0,
+      "visible_top_px": 737,
+      "visible_bottom_px": 993
+    }
+  ],
+  "count_marker": null
+}
