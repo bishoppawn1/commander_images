@@ -67,6 +67,7 @@ Create deck-box-style face cards that make Magic: The Gathering Commander deck s
 
 ## Image asset organization
 
+- Keep cross-set GIMP sheet tools and their user instructions at the project root, not inside a particular set's folder. The user requested specific arrangements, not a generic layout prompt: `arrange_gimp_sheets.py` must target only the six screenshot/inventory-matched sheets in `GIMP_SHEET_PLAN.md`; `GIMP_GRIDS.md` is its guide. Match exact image-layer names, preserve their dimensions, allow sheet 5's partial grid, and leave unrelated or changed/ambiguous documents alone.
 - Use a descriptive lowercase snake-case directory name for `<set_or_precon>`, such as `images/commander_anthology_i/`.
 - Keep the main `images/<set_or_precon>/` directory clean: apart from the `prompts/` and `src/` subdirectories, it may contain only finished face-card target images. A finished target belongs here whether it is generated, adapted, or directly reused from official Wizards artwork.
 - Keep finalized generation/edit prompt briefs in `images/<set_or_precon>/prompts/`. Do not store prompt files in the main set directory or in `src/`.

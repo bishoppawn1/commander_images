@@ -2,3 +2,5 @@
 Thumbs.db
 __MACOSX/
 ._*
+__pycache__/
+/gimp_grid_sheets/

@@ -113,5 +113,22 @@ including artwork, pips, text, and border as one unit; do not redesign it.
   page-edge clearances against the printer's printable area before printing.
 - Preserve original files with before/after copies and keep each sheet's moves
   in one undo group. Leave hidden/background layers unchanged.
-- The generic script refactor is paused. This plan does not claim that the
-  current script has been tailored to these six documents or executed on them.
+- The root script now targets these six sheets by the exact layer filenames
+  supplied in the user's console inventory. It has not been run on the live tabs.
+
+## Verified geometry from the console inventory
+
+Sheets 1–5 are 5100 × 6600 pixels at 600 PPI. Every face is 1724 × 2024 pixels.
+Use column x positions **600, 2776** and row y positions **150, 2288, 4426**.
+Sheet 5 uses only the first three cells in row order. These values give 1-inch
+side margins, 0.25-inch top/bottom margins on full sheets, approximately 0.753-inch horizontal
+gaps, and 0.19-inch vertical gaps without changing any image's print size.
+
+Sheet 6 is 10200 × 13200 pixels at 1200 PPI. Each label is 3300 × 2800 pixels.
+Use column x positions **1200, 5700** and row y positions
+**600, 3667, 6733, 9800**. This gives 1-inch side margins, 0.5-inch top/bottom
+margins, a 1-inch column gap, and approximately 0.222-inch row gaps.
+
+The inventory also reported two 2550 × 3300 documents at 300 PPI, with different
+image filenames. These were not shown in the six screenshots. Their age and
+visibility as tabs are unknown. The script explicitly excludes them.
