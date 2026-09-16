@@ -47,6 +47,7 @@ Create deck-box-style face cards that make Magic: The Gathering Commander deck s
 
 ## Ongoing instructions
 
+- For the first-half Boulder-top PDF sheets, preserve the approved 3300 x 2800 images at 2.75 x 2 1/3 inches. Use the Epson ET-8550 (the user replaced the HP), Letter borderless-compatible printing, and a 3 x 4 grid with 1/16-inch side margins/gaps and approximately 0.739583-inch top/bottom margins. Keep each release in one PDF and name the PDF for every release it contains. Never silently shrink labels to fit; warn about driver borderless expansion changing physical size.
 - Treat later user directions as additions or refinements to these project requirements.
 - Record durable follow-on project requirements in this file so future work remains consistent.
 - If a later instruction conflicts with an earlier one, follow the most recent explicit user instruction and update this file accordingly.
