@@ -11,9 +11,17 @@ It opens Terminal, not GIMP. Choose:
 
 For everything, choose **3**, then **1**, then **y**.
 
-The output is under `output/pdf/generated/`, in folders such as `tops_all` and
-`fronts_all`. `LATEST.json` lists the current PDFs for each batch. Filenames name
-the sets and end with a short revision code. Unchanged PDFs are skipped on rerun;
+PDFs go directly into **Print Sheets** in the project's main folder. There are
+no intermediate `output`, `pdf`, `generated`, or batch folders to navigate.
+Open the existing PDFs to print; the command is only needed to generate or update
+sheets. Boulder-top filenames include `Boulder_Tops` to distinguish them from
+large fronts in this shared folder.
+
+Tracking JSON files stay in the hidden `.records` folder; its `LATEST_*.json`
+indexes list the current PDFs for each batch. The two older first-half top-sheet
+collections are preserved in the hidden `.archive` folder, not mixed with the
+current printable sheets. Finder normally hides both of these support folders.
+Filenames name the sets and end with a short revision code. Unchanged PDFs are skipped on rerun;
 changed images produce a new edition instead of overwriting an earlier PDF.
 Do not print every old revision in a folder: use the current run's filenames.
 
@@ -91,7 +99,8 @@ From the project folder:
 ```
 
 The old `scripts/build_first_half_boulder_pdfs.py` entry point delegates to the
-same shared engine. Previously created PDFs are not removed or replaced.
+same shared engine and also saves directly to `Print Sheets`. Previously created
+PDFs are not removed or replaced.
 
 ## Requirements and safety
 

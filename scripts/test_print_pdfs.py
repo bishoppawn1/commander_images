@@ -64,6 +64,14 @@ class LayoutTests(unittest.TestCase):
         result = tool.load_groups("fronts", catalog={"fronts": [dict(base, copies=6)]})
         self.assertEqual(result[0]["files"], ["source.png"] * 6)
 
+    def test_flat_output_names_and_hidden_records(self):
+        target = Path("Print Sheets/example.pdf")
+        self.assertEqual(tool.receipt_path(target), Path("Print Sheets/.records/example.json"))
+        groups = [dict(name="Commander_2013")]
+        self.assertIn("Boulder_Tops", tool.page_name(1, groups, "test", "tops"))
+        self.assertEqual(tool.page_name(1, groups, "test", "fronts"),
+                         tool.page_name(1, groups, "test"))
+
     def test_preflight_all_sources(self):
         for kind in ("tops", "fronts"):
             tool.preflight(tool.load_groups(kind), kind)
@@ -79,7 +87,7 @@ def integration(output):
         self_same = tool.build_page(kind, page, 1, target)
         assert self_same == first
         assert (target / first["pdf"]).stat().st_mtime_ns == before
-        receipt = target / Path(first["pdf"]).with_suffix(".json")
+        receipt = tool.receipt_path(target / first["pdf"])
         data = json.loads(receipt.read_text())
         data["pdf_sha256"] = "invalid"
         receipt.write_text(json.dumps(data))

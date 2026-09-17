@@ -126,11 +126,16 @@ def preflight(groups, kind, root=ROOT):
                 raise ValueError(f"Unknown color profile: {path}")
 
 
-def page_name(number, groups, signature):
+def page_name(number, groups, signature, kind=None):
     names = "_".join(g["name"] for g in groups)
     names = re.sub(r"[^A-Za-z0-9_-]+", "_", names).strip("_")
     # Full names remain in the PDF title/manifest if a future catalog exceeds this limit.
-    return f"{number:02d}_{names[:190]}_1440dpi_{signature[:10]}.pdf"
+    prefix = "Boulder_Tops_" if kind == "tops" else ""
+    return f"{number:02d}_{prefix}{names[:190]}_1440dpi_{signature[:10]}.pdf"
+
+
+def receipt_path(target):
+    return target.parent / ".records" / target.with_suffix(".json").name
 
 
 def build_page(kind, groups, number, output, root=ROOT):
@@ -140,8 +145,9 @@ def build_page(kind, groups, number, output, root=ROOT):
     payload = dict(version=VERSION, kind=kind, groups=groups, boxes=boxes, sources=source_hashes)
     signature = hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
     output.mkdir(parents=True, exist_ok=True)
-    target = output / page_name(number, groups, signature)
-    receipt = target.with_suffix(".json")
+    target = output / page_name(number, groups, signature, kind)
+    receipt = receipt_path(target)
+    receipt.parent.mkdir(parents=True, exist_ok=True)
     if target.exists() and receipt.exists():
         saved = json.loads(receipt.read_text())
         if saved.get("signature") == signature and saved.get("pdf_sha256") == digest_file(target):
@@ -224,7 +230,7 @@ def main(argv=None):
     parser.add_argument("--sets", help="Comma-separated catalog IDs; use --list to see IDs")
     parser.add_argument("--list", action="store_true", help="List catalog IDs without generating PDFs")
     parser.add_argument("--plan", action="store_true", help="Validate sources and show pages without writing PDFs")
-    parser.add_argument("--output", type=Path, default=ROOT / "output/pdf/generated")
+    parser.add_argument("--output", type=Path, default=ROOT / "Print Sheets")
     parser.add_argument("--interactive", action="store_true")
     args = parser.parse_args(argv)
     if args.interactive:
@@ -253,10 +259,13 @@ def main(argv=None):
         print("Cancelled. No PDFs changed.")
         return
     for kind, pages in jobs:
-        output = args.output / f"{kind}_{args.scope}"
+        output = args.output
         results = [build_page(kind, page, i, output) for i, page in enumerate(pages, 1)]
         # Content-addressed PDFs retain older editions. This index identifies the current batch.
-        (output / "LATEST.json").write_text(json.dumps(results, indent=2) + "\n")
+        selection = args.scope
+        if args.sets:
+            selection += "_" + hashlib.sha256(args.sets.encode()).hexdigest()[:10]
+        (output / ".records" / f"LATEST_{kind}_{selection}.json").write_text(json.dumps(results, indent=2) + "\n")
         print(f"DONE: {output}")
     print("Print at Actual Size / 100%. Tops need Letter Borderless; check expansion with a measured proof.")
 
