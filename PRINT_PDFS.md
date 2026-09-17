@@ -48,12 +48,21 @@ designs because the collection has Breed Lethality under two owned products.
 The current Commander 2016 manifest includes its reused Breed Lethality entry;
 the tool does not append another copy to that set.
 
-The front catalog contains 30 inventory-approved faces/categories. It uses the
-three combined fronts from INVENTORY.md and does not also print their standalone
-alternatives. Commander 2013 and 2016 stay separate per the inventory. For fronts,
-a cross-half combined face belongs to the first-half selection and remains whole.
+The front catalog contains 29 inventory-approved faces/categories. It uses the
+four chronological combined fronts from INVENTORY.md and does not also print their
+standalone alternatives. For fronts, every combined face remains whole; the
+Phyrexia: All Will Be One / Wilds of Eldraine face belongs to the second-half
+selection and the other three combined faces belong to the first-half selection.
 Anthologies and the miscellaneous categories are included by **All**, not by
 the first/second-half filters.
+
+The full front batch has six PDFs: sheets 1-4 have six images each; sheet 5 has
+four images and no Overflow. Sheet 6 is a separate optional sheet of **six
+Overflow labels**, clearly named `06_6_Overflows_Optional_1440dpi_<revision>.pdf`.
+Skip printing sheet 6 unless you need spare Overflow labels. The catalog's
+`copies` and `dedicated_sheet` settings make this repeatable without duplicating
+the source artwork. To regenerate only the Overflow sheet, use
+`--kind fronts --sets overflow` (a standalone subset is numbered from 01).
 
 The script does not print all 93 front variants: doing so would duplicate sets.
 The exact selected filenames are visible/editable in `print_catalog.json`.

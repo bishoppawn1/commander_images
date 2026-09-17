@@ -34,7 +34,7 @@ class LayoutTests(unittest.TestCase):
         for scope, expected in (("first", 46), ("second", 46), ("anthology", 8), ("all", 100)):
             groups = tool.load_groups("tops", scope)
             self.assertEqual(sum(len(g["files"]) for g in groups), expected)
-        self.assertEqual(len(tool.load_groups("fronts")), 30)
+        self.assertEqual(len(tool.load_groups("fronts")), 29)
         with self.assertRaises(ValueError):
             tool.load_groups("tops", ids=["not_a_real_set"])
 
@@ -44,6 +44,25 @@ class LayoutTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             tool.positions("fronts", 7)
         self.assertLessEqual(len(tool.page_name(1, [dict(name="a"*400)], "abcdef123456")), 255)
+
+    def test_six_overflows_on_separate_sheet(self):
+        pages = tool.pack_groups(tool.load_groups("fronts"), 6)
+        self.assertEqual([sum(len(g["files"]) for g in p) for p in pages], [6, 6, 6, 6, 4, 6])
+        self.assertTrue(all(g["id"] != "overflow" for p in pages[:5] for g in p))
+        self.assertEqual([g["id"] for g in pages[5]], ["overflow"])
+        self.assertEqual(len(set(pages[5][0]["files"])), 1)
+        self.assertIn("06_6_Overflows_Optional_", tool.page_name(6, pages[5], "test"))
+        groups = [dict(id="spares", files=["a"], dedicated_sheet=True),
+                  dict(id="normal", files=["b"])]
+        self.assertEqual(len(tool.pack_groups(groups, 6)), 2)
+
+    def test_explicit_copies(self):
+        base = dict(id="test", name="Test", scope="other", files=["source.png"])
+        for invalid in (0, -1, 1.5, True, "6"):
+            with self.assertRaises(ValueError):
+                tool.load_groups("fronts", catalog={"fronts": [dict(base, copies=invalid)]})
+        result = tool.load_groups("fronts", catalog={"fronts": [dict(base, copies=6)]})
+        self.assertEqual(result[0]["files"], ["source.png"] * 6)
 
     def test_preflight_all_sources(self):
         for kind in ("tops", "fronts"):

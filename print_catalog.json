@@ -187,19 +187,11 @@
   ],
   "fronts": [
     {
-      "id": "commander_2013",
-      "name": "Commander_2013",
+      "id": "commander_2013_commander_2016",
+      "name": "Commander_2013_Commander_2016",
       "scope": "first",
       "files": [
-        "images/commander_2013/commander_2013_eternal_bargain_mind_seize_premium_cover_v3_atmospheric_wordmark_deck_count_2_4138x4858_1440dpi_black_margin_1_8in.png"
-      ]
-    },
-    {
-      "id": "commander_2016",
-      "name": "Commander_2016",
-      "scope": "first",
-      "files": [
-        "images/commander_2016/commander_2016_invent_superiority_breya_typography_v2_deck_count_2_4138x4858_1440dpi_black_margin_1_8in.png"
+        "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_chronological_v2_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png"
       ]
     },
     {
@@ -243,19 +235,11 @@
       ]
     },
     {
-      "id": "zendikar_rising_kamigawa_neon_dynasty",
-      "name": "Zendikar_Rising_Kamigawa_Neon_Dynasty",
+      "id": "zendikar_rising_commander_legends",
+      "name": "Zendikar_Rising_Commander_Legends",
       "scope": "first",
       "files": [
-        "images/zendikar_rising_kamigawa_neon_dynasty/zendikar_rising_kamigawa_neon_dynasty_target_vertical_split_v3_deck_counts_2_2_trial_4138x4858_1440dpi_black_margin_1_8in.png"
-      ]
-    },
-    {
-      "id": "commander_legends_phyrexia_all_will_be_one",
-      "name": "Commander_Legends_Phyrexia",
-      "scope": "first",
-      "files": [
-        "images/commander_legends_phyrexia_all_will_be_one/commander_legends_phyrexia_all_will_be_one_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png"
+        "images/zendikar_rising_commander_legends/zendikar_rising_commander_legends_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png"
       ]
     },
     {
@@ -275,6 +259,14 @@
       ]
     },
     {
+      "id": "kamigawa_neon_dynasty_brothers_war",
+      "name": "Kamigawa_Neon_Dynasty_Brothers_War",
+      "scope": "first",
+      "files": [
+        "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
       "id": "warhammer_40000_commander",
       "name": "Warhammer_40000",
       "scope": "first",
@@ -283,11 +275,11 @@
       ]
     },
     {
-      "id": "brothers_war_wilds_of_eldraine",
-      "name": "Brothers_War_Wilds_of_Eldraine",
-      "scope": "first",
+      "id": "phyrexia_all_will_be_one_wilds_of_eldraine",
+      "name": "Phyrexia_All_Will_Be_One_Wilds_of_Eldraine",
+      "scope": "second",
       "files": [
-        "images/brothers_war_wilds_of_eldraine/brothers_war_wilds_of_eldraine_vertical_split_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png"
+        "images/phyrexia_all_will_be_one_wilds_of_eldraine/phyrexia_all_will_be_one_wilds_of_eldraine_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png"
       ]
     },
     {
@@ -420,8 +412,10 @@
     },
     {
       "id": "overflow",
-      "name": "Overflow",
+      "name": "6_Overflows_Optional",
       "scope": "other",
+      "copies": 6,
+      "dedicated_sheet": true,
       "files": [
         "images/overflow/overflow_abstract_magical_vault_target_v1_4138x4858_1440dpi_black_margin_1_8in.png"
       ]

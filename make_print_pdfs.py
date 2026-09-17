@@ -79,7 +79,10 @@ def load_groups(kind, scope="all", ids=None, catalog=None, root=ROOT):
                      for item in manifest["labels"]] + paths
         if not paths or len(paths) != len(set(paths)):
             raise ValueError(f"Empty or duplicate source entries: {row['id']}")
-        group["files"] = paths
+        copies = row.get("copies", 1)
+        if type(copies) is not int or copies < 1:
+            raise ValueError(f"Copies must be a positive integer: {row['id']}")
+        group["files"] = paths * copies
         groups.append(group)
     if not groups:
         raise ValueError(f"No {kind} groups match the selection")
@@ -93,7 +96,12 @@ def pack_groups(groups, capacity):
         n = len(group["files"])
         if not 0 < n <= capacity:
             raise ValueError(f"{group['id']} has {n} images; cannot keep it on one {capacity}-slot page")
+        if group.get("dedicated_sheet"):
+            sheets.append([group])
+            continue
         for sheet in sheets:
+            if any(g.get("dedicated_sheet") for g in sheet):
+                continue
             if sum(len(g["files"]) for g in sheet) + n <= capacity:
                 sheet.append(group)
                 break

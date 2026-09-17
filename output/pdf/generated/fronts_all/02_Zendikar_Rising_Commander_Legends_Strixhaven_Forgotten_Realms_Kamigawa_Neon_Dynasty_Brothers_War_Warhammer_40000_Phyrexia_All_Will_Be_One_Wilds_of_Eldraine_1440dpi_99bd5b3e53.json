@@ -1,0 +1,75 @@
+{
+  "signature": "99bd5b3e5364eb372b7dd6ae73c8dfbcdb76afe12ed05fa25424e445eecc00e7",
+  "pdf": "02_Zendikar_Rising_Commander_Legends_Strixhaven_Forgotten_Realms_Kamigawa_Neon_Dynasty_Brothers_War_Warhammer_40000_Phyrexia_All_Will_Be_One_Wilds_of_Eldraine_1440dpi_99bd5b3e53.pdf",
+  "pdf_sha256": "3219b6c2335ebae6d8e99fb4327bfa02273239a796ff10ebcd59f5f2a9b152a7",
+  "kind": "fronts",
+  "count": 6,
+  "labels": [
+    {
+      "group": "zendikar_rising_commander_legends",
+      "source": "images/zendikar_rising_commander_legends/zendikar_rising_commander_legends_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        531.1,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "f5fbd788ac08f372b96c891f5e441f2525a5bf4e55b8051ffb36cfeb6cd64381"
+    },
+    {
+      "group": "strixhaven_commander",
+      "source": "images/strixhaven_commander/strixhaven_commander_official_key_art_target_v2_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        351.1,
+        531.1,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "d25f101e61234dc2dcf09bf3d9611f34a9c5778d41da424b3ddcd14c078901a4"
+    },
+    {
+      "group": "adventures_forgotten_realms_commander",
+      "source": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_commander_official_key_art_wordmark_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        274.55000000000007,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "f463a295a84fde0aea0b981a17c25ddb7e0180fe49cecb0e3a1b78e47cf890bf"
+    },
+    {
+      "group": "kamigawa_neon_dynasty_brothers_war",
+      "source": "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        351.1,
+        274.55000000000007,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "cd5efa6b54ec1e36154e1c3f8a61291beccc66eea088de0a7725c3f51491419a"
+    },
+    {
+      "group": "warhammer_40000_commander",
+      "source": "images/warhammer_40000_commander/warhammer_40000_commander_four_faction_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        18.000000000000114,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "109cc979f3e479550912ee3169f8aae3b1410ee1936dc276a75ff91a5819785f"
+    },
+    {
+      "group": "phyrexia_all_will_be_one_wilds_of_eldraine",
+      "source": "images/phyrexia_all_will_be_one_wilds_of_eldraine/phyrexia_all_will_be_one_wilds_of_eldraine_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        351.1,
+        18.000000000000114,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "841741801687c6fccda23cc98b3cbc1cdd8bd599dbcb9865a5ede58627701248"
+    }
+  ]
+}
