@@ -1,0 +1,430 @@
+{
+  "tops": [
+    {
+      "id": "commander_2013",
+      "name": "Commander_2013",
+      "scope": "first",
+      "manifest": "images/commander_2013_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "commander_2016",
+      "name": "Commander_2016",
+      "scope": "first",
+      "manifest": "images/commander_2016_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "commander_2017",
+      "name": "Commander_2017",
+      "scope": "first",
+      "manifest": "images/commander_2017_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "commander_2018",
+      "name": "Commander_2018",
+      "scope": "first",
+      "manifest": "images/commander_2018_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "commander_2019",
+      "name": "Commander_2019",
+      "scope": "first",
+      "manifest": "images/commander_2019_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "throne_of_eldraine_brawl",
+      "name": "Eldraine_Brawl",
+      "scope": "first",
+      "manifest": "images/throne_of_eldraine_brawl_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "commander_2020",
+      "name": "Commander_2020",
+      "scope": "first",
+      "manifest": "images/commander_2020_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "zendikar_rising",
+      "name": "Zendikar_Rising",
+      "scope": "first",
+      "manifest": "images/zendikar_rising_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "commander_legends",
+      "name": "Commander_Legends",
+      "scope": "first",
+      "manifest": "images/commander_legends_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "strixhaven",
+      "name": "Strixhaven",
+      "scope": "first",
+      "manifest": "images/strixhaven_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "adventures_in_the_forgotten_realms",
+      "name": "Forgotten_Realms",
+      "scope": "first",
+      "manifest": "images/adventures_in_the_forgotten_realms_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "kamigawa_neon_dynasty",
+      "name": "Kamigawa_Neon_Dynasty",
+      "scope": "first",
+      "manifest": "images/kamigawa_neon_dynasty_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "warhammer_40000",
+      "name": "Warhammer_40000",
+      "scope": "first",
+      "manifest": "images/warhammer_40000_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "brothers_war",
+      "name": "Brothers_War",
+      "scope": "first",
+      "manifest": "images/brothers_war_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "phyrexia_all_will_be_one",
+      "name": "Phyrexia_All_Will_Be_One",
+      "scope": "second",
+      "manifest": "images/phyrexia_all_will_be_one_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "march_of_the_machine",
+      "name": "March_of_the_Machine",
+      "scope": "second",
+      "manifest": "images/march_of_the_machine_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "lord_of_the_rings",
+      "name": "Lord_of_the_Rings",
+      "scope": "second",
+      "manifest": "images/lord_of_the_rings_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "commander_masters",
+      "name": "Commander_Masters",
+      "scope": "second",
+      "manifest": "images/commander_masters_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "wilds_of_eldraine",
+      "name": "Wilds_of_Eldraine",
+      "scope": "second",
+      "manifest": "images/wilds_of_eldraine_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "doctor_who",
+      "name": "Doctor_Who",
+      "scope": "second",
+      "manifest": "images/doctor_who_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "lost_caverns_of_ixalan",
+      "name": "Lost_Caverns_of_Ixalan",
+      "scope": "second",
+      "manifest": "images/lost_caverns_of_ixalan_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "fallout",
+      "name": "Fallout",
+      "scope": "second",
+      "manifest": "images/fallout_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "modern_horizons_3",
+      "name": "Modern_Horizons_3",
+      "scope": "second",
+      "manifest": "images/modern_horizons_3_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "bloomburrow",
+      "name": "Bloomburrow",
+      "scope": "second",
+      "manifest": "images/bloomburrow_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "final_fantasy",
+      "name": "Final_Fantasy",
+      "scope": "second",
+      "manifest": "images/final_fantasy_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "teenage_mutant_ninja_turtles",
+      "name": "Turtle_Power",
+      "scope": "second",
+      "manifest": "images/teenage_mutant_ninja_turtles_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "marvel_super_heroes",
+      "name": "Marvel_Super_Heroes",
+      "scope": "second",
+      "manifest": "images/marvel_super_heroes_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "commander_anthology_i",
+      "name": "Commander_Anthology_I",
+      "scope": "anthology",
+      "files": [
+        "images/commander_anthology_deck_box_labels/heavenly_inferno_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "images/commander_anthology_deck_box_labels/evasive_maneuvers_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "images/commander_anthology_deck_box_labels/guided_by_nature_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "images/commander_anthology_deck_box_labels/plunder_the_graves_boulder_top_label_tall_3960x3360_1440dpi.png"
+      ]
+    },
+    {
+      "id": "commander_anthology_ii",
+      "name": "Commander_Anthology_II",
+      "scope": "anthology",
+      "files": [
+        "images/commander_anthology_deck_box_labels/devour_for_power_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "images/commander_anthology_deck_box_labels/built_from_scratch_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "images/commander_anthology_deck_box_labels/wade_into_battle_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "images/commander_anthology_deck_box_labels/breed_lethality_boulder_top_label_tall_3960x3360_1440dpi.png"
+      ]
+    }
+  ],
+  "fronts": [
+    {
+      "id": "commander_2013",
+      "name": "Commander_2013",
+      "scope": "first",
+      "files": [
+        "images/commander_2013/commander_2013_eternal_bargain_mind_seize_premium_cover_v3_atmospheric_wordmark_deck_count_2_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "commander_2016",
+      "name": "Commander_2016",
+      "scope": "first",
+      "files": [
+        "images/commander_2016/commander_2016_invent_superiority_breya_typography_v2_deck_count_2_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "commander_2017",
+      "name": "Commander_2017",
+      "scope": "first",
+      "files": [
+        "images/commander_2017/commander_2017_four_tribes_ensemble_deck_count_4_v1_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "commander_2018",
+      "name": "Commander_2018",
+      "scope": "first",
+      "files": [
+        "images/commander_2018/commander_2018_four_leads_premium_cover_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "commander_2019",
+      "name": "Commander_2019",
+      "scope": "first",
+      "files": [
+        "images/commander_2019/commander_2019_four_leads_ensemble_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "throne_of_eldraine_brawl",
+      "name": "Eldraine_Brawl",
+      "scope": "first",
+      "files": [
+        "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_secondary_four_courts_illuminated_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "commander_2020_ikoria",
+      "name": "Commander_2020_Ikoria",
+      "scope": "first",
+      "files": [
+        "images/commander_2020_ikoria/commander_2020_ikoria_official_key_art_target_v2_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "zendikar_rising_kamigawa_neon_dynasty",
+      "name": "Zendikar_Rising_Kamigawa_Neon_Dynasty",
+      "scope": "first",
+      "files": [
+        "images/zendikar_rising_kamigawa_neon_dynasty/zendikar_rising_kamigawa_neon_dynasty_target_vertical_split_v3_deck_counts_2_2_trial_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "commander_legends_phyrexia_all_will_be_one",
+      "name": "Commander_Legends_Phyrexia",
+      "scope": "first",
+      "files": [
+        "images/commander_legends_phyrexia_all_will_be_one/commander_legends_phyrexia_all_will_be_one_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "strixhaven_commander",
+      "name": "Strixhaven",
+      "scope": "first",
+      "files": [
+        "images/strixhaven_commander/strixhaven_commander_official_key_art_target_v2_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "adventures_forgotten_realms_commander",
+      "name": "Forgotten_Realms",
+      "scope": "first",
+      "files": [
+        "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_commander_official_key_art_wordmark_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "warhammer_40000_commander",
+      "name": "Warhammer_40000",
+      "scope": "first",
+      "files": [
+        "images/warhammer_40000_commander/warhammer_40000_commander_four_faction_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "brothers_war_wilds_of_eldraine",
+      "name": "Brothers_War_Wilds_of_Eldraine",
+      "scope": "first",
+      "files": [
+        "images/brothers_war_wilds_of_eldraine/brothers_war_wilds_of_eldraine_vertical_split_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "march_of_the_machine_commander",
+      "name": "March_of_the_Machine",
+      "scope": "second",
+      "files": [
+        "images/march_of_the_machine_commander/march_of_the_machine_commander_official_wpn_key_art_extended_battle_target_v1_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "lord_of_the_rings_tales_of_middle_earth_commander",
+      "name": "Lord_of_the_Rings",
+      "scope": "second",
+      "files": [
+        "images/lord_of_the_rings_tales_of_middle_earth_commander/lord_of_the_rings_tales_of_middle_earth_commander_official_wordmark_typography_alternate_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "commander_masters",
+      "name": "Commander_Masters",
+      "scope": "second",
+      "files": [
+        "images/commander_masters/commander_masters_official_wpn_poster_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "doctor_who_commander",
+      "name": "Doctor_Who",
+      "scope": "second",
+      "files": [
+        "images/doctor_who_commander/doctor_who_commander_official_wpn_tardis_key_art_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "lost_caverns_of_ixalan_commander",
+      "name": "Lost_Caverns_of_Ixalan",
+      "scope": "second",
+      "files": [
+        "images/lost_caverns_of_ixalan_commander/lost_caverns_of_ixalan_commander_official_key_art_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "fallout_commander",
+      "name": "Fallout",
+      "scope": "second",
+      "files": [
+        "images/fallout_commander/fallout_commander_official_power_armor_key_art_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "modern_horizons_3_commander",
+      "name": "Modern_Horizons_3",
+      "scope": "second",
+      "files": [
+        "images/modern_horizons_3_commander/modern_horizons_3_commander_cosmic_rift_alternate_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "bloomburrow_commander",
+      "name": "Bloomburrow",
+      "scope": "second",
+      "files": [
+        "images/bloomburrow_commander/bloomburrow_target_v3_official_key_art_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "final_fantasy_commander",
+      "name": "Final_Fantasy",
+      "scope": "second",
+      "files": [
+        "images/final_fantasy_commander/final_fantasy_commander_official_key_art_crystal_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "turtle_power_commander",
+      "name": "Turtle_Power",
+      "scope": "second",
+      "files": [
+        "images/turtle_power_commander/turtle_power_commander_official_key_art_target_v1_deck_count_1_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "marvel_super_heroes_commander",
+      "name": "Marvel_Super_Heroes",
+      "scope": "second",
+      "files": [
+        "images/marvel_super_heroes_commander/marvel_super_heroes_commander_official_wpn_key_art_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "commander_anthology_i",
+      "name": "Commander_Anthology_I",
+      "scope": "anthology",
+      "files": [
+        "images/commander_anthology_i/commander_anthology_i_target_v3_deck_count_4_trial_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "commander_anthology_ii",
+      "name": "Commander_Anthology_II",
+      "scope": "anthology",
+      "files": [
+        "images/commander_anthology_ii/commander_anthology_ii_target_v3_deck_count_4_trial_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "duel_decks_heroes_vs_monsters",
+      "name": "Heroes_vs_Monsters",
+      "scope": "other",
+      "files": [
+        "images/duel_decks_heroes_vs_monsters/duel_decks_heroes_vs_monsters_battle_face_v1_deck_count_2_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "secret_lair",
+      "name": "Secret_Lair",
+      "scope": "other",
+      "files": [
+        "images/secret_lair/secret_lair_category_alternate_art_vault_v1_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "custom_commander_decks",
+      "name": "Custom_Commander_Decks",
+      "scope": "other",
+      "files": [
+        "images/custom_commander_decks/custom_commander_decks_unnumbered_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "overflow",
+      "name": "Overflow",
+      "scope": "other",
+      "files": [
+        "images/overflow/overflow_abstract_magical_vault_target_v1_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    }
+  ]
+}
