@@ -1,4 +1,4 @@
-"""Lossless 12-slot US Letter sheets; retain every label's 1200-PPI print size."""
+"""Lossless 1440-PPI, 12-slot US Letter sheets at the unchanged physical size."""
 import hashlib
 import json
 from io import BytesIO
@@ -12,8 +12,10 @@ from reportlab.lib.utils import ImageReader
 from reportlab.pdfgen import canvas
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "output/pdf/first_half_boulder_tops"
-SUFFIX = "_boulder_top_label_tall_3300x2800_1200dpi.png"
+OUT = ROOT / "output/pdf/first_half_boulder_tops_1440dpi"
+SOURCE_PPI = 1440
+SOURCE_PIXELS = (3960, 3360)
+SUFFIX = "_boulder_top_label_tall_3960x3360_1440dpi.png"
 GROUPS = [
     ("01_Commander_2013_2016_2017_2018", [
         "commander_2013", "commander_2016", "commander_2017", "commander_2018"]),
@@ -44,8 +46,8 @@ def source_labels(release):
 
 def rgb_and_profile(path):
     with Image.open(path) as source:
-        assert source.size == (3300, 2800), path
-        assert all(abs(dpi - 1200) < 0.1 for dpi in source.info["dpi"])
+        assert source.size == SOURCE_PIXELS, path
+        assert all(abs(dpi - SOURCE_PPI) < 0.1 for dpi in source.info["dpi"])
         if source.mode == "RGBA":
             assert source.getchannel("A").getextrema() == (255, 255), path
         else:
@@ -63,7 +65,7 @@ def make_sheet(stem, releases):
     assert 0 < len(entries) <= 12
     memory = BytesIO()
     pdf = canvas.Canvas(memory, pagesize=(612, 792), pageCompression=1)
-    pdf.setTitle(stem[3:].replace("_", " "))
+    pdf.setTitle(stem[3:].replace("_", " ") + " - 1440 DPI")
     pdf.setAuthor("MTGCommanderFaces")
     profiles, expected, placements = {}, {}, []
     for idx, (release, title, path) in enumerate(entries):
@@ -98,7 +100,7 @@ def make_sheet(stem, releases):
             icc[NameObject("/Alternate")] = NameObject("/DeviceRGB")
             icc_refs[profile] = writer._add_object(icc)
         obj[NameObject("/ColorSpace")] = ArrayObject([NameObject("/ICCBased"), icc_refs[profile]])
-    target = OUT / (stem + ".pdf")
+    target = OUT / (stem + "_1440dpi.pdf")
     with target.open("wb") as stream:
         writer.write(stream)
     check = PdfReader(target)
@@ -106,7 +108,7 @@ def make_sheet(stem, releases):
     actual = set()
     for reference in check.pages[0]["/Resources"]["/XObject"].values():
         obj = reference.get_object()
-        assert (obj["/Width"], obj["/Height"]) == (3300, 2800)
+        assert (obj["/Width"], obj["/Height"]) == SOURCE_PIXELS
         digest = hashlib.sha256(obj.get_data()).hexdigest()
         assert obj["/ColorSpace"][0] == "/ICCBased"
         assert obj["/ColorSpace"][1].get_object().get_data() == profiles[digest]
@@ -120,6 +122,7 @@ def make_sheet(stem, releases):
         x, y, w, h = item["box_points"]
         assert transform == [w, 0, 0, h, x, y]
         assert 0 <= x and 0 <= y and x + w <= 612 and y + h <= 792
+        assert (SOURCE_PIXELS[0] / (w / 72), SOURCE_PIXELS[1] / (h / 72)) == (SOURCE_PPI, SOURCE_PPI)
     print(f"VERIFIED {target.name}: {len(entries)} original-size, lossless labels", flush=True)
     return dict(pdf=target.name, count=len(entries), releases=releases, labels=placements)
 
@@ -133,6 +136,7 @@ def main():
     sheets = [make_sheet(*group) for group in GROUPS]
     assert [sheet["count"] for sheet in sheets] == [12, 12, 12, 10]
     (OUT / "sheet_manifest.json").write_text(json.dumps(dict(
+        source_ppi=SOURCE_PPI, source_pixels=SOURCE_PIXELS,
         label_inches=[WIDTH / 72, HEIGHT / 72],
         margin_inches=dict(left=LEFT / 72, right=LEFT / 72, top=TOP / 72, bottom=TOP / 72),
         gap_inches=GAP / 72, sheets=sheets), indent=2) + "\n")

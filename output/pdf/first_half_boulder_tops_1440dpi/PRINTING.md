@@ -1,8 +1,4 @@
-# First-half Boulder top labels - Epson ET-8550
-
-**Superseded:** these PDFs retain the original 1200-PPI sources. Use the updated
-PDFs in [first_half_boulder_tops_1440dpi](../first_half_boulder_tops_1440dpi/PRINTING.md)
-for the new 1440-DPI images. These earlier PDFs are preserved for reference.
+# First-half Boulder top labels - 1440-DPI edition - Epson ET-8550
 
 Four one-page US Letter PDFs: 12, 12, 12, and 10 labels. No release is split
 between files. The first-half production boundary is The Brothers' War.
@@ -14,8 +10,8 @@ The rest of the already-prepared Anthology labels are not repeated here.
 ## Exact size and margins
 
 - Paper: 8.5 x 11 inches, portrait.
-- Every label: 2.75 x 2 1/3 inches, unchanged 3300 x 2800 source pixels.
-- Effective image resolution: 1200 PPI; lossless image streams with source ICC
+- Every label: 2.75 x 2 1/3 inches, unchanged 3960 x 3360 source pixels.
+- Effective image resolution: 1440 PPI; lossless image streams with source ICC
   profiles retained (sRGB tagging supplied for PNGs carrying an sRGB chunk).
 - Grid: three columns by four rows. Last sheet has two unused slots.
 - Left and right margins: 1/16 inch (1.5875 mm).
@@ -49,3 +45,7 @@ Epson references:
 The filenames identify all releases on each page. `sheet_manifest.json` records
 every source label, its RGB checksum, and exact placement. The reproducible
 builder is `scripts/build_first_half_boulder_pdfs.py` at the project root.
+
+These PDFs use the newly rendered 1440-DPI files, not upscaled copies of the
+previous PDFs. The previous 1200-PPI sheets remain in the sibling folder for
+reference; use the PDFs ending in `_1440dpi.pdf` for the current print batch.

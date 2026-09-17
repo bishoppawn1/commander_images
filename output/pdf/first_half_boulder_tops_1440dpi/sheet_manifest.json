@@ -1,0 +1,618 @@
+{
+  "source_ppi": 1440,
+  "source_pixels": [
+    3960,
+    3360
+  ],
+  "label_inches": [
+    2.75,
+    2.3333333333333335
+  ],
+  "margin_inches": {
+    "left": 0.0625,
+    "right": 0.0625,
+    "top": 0.7395833333333334,
+    "bottom": 0.7395833333333334
+  },
+  "gap_inches": 0.0625,
+  "sheets": [
+    {
+      "pdf": "01_Commander_2013_2016_2017_2018_1440dpi.pdf",
+      "count": 12,
+      "releases": [
+        "commander_2013",
+        "commander_2016",
+        "commander_2017",
+        "commander_2018"
+      ],
+      "labels": [
+        {
+          "release": "commander_2013",
+          "deck": "ETERNAL BARGAIN",
+          "source": "images/commander_2013_boulder_deck_box_labels/eternal_bargain_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "686bddf2f8f8d3069f2c9450d4ab2569fe46fcfe965cd60490d6ab0749b218f9",
+          "box_points": [
+            4.5,
+            570.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2013",
+          "deck": "MIND SEIZE",
+          "source": "images/commander_2013_boulder_deck_box_labels/mind_seize_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "73a256f082b0271c999eddbc5c58c77fcba6da80ec93b472d38d22a572b445cf",
+          "box_points": [
+            207.0,
+            570.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2016",
+          "deck": "INVENT SUPERIORITY",
+          "source": "images/commander_2016_boulder_deck_box_labels/invent_superiority_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "de3a1f0437a012ce27fabaab2a493f85553d91a2eea12d0301e3ff3289d37154",
+          "box_points": [
+            409.5,
+            570.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2016",
+          "deck": "BREED LETHALITY (retained Anthology II artwork)",
+          "source": "images/commander_anthology_deck_box_labels/breed_lethality_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "f48ee112e0a53b5aa6c39cb9e0cbb9d79b1f0181898b264cf2c1d658d25571d3",
+          "box_points": [
+            4.5,
+            398.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2017",
+          "deck": "FELINE FEROCITY",
+          "source": "images/commander_2017_boulder_deck_box_labels/feline_ferocity_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "de89f9ae956f4bb34645c09d8222bdb6f21efa1d386b79a22e5aba06ad3c6cca",
+          "box_points": [
+            207.0,
+            398.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2017",
+          "deck": "VAMPIRIC BLOODLUST",
+          "source": "images/commander_2017_boulder_deck_box_labels/vampiric_bloodlust_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "925b786397e88370226b2fad46d9f3f8a0b312221cbcf23beb0f7ba853c9fbd7",
+          "box_points": [
+            409.5,
+            398.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2017",
+          "deck": "ARCANE WIZARDRY",
+          "source": "images/commander_2017_boulder_deck_box_labels/arcane_wizardry_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "09777d91416995743e3fa6c6964d9c01d989c25cb8809a411fcba65fe6ef9835",
+          "box_points": [
+            4.5,
+            225.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2017",
+          "deck": "DRACONIC DOMINATION",
+          "source": "images/commander_2017_boulder_deck_box_labels/draconic_domination_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "aed84a212397b2de85d7e1d1d11997dd49021875c9791f1d99b97ba387ab42d5",
+          "box_points": [
+            207.0,
+            225.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2018",
+          "deck": "ADAPTIVE ENCHANTMENT",
+          "source": "images/commander_2018_boulder_deck_box_labels/adaptive_enchantment_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "f3da1ba7be8bb006cce380970f6665884c54c5f1f49fc90911049ba0c7b7a942",
+          "box_points": [
+            409.5,
+            225.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2018",
+          "deck": "EXQUISITE INVENTION",
+          "source": "images/commander_2018_boulder_deck_box_labels/exquisite_invention_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "9ccc8b536078842a34785112eed270dd1989be839a7224e4e3ca61cd990b1179",
+          "box_points": [
+            4.5,
+            53.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2018",
+          "deck": "NATURE\u2019S VENGEANCE",
+          "source": "images/commander_2018_boulder_deck_box_labels/natures_vengeance_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "c5a1df29dc981458f7c36edf24582cac6508756cc4c88c0b9049d5a28284681a",
+          "box_points": [
+            207.0,
+            53.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2018",
+          "deck": "SUBJECTIVE REALITY",
+          "source": "images/commander_2018_boulder_deck_box_labels/subjective_reality_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "e0373cb800c66be8b787066ca4de06527cf92cccd120ff8628ca1dd1f31aa21e",
+          "box_points": [
+            409.5,
+            53.25,
+            198,
+            168
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": "02_Commander_2019_Throne_of_Eldraine_Brawl_Zendikar_Rising_Commander_Legends_1440dpi.pdf",
+      "count": 12,
+      "releases": [
+        "commander_2019",
+        "throne_of_eldraine_brawl",
+        "zendikar_rising",
+        "commander_legends"
+      ],
+      "labels": [
+        {
+          "release": "commander_2019",
+          "deck": "MERCILESS RAGE",
+          "source": "images/commander_2019_boulder_deck_box_labels/merciless_rage_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "c999d23324a060c057ff185d52fa89714cda205d97e72520ffd86bcd0071c3da",
+          "box_points": [
+            4.5,
+            570.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2019",
+          "deck": "PRIMAL GENESIS",
+          "source": "images/commander_2019_boulder_deck_box_labels/primal_genesis_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "b7025f343b1b115438ac8078090cbab0673cfb3c247b20c3a0f0cd7b95789b4f",
+          "box_points": [
+            207.0,
+            570.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2019",
+          "deck": "FACELESS MENACE",
+          "source": "images/commander_2019_boulder_deck_box_labels/faceless_menace_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "797f1ef09e6fc2d9bfc9c99141ae530111d3d855b3df64a4e56ab9da6cef99b0",
+          "box_points": [
+            409.5,
+            570.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2019",
+          "deck": "MYSTIC INTELLECT",
+          "source": "images/commander_2019_boulder_deck_box_labels/mystic_intellect_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "10bf6d3979bc145196bf548e300371a98761e26cdb9b00ec43a4ff1388281139",
+          "box_points": [
+            4.5,
+            398.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "throne_of_eldraine_brawl",
+          "deck": "WILD BOUNTY",
+          "source": "images/throne_of_eldraine_brawl_boulder_deck_box_labels/wild_bounty_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "21f708b91beb67146310d983a964f0d333b02d5dc90a6301337f78a09499b430",
+          "box_points": [
+            207.0,
+            398.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "throne_of_eldraine_brawl",
+          "deck": "FAERIE SCHEMES",
+          "source": "images/throne_of_eldraine_brawl_boulder_deck_box_labels/faerie_schemes_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "90c865e0a21ec3ccbe27a24094e66e25c13b7348a45828e083fd598d8935f8f7",
+          "box_points": [
+            409.5,
+            398.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "throne_of_eldraine_brawl",
+          "deck": "KNIGHTS\u2019 CHARGE",
+          "source": "images/throne_of_eldraine_brawl_boulder_deck_box_labels/knights_charge_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "b4258fbb43bed50e740b64415aaffdf9fb38ff0d9991a27ac953021bedfdc2b8",
+          "box_points": [
+            4.5,
+            225.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "throne_of_eldraine_brawl",
+          "deck": "SAVAGE HUNGER",
+          "source": "images/throne_of_eldraine_brawl_boulder_deck_box_labels/savage_hunger_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "fd7d121ee56bbb6d947ffb4807c8aa653596b5c44bc7227bd35c09f6485c70ef",
+          "box_points": [
+            207.0,
+            225.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "zendikar_rising",
+          "deck": "SNEAK ATTACK",
+          "source": "images/zendikar_rising_boulder_deck_box_labels/sneak_attack_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "f198b9d6923351bf07398c49676a352a244ffaddf693ace242a922bd222e2042",
+          "box_points": [
+            409.5,
+            225.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "zendikar_rising",
+          "deck": "LAND\u2019S WRATH",
+          "source": "images/zendikar_rising_boulder_deck_box_labels/lands_wrath_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "78886f4b72644c3d26c5953759fc749575a6a7b065f4f9a03f7b66ae4f788131",
+          "box_points": [
+            4.5,
+            53.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_legends",
+          "deck": "ARM FOR BATTLE",
+          "source": "images/commander_legends_boulder_deck_box_labels/arm_for_battle_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "72cd5b19b3558b712d7ffe5270d5ff21ce3201083430b5a8fdb9f4788c033a0c",
+          "box_points": [
+            207.0,
+            53.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_legends",
+          "deck": "REAP THE TIDES",
+          "source": "images/commander_legends_boulder_deck_box_labels/reap_the_tides_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "5a5ab3a4a5941dbbdb262e77dd45974a8f8a12919ceff9c948a7d127ad6f8269",
+          "box_points": [
+            409.5,
+            53.25,
+            198,
+            168
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": "03_Commander_2020_Strixhaven_Kamigawa_Neon_Dynasty_1440dpi.pdf",
+      "count": 12,
+      "releases": [
+        "commander_2020",
+        "strixhaven",
+        "kamigawa_neon_dynasty"
+      ],
+      "labels": [
+        {
+          "release": "commander_2020",
+          "deck": "ENHANCED EVOLUTION",
+          "source": "images/commander_2020_boulder_deck_box_labels/enhanced_evolution_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "8b25cdf6e3a1da960ba177cc314f477532a2107abf74b9de13ca4ed792f5dec2",
+          "box_points": [
+            4.5,
+            570.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2020",
+          "deck": "TIMELESS WISDOM",
+          "source": "images/commander_2020_boulder_deck_box_labels/timeless_wisdom_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "591bf1f24272a7b40a4085d1534d26e3c7afd6bc016d94815d5177f02da2519d",
+          "box_points": [
+            207.0,
+            570.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2020",
+          "deck": "RUTHLESS REGIMENT",
+          "source": "images/commander_2020_boulder_deck_box_labels/ruthless_regiment_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "85a349e0746ac4ea6660a12c96aa0de854d4fe1e2d0621fa0c63389a4b843c8f",
+          "box_points": [
+            409.5,
+            570.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2020",
+          "deck": "ARCANE MAELSTROM",
+          "source": "images/commander_2020_boulder_deck_box_labels/arcane_maelstrom_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "f673a87e8cd4c0939da0b37e1528d201b53bc0a271d2921dc979acbb82b9955a",
+          "box_points": [
+            4.5,
+            398.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "commander_2020",
+          "deck": "SYMBIOTIC SWARM",
+          "source": "images/commander_2020_boulder_deck_box_labels/symbiotic_swarm_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "501c90bf3170b4063fc2825de64cfabd00e36cf0766e72e4dc9181b8a2c23572",
+          "box_points": [
+            207.0,
+            398.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "strixhaven",
+          "deck": "PRISMARI PERFORMANCE",
+          "source": "images/strixhaven_boulder_deck_box_labels/prismari_performance_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "42d6b3b32e74c5637bad6bdec107779e81bbae7d3bd1eacd9265ec0bf4419ffd",
+          "box_points": [
+            409.5,
+            398.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "strixhaven",
+          "deck": "SILVERQUILL STATEMENT",
+          "source": "images/strixhaven_boulder_deck_box_labels/silverquill_statement_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "7da806b48ea83c5170a725f85297bdf9d11e6669841183aa136344512bd92bd6",
+          "box_points": [
+            4.5,
+            225.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "strixhaven",
+          "deck": "QUANTUM QUANDRIX",
+          "source": "images/strixhaven_boulder_deck_box_labels/quantum_quandrix_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "fa5e63d3707df8623bdb109c3e485e0f68af5e246904b6feda3333406c59ef37",
+          "box_points": [
+            207.0,
+            225.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "strixhaven",
+          "deck": "LOREHOLD LEGACIES",
+          "source": "images/strixhaven_boulder_deck_box_labels/lorehold_legacies_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "cf4dbd1ccc21c8904a1d607ad0eec3e144207f7b65712742dda73c9deccfd9e7",
+          "box_points": [
+            409.5,
+            225.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "strixhaven",
+          "deck": "WITHERBLOOM WITCHCRAFT",
+          "source": "images/strixhaven_boulder_deck_box_labels/witherbloom_witchcraft_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "2db670a9ab568121e3a7fbe203c99ff8538430230bcb1559dffdaf7d4e670ae2",
+          "box_points": [
+            4.5,
+            53.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "kamigawa_neon_dynasty",
+          "deck": "UPGRADES UNLEASHED",
+          "source": "images/kamigawa_neon_dynasty_boulder_deck_box_labels/upgrades_unleashed_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "403ed557f1383774a5a701f74141f0e10ada116cb188d72fca911d9ca94a4e10",
+          "box_points": [
+            207.0,
+            53.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "kamigawa_neon_dynasty",
+          "deck": "BUCKLE UP",
+          "source": "images/kamigawa_neon_dynasty_boulder_deck_box_labels/buckle_up_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "6e5db3da41c4a54001aef613a91a6dae7d31574cab427a3ddd9341510f98df7f",
+          "box_points": [
+            409.5,
+            53.25,
+            198,
+            168
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": "04_Adventures_in_the_Forgotten_Realms_Warhammer_40000_The_Brothers_War_1440dpi.pdf",
+      "count": 10,
+      "releases": [
+        "adventures_in_the_forgotten_realms",
+        "warhammer_40000",
+        "brothers_war"
+      ],
+      "labels": [
+        {
+          "release": "adventures_in_the_forgotten_realms",
+          "deck": "DRACONIC RAGE",
+          "source": "images/adventures_in_the_forgotten_realms_boulder_deck_box_labels/draconic_rage_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "c90ddd337813e3366cd3554841696ea08c7237b46e88b64530ca740a2ef7d584",
+          "box_points": [
+            4.5,
+            570.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "adventures_in_the_forgotten_realms",
+          "deck": "DUNGEONS OF DEATH",
+          "source": "images/adventures_in_the_forgotten_realms_boulder_deck_box_labels/dungeons_of_death_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "1784a5152ef71c5bd7ca6061d63380de206dab599f93de2cadb982e9aa7edafd",
+          "box_points": [
+            207.0,
+            570.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "adventures_in_the_forgotten_realms",
+          "deck": "AURA OF COURAGE",
+          "source": "images/adventures_in_the_forgotten_realms_boulder_deck_box_labels/aura_of_courage_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "1403a6aa58e6e1165c3304c02c85966078a1767dd26705c3306079ffc8e3ec88",
+          "box_points": [
+            409.5,
+            570.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "adventures_in_the_forgotten_realms",
+          "deck": "PLANAR PORTAL",
+          "source": "images/adventures_in_the_forgotten_realms_boulder_deck_box_labels/planar_portal_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "b5f849fc07412f6278df0b0b3e24a7c1282d0256ec818b36d2dfa246209ebdee",
+          "box_points": [
+            4.5,
+            398.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "warhammer_40000",
+          "deck": "TYRANID SWARM",
+          "source": "images/warhammer_40000_boulder_deck_box_labels/tyranid_swarm_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "dc087b1d142a325c20a2b07378cfb86cfed29d4a947aec5af305f659acb693e3",
+          "box_points": [
+            207.0,
+            398.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "warhammer_40000",
+          "deck": "FORCES OF THE IMPERIUM",
+          "source": "images/warhammer_40000_boulder_deck_box_labels/forces_of_the_imperium_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "57bf9b6dddd3bfed660b248a907c5a4fd380ef65fb65f96a0eef0c22870ce65d",
+          "box_points": [
+            409.5,
+            398.25,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "warhammer_40000",
+          "deck": "NECRON DYNASTIES",
+          "source": "images/warhammer_40000_boulder_deck_box_labels/necron_dynasties_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "60f4428fc1f300bff19ba2a661a43a358fca7dda216099356055e2178395cc41",
+          "box_points": [
+            4.5,
+            225.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "warhammer_40000",
+          "deck": "THE RUINOUS POWERS",
+          "source": "images/warhammer_40000_boulder_deck_box_labels/the_ruinous_powers_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "1070e014aa7cff3e839e0f543614215c12d0a2f09a9b754cc2ff210ebb8e0702",
+          "box_points": [
+            207.0,
+            225.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "brothers_war",
+          "deck": "URZA\u2019S IRON ALLIANCE",
+          "source": "images/brothers_war_boulder_deck_box_labels/urzas_iron_alliance_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "d0d2f1f9cb3524d4a90bf6c97e158309e4931a4445b60eff964b115288a9dc86",
+          "box_points": [
+            409.5,
+            225.75,
+            198,
+            168
+          ]
+        },
+        {
+          "release": "brothers_war",
+          "deck": "MISHRA\u2019S BURNISHED BANNER",
+          "source": "images/brothers_war_boulder_deck_box_labels/mishras_burnished_banner_boulder_top_label_tall_3960x3360_1440dpi.png",
+          "rgb_sha256": "a75c30ee8a278ab77a4b3f2244711c4b48b6aa901be9e0582b94e0a98d2190a3",
+          "box_points": [
+            4.5,
+            53.25,
+            198,
+            168
+          ]
+        }
+      ]
+    }
+  ]
+}
