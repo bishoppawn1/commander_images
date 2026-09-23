@@ -1,0 +1,430 @@
+[
+  {
+    "signature": "f9b0e67c441c3aa45a7bbf169b9860b9298d1afa29a6a6781cfdb085e5462471",
+    "pdf": "01_Commander_2013_Commander_2016_Commander_2017_Commander_2018_Commander_2019_Eldraine_Brawl_Commander_2020_Ikoria_1440dpi_f9b0e67c44.pdf",
+    "pdf_sha256": "330fcee4c13f2d407d1ee3ca37346b774910c526c008d86b16eb7270b8d90cbd",
+    "kind": "fronts",
+    "count": 6,
+    "labels": [
+      {
+        "group": "commander_2013_commander_2016",
+        "source": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_centered_v4_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "fd63032751f527ad5bd75486266ed14461b6b104e0733d3e7a6d7eb3639bd5a7"
+      },
+      {
+        "group": "commander_2017",
+        "source": "images/commander_2017/commander_2017_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "5fedcc7876fa4dce3f1ed0e58e32a78499b32029b91203e71fef7fd07b8b8937"
+      },
+      {
+        "group": "commander_2018",
+        "source": "images/commander_2018/commander_2018_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "7ceba886f892dd84ca7c6787c27b25c993c3fd2044f6ef7e4d379a351fa2c664"
+      },
+      {
+        "group": "commander_2019",
+        "source": "images/commander_2019/commander_2019_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "071c6740306b38b65a98dd86590d94628305b4047cd4e55081c11ad6f48802b1"
+      },
+      {
+        "group": "throne_of_eldraine_brawl",
+        "source": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_unified_shadow_v6_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          18.000000000000114,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "8638cfa36600f2e4dd5154c31ac0c6c00df4034f6dadc2bd205b1e02eaf859c3"
+      },
+      {
+        "group": "commander_2020_ikoria",
+        "source": "images/commander_2020_ikoria/commander_2020_ikoria_crystal_commander_v5_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          18.000000000000114,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "23777873a9ed7425f7940f6093bdfd26b98b69f4fe982ed8ddd4108f53c357ef"
+      }
+    ]
+  },
+  {
+    "signature": "789bc1028a6ee6387e65ddbce9ac5186dbc1e441b22d5efef137c10060b588bf",
+    "pdf": "02_Zendikar_Rising_Commander_Legends_Strixhaven_Forgotten_Realms_Kamigawa_Neon_Dynasty_Brothers_War_Warhammer_40000_Phyrexia_All_Will_Be_One_Wilds_of_Eldraine_1440dpi_789bc1028a.pdf",
+    "pdf_sha256": "5eba38a4c1f9342a3ce59c5e880b7483b33908ae34dceb16d3a9d7951cc24528",
+    "kind": "fronts",
+    "count": 6,
+    "labels": [
+      {
+        "group": "zendikar_rising_commander_legends",
+        "source": "images/zendikar_rising_commander_legends/zendikar_rising_commander_legends_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "f5fbd788ac08f372b96c891f5e441f2525a5bf4e55b8051ffb36cfeb6cd64381"
+      },
+      {
+        "group": "strixhaven_commander",
+        "source": "images/strixhaven_commander/strixhaven_commander_official_key_art_target_v2_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "d25f101e61234dc2dcf09bf3d9611f34a9c5778d41da424b3ddcd14c078901a4"
+      },
+      {
+        "group": "adventures_forgotten_realms_commander",
+        "source": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "7d9c7d8b726d1c3dbfaa9d912eb5060974e830806ae28585c5369380702c65b3"
+      },
+      {
+        "group": "kamigawa_neon_dynasty_brothers_war",
+        "source": "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "58e4b8eb050b61d7a27303057648e8d2c8511bb0875369eae77e5346e58c5041"
+      },
+      {
+        "group": "warhammer_40000_commander",
+        "source": "images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          18.000000000000114,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "2a5ae381017abe6e5018961a3c693fcdc829b24330bce99edcee6e97712a5f6e"
+      },
+      {
+        "group": "phyrexia_all_will_be_one_wilds_of_eldraine",
+        "source": "images/phyrexia_all_will_be_one_wilds_of_eldraine/phyrexia_all_will_be_one_wilds_of_eldraine_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          18.000000000000114,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "841741801687c6fccda23cc98b3cbc1cdd8bd599dbcb9865a5ede58627701248"
+      }
+    ]
+  },
+  {
+    "signature": "9a6bd6e66dd8847c5e9ceeaf2a75bad0f3b5f02f0df723f9da564fe9a14fb58b",
+    "pdf": "03_March_of_the_Machine_Lord_of_the_Rings_Commander_Masters_Doctor_Who_Lost_Caverns_of_Ixalan_Fallout_1440dpi_9a6bd6e66d.pdf",
+    "pdf_sha256": "bffbb5c83f063d39f99d9e0e242a150f94861187af3070f39aff038acb5efbbd",
+    "kind": "fronts",
+    "count": 6,
+    "labels": [
+      {
+        "group": "march_of_the_machine_commander",
+        "source": "images/march_of_the_machine_commander/march_of_the_machine_large_lower_title_v2_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "cfdb636b2fac40e45aa2a101a78ee6d243a1d61dae91f6ff4f0097fc17d6b75a"
+      },
+      {
+        "group": "lord_of_the_rings_tales_of_middle_earth_commander",
+        "source": "images/lord_of_the_rings_tales_of_middle_earth_commander/lord_of_the_rings_centered_wordmark_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "379e6dd63ff6ad20cc2b0258885c174b3249e84348bac56988e3c6253866f602"
+      },
+      {
+        "group": "commander_masters",
+        "source": "images/commander_masters/commander_masters_official_wpn_poster_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "bd805a1e5bdda897a23fbadbe4b34f20cc526f1770d0904115bf2b0f61110bae"
+      },
+      {
+        "group": "doctor_who_commander",
+        "source": "images/doctor_who_commander/doctor_who_commander_official_wpn_tardis_key_art_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "13dfd5779d3563090f79abd96470cf429b949c944fcf9d31adeb733356bc45a0"
+      },
+      {
+        "group": "lost_caverns_of_ixalan_commander",
+        "source": "images/lost_caverns_of_ixalan_commander/lost_caverns_of_ixalan_centered_wordmark_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          18.000000000000114,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "9d4f92341bd76d8bae38710793ab99f0868e98321b5b8300482514513d68f905"
+      },
+      {
+        "group": "fallout_commander",
+        "source": "images/fallout_commander/fallout_commander_official_power_armor_key_art_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          18.000000000000114,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "e404bed8cf2269470ed438e7b3d8f7f966f6d33faf54543424b694baf2a0abf7"
+      }
+    ]
+  },
+  {
+    "signature": "5f902fff3d5ad525ee52733bbd94c2d63e0109f7f06896c39cd56bfc3667604c",
+    "pdf": "04_Modern_Horizons_3_Bloomburrow_Final_Fantasy_Turtle_Power_Marvel_Super_Heroes_Commander_Anthology_I_1440dpi_5f902fff3d.pdf",
+    "pdf_sha256": "c69e6e537f3a8d026198969b24ee6a59c4215285dcceadcce578862e12dcdb7d",
+    "kind": "fronts",
+    "count": 6,
+    "labels": [
+      {
+        "group": "modern_horizons_3_commander",
+        "source": "images/modern_horizons_3_commander/modern_horizons_3_commander_cosmic_rift_alternate_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "d6511cdb175c7bc67bd6d683051b13dd3a0a5f93dfff996c0d95efa524d46d21"
+      },
+      {
+        "group": "bloomburrow_commander",
+        "source": "images/bloomburrow_commander/bloomburrow_target_v3_official_key_art_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "48dce4d474b0fcb2c48cc3a3370a8b6f7e9f50c4cfba5a5dd6fbe6789bdaa95a"
+      },
+      {
+        "group": "final_fantasy_commander",
+        "source": "images/final_fantasy_commander/final_fantasy_commander_official_key_art_crystal_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "9f9ce7f20e022a59e25b6ae37eeb48b489814795fc70efc5639f3f9bb5870cc5"
+      },
+      {
+        "group": "turtle_power_commander",
+        "source": "images/turtle_power_commander/turtle_power_commander_official_key_art_target_v1_deck_count_1_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "8110aa34771ac877f30e64b7e7ea18096395e0d815bdf1800e6c5d1718e4af8f"
+      },
+      {
+        "group": "marvel_super_heroes_commander",
+        "source": "images/marvel_super_heroes_commander/marvel_super_heroes_commander_official_wpn_key_art_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          18.000000000000114,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "966ff39f6e5eccf6a0a69e3968cb041bc0ea8ac7588e2cb89d382e1883397241"
+      },
+      {
+        "group": "commander_anthology_i",
+        "source": "images/commander_anthology_i/commander_anthology_i_target_v3_deck_count_4_trial_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          18.000000000000114,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "987c4a027f1aa43ef298c28371e07f1f0f01e6b457e8d8f7fc3f41bf7262c747"
+      }
+    ]
+  },
+  {
+    "signature": "0c9f6fd852446c0249ca80972ebad087bb5048764ba17e59dda27ce6b2f4cfd5",
+    "pdf": "05_Commander_Anthology_II_Heroes_vs_Monsters_Secret_Lair_Custom_Commander_Decks_1440dpi_0c9f6fd852.pdf",
+    "pdf_sha256": "3213a634e873efccf81566572bfc7d3fe24b4dddc0b0638126db97f4172e3e88",
+    "kind": "fronts",
+    "count": 4,
+    "labels": [
+      {
+        "group": "commander_anthology_ii",
+        "source": "images/commander_anthology_ii/commander_anthology_ii_target_v3_deck_count_4_trial_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "b0e1b9d8dbdd41db1446ab897ff4bd7c101afb5f5df243b85195c3acdaab12f3"
+      },
+      {
+        "group": "duel_decks_heroes_vs_monsters",
+        "source": "images/duel_decks_heroes_vs_monsters/duel_decks_heroes_vs_monsters_battle_face_v1_deck_count_2_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "2e9fcbc427fd8aed524411d7450c8b71983fbb9a937578f8bbdc4d4b15ee9a11"
+      },
+      {
+        "group": "secret_lair",
+        "source": "images/secret_lair/secret_lair_category_alternate_art_vault_v1_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "5d03c130d588ad58efe195dd36dce24e2fbe82c2a4ee945b36196c0f22a97838"
+      },
+      {
+        "group": "custom_commander_decks",
+        "source": "images/custom_commander_decks/custom_commander_decks_unnumbered_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "ad60edef852b075561614716bf19061c65e38e894bbb06b0f1f59fac5be5ba69"
+      }
+    ]
+  },
+  {
+    "signature": "a882b5679d910df42024838e1870313dff3fa277187a1fcc0ed2a05eaf304d66",
+    "pdf": "06_6_Overflows_Optional_1440dpi_a882b5679d.pdf",
+    "pdf_sha256": "d2cb656bf0425ab08317f268724d974462aaa2a974a7b210832595a4e46456fc",
+    "kind": "fronts",
+    "count": 6,
+    "labels": [
+      {
+        "group": "overflow",
+        "source": "images/overflow/overflow_abstract_magical_vault_target_v1_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "bcae1bceabc9862e9a062ef92ddfd689a8223b5c70f01fe1f66015d203d7451a"
+      },
+      {
+        "group": "overflow",
+        "source": "images/overflow/overflow_abstract_magical_vault_target_v1_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "bcae1bceabc9862e9a062ef92ddfd689a8223b5c70f01fe1f66015d203d7451a"
+      },
+      {
+        "group": "overflow",
+        "source": "images/overflow/overflow_abstract_magical_vault_target_v1_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "bcae1bceabc9862e9a062ef92ddfd689a8223b5c70f01fe1f66015d203d7451a"
+      },
+      {
+        "group": "overflow",
+        "source": "images/overflow/overflow_abstract_magical_vault_target_v1_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "bcae1bceabc9862e9a062ef92ddfd689a8223b5c70f01fe1f66015d203d7451a"
+      },
+      {
+        "group": "overflow",
+        "source": "images/overflow/overflow_abstract_magical_vault_target_v1_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          18.000000000000114,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "bcae1bceabc9862e9a062ef92ddfd689a8223b5c70f01fe1f66015d203d7451a"
+      },
+      {
+        "group": "overflow",
+        "source": "images/overflow/overflow_abstract_magical_vault_target_v1_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          18.000000000000114,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "bcae1bceabc9862e9a062ef92ddfd689a8223b5c70f01fe1f66015d203d7451a"
+      }
+    ]
+  }
+]

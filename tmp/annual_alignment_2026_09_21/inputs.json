@@ -1,0 +1,27 @@
+[
+  {
+    "id": "commander_2013_commander_2016",
+    "name": "commander_2013_commander_2016_vertical_split_unified_v3",
+    "raw": "images/commander_2013_commander_2016/src/imagegen_commander_2013_commander_2016_vertical_split_unified_v3_raw.png"
+  },
+  {
+    "id": "commander_2017",
+    "name": "commander_2017_unified_title_v2",
+    "raw": "images/commander_2017/src/imagegen_commander_2017_unified_title_v2_raw.png"
+  },
+  {
+    "id": "commander_2018",
+    "name": "commander_2018_unified_title_v2",
+    "raw": "images/commander_2018/src/imagegen_commander_2018_unified_title_v2_raw.png"
+  },
+  {
+    "id": "commander_2019",
+    "name": "commander_2019_unified_title_v2",
+    "raw": "images/commander_2019/src/imagegen_commander_2019_unified_title_v2_raw.png"
+  },
+  {
+    "id": "kamigawa_neon_dynasty_brothers_war",
+    "name": "kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2",
+    "raw": "images/kamigawa_neon_dynasty_brothers_war/src/imagegen_kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_raw.png"
+  }
+]

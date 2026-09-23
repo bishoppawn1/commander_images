@@ -1,0 +1,50 @@
+{
+  "contactSheetName": "march_of_the_machine_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "call_for_backup",
+      "deckName": "CALL FOR BACKUP",
+      "goalDescription": "PLACE COUNTERS • EMPOWER THE TEAM",
+      "setName": "MARCH OF THE MACHINE",
+      "artPath": "images/march_of_the_machine_boulder_deck_box_labels/src/regenerated_art_v1/bright_palm_soul_awakener_regenerated_v1.png",
+      "colors": ["RED", "GREEN", "WHITE"],
+      "series": 2
+    },
+    {
+      "slug": "cavalry_charge",
+      "deckName": "CAVALRY CHARGE",
+      "goalDescription": "ATTACK WITH KNIGHTS • REANIMATE RIDERS",
+      "setName": "MARCH OF THE MACHINE",
+      "artPath": "images/march_of_the_machine_boulder_deck_box_labels/src/regenerated_art_v1/sidar_jabari_of_zhalfir_regenerated_v1.png",
+      "colors": ["WHITE", "BLUE", "BLACK"],
+      "series": 2
+    },
+    {
+      "slug": "divine_convocation",
+      "deckName": "DIVINE CONVOCATION",
+      "goalDescription": "CONVOKE SPELLS • BUILD FLYING TOKENS",
+      "setName": "MARCH OF THE MACHINE",
+      "artPath": "images/march_of_the_machine_boulder_deck_box_labels/src/regenerated_art_v1/kasla_the_broken_halo_regenerated_v1.png",
+      "colors": ["WHITE", "BLUE", "RED"],
+      "series": 2
+    },
+    {
+      "slug": "growing_threat",
+      "deckName": "GROWING THREAT",
+      "goalDescription": "INCUBATE ARTIFACTS • TRANSFORM THE HORDE",
+      "setName": "MARCH OF THE MACHINE",
+      "artPath": "images/march_of_the_machine_boulder_deck_box_labels/src/regenerated_art_v1/brimaz_blight_of_oreskos_regenerated_v1.png",
+      "colors": ["WHITE", "BLACK"],
+      "series": 2
+    },
+    {
+      "slug": "tinker_time",
+      "deckName": "TINKER TIME",
+      "goalDescription": "MAKE UNIQUE TOKENS • GROW GREMLINS",
+      "setName": "MARCH OF THE MACHINE",
+      "artPath": "images/march_of_the_machine_boulder_deck_box_labels/src/regenerated_art_v1/gimbal_gremlin_prodigy_regenerated_v1.png",
+      "colors": ["GREEN", "BLUE", "RED"],
+      "series": 2
+    }
+  ]
+}

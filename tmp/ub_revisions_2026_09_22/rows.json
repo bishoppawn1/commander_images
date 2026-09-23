@@ -1,0 +1,31 @@
+[
+  {
+    "set": "warhammer_40000_commander",
+    "stem": "warhammer_commanders_larger_v2",
+    "raw": "/Users/bishophall/.codex/generated_images/01a0c5fb-aad2-7c13-be91-093631b8368d/exec-295bbdb0-3bbb-4759-acb1-8d605b176aea.png",
+    "count": 4,
+    "catalog": "images/warhammer_40000_commander/warhammer_bottom_title_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "raw2": "/Users/bishophall/.codex/generated_images/01a0c5fb-aad2-7c13-be91-093631b8368d/exec-420f95b8-af10-4a44-bb1b-471919cf21d9.png"
+  },
+  {
+    "set": "lord_of_the_rings_tales_of_middle_earth_commander",
+    "stem": "lord_of_the_rings_bottom_title_v1",
+    "raw": "/Users/bishophall/.codex/generated_images/01a0c5fb-aad2-7c13-be91-093631b8368d/exec-e77410e3-4e26-4ff9-8717-7a652c9e77d4.png",
+    "count": 4,
+    "catalog": "images/lord_of_the_rings_tales_of_middle_earth_commander/lord_of_the_rings_bottom_title_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+  },
+  {
+    "set": "fallout_commander",
+    "stem": "fallout_bottom_title_v1",
+    "raw": "/Users/bishophall/.codex/generated_images/01a0c5fb-aad2-7c13-be91-093631b8368d/exec-e401b1cb-bbc1-4d2b-9ac2-71518197d156.png",
+    "count": 4,
+    "catalog": "images/fallout_commander/fallout_bottom_title_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+  },
+  {
+    "set": "turtle_power_commander",
+    "stem": "turtle_power_bottom_title_v1",
+    "raw": "/Users/bishophall/.codex/generated_images/01a0c5fb-aad2-7c13-be91-093631b8368d/exec-5ed4d2ff-01a6-4913-b619-8a4fef15a14e.png",
+    "count": 1,
+    "catalog": "images/turtle_power_commander/turtle_power_bottom_title_v1_deck_count_1_4138x4858_1440dpi_black_margin_1_8in.png"
+  }
+]

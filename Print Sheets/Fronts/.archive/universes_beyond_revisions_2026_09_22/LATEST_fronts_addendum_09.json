@@ -1,0 +1,22 @@
+[
+  {
+    "signature": "d966d9c4f1e1ff1fe152216d7b37a89f668aa5cce8ffcb94470dbb9d06ef7bc7",
+    "pdf": "09_Addendum_Commander_2020_Ikoria_1440dpi_d966d9c4f1.pdf",
+    "pdf_sha256": "de5f22f5218cec4d4993f1ddbaadfe9d12d0f01a61729a6c63a97477dcc809ac",
+    "kind": "fronts",
+    "count": 1,
+    "labels": [
+      {
+        "group": "commander_2020_ikoria",
+        "source": "images/commander_2020_ikoria/commander_2020_ikoria_bottom_title_v6_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          525.15,
+          197.29999999999998,
+          231.0
+        ],
+        "rgb_sha256": "f2ad943dc7db46d991d0a0bfcbbb2943be53471fff96d3267f49e67fca776f90"
+      }
+    ]
+  }
+]

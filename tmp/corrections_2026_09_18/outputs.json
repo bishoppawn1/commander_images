@@ -1,0 +1,37 @@
+[
+  {
+    "id": "lord_of_the_rings_tales_of_middle_earth_commander",
+    "stem": "lord_of_the_rings_centered_wordmark_v3",
+    "count": 4,
+    "base": "images/lord_of_the_rings_tales_of_middle_earth_commander/lord_of_the_rings_centered_wordmark_v3_1800x2100.png",
+    "counted": "images/lord_of_the_rings_tales_of_middle_earth_commander/lord_of_the_rings_centered_wordmark_v3_deck_count_4_1800x2100.png"
+  },
+  {
+    "id": "lost_caverns_of_ixalan_commander",
+    "stem": "lost_caverns_of_ixalan_centered_wordmark_v2",
+    "count": 4,
+    "base": "images/lost_caverns_of_ixalan_commander/lost_caverns_of_ixalan_centered_wordmark_v2_1800x2100.png",
+    "counted": "images/lost_caverns_of_ixalan_commander/lost_caverns_of_ixalan_centered_wordmark_v2_deck_count_4_1800x2100.png"
+  },
+  {
+    "id": "march_of_the_machine_commander",
+    "stem": "march_of_the_machine_large_lower_title_v2",
+    "count": 5,
+    "base": "images/march_of_the_machine_commander/march_of_the_machine_large_lower_title_v2_1800x2100.png",
+    "counted": "images/march_of_the_machine_commander/march_of_the_machine_large_lower_title_v2_deck_count_5_1800x2100.png"
+  },
+  {
+    "id": "throne_of_eldraine_brawl",
+    "stem": "throne_of_eldraine_brawl_four_courts_vivid_v2",
+    "count": 4,
+    "base": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_four_courts_vivid_v2_1800x2100.png",
+    "counted": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_four_courts_vivid_v2_deck_count_4_1800x2100.png"
+  },
+  {
+    "id": "commander_2020_ikoria",
+    "stem": "commander_2020_ikoria_vivid_v3",
+    "count": 5,
+    "base": "images/commander_2020_ikoria/commander_2020_ikoria_vivid_v3_1800x2100.png",
+    "counted": "images/commander_2020_ikoria/commander_2020_ikoria_vivid_v3_deck_count_5_1800x2100.png"
+  }
+]

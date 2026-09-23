@@ -40,3 +40,33 @@ The five files above are unmodified official downloads retained in `src/`. They 
 - Character faces, the rhino head, Kadena's head and staff, and the complete title treatment remain safely framed after the normalization crop.
 - The count seal sits in the true lower-right corner, covers only secondary blue time-magic and the extreme edge of Sevinne's flowing coat, and does not obscure a face, hand, title, or critical silhouette.
 - Both finished PNGs were visually inspected at final size and independently verified as RGB PNG files at exact 1800 × 2100 pixels with 600 × 600 DPI metadata.
+
+
+## Current correction — 2026-09-21
+
+Removed the middle title and plaque and applied the shared lower-middle annual template, leaving all four commander faces clear.
+
+Mode: built-in ImageGen edit, followed by exact CoreGraphics/CoreText finishing in `scripts/build_unified_annual_titles.swift` and the established count/margin scripts. All earlier completed files remain preserved.
+
+- Unmodified accepted raw output: `imagegen_commander_2019_unified_title_v2_raw.png`.
+- Exact edit prompt: `../prompts/commander_2019_unified_title_v2.md`.
+- Current unnumbered full-bleed target: `../commander_2019_unified_title_v2_1800x2100.png`.
+- Current counted print target: `../commander_2019_unified_title_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png`.
+- Raw SHA-256: `8c2df848c2b35636f24e4008cbfa7d8ef08b286840389eff0b19e2a8b8f52c49`.
+- Counted print SHA-256: `a57af13aee51f93ccb69795fcde5de2bfb3356bdae7a1ed1e4e988d6dd51c12a`.
+
+See `images/ANNUAL_ALIGNMENT_2026_09_21.md` for the shared layout, finishing, and PDF verification record.
+
+
+## Current centered-label revision — 2026-09-21
+
+The user requested labels in the middle, between commander portraits. This version supersedes the previous lower-middle annual selection. Built-in ImageGen adjusts the lower portraits to clear the central band; the shared native title builder applies the existing style at top-down center y=1050, bounds y=935...1165. Earlier artwork is preserved.
+
+- Exact prompt and input: `../prompts/commander_2019_centered_title_v3.md`.
+- Accepted unmodified output: `imagegen_commander_2019_centered_title_v3_raw.png`.
+- Full-bleed base: `../commander_2019_centered_title_v3_1800x2100.png`.
+- Selected counted print: `../commander_2019_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png`.
+- Raw SHA-256: `f32dc0448f7cbe4605145c914bbe6ecb6bcba869252396aee32e5cc8cfcc8514`.
+- Selected print SHA-256: `f147e14a859ef158787d4842a9cd8c579a81d5c7b5d3b4377aedd57e0d4e91b3`.
+
+All eight base/counted black-margin masters and eight high-resolution siblings passed the existing validators. See `images/ANNUAL_CENTERED_2026_09_21.md` for the batch record.

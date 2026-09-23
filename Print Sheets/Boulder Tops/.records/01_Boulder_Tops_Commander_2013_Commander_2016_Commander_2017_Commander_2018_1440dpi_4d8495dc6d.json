@@ -1,0 +1,141 @@
+{
+  "signature": "4d8495dc6d9e0d40206b95753419123faeb844cf2787fe64942278904bc93bc6",
+  "pdf": "01_Boulder_Tops_Commander_2013_Commander_2016_Commander_2017_Commander_2018_1440dpi_4d8495dc6d.pdf",
+  "pdf_sha256": "c820cdaf8e1d05312241f61fbaa657c211f8ff8150235562c4e8b5389dc3f286",
+  "kind": "tops",
+  "count": 12,
+  "labels": [
+    {
+      "group": "commander_2013",
+      "source": "images/commander_2013_boulder_deck_box_labels/eternal_bargain_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "686bddf2f8f8d3069f2c9450d4ab2569fe46fcfe965cd60490d6ab0749b218f9"
+    },
+    {
+      "group": "commander_2013",
+      "source": "images/commander_2013_boulder_deck_box_labels/mind_seize_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "73a256f082b0271c999eddbc5c58c77fcba6da80ec93b472d38d22a572b445cf"
+    },
+    {
+      "group": "commander_2016",
+      "source": "images/commander_2016_boulder_deck_box_labels/invent_superiority_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "de3a1f0437a012ce27fabaab2a493f85553d91a2eea12d0301e3ff3289d37154"
+    },
+    {
+      "group": "commander_2016",
+      "source": "images/commander_2016_boulder_deck_box_labels/breed_lethality_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "f48ee112e0a53b5aa6c39cb9e0cbb9d79b1f0181898b264cf2c1d658d25571d3"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017_boulder_deck_box_labels/feline_ferocity_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "de89f9ae956f4bb34645c09d8222bdb6f21efa1d386b79a22e5aba06ad3c6cca"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017_boulder_deck_box_labels/vampiric_bloodlust_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "925b786397e88370226b2fad46d9f3f8a0b312221cbcf23beb0f7ba853c9fbd7"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017_boulder_deck_box_labels/arcane_wizardry_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "09777d91416995743e3fa6c6964d9c01d989c25cb8809a411fcba65fe6ef9835"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017_boulder_deck_box_labels/draconic_domination_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "aed84a212397b2de85d7e1d1d11997dd49021875c9791f1d99b97ba387ab42d5"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018_boulder_deck_box_labels/adaptive_enchantment_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "f3da1ba7be8bb006cce380970f6665884c54c5f1f49fc90911049ba0c7b7a942"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018_boulder_deck_box_labels/exquisite_invention_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "9ccc8b536078842a34785112eed270dd1989be839a7224e4e3ca61cd990b1179"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018_boulder_deck_box_labels/natures_vengeance_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "c5a1df29dc981458f7c36edf24582cac6508756cc4c88c0b9049d5a28284681a"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018_boulder_deck_box_labels/subjective_reality_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "e0373cb800c66be8b787066ca4de06527cf92cccd120ff8628ca1dd1f31aa21e"
+    }
+  ]
+}

@@ -20,9 +20,11 @@ from reportlab.pdfgen import canvas
 ROOT = Path(__file__).resolve().parent
 TOP_SUFFIX = "_boulder_top_label_tall_3960x3360_1440dpi.png"
 VERSION = 1
+OUTPUT_SUBDIRS = {"tops": "Boulder Tops", "fronts": "Fronts"}
 LAYOUTS = {
     "tops": dict(pixels=(3960, 3360), columns=3, rows=4, left=4.5, gap_x=4.5, gap_y=4.5),
-    "fronts": dict(pixels=(4138, 4858), columns=2, rows=3, left=54, gap_y=13.65),
+    # Keep the complete black-margin source, but place the whole image smaller.
+    "fronts": dict(pixels=(4138, 4858), print_pixels=(3946, 4620), columns=2, rows=3, left=54, gap_y=13.65),
 }
 
 
@@ -36,7 +38,8 @@ def digest_file(path):
 
 def layout(kind):
     spec = dict(LAYOUTS[kind])
-    spec["width"], spec["height"] = (n / 1440 * 72 for n in spec["pixels"])
+    print_pixels = spec.get("print_pixels", spec["pixels"])
+    spec["width"], spec["height"] = (n / 1440 * 72 for n in print_pixels)
     spec.setdefault("gap_x", 612 - 2 * spec["left"] - 2 * spec["width"])
     spec["top"] = (792 - spec["rows"] * spec["height"] - (spec["rows"] - 1) * spec["gap_y"]) / 2
     if min(spec["left"], spec["top"], spec["gap_x"], spec["gap_y"]) < 0:
@@ -230,7 +233,8 @@ def main(argv=None):
     parser.add_argument("--sets", help="Comma-separated catalog IDs; use --list to see IDs")
     parser.add_argument("--list", action="store_true", help="List catalog IDs without generating PDFs")
     parser.add_argument("--plan", action="store_true", help="Validate sources and show pages without writing PDFs")
-    parser.add_argument("--output", type=Path, default=ROOT / "Print Sheets")
+    parser.add_argument("--output", type=Path, default=ROOT / "Print Sheets",
+                        help="Parent folder for the Boulder Tops and Fronts subfolders")
     parser.add_argument("--interactive", action="store_true")
     args = parser.parse_args(argv)
     if args.interactive:
@@ -259,7 +263,7 @@ def main(argv=None):
         print("Cancelled. No PDFs changed.")
         return
     for kind, pages in jobs:
-        output = args.output
+        output = args.output / OUTPUT_SUBDIRS[kind]
         results = [build_page(kind, page, i, output) for i, page in enumerate(pages, 1)]
         # Content-addressed PDFs retain older editions. This index identifies the current batch.
         selection = args.scope

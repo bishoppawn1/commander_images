@@ -1,0 +1,9 @@
+{
+  "contactSheetName": "lost_caverns_of_ixalan_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {"slug":"ahoy_mateys","deckName":"AHOY MATEYS","goalDescription":"MILL PIRATES • REANIMATE THE CREW","setName":"THE LOST CAVERNS OF IXALAN","artPath":"images/lost_caverns_of_ixalan_boulder_deck_box_labels/src/regenerated_art_v1/admiral_brass_unsinkable_regenerated_v1.png","colors":["BLUE","BLACK","RED"],"series":2},
+    {"slug":"blood_rites","deckName":"BLOOD RITES","goalDescription":"MAKE VAMPIRES • SACRIFICE FOR DEMONS","setName":"THE LOST CAVERNS OF IXALAN","artPath":"images/lost_caverns_of_ixalan_boulder_deck_box_labels/src/regenerated_art_v1/clavileno_first_of_the_blessed_regenerated_v1.png","colors":["WHITE","BLACK"],"series":2},
+    {"slug":"explorers_of_the_deep","deckName":"EXPLORERS OF THE DEEP","goalDescription":"EXPLORE WITH MERFOLK • GROW THE TEAM","setName":"THE LOST CAVERNS OF IXALAN","artPath":"images/lost_caverns_of_ixalan_boulder_deck_box_labels/src/regenerated_art_v1/hakbal_of_the_surging_soul_regenerated_v1.png","colors":["GREEN","BLUE"],"series":2},
+    {"slug":"veloci_ramp_tor","deckName":"VELOCI-RAMP-TOR","goalDescription":"DISCOVER DINOSAURS • TRAMPLE THE TABLE","setName":"THE LOST CAVERNS OF IXALAN","artPath":"images/lost_caverns_of_ixalan_boulder_deck_box_labels/src/regenerated_art_v1/pantlaza_sun_favored_regenerated_v1.png","colors":["RED","GREEN","WHITE"],"series":2}
+  ]
+}

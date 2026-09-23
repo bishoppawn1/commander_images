@@ -1,0 +1,11 @@
+[
+  {
+    "id": "commander_2020_ikoria",
+    "base": "images/commander_2020_ikoria/commander_2020_ikoria_bottom_title_v6_1800x2100.png",
+    "counted": "images/commander_2020_ikoria/commander_2020_ikoria_bottom_title_v6_deck_count_5_1800x2100.png",
+    "base_600dpi": "images/commander_2020_ikoria/commander_2020_ikoria_bottom_title_v6_1724x2024_black_margin_1_8in.png",
+    "base_1440dpi": "images/commander_2020_ikoria/commander_2020_ikoria_bottom_title_v6_4138x4858_1440dpi_black_margin_1_8in.png",
+    "counted_600dpi": "images/commander_2020_ikoria/commander_2020_ikoria_bottom_title_v6_deck_count_5_1724x2024_black_margin_1_8in.png",
+    "counted_1440dpi": "images/commander_2020_ikoria/commander_2020_ikoria_bottom_title_v6_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png"
+  }
+]

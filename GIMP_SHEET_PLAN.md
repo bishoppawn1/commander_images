@@ -12,7 +12,7 @@ Keep the existing 2-column × 3-row order:
 | Row | Left | Right |
 | --- | --- | --- |
 | 1 | Adventures in the Forgotten Realms | Bloomburrow |
-| 2 | Commander Legends / Phyrexia: All Will Be One | Commander 2013 / Commander 2016 |
+| 2 | Zendikar Rising / Commander Legends | Commander 2013 / Commander 2016 |
 | 3 | Commander 2017 | Commander 2018 |
 
 Align each column's left edges, align the top edges across each row, and make
@@ -48,15 +48,15 @@ Align column edges and row tops. Equalize the row gaps: the gap above the bottom
 row is visibly smaller than the one above the middle row. Balance top/bottom
 margins and center the overall grid horizontally.
 
-## Sheet 4 — Brothers' War / Throne of Eldraine Brawl
+## Sheet 4 — Kamigawa / Throne of Eldraine Brawl
 
 Keep the existing 2-column × 3-row order:
 
 | Row | Left | Right |
 | --- | --- | --- |
-| 1 | The Brothers' War / Wilds of Eldraine | Throne of Eldraine Brawl |
+| 1 | Kamigawa: Neon Dynasty / The Brothers' War | Throne of Eldraine Brawl |
 | 2 | Secret Lair | Warhammer 40,000 |
-| 3 | Turtle Power! | Zendikar Rising / Kamigawa: Neon Dynasty |
+| 3 | Turtle Power! | Phyrexia: All Will Be One / Wilds of Eldraine |
 
 Align the top row, where the right image currently starts lower. Straighten the
 left column and equalize both vertical gaps in both columns; the right-hand

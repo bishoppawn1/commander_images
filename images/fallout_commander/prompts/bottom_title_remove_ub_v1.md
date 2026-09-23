@@ -1,0 +1,1 @@
+Remove the top FALLOUT title and lower-left MAGIC THE GATHERING / UNIVERSES BEYOND label from the existing Fallout image, reconstruct the background, and place the official FALLOUT logo at the bottom. Preserve the power armor and count seal.

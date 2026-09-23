@@ -1,0 +1,41 @@
+{
+  "contactSheetName": "throne_of_eldraine_brawl_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "wild_bounty",
+      "deckName": "WILD BOUNTY",
+      "goalDescription": "CAST CREATURES • DRAW & PLAY LANDS",
+      "setName": "THRONE OF ELDRAINE BRAWL",
+      "artPath": "images/throne_of_eldraine_brawl_boulder_deck_box_labels/src/regenerated_art_v1/chulane_teller_of_tales_regenerated_v1.png",
+      "colors": ["GREEN", "WHITE", "BLUE"],
+      "series": 2
+    },
+    {
+      "slug": "faerie_schemes",
+      "deckName": "FAERIE SCHEMES",
+      "goalDescription": "CAST ARTIFACTS • BUILD FLYING TOKENS",
+      "setName": "THRONE OF ELDRAINE BRAWL",
+      "artPath": "images/throne_of_eldraine_brawl_boulder_deck_box_labels/src/regenerated_art_v1/alela_artful_provocateur_regenerated_v1.png",
+      "colors": ["WHITE", "BLUE", "BLACK"],
+      "series": 2
+    },
+    {
+      "slug": "knights_charge",
+      "deckName": "KNIGHTS’ CHARGE",
+      "goalDescription": "ATTACK WITH KNIGHTS • RECUR THE FALLEN",
+      "setName": "THRONE OF ELDRAINE BRAWL",
+      "artPath": "images/throne_of_eldraine_brawl_boulder_deck_box_labels/src/regenerated_art_v1/syr_gwyn_hero_of_ashvale_regenerated_v1.png",
+      "colors": ["RED", "WHITE", "BLACK"],
+      "series": 2
+    },
+    {
+      "slug": "savage_hunger",
+      "deckName": "SAVAGE HUNGER",
+      "goalDescription": "SACRIFICE PERMANENTS • GROW KORVOLD",
+      "setName": "THRONE OF ELDRAINE BRAWL",
+      "artPath": "images/throne_of_eldraine_brawl_boulder_deck_box_labels/src/regenerated_art_v1/korvold_fae_cursed_king_regenerated_v1.png",
+      "colors": ["BLACK", "RED", "GREEN"],
+      "series": 2
+    }
+  ]
+}

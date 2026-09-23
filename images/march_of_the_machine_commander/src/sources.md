@@ -105,3 +105,10 @@ Verified with `src/verify_targets.swift` and visual inspection:
 - The frame is full bleed and visually dense. A 6 × 7 tile analysis measured luminance standard deviations from 9.19 to 99.05 (median 50.66); the darkest lower tiles still contain visible rock, fissure, and rubble detail.
 - The active counted face shows one `5` seal in the true lower-right corner. Detected gold-rim geometry: 210-pixel diameter, right edge at x=1730 and bottom edge at y=70 in Core Graphics coordinates, yielding exact 70-pixel right and bottom insets.
 - The seal sits entirely below the title and covers only noncritical rocky foreground.
+
+
+## Completed drawer-front correction — 2026-09-19
+
+Built-in ImageGen removed the old title from the rock; raw result: src/imagegen_title_removed_v2_raw.png. The compositor restores the original upper 1000 pixels with a 40 px transition and places the retained official logo at 1580 px width, centered, with its bottom at y=315 in CoreGraphics coordinates. Count remains 5. Exact prompt: prompts/correction_2026_09_18.md. Build: src/build_large_title_v2.swift.
+
+Final stem: `march_of_the_machine_large_lower_title_v2`. Both unnumbered and counted full-bleed masters are retained, together with standard 1724x2024 / 600-DPI black-margin masters and 4138x4858 / 1440-DPI print derivatives. Earlier versions remain preserved. The print catalog selects the new counted derivative.

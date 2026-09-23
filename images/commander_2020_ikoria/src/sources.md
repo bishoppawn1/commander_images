@@ -52,3 +52,16 @@ The finalized adaptation brief is retained at `../prompts/commander_2020_ikoria_
 - Both finished PNGs verified at exactly 1800 × 2100 pixels and 600 × 600 DPI.
 - Count seal visually inspected at full resolution and drawer scale in the actual lower-right corner with equal 70-pixel insets; the `5` remains immediately legible and does not cover critical focal detail or identification text.
 - A second independent run of `scripts/apply_deck_count.swift` with marker specification `5:1800` reproduced the counted final byte-for-byte with the same SHA-256.
+
+
+## Completed drawer-front correction — 2026-09-19
+
+Built-in ImageGen first increased color and contrast (src/imagegen_vivid_color_v3_raw.png), then enlarged and centered IKORIA and the LAIR OF BEHEMOTHS subtitle (src/imagegen_large_title_v4_raw.png). The subtitle lettering clears the standard lower-right 5 seal. Exact prompts: prompts/correction_2026_09_18.md and prompts/correction_2026_09_19.md. Final normalization: sips to 1800x2100 with 600-DPI metadata.
+
+Final stem: `commander_2020_ikoria_vivid_large_title_v4`. Both unnumbered and counted full-bleed masters are retained, together with standard 1724x2024 / 600-DPI black-margin masters and 4138x4858 / 1440-DPI print derivatives. Earlier versions remain preserved. The print catalog selects the new counted derivative.
+
+## Readability refinement v5 — 2026-09-20
+
+Active full-bleed target: `commander_2020_ikoria_crystal_commander_v5_1800x2100.png`; counted target uses the standard 5 seal. Both have validated 600-DPI black-margin masters and 1440-DPI derivatives.
+
+Built-in ImageGen edit of the v4 unnumbered master; exact prompt: `../prompts/crystal_commander_v5.md`. Untouched generated output: `imagegen_crystal_commander_v5_raw.png`. Native builder `build_crystal_commander_v5.swift` retains generated top 500px with a 40px blend; original pixels below y=540 remain unchanged. sRGB 1800x2100 at 600 DPI.

@@ -28,9 +28,9 @@ The label should reveal as much of the background art as possible. Keep the mana
 
 ## 3. Regenerate the commander background
 
-Use built-in OpenAI ImageGen once per deck when a suitable clean source painting is unavailable or too small. Treat the commander painting as an identity reference, not an edit target. Ask for a newly composed, bright, print-oriented 33:28 tall-landscape painting—approximately 6:5—with no embedded text.
+Use built-in OpenAI ImageGen once per deck when a suitable clean source painting is unavailable or too small. Treat the commander painting as an identity reference, not an edit target. Ask for a newly composed, bright, print-oriented **horizontal 33:28 landscape painting**—width:height, approximately 6:5, and never portrait—with no embedded text.
 
-Preserve the subject's identity and defining silhouette. Keep important anatomy in the central 78%, extend coherent scenery to every edge, lift shadow detail for printing, and maintain calm regions behind the compact text block.
+Preserve the subject's identity and defining silhouette. Keep the face, head, body, hands, equipment, and important anatomy inside the central 72%, reserve the top 20% for mana symbols, extend coherent scenery to every edge, lift shadow detail for printing, and maintain a calm darker region behind the compact bottom text block.
 
 Never ask ImageGen to spell the label. Add every symbol and character of text deterministically afterward.
 
@@ -38,32 +38,36 @@ Reusable prompt pattern:
 
 ```text
 Use case: identity-preserve
-Asset type: newly regenerated high-resolution background for a premium 3300 x 2800 pixel, 1,200-DPI Commander deck-box label
+Asset type: newly regenerated high-resolution background for a premium 3960 x 3360 pixel, 1,440-DPI Commander deck-box top label
 Input images: Image 1 is the exact clean visual-identity reference.
-Primary request: regenerate—not resize or stretch—the same [COMMANDER DESCRIPTION] as a new exceptionally crisp 33:28 tall-landscape fantasy painting.
-Composition/framing: approximately 6:5; subject centered; defining face, pose, equipment, and silhouette inside the central 78%; newly painted scenery extends to every edge; calm overlay region across the bottom; large unobstructed artwork region between the top symbols and bottom text block.
-Lighting/mood: bright print-oriented exposure, lifted midtones and shadows, no crushed blacks.
-Constraints: preserve identity; premium painterly collectible-card realism; no text, letters, numbers, logos, card frame, watermark, or signature.
-Avoid: halftone, paper grain, pixels, compression, blur, muddy detail, plastic 3D rendering, anime styling.
+Primary request: regenerate—not resize, stretch, or merely crop—the same [COMMANDER DESCRIPTION] as a new exceptionally crisp horizontal 33:28 landscape fantasy painting.
+Composition/framing: horizontal width:height ratio of 33:28, approximately 6:5, never portrait; reserve the entire top 20% as unobstructed scenery for the centered mana-symbol row; place the subject's head below that clear zone; keep the face, head, body, hands, equipment, and defining silhouette inside the central 72%; newly painted scenery extends naturally to every edge; reserve a calm darker bottom 24% for later typography.
+Lighting/mood: bright print-oriented exposure, lifted midtones and shadows, precise edges, smooth tonal gradients, and no crushed blacks.
+Constraints: preserve identity; polished collectible-card realism with clean brushwork and restrained texture; no text, letters, numbers, logos, symbols, card frame, watermark, or signature.
+Avoid: portrait orientation, vertical canvas, halftone, stippling, paper grain, film grain, canvas texture, noisy brush texture, pixels, compression, blur, muddy detail, plastic 3D rendering, anime styling.
 ```
 
 Record each exact prompt and retain generated source paintings in a versioned source directory.
 
 ## 4. Deterministic print canvas
 
-- Final pixels: **3300 × 2800**
-- Embedded density: **1200 DPI**
+- Final pixels: **3960 × 3360**
+- Embedded density: **1440 DPI**
 - Printed size at Actual Size: **2.75 × 2.333 inches**
 - Metric size: **69.85 × 59.27 mm**
 - Color space: sRGB
 - File type: PNG
 - Printing: **100% / Actual Size**, with Fit to Page and automatic scaling disabled
 
+The renderer retains the original 3300 × 2800 logical coordinate system and scales it uniformly by 1.2 for the 1440-DPI output. This preserves the established layout while rerendering text, symbols, borders, and source artwork at the higher pixel dimensions. Set `BOULDER_DPI=1440` when building. Set `BOULDER_SKIP_CONTACT_SHEET=1` when only deck-top files should be written.
+
+This specification applies to `boulder_top_label` outputs only. Do not apply the DPI conversion to front, face, battle-face, contact-sheet, source-art, or archive files unless separately requested.
+
 The format fills most of the Boulder lid's usable flat area while remaining clear of its rounded or chamfered lip.
 
-## 5. Default 3300 × 2800 layout
+## 5. Default logical 3300 × 2800 layout
 
-Coordinates use a bottom-left origin. Adapt type size to content, but retain the compact structure.
+Coordinates use a bottom-left origin and are scaled uniformly to the 3960 × 3360 output. Adapt type size to content, but retain the compact structure.
 
 1. Draw authentic MTG mana symbols as 320 px circles centered at y=2530. Center the row horizontally with a 60 px gap. Keep every symbol fully inside the inner artwork frame and clear of the title.
 2. Draw the one-line deck title at baseline y=630. Start around 340 px condensed-black uppercase and reduce as needed, with a suggested minimum of 220 px.
@@ -95,8 +99,8 @@ Do not put one product's deck list, strategy summaries, or product-only wording 
 ## 7. Quality checks
 
 - Confirm every expected output exists.
-- Confirm every file is exactly 3300 × 2800 pixels.
-- Confirm both DPI axes are exactly 1200.
+- Confirm every 1440-DPI deck top is exactly 3960 × 3360 pixels.
+- Confirm both DPI axes are exactly 1440.
 - Confirm every mana symbol is fully inside the artwork frame and does not overlap the title.
 - Confirm each title is one line whenever legibility permits.
 - Confirm the set name is one line unless an intentional established treatment requires otherwise.
@@ -104,4 +108,6 @@ Do not put one product's deck list, strategy summaries, or product-only wording 
 - Confirm dividers do not touch lettering.
 - Inspect a contact sheet for consistent borders, symbol order, text scale, compact spacing, and visible background art.
 - Inspect every label at full resolution for clipping, misspellings, softness, crushed shadows, and symbol defects.
+- Reject any generated source whose pixel width is not greater than its pixel height before compositing.
+- Reject visible halftone, stippling, paper grain, film grain, canvas texture, or noisy brush texture at full resolution.
 - Print a physical proof at 100% before producing a full set.

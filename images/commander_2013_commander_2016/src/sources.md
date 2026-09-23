@@ -1,8 +1,21 @@
-# Commander 2013 | Commander 2016 optional split — source and production record
+# Commander 2013 | Commander 2016 — active chronological pairing
+
+The active 2026-09-17 replacement uses the already approved Commander 2013 and Commander 2016 half-panels without generative redrawing. The two exact 900 × 2100 panel sources are retained in `approved_panels/`; `scripts/build_chronological_pair_faces.swift` places them left-to-right, adds one six-pixel antique-gold divider, and writes the 1800 × 2100 sRGB base at 600 DPI. `scripts/apply_deck_count.swift` adds `2 | 2` with `2:900 2:1800`.
+
+| Approved panel | Role | SHA-256 |
+| --- | --- | --- |
+| `approved_panels/commander_2013_approved_left_panel_900x2100.png` | Commander 2013, left | `9ef8b5c218e4c628e7ebfe1b15d652cd2b51c7c1aec383a467073288bbb4a224` |
+| `approved_panels/commander_2016_approved_right_panel_900x2100.png` | Commander 2016, right | `ab4d0ac0022a414e33c2d16b0321cb8211024834db66685a4f834ccbf8aaa85f` |
+
+Active full-bleed files are `commander_2013_commander_2016_vertical_split_chronological_v2_1800x2100.png` and its `_deck_counts_2_2_1800x2100.png` sibling. Each also has the canonical 600-DPI black-margin master and required 1440-DPI print derivative. The archived atmospheric-typography v1 output family was deleted at the user's request on 2026-09-17. The historical construction record below remains for provenance.
+
+Production brief: `../prompts/commander_2013_commander_2016_vertical_split_chronological_v2_brief.md`. No new ImageGen prompt or model was used for this repair.
+
+# Superseded v1 source and production record
 
 ## Scope and count decision
 
-This directory is an optional combined candidate only. It does not replace the standalone Commander 2013 or Commander 2016 faces and does not change their standalone drawer grouping.
+This section records the superseded v1 construction. It is historical and no longer defines the active grouping.
 
 - Left panel: Commander 2013, two owned decks — Eternal Bargain and Mind Seize — count seal `2`.
 - Right panel: Commander 2016, two owned decks — Invent Superiority and Breed Lethality — count seal `2`.
@@ -84,3 +97,35 @@ f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68  OFL_AlegreyaSC
 9d472750e76859b62bbb51d6b01e59dd310d800f81c7b367a0909c1a90203785  commander_2013_commander_2016_vertical_split_atmospheric_typography_v1_drawer_preview.png
 40ff4acda110c69fa512a61f9635379ceb0e4411284b7b85d1dc6c6e55b05972  commander_2013_commander_2016_vertical_split_atmospheric_typography_v1_deck_counts_2_2_drawer_preview.png
 ```
+
+
+## Current correction — 2026-09-21
+
+Added Atraxa, Praetors' Voice alongside Breya, so the right half visibly represents Breed Lethality and Invent Superiority. Preserved Jeleva and Oloro on the left. Matching two-line annual titles now share the same gold-outlined dark plaque and vertical coordinates; counts remain 2 / 2.
+
+Mode: built-in ImageGen edit, followed by exact CoreGraphics/CoreText finishing in `scripts/build_unified_annual_titles.swift` and the established count/margin scripts. All earlier completed files remain preserved.
+
+- Unmodified accepted raw output: `imagegen_commander_2013_commander_2016_vertical_split_unified_v3_raw.png`.
+- Exact edit prompt: `../prompts/commander_2013_commander_2016_vertical_split_unified_v3.md`.
+- Current unnumbered full-bleed target: `../commander_2013_commander_2016_vertical_split_unified_v3_1800x2100.png`.
+- Current counted print target: `../commander_2013_commander_2016_vertical_split_unified_v3_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png`.
+- Raw SHA-256: `2f61283998c66d4420d38cea2ea1e564870c88a46d3c1c77bc798db876e268dd`.
+- Counted print SHA-256: `2cbaef4995f3ccb0a1c90c85273cbb7e91e0124369ebdd25204d03890d2bb1b4`.
+
+See `images/ANNUAL_ALIGNMENT_2026_09_21.md` for the shared layout, finishing, and PDF verification record.
+
+Atraxa identity input is `atraxa_praetors_voice_reference.jpg`, copied without alteration from `images/commander_anthology_ii/src/atraxa_praetors_voice.jpg`. This reuses a character reference only; the owned Anthology II deck remains in Anthology II. Official identity verification: https://magic.wizards.com/en/news/magic-story/its-time-talk-commander-2016-edition-2016-10-26 .
+
+
+## Current centered-label revision — 2026-09-21
+
+The user requested labels in the middle, between commander portraits. This version supersedes the previous lower-middle annual selection. Built-in ImageGen adjusts the lower portraits to clear the central band; the shared native title builder applies the existing style at top-down center y=1050, bounds y=935...1165. Earlier artwork is preserved.
+
+- Exact prompt and input: `../prompts/commander_2013_commander_2016_vertical_split_centered_v4.md`.
+- Accepted unmodified output: `imagegen_commander_2013_commander_2016_vertical_split_centered_v4_raw.png`.
+- Full-bleed base: `../commander_2013_commander_2016_vertical_split_centered_v4_1800x2100.png`.
+- Selected counted print: `../commander_2013_commander_2016_vertical_split_centered_v4_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png`.
+- Raw SHA-256: `3d58ced15b63b02b89f049d05630d24436dd1b0bd2d8eb9943625ddd214cec7a`.
+- Selected print SHA-256: `88b146ed020d92a8fc1ea01edd11f208e92a8fd575be4fb9df18930ceb9cadfa`.
+
+All eight base/counted black-margin masters and eight high-resolution siblings passed the existing validators. See `images/ANNUAL_CENTERED_2026_09_21.md` for the batch record.

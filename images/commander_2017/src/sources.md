@@ -40,3 +40,33 @@ The five files above are unmodified downloads retained in `src/`. They are refer
 - Faces, dragon head, and title remain within print-safe framing after the normalization crop.
 - The count seal sits in the true lower-right corner and covers only secondary spell-energy texture, not a face, title, or critical silhouette.
 - Both finished PNGs were visually inspected after output and independently verified as 1800 × 2100 with 600-DPI metadata.
+
+
+## Current correction — 2026-09-21
+
+Replaced the old title with the shared annual template; preserved Edgar Markov, the dragon, Arahbo and Inalla artwork.
+
+Mode: built-in ImageGen edit, followed by exact CoreGraphics/CoreText finishing in `scripts/build_unified_annual_titles.swift` and the established count/margin scripts. All earlier completed files remain preserved.
+
+- Unmodified accepted raw output: `imagegen_commander_2017_unified_title_v2_raw.png`.
+- Exact edit prompt: `../prompts/commander_2017_unified_title_v2.md`.
+- Current unnumbered full-bleed target: `../commander_2017_unified_title_v2_1800x2100.png`.
+- Current counted print target: `../commander_2017_unified_title_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png`.
+- Raw SHA-256: `4e07d395831d322a71fbc15b7221fcfb10945ac059b5cb3aed7fef06a0e55adb`.
+- Counted print SHA-256: `38b5204505f0e1f35f36c85d0cd705cfcf03343e9bda043b96d38f7db8b51e51`.
+
+See `images/ANNUAL_ALIGNMENT_2026_09_21.md` for the shared layout, finishing, and PDF verification record.
+
+
+## Current centered-label revision — 2026-09-21
+
+The user requested labels in the middle, between commander portraits. This version supersedes the previous lower-middle annual selection. Built-in ImageGen adjusts the lower portraits to clear the central band; the shared native title builder applies the existing style at top-down center y=1050, bounds y=935...1165. Earlier artwork is preserved.
+
+- Exact prompt and input: `../prompts/commander_2017_centered_title_v3.md`.
+- Accepted unmodified output: `imagegen_commander_2017_centered_title_v3_raw.png`.
+- Full-bleed base: `../commander_2017_centered_title_v3_1800x2100.png`.
+- Selected counted print: `../commander_2017_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png`.
+- Raw SHA-256: `0831601b250dd362ae97bc7d4a56988489c5e215f329b982c6cb645d509c02e1`.
+- Selected print SHA-256: `750e9782f62b70c5b22b9ba2b745c2a11217ab5e33ae2185ab42a61f0a875321`.
+
+All eight base/counted black-margin masters and eight high-resolution siblings passed the existing validators. See `images/ANNUAL_CENTERED_2026_09_21.md` for the batch record.

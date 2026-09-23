@@ -1,0 +1,6 @@
+Use case: text-localization
+Asset type: MTG drawer-front print artwork, portrait 6:7.
+Input: ../commander_2020_ikoria_vivid_large_title_v4_1800x2100.png, approved vivid image.
+Edit only the top COMMANDER 2020 heading and its thin gold underline. Replace the gold lettering with exact text "COMMANDER 2020" in large bold angular serif lettering matching the crystalline icy-white/cyan material, chiseled shapes and bright bevels of the existing IKORIA wordmark at the bottom. Keep COMMANDER 2020 one line in the same top area, centered, with compact natural spacing and a generous safe inset. Use strong dark navy edge/shadow and a subtle dark teal backing immediately behind the letters so it reads easily against the blue sky and gold fur at small print size. Remove the thin gold divider; use a restrained cyan crystal rule only if needed. No crest or large opaque panel. Keep the heading subordinate to the main IKORIA wordmark while still very easy to read.
+Preserve the existing IKORIA / LAIR OF BEHEMOTHS wordmark, all characters and creatures, facial anatomy, landscape, framing, exact vivid brightness and composition. Change no other part. Do not add a number seal, watermark or additional words.
+Generation mode: built-in ImageGen edit. Preserve raw output; normalize with native sRGB pipeline and composite only the edited top region onto the approved master.

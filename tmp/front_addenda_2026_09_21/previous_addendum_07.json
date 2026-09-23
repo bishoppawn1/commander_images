@@ -1,0 +1,66 @@
+[
+  {
+    "signature": "eea7422af974ff201573c0a27e2c7beacda0d79e0846b5e2a76c5caa621747a8",
+    "pdf": "07_Addendum_Forgotten_Realms_Warhammer_40000_Commander_2020_Ikoria_Eldraine_Brawl_Zendikar_Rising_Commander_Legends_1440dpi_eea7422af9.pdf",
+    "pdf_sha256": "61b709e4a9d9c26b4e273d1f852d7555b58ae9ef028d16c02c0f6259979dc5c6",
+    "kind": "fronts",
+    "count": 5,
+    "labels": [
+      {
+        "group": "adventures_forgotten_realms_commander",
+        "source": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "7d9c7d8b726d1c3dbfaa9d912eb5060974e830806ae28585c5369380702c65b3"
+      },
+      {
+        "group": "warhammer_40000_commander",
+        "source": "images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          531.1,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "2a5ae381017abe6e5018961a3c693fcdc829b24330bce99edcee6e97712a5f6e"
+      },
+      {
+        "group": "commander_2020_ikoria",
+        "source": "images/commander_2020_ikoria/commander_2020_ikoria_crystal_commander_v5_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "23777873a9ed7425f7940f6093bdfd26b98b69f4fe982ed8ddd4108f53c357ef"
+      },
+      {
+        "group": "throne_of_eldraine_brawl",
+        "source": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_unified_shadow_v6_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          351.1,
+          274.55000000000007,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "8638cfa36600f2e4dd5154c31ac0c6c00df4034f6dadc2bd205b1e02eaf859c3"
+      },
+      {
+        "group": "zendikar_rising_commander_legends",
+        "source": "images/zendikar_rising_commander_legends/zendikar_rising_commander_legends_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          18.000000000000114,
+          206.89999999999998,
+          242.89999999999998
+        ],
+        "rgb_sha256": "f5fbd788ac08f372b96c891f5e441f2525a5bf4e55b8051ffb36cfeb6cd64381"
+      }
+    ]
+  }
+]

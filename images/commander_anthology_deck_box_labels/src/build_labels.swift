@@ -6,9 +6,13 @@ import Foundation
 import ImageIO
 import UniformTypeIdentifiers
 
-private let canvasWidth = 3300
-private let canvasHeight = 2800
-private let outputDPI = 1200
+private let logicalCanvasWidth = 3300
+private let logicalCanvasHeight = 2800
+private let baseDPI = 1200
+private let outputDPI = max(72, Int(ProcessInfo.processInfo.environment["BOULDER_DPI"] ?? "") ?? baseDPI)
+private let renderScale = CGFloat(outputDPI) / CGFloat(baseDPI)
+private let canvasWidth = Int((CGFloat(logicalCanvasWidth) * renderScale).rounded())
+private let canvasHeight = Int((CGFloat(logicalCanvasHeight) * renderScale).rounded())
 
 enum ManaColor: String {
     case white = "WHITE"
@@ -430,7 +434,8 @@ func writePNG(_ image: CGImage, to url: URL, dpi: Int) {
 
 func renderLabel(_ label: DeckLabel) -> CGImage {
     let context = makeContext(width: canvasWidth, height: canvasHeight)
-    let bounds = CGRect(x: 0, y: 0, width: canvasWidth, height: canvasHeight)
+    context.scaleBy(x: renderScale, y: renderScale)
+    let bounds = CGRect(x: 0, y: 0, width: logicalCanvasWidth, height: logicalCanvasHeight)
     context.setFillColor(nearBlack)
     context.fill(bounds)
 
@@ -464,7 +469,7 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
             CGColor(srgbRed: 0.005, green: 0.008, blue: 0.014, alpha: 0.00)
         ],
         locations: [0, 0.54, 1],
-        startY: 2800,
+        startY: CGFloat(logicalCanvasHeight),
         endY: 2180
     )
     drawVerticalGradient(
@@ -497,7 +502,7 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
     let pipDiameter: CGFloat = 320
     let pipGap: CGFloat = 60
     let totalPipWidth = CGFloat(label.colors.count) * pipDiameter + CGFloat(max(0, label.colors.count - 1)) * pipGap
-    var pipX = CGFloat(canvasWidth) / 2 - totalPipWidth / 2 + pipDiameter / 2
+    var pipX = CGFloat(logicalCanvasWidth) / 2 - totalPipWidth / 2 + pipDiameter / 2
     for manaColor in label.colors {
         drawPip(manaColor, center: CGPoint(x: pipX, y: 2530), diameter: pipDiameter, context: context)
         pipX += pipDiameter + pipGap
@@ -562,12 +567,13 @@ try? FileManager.default.createDirectory(at: outputDirectory, withIntermediateDi
 var rendered: [(DeckLabel, CGImage)] = []
 for label in labels {
     let image = renderLabel(label)
-    let outputURL = outputDirectory.appendingPathComponent("\(label.slug)_boulder_top_label_tall_3300x2800_1200dpi.png")
+    let outputURL = outputDirectory.appendingPathComponent("\(label.slug)_boulder_top_label_tall_\(canvasWidth)x\(canvasHeight)_\(outputDPI)dpi.png")
     writePNG(image, to: outputURL, dpi: outputDPI)
     rendered.append((label, image))
     print("Wrote \(outputURL.path)")
 }
 
+if ProcessInfo.processInfo.environment["BOULDER_SKIP_CONTACT_SHEET"] != "1" {
 let previewWidth = 1700
 let previewHeight = 2900
 let previewContext = makeContext(width: previewWidth, height: previewHeight)
@@ -593,3 +599,4 @@ guard let previewImage = previewContext.makeImage() else { fail("Could not rende
 let previewURL = outputDirectory.appendingPathComponent("commander_anthology_boulder_labels_tall_1200dpi_contact_sheet.png")
 writePNG(previewImage, to: previewURL, dpi: 144)
 print("Wrote \(previewURL.path)")
+}

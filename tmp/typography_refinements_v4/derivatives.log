@@ -1,0 +1,21 @@
+READY throne_of_eldraine_brawl_luminari_clear_v4_1724x2024_black_margin_1_8in.png
+READY throne_of_eldraine_brawl_luminari_clear_v4_deck_count_4_1724x2024_black_margin_1_8in.png
+READY adventures_forgotten_realms_contrast_tight_v4_1724x2024_black_margin_1_8in.png
+READY adventures_forgotten_realms_contrast_tight_v4_deck_count_4_1724x2024_black_margin_1_8in.png
+READY warhammer_40000_unified_crest_v4_1724x2024_black_margin_1_8in.png
+READY warhammer_40000_unified_crest_v4_deck_count_4_1724x2024_black_margin_1_8in.png
+PASS images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_luminari_clear_v4_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+PASS images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_luminari_clear_v4_deck_count_4_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+PASS images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+PASS images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_deck_count_4_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+PASS images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+PASS images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_deck_count_4_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_luminari_clear_v4_4138x4858_1440dpi_black_margin_1_8in.png
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_luminari_clear_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_4138x4858_1440dpi_black_margin_1_8in.png
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_4138x4858_1440dpi_black_margin_1_8in.png
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png
+DONE: 6 drawer-face image(s) converted to 4138x4858 at 1440 DPI.
+PASS: 6 drawer-face images are 4138x4858, 1440x1440 DPI, 8-bit sRGB RGB(A) PNGs.
+All derivatives built and validated.

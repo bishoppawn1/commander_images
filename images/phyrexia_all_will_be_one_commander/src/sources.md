@@ -11,7 +11,7 @@ Downloaded and produced 2026-08-26. All remote sources are official Wizards of t
 - [Official Magic product page](https://magic.wizards.com/en/products/phyrexia-all-will-be-one) identifies the Commander product category and the set's Elesh Norn / biomechanical-zealot visual direction.
 - [Official WPN product and marketing-material page](https://wpn.wizards.com/en/products/phyrexia-all-will-be-one) publishes the retained art/logo archive, 24 × 36 key-art poster, social-media archive, and oversized-art source.
 
-These authoritative sources establish total ownership at **2/2**. The current physical drawer allocation represents **both** decks on the Commander Legends | Phyrexia: All Will Be One split face, whose right marker is `2`. Both preserved standalone visual candidates retain their original `2` counted siblings in the set root as alternate full-release targets; they are not an additional drawer allocation. Incorrect `1` siblings from the superseded allocation pass are retained only under `superseded_correction_history/`.
+These authoritative sources establish total ownership at **2/2**. The current physical drawer allocation represents **both** decks on the Phyrexia: All Will Be One | Wilds of Eldraine split face, whose left marker is `2`. Both preserved standalone visual candidates retain their original `2` counted siblings in the set root as alternate full-release targets; they are not an additional drawer allocation. Incorrect `1` siblings from the superseded allocation pass are retained only under `superseded_correction_history/`.
 
 ## Retained official sources and references
 

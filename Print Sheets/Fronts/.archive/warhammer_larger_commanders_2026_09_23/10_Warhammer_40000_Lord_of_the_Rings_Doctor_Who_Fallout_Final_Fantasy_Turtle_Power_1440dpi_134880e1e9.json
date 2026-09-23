@@ -1,0 +1,75 @@
+{
+  "signature": "134880e1e93256c346f7cef62f1be4bb56bc29733cb5b19cfd573ca519f04da3",
+  "pdf": "10_Warhammer_40000_Lord_of_the_Rings_Doctor_Who_Fallout_Final_Fantasy_Turtle_Power_1440dpi_134880e1e9.pdf",
+  "pdf_sha256": "af2804edddfe62eaa50ed477eb7b971fb88c9e5d9dbc412c64f8e955983a4d90",
+  "kind": "fronts",
+  "count": 6,
+  "labels": [
+    {
+      "group": "warhammer_40000_commander",
+      "source": "images/warhammer_40000_commander/warhammer_bottom_title_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        525.15,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "acd9af2bf4c0e9ec3815b3660d7536a049421837247ef96a4eef0127484fd544"
+    },
+    {
+      "group": "lord_of_the_rings_tales_of_middle_earth_commander",
+      "source": "images/lord_of_the_rings_tales_of_middle_earth_commander/lord_of_the_rings_bottom_title_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        360.70000000000005,
+        525.15,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "2d29d5debb71249c22ed4438e13a8fba00270a3c0e56ee9947f2db4a5cddb3be"
+    },
+    {
+      "group": "doctor_who_commander",
+      "source": "images/doctor_who_commander/doctor_who_commander_official_wpn_tardis_key_art_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        280.5,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "13dfd5779d3563090f79abd96470cf429b949c944fcf9d31adeb733356bc45a0"
+    },
+    {
+      "group": "fallout_commander",
+      "source": "images/fallout_commander/fallout_bottom_title_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        360.70000000000005,
+        280.5,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "eca7b0c89d937ca849a5f54001cfeb82e914a595e71d84de3afa472b308a9f38"
+    },
+    {
+      "group": "final_fantasy_commander",
+      "source": "images/final_fantasy_commander/final_fantasy_commander_official_key_art_crystal_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        35.849999999999966,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "9f9ce7f20e022a59e25b6ae37eeb48b489814795fc70efc5639f3f9bb5870cc5"
+    },
+    {
+      "group": "turtle_power_commander",
+      "source": "images/turtle_power_commander/turtle_power_bottom_title_v1_deck_count_1_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        360.70000000000005,
+        35.849999999999966,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "3e4da1bf9f86888c9a2e275103266185f6e48c5e35c216d5ebf148de0ed138ef"
+    }
+  ]
+}

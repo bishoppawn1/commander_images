@@ -1,0 +1,9 @@
+{
+  "contactSheetName":"marvel_super_heroes_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels":[
+    {"slug":"avengers_assemble","deckName":"AVENGERS ASSEMBLE","goalDescription":"ASSEMBLE HEROES • ATTACK AS A TEAM","setName":"MARVEL SUPER HEROES","artPath":"images/marvel_super_heroes_boulder_deck_box_labels/src/references/captain_america_team_leader.jpg","colors":["BLUE","RED","WHITE"],"series":2},
+    {"slug":"wakanda_forever","deckName":"WAKANDA FOREVER","goalDescription":"MAKE VIBRANIUM • EMPOWER WAKANDA","setName":"MARVEL SUPER HEROES","artPath":"images/marvel_super_heroes_boulder_deck_box_labels/src/references/tchalla_the_black_panther.jpg","colors":["GREEN","WHITE"],"series":2},
+    {"slug":"the_fantastic_four","deckName":"THE FANTASTIC FOUR","goalDescription":"UNITE THE FOUR • EXPLORE & INVENT","setName":"MARVEL SUPER HEROES","artPath":"images/marvel_super_heroes_boulder_deck_box_labels/src/references/mister_fantastic.jpg","colors":["RED","GREEN","WHITE","BLUE"],"series":2},
+    {"slug":"doom_prevails","deckName":"DOOM PREVAILS","goalDescription":"SCHEME WITH DOOM • CONQUER THE TABLE","setName":"MARVEL SUPER HEROES","artPath":"images/marvel_super_heroes_boulder_deck_box_labels/src/references/doctor_doom_king_of_latveria.jpg","colors":["BLUE","BLACK","RED"],"series":2}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "contactSheetName":"modern_horizons_3_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels":[
+    {"slug":"graveyard_overdrive","deckName":"GRAVEYARD OVERDRIVE","goalDescription":"FILL GRAVEYARDS • DRIVE GOYFS FORWARD","setName":"MODERN HORIZONS 3 COMMANDER","artPath":"images/modern_horizons_3_boulder_deck_box_labels/src/regenerated_art_v1/disa_the_restless_regenerated_v1.png","colors":["BLACK","RED","GREEN"],"series":2},
+    {"slug":"creative_energy","deckName":"CREATIVE ENERGY","goalDescription":"BUILD ENERGY • COPY ARTIFACT CREATURES","setName":"MODERN HORIZONS 3 COMMANDER","artPath":"images/modern_horizons_3_boulder_deck_box_labels/src/regenerated_art_v1/satya_aetherflux_genius_regenerated_v1.png","colors":["BLUE","RED","WHITE"],"series":2},
+    {"slug":"tricky_terrain","deckName":"TRICKY TERRAIN","goalDescription":"PLACE EVERYTHING COUNTERS • COPY LANDS","setName":"MODERN HORIZONS 3 COMMANDER","artPath":"images/modern_horizons_3_boulder_deck_box_labels/src/regenerated_art_v1/omo_queen_of_vesuva_regenerated_v1.png","colors":["GREEN","BLUE"],"series":2},
+    {"slug":"eldrazi_incursion","deckName":"ELDRAZI INCURSION","goalDescription":"CAST ELDRAZI • DOUBLE EVERY TRIGGER","setName":"MODERN HORIZONS 3 COMMANDER","artPath":"images/modern_horizons_3_boulder_deck_box_labels/src/regenerated_art_v1/ulalek_fused_atrocity_regenerated_v1.png","colors":["WHITE","BLUE","BLACK","RED","GREEN"],"series":2}
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "signature": "6cdf2c42d95818308054fb9318b0bcbd76cdde379ff00ba4cd6cb8b88cad8602",
+    "pdf": "08_Addendum_Commander_2013_Commander_2016_Commander_2017_Commander_2018_Commander_2019_March_of_the_Machine_Lord_of_the_Rings_1440dpi_6cdf2c42d9.pdf",
+    "pdf_sha256": "10a3477eff6492d9c16948c2e1a45df17bd97fcdae9d195c12cb47304658f6e2",
+    "kind": "fronts",
+    "count": 6,
+    "labels": [
+      {
+        "group": "commander_2013_commander_2016",
+        "source": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_centered_v4_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          525.15,
+          197.29999999999998,
+          231.0
+        ],
+        "rgb_sha256": "fd63032751f527ad5bd75486266ed14461b6b104e0733d3e7a6d7eb3639bd5a7"
+      },
+      {
+        "group": "commander_2017",
+        "source": "images/commander_2017/commander_2017_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          360.70000000000005,
+          525.15,
+          197.29999999999998,
+          231.0
+        ],
+        "rgb_sha256": "5fedcc7876fa4dce3f1ed0e58e32a78499b32029b91203e71fef7fd07b8b8937"
+      },
+      {
+        "group": "commander_2018",
+        "source": "images/commander_2018/commander_2018_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          280.5,
+          197.29999999999998,
+          231.0
+        ],
+        "rgb_sha256": "7ceba886f892dd84ca7c6787c27b25c993c3fd2044f6ef7e4d379a351fa2c664"
+      },
+      {
+        "group": "commander_2019",
+        "source": "images/commander_2019/commander_2019_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          360.70000000000005,
+          280.5,
+          197.29999999999998,
+          231.0
+        ],
+        "rgb_sha256": "071c6740306b38b65a98dd86590d94628305b4047cd4e55081c11ad6f48802b1"
+      },
+      {
+        "group": "march_of_the_machine_commander",
+        "source": "images/march_of_the_machine_commander/march_of_the_machine_large_lower_title_v2_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          35.849999999999966,
+          197.29999999999998,
+          231.0
+        ],
+        "rgb_sha256": "cfdb636b2fac40e45aa2a101a78ee6d243a1d61dae91f6ff4f0097fc17d6b75a"
+      },
+      {
+        "group": "lord_of_the_rings_tales_of_middle_earth_commander",
+        "source": "images/lord_of_the_rings_tales_of_middle_earth_commander/lord_of_the_rings_bottom_title_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          360.70000000000005,
+          35.849999999999966,
+          197.29999999999998,
+          231.0
+        ],
+        "rgb_sha256": "2d29d5debb71249c22ed4438e13a8fba00270a3c0e56ee9947f2db4a5cddb3be"
+      }
+    ]
+  }
+]

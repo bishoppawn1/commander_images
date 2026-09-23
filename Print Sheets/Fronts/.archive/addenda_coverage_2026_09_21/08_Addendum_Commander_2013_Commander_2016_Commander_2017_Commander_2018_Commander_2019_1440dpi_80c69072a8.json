@@ -1,0 +1,53 @@
+{
+  "signature": "80c69072a83b1b668e13dc3f7c98c62c361320503830768215d62076dfe91762",
+  "pdf": "08_Addendum_Commander_2013_Commander_2016_Commander_2017_Commander_2018_Commander_2019_1440dpi_80c69072a8.pdf",
+  "pdf_sha256": "2a26888be288931944d20ce8e4b45a359db83906e57ead1106223c6de330df9a",
+  "kind": "fronts",
+  "count": 4,
+  "labels": [
+    {
+      "group": "commander_2013_commander_2016",
+      "source": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_centered_v4_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        531.1,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "fd63032751f527ad5bd75486266ed14461b6b104e0733d3e7a6d7eb3639bd5a7"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017/commander_2017_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        351.1,
+        531.1,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "5fedcc7876fa4dce3f1ed0e58e32a78499b32029b91203e71fef7fd07b8b8937"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018/commander_2018_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        274.55000000000007,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "7ceba886f892dd84ca7c6787c27b25c993c3fd2044f6ef7e4d379a351fa2c664"
+    },
+    {
+      "group": "commander_2019",
+      "source": "images/commander_2019/commander_2019_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        351.1,
+        274.55000000000007,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "071c6740306b38b65a98dd86590d94628305b4047cd4e55081c11ad6f48802b1"
+    }
+  ]
+}

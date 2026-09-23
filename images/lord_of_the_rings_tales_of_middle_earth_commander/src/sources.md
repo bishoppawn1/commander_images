@@ -116,3 +116,10 @@ For the typography-focused secondary candidate, the artwork/crop selection remai
 - The title and count seal do not collide. The seal covers only lower-right mountain/lava texture and does not touch the subtitle, colon, One Ring, focal face, hand, Mount Doom, or foreground travelers.
 - Both v2 targets are exact 6:7, 1800 × 2100 non-interlaced PNGs with 600 × 600 DPI metadata. The base is 8-bit RGB with no alpha; the counted sibling is 8-bit RGBA.
 - Directory hygiene verified: exactly four finished target PNGs are in the set root (two preserved v1 plus two new v2); both final briefs are in `prompts/`; extracted logo material, build scripts, comparison/QA previews, retained official sources, and this provenance record are in `src/`.
+
+
+## Completed drawer-front correction — 2026-09-19
+
+Native CoreGraphics recomposition from the retained poster and exact official transparent wordmark. Moved the complete wordmark/punctuation 100 px right and 40 px up, and centered the supporting veil. Count remains 4 at the standard safe corner. Build: src/build_centered_wordmark_v3.swift.
+
+Final stem: `lord_of_the_rings_centered_wordmark_v3`. Both unnumbered and counted full-bleed masters are retained, together with standard 1724x2024 / 600-DPI black-margin masters and 4138x4858 / 1440-DPI print derivatives. Earlier versions remain preserved. The print catalog selects the new counted derivative.

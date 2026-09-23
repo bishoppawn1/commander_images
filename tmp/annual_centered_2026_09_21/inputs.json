@@ -1,0 +1,22 @@
+[
+  {
+    "id": "commander_2017",
+    "name": "commander_2017_centered_title_v3",
+    "raw": "images/commander_2017/src/imagegen_commander_2017_centered_title_v3_raw.png"
+  },
+  {
+    "id": "commander_2013_commander_2016",
+    "name": "commander_2013_commander_2016_vertical_split_centered_v4",
+    "raw": "images/commander_2013_commander_2016/src/imagegen_commander_2013_commander_2016_vertical_split_centered_v4_raw.png"
+  },
+  {
+    "id": "commander_2018",
+    "name": "commander_2018_centered_title_v3",
+    "raw": "images/commander_2018/src/imagegen_commander_2018_centered_title_v3_raw.png"
+  },
+  {
+    "id": "commander_2019",
+    "name": "commander_2019_centered_title_v3",
+    "raw": "images/commander_2019/src/imagegen_commander_2019_centered_title_v3_raw.png"
+  }
+]

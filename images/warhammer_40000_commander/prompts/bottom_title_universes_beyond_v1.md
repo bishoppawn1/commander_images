@@ -1,0 +1,1 @@
+Move the WARHAMMER 40,000 COMMANDER crest from the top to the bottom of the existing battlefield artwork. Preserve the four commanders, ships, city, colors, and count seal. Reconstruct the storm sky above. Do not add Universes Beyond or other text.

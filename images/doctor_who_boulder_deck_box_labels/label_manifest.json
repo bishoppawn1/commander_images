@@ -1,0 +1,41 @@
+{
+  "contactSheetName": "doctor_who_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "blast_from_the_past",
+      "deckName": "BLAST FROM THE PAST",
+      "goalDescription": "CAST HISTORIC SPELLS • CREATE CLUES",
+      "setName": "DOCTOR WHO COMMANDER",
+      "artPath": "images/doctor_who_boulder_deck_box_labels/src/regenerated_art_v1/fourth_doctor_and_sarah_jane_regenerated_v1.png",
+      "colors": ["GREEN", "WHITE", "BLUE"],
+      "series": 2
+    },
+    {
+      "slug": "timey_wimey",
+      "deckName": "TIMEY-WIMEY",
+      "goalDescription": "MANIPULATE TIME • CASCADE FROM SUSPEND",
+      "setName": "DOCTOR WHO COMMANDER",
+      "artPath": "images/doctor_who_boulder_deck_box_labels/src/regenerated_art_v1/tenth_doctor_and_rose_regenerated_v1.png",
+      "colors": ["BLUE", "RED", "WHITE"],
+      "series": 2
+    },
+    {
+      "slug": "paradox_power",
+      "deckName": "PARADOX POWER",
+      "goalDescription": "CAST FROM ELSEWHERE • GROW THE TEAM",
+      "setName": "DOCTOR WHO COMMANDER",
+      "artPath": "images/doctor_who_boulder_deck_box_labels/src/regenerated_art_v1/thirteenth_doctor_and_yasmin_regenerated_v1.png",
+      "colors": ["GREEN", "BLUE", "RED"],
+      "series": 2
+    },
+    {
+      "slug": "masters_of_evil",
+      "deckName": "MASTERS OF EVIL",
+      "goalDescription": "MAKE DALEKS • FORCE VILLAINOUS CHOICES",
+      "setName": "DOCTOR WHO COMMANDER",
+      "artPath": "images/doctor_who_boulder_deck_box_labels/src/regenerated_art_v1/davros_dalek_creator_regenerated_v1.png",
+      "colors": ["BLUE", "BLACK", "RED"],
+      "series": 2
+    }
+  ]
+}

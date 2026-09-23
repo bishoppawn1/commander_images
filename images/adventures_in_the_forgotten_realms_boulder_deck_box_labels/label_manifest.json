@@ -1,0 +1,41 @@
+{
+  "contactSheetName": "adventures_in_the_forgotten_realms_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "draconic_rage",
+      "deckName": "DRACONIC RAGE",
+      "goalDescription": "ENRAGE VRONDIS • SUMMON DRAGON SPIRITS",
+      "setName": "ADVENTURES IN THE FORGOTTEN REALMS",
+      "artPath": "images/adventures_in_the_forgotten_realms_boulder_deck_box_labels/src/regenerated_art_v1/vrondiss_rage_of_ancients_regenerated_v1.png",
+      "colors": ["RED", "GREEN"],
+      "series": 1
+    },
+    {
+      "slug": "dungeons_of_death",
+      "deckName": "DUNGEONS OF DEATH",
+      "goalDescription": "VENTURE DEEP • REANIMATE HEROES",
+      "setName": "ADVENTURES IN THE FORGOTTEN REALMS",
+      "artPath": "images/adventures_in_the_forgotten_realms_boulder_deck_box_labels/src/regenerated_art_v1/sefris_of_the_hidden_ways_regenerated_v1.png",
+      "colors": ["WHITE", "BLUE", "BLACK"],
+      "series": 1
+    },
+    {
+      "slug": "aura_of_courage",
+      "deckName": "AURA OF COURAGE",
+      "goalDescription": "EQUIP GALEA • STRIKE WITH AURAS",
+      "setName": "ADVENTURES IN THE FORGOTTEN REALMS",
+      "artPath": "images/adventures_in_the_forgotten_realms_boulder_deck_box_labels/src/regenerated_art_v1/galea_kindler_of_hope_regenerated_v1.png",
+      "colors": ["GREEN", "WHITE", "BLUE"],
+      "series": 1
+    },
+    {
+      "slug": "planar_portal",
+      "deckName": "PLANAR PORTAL",
+      "goalDescription": "PLAY FROM EXILE • MAKE TREASURE",
+      "setName": "ADVENTURES IN THE FORGOTTEN REALMS",
+      "artPath": "images/adventures_in_the_forgotten_realms_boulder_deck_box_labels/src/regenerated_art_v1/prosper_tome_bound_regenerated_v1.png",
+      "colors": ["BLACK", "RED"],
+      "series": 1
+    }
+  ]
+}

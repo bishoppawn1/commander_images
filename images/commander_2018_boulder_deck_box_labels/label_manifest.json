@@ -1,0 +1,41 @@
+{
+  "contactSheetName": "commander_2018_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "adaptive_enchantment",
+      "deckName": "ADAPTIVE ENCHANTMENT",
+      "goalDescription": "PLAY AURAS • ADAPT TO THE BOARD",
+      "setName": "COMMANDER 2018",
+      "artPath": "images/commander_2018_boulder_deck_box_labels/src/regenerated_art_v1/estrid_the_masked_regenerated_v1.png",
+      "colors": ["GREEN", "WHITE", "BLUE"],
+      "series": 2
+    },
+    {
+      "slug": "exquisite_invention",
+      "deckName": "EXQUISITE INVENTION",
+      "goalDescription": "MAKE ARTIFACTS • CAST BIG SPELLS",
+      "setName": "COMMANDER 2018",
+      "artPath": "images/commander_2018_boulder_deck_box_labels/src/regenerated_art_v1/saheeli_the_gifted_regenerated_v1.png",
+      "colors": ["BLUE", "RED"],
+      "series": 2
+    },
+    {
+      "slug": "natures_vengeance",
+      "deckName": "NATURE’S VENGEANCE",
+      "goalDescription": "FILL THE GRAVEYARD • RECUR LANDS",
+      "setName": "COMMANDER 2018",
+      "artPath": "images/commander_2018_boulder_deck_box_labels/src/regenerated_art_v1/lord_windgrace_regenerated_v1.png",
+      "colors": ["BLACK", "RED", "GREEN"],
+      "series": 2
+    },
+    {
+      "slug": "subjective_reality",
+      "deckName": "SUBJECTIVE REALITY",
+      "goalDescription": "BLINK PERMANENTS • CONTROL THE TOP",
+      "setName": "COMMANDER 2018",
+      "artPath": "images/commander_2018_boulder_deck_box_labels/src/regenerated_art_v1/aminatou_the_fateshifter_regenerated_v1.png",
+      "colors": ["WHITE", "BLUE", "BLACK"],
+      "series": 2
+    }
+  ]
+}

@@ -17,8 +17,8 @@ FACE_ROWS = (
     ("01_forgotten_realms_bloomburrow", (
         "adventures_forgotten_realms_commander_official_key_art_wordmark_v2_deck_count_4",
         "bloomburrow_target_v3_official_key_art_deck_count_4",
-        "commander_legends_phyrexia_all_will_be_one_vertical_split_v1_deck_counts_2_2",
-        "commander_2013_commander_2016_vertical_split_atmospheric_typography_v1_deck_counts_2_2",
+        "zendikar_rising_commander_legends_vertical_split_v1_deck_counts_2_2",
+        "commander_2013_commander_2016_vertical_split_chronological_v2_deck_counts_2_2",
         "commander_2017_four_tribes_ensemble_deck_count_4_v1",
         "commander_2018_four_leads_premium_cover_v1_deck_count_4")),
     ("02_ikoria_strixhaven", (
@@ -35,13 +35,13 @@ FACE_ROWS = (
         "march_of_the_machine_commander_official_wpn_key_art_extended_battle_target_v1_deck_count_5",
         "lost_caverns_of_ixalan_commander_official_key_art_target_v1_deck_count_4",
         "marvel_super_heroes_commander_official_wpn_key_art_target_v1_deck_count_4")),
-    ("04_brothers_war_eldraine", (
-        "brothers_war_wilds_of_eldraine_vertical_split_deck_counts_2_2",
+    ("04_kamigawa_brothers_war", (
+        "kamigawa_neon_dynasty_brothers_war_vertical_split_v1_deck_counts_2_2",
         "throne_of_eldraine_brawl_secondary_four_courts_illuminated_v1_deck_count_4",
         "secret_lair_category_alternate_art_vault_v1",
         "warhammer_40000_commander_four_faction_v2_deck_count_4",
         "turtle_power_commander_official_key_art_target_v1_deck_count_1",
-        "zendikar_rising_kamigawa_neon_dynasty_target_vertical_split_v3_deck_counts_2_2_trial")),
+        "phyrexia_all_will_be_one_wilds_of_eldraine_vertical_split_v1_deck_counts_2_2")),
     ("05_modern_horizons_doctor_who", (
         "modern_horizons_3_commander_cosmic_rift_alternate_v3_deck_count_4",
         "doctor_who_commander_official_wpn_tardis_key_art_target_v1_deck_count_4",

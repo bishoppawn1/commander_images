@@ -1,0 +1,57 @@
+[
+  {
+    "id": "commander_2013_commander_2016",
+    "name": "commander_2013_commander_2016_vertical_split_unified_v3",
+    "raw": "images/commander_2013_commander_2016/src/imagegen_commander_2013_commander_2016_vertical_split_unified_v3_raw.png",
+    "base": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_unified_v3_1800x2100.png",
+    "counted": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_unified_v3_deck_counts_2_2_1800x2100.png",
+    "base_600dpi": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_unified_v3_1724x2024_black_margin_1_8in.png",
+    "base_1440dpi": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_unified_v3_4138x4858_1440dpi_black_margin_1_8in.png",
+    "counted_600dpi": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_unified_v3_deck_counts_2_2_1724x2024_black_margin_1_8in.png",
+    "counted_1440dpi": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_unified_v3_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png"
+  },
+  {
+    "id": "commander_2017",
+    "name": "commander_2017_unified_title_v2",
+    "raw": "images/commander_2017/src/imagegen_commander_2017_unified_title_v2_raw.png",
+    "base": "images/commander_2017/commander_2017_unified_title_v2_1800x2100.png",
+    "counted": "images/commander_2017/commander_2017_unified_title_v2_deck_count_4_1800x2100.png",
+    "base_600dpi": "images/commander_2017/commander_2017_unified_title_v2_1724x2024_black_margin_1_8in.png",
+    "base_1440dpi": "images/commander_2017/commander_2017_unified_title_v2_4138x4858_1440dpi_black_margin_1_8in.png",
+    "counted_600dpi": "images/commander_2017/commander_2017_unified_title_v2_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "counted_1440dpi": "images/commander_2017/commander_2017_unified_title_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+  },
+  {
+    "id": "commander_2018",
+    "name": "commander_2018_unified_title_v2",
+    "raw": "images/commander_2018/src/imagegen_commander_2018_unified_title_v2_raw.png",
+    "base": "images/commander_2018/commander_2018_unified_title_v2_1800x2100.png",
+    "counted": "images/commander_2018/commander_2018_unified_title_v2_deck_count_4_1800x2100.png",
+    "base_600dpi": "images/commander_2018/commander_2018_unified_title_v2_1724x2024_black_margin_1_8in.png",
+    "base_1440dpi": "images/commander_2018/commander_2018_unified_title_v2_4138x4858_1440dpi_black_margin_1_8in.png",
+    "counted_600dpi": "images/commander_2018/commander_2018_unified_title_v2_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "counted_1440dpi": "images/commander_2018/commander_2018_unified_title_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+  },
+  {
+    "id": "commander_2019",
+    "name": "commander_2019_unified_title_v2",
+    "raw": "images/commander_2019/src/imagegen_commander_2019_unified_title_v2_raw.png",
+    "base": "images/commander_2019/commander_2019_unified_title_v2_1800x2100.png",
+    "counted": "images/commander_2019/commander_2019_unified_title_v2_deck_count_4_1800x2100.png",
+    "base_600dpi": "images/commander_2019/commander_2019_unified_title_v2_1724x2024_black_margin_1_8in.png",
+    "base_1440dpi": "images/commander_2019/commander_2019_unified_title_v2_4138x4858_1440dpi_black_margin_1_8in.png",
+    "counted_600dpi": "images/commander_2019/commander_2019_unified_title_v2_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "counted_1440dpi": "images/commander_2019/commander_2019_unified_title_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+  },
+  {
+    "id": "kamigawa_neon_dynasty_brothers_war",
+    "name": "kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2",
+    "raw": "images/kamigawa_neon_dynasty_brothers_war/src/imagegen_kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_refined_raw.png",
+    "base": "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_1800x2100.png",
+    "counted": "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_deck_counts_2_2_1800x2100.png",
+    "base_600dpi": "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_1724x2024_black_margin_1_8in.png",
+    "base_1440dpi": "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_4138x4858_1440dpi_black_margin_1_8in.png",
+    "counted_600dpi": "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_deck_counts_2_2_1724x2024_black_margin_1_8in.png",
+    "counted_1440dpi": "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png"
+  }
+]

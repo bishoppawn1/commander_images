@@ -1,0 +1,205 @@
+[
+  {
+    "id": "commander_2013_commander_2016",
+    "source": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_centered_v4_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_centered_v4_deck_counts_2_2_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_centered_v4_deck_counts_2_2_1644x1925_600dpi_trimmed.png",
+    "print": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_centered_v4_deck_counts_2_2_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "commander_2017",
+    "source": "images/commander_2017/commander_2017_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/commander_2017/commander_2017_centered_title_v3_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/commander_2017/commander_2017_centered_title_v3_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/commander_2017/commander_2017_centered_title_v3_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "commander_2018",
+    "source": "images/commander_2018/commander_2018_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/commander_2018/commander_2018_centered_title_v3_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/commander_2018/commander_2018_centered_title_v3_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/commander_2018/commander_2018_centered_title_v3_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "commander_2019",
+    "source": "images/commander_2019/commander_2019_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/commander_2019/commander_2019_centered_title_v3_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/commander_2019/commander_2019_centered_title_v3_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/commander_2019/commander_2019_centered_title_v3_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "throne_of_eldraine_brawl",
+    "source": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_unified_shadow_v6_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_unified_shadow_v6_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_unified_shadow_v6_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_unified_shadow_v6_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "commander_2020_ikoria",
+    "source": "images/commander_2020_ikoria/commander_2020_ikoria_bottom_title_v6_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/commander_2020_ikoria/commander_2020_ikoria_bottom_title_v6_deck_count_5_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/commander_2020_ikoria/commander_2020_ikoria_bottom_title_v6_deck_count_5_1644x1925_600dpi_trimmed.png",
+    "print": "images/commander_2020_ikoria/commander_2020_ikoria_bottom_title_v6_deck_count_5_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "zendikar_rising_commander_legends",
+    "source": "images/zendikar_rising_commander_legends/zendikar_rising_commander_legends_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/zendikar_rising_commander_legends/zendikar_rising_commander_legends_vertical_split_v1_deck_counts_2_2_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/zendikar_rising_commander_legends/zendikar_rising_commander_legends_vertical_split_v1_deck_counts_2_2_1644x1925_600dpi_trimmed.png",
+    "print": "images/zendikar_rising_commander_legends/zendikar_rising_commander_legends_vertical_split_v1_deck_counts_2_2_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "strixhaven_commander",
+    "source": "images/strixhaven_commander/strixhaven_commander_official_key_art_target_v2_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/strixhaven_commander/strixhaven_commander_official_key_art_target_v2_deck_count_5_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/strixhaven_commander/strixhaven_commander_official_key_art_target_v2_deck_count_5_1644x1925_600dpi_trimmed.png",
+    "print": "images/strixhaven_commander/strixhaven_commander_official_key_art_target_v2_deck_count_5_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "adventures_forgotten_realms_commander",
+    "source": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "kamigawa_neon_dynasty_brothers_war",
+    "source": "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_deck_counts_2_2_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_deck_counts_2_2_1644x1925_600dpi_trimmed.png",
+    "print": "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_deck_counts_2_2_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "warhammer_40000_commander",
+    "source": "images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "phyrexia_all_will_be_one_wilds_of_eldraine",
+    "source": "images/phyrexia_all_will_be_one_wilds_of_eldraine/phyrexia_all_will_be_one_wilds_of_eldraine_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/phyrexia_all_will_be_one_wilds_of_eldraine/phyrexia_all_will_be_one_wilds_of_eldraine_vertical_split_v1_deck_counts_2_2_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/phyrexia_all_will_be_one_wilds_of_eldraine/phyrexia_all_will_be_one_wilds_of_eldraine_vertical_split_v1_deck_counts_2_2_1644x1925_600dpi_trimmed.png",
+    "print": "images/phyrexia_all_will_be_one_wilds_of_eldraine/phyrexia_all_will_be_one_wilds_of_eldraine_vertical_split_v1_deck_counts_2_2_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "march_of_the_machine_commander",
+    "source": "images/march_of_the_machine_commander/march_of_the_machine_large_lower_title_v2_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/march_of_the_machine_commander/march_of_the_machine_large_lower_title_v2_deck_count_5_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/march_of_the_machine_commander/march_of_the_machine_large_lower_title_v2_deck_count_5_1644x1925_600dpi_trimmed.png",
+    "print": "images/march_of_the_machine_commander/march_of_the_machine_large_lower_title_v2_deck_count_5_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "lord_of_the_rings_tales_of_middle_earth_commander",
+    "source": "images/lord_of_the_rings_tales_of_middle_earth_commander/lord_of_the_rings_centered_wordmark_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/lord_of_the_rings_tales_of_middle_earth_commander/lord_of_the_rings_centered_wordmark_v3_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/lord_of_the_rings_tales_of_middle_earth_commander/lord_of_the_rings_centered_wordmark_v3_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/lord_of_the_rings_tales_of_middle_earth_commander/lord_of_the_rings_centered_wordmark_v3_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "commander_masters",
+    "source": "images/commander_masters/commander_masters_official_wpn_poster_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/commander_masters/commander_masters_official_wpn_poster_target_v1_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/commander_masters/commander_masters_official_wpn_poster_target_v1_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/commander_masters/commander_masters_official_wpn_poster_target_v1_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "doctor_who_commander",
+    "source": "images/doctor_who_commander/doctor_who_commander_official_wpn_tardis_key_art_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/doctor_who_commander/doctor_who_commander_official_wpn_tardis_key_art_target_v1_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/doctor_who_commander/doctor_who_commander_official_wpn_tardis_key_art_target_v1_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/doctor_who_commander/doctor_who_commander_official_wpn_tardis_key_art_target_v1_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "lost_caverns_of_ixalan_commander",
+    "source": "images/lost_caverns_of_ixalan_commander/lost_caverns_of_ixalan_centered_wordmark_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/lost_caverns_of_ixalan_commander/lost_caverns_of_ixalan_centered_wordmark_v2_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/lost_caverns_of_ixalan_commander/lost_caverns_of_ixalan_centered_wordmark_v2_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/lost_caverns_of_ixalan_commander/lost_caverns_of_ixalan_centered_wordmark_v2_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "fallout_commander",
+    "source": "images/fallout_commander/fallout_commander_official_power_armor_key_art_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/fallout_commander/fallout_commander_official_power_armor_key_art_target_v1_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/fallout_commander/fallout_commander_official_power_armor_key_art_target_v1_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/fallout_commander/fallout_commander_official_power_armor_key_art_target_v1_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "modern_horizons_3_commander",
+    "source": "images/modern_horizons_3_commander/modern_horizons_3_commander_cosmic_rift_alternate_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/modern_horizons_3_commander/modern_horizons_3_commander_cosmic_rift_alternate_v3_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/modern_horizons_3_commander/modern_horizons_3_commander_cosmic_rift_alternate_v3_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/modern_horizons_3_commander/modern_horizons_3_commander_cosmic_rift_alternate_v3_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "bloomburrow_commander",
+    "source": "images/bloomburrow_commander/bloomburrow_target_v3_official_key_art_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/bloomburrow_commander/bloomburrow_target_v3_official_key_art_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/bloomburrow_commander/bloomburrow_target_v3_official_key_art_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/bloomburrow_commander/bloomburrow_target_v3_official_key_art_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "final_fantasy_commander",
+    "source": "images/final_fantasy_commander/final_fantasy_commander_official_key_art_crystal_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/final_fantasy_commander/final_fantasy_commander_official_key_art_crystal_target_v1_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/final_fantasy_commander/final_fantasy_commander_official_key_art_crystal_target_v1_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/final_fantasy_commander/final_fantasy_commander_official_key_art_crystal_target_v1_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "turtle_power_commander",
+    "source": "images/turtle_power_commander/turtle_power_commander_official_key_art_target_v1_deck_count_1_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/turtle_power_commander/turtle_power_commander_official_key_art_target_v1_deck_count_1_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/turtle_power_commander/turtle_power_commander_official_key_art_target_v1_deck_count_1_1644x1925_600dpi_trimmed.png",
+    "print": "images/turtle_power_commander/turtle_power_commander_official_key_art_target_v1_deck_count_1_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "marvel_super_heroes_commander",
+    "source": "images/marvel_super_heroes_commander/marvel_super_heroes_commander_official_wpn_key_art_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/marvel_super_heroes_commander/marvel_super_heroes_commander_official_wpn_key_art_target_v1_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/marvel_super_heroes_commander/marvel_super_heroes_commander_official_wpn_key_art_target_v1_deck_count_4_1644x1925_600dpi_trimmed.png",
+    "print": "images/marvel_super_heroes_commander/marvel_super_heroes_commander_official_wpn_key_art_target_v1_deck_count_4_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "commander_anthology_i",
+    "source": "images/commander_anthology_i/commander_anthology_i_target_v3_deck_count_4_trial_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/commander_anthology_i/commander_anthology_i_target_v3_deck_count_4_trial_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/commander_anthology_i/commander_anthology_i_target_v3_deck_count_4_trial_1644x1925_600dpi_trimmed.png",
+    "print": "images/commander_anthology_i/commander_anthology_i_target_v3_deck_count_4_trial_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "commander_anthology_ii",
+    "source": "images/commander_anthology_ii/commander_anthology_ii_target_v3_deck_count_4_trial_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/commander_anthology_ii/commander_anthology_ii_target_v3_deck_count_4_trial_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/commander_anthology_ii/commander_anthology_ii_target_v3_deck_count_4_trial_1644x1925_600dpi_trimmed.png",
+    "print": "images/commander_anthology_ii/commander_anthology_ii_target_v3_deck_count_4_trial_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "duel_decks_heroes_vs_monsters",
+    "source": "images/duel_decks_heroes_vs_monsters/duel_decks_heroes_vs_monsters_battle_face_v1_deck_count_2_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/duel_decks_heroes_vs_monsters/duel_decks_heroes_vs_monsters_battle_face_v1_deck_count_2_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/duel_decks_heroes_vs_monsters/duel_decks_heroes_vs_monsters_battle_face_v1_deck_count_2_1644x1925_600dpi_trimmed.png",
+    "print": "images/duel_decks_heroes_vs_monsters/duel_decks_heroes_vs_monsters_battle_face_v1_deck_count_2_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "secret_lair",
+    "source": "images/secret_lair/secret_lair_category_alternate_art_vault_v1_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/secret_lair/secret_lair_category_alternate_art_vault_v1_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/secret_lair/secret_lair_category_alternate_art_vault_v1_1644x1925_600dpi_trimmed.png",
+    "print": "images/secret_lair/secret_lair_category_alternate_art_vault_v1_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "custom_commander_decks",
+    "source": "images/custom_commander_decks/custom_commander_decks_unnumbered_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/custom_commander_decks/custom_commander_decks_unnumbered_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/custom_commander_decks/custom_commander_decks_unnumbered_1644x1925_600dpi_trimmed.png",
+    "print": "images/custom_commander_decks/custom_commander_decks_unnumbered_3946x4620_1440dpi_trimmed.png"
+  },
+  {
+    "id": "overflow",
+    "source": "images/overflow/overflow_abstract_magical_vault_target_v1_4138x4858_1440dpi_black_margin_1_8in.png",
+    "master": "images/overflow/overflow_abstract_magical_vault_target_v1_1724x2024_black_margin_1_8in.png",
+    "trimmed_master": "images/overflow/overflow_abstract_magical_vault_target_v1_1644x1925_600dpi_trimmed.png",
+    "print": "images/overflow/overflow_abstract_magical_vault_target_v1_3946x4620_1440dpi_trimmed.png"
+  }
+]

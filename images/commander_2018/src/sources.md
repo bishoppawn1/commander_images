@@ -61,3 +61,33 @@ Constraints: exactly four named figures, one of each, no fifth hero, no duplicat
 | `../commander_2018_four_leads_premium_cover_v1_deck_count_4_1800x2100.png` | Counted print target | Created from the unnumbered base with `scripts/apply_deck_count.swift` using `4:1800`. The script added the approved 210-pixel (0.35-inch) dark circular seal, antique-gold rim, pale-ivory Copperplate Bold numeral, and equal 70-pixel right/bottom inset. The base was not overwritten. Output metadata is 600 × 600 DPI. | `8eb2f4784a9471f2cee8a6352fd4f1789b3fd951cd6ef1a64484943bb80a34c8` |
 
 No generative content was introduced during final normalization or count-seal application. Only the two finished targets are stored in the set root; raw references and the untouched ImageGen result remain in `src/`.
+
+
+## Current correction — 2026-09-21
+
+Removed the middle title and applied the shared lower-middle annual template, leaving all four commander faces clear.
+
+Mode: built-in ImageGen edit, followed by exact CoreGraphics/CoreText finishing in `scripts/build_unified_annual_titles.swift` and the established count/margin scripts. All earlier completed files remain preserved.
+
+- Unmodified accepted raw output: `imagegen_commander_2018_unified_title_v2_raw.png`.
+- Exact edit prompt: `../prompts/commander_2018_unified_title_v2.md`.
+- Current unnumbered full-bleed target: `../commander_2018_unified_title_v2_1800x2100.png`.
+- Current counted print target: `../commander_2018_unified_title_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png`.
+- Raw SHA-256: `a630766fe5e988fdad5c13df338712a4365b64b49a4216f3710c2df8353c0e00`.
+- Counted print SHA-256: `4e9187c22bdb4406705587248b9af969429f9bbd4416472d651e80053631a2da`.
+
+See `images/ANNUAL_ALIGNMENT_2026_09_21.md` for the shared layout, finishing, and PDF verification record.
+
+
+## Current centered-label revision — 2026-09-21
+
+The user requested labels in the middle, between commander portraits. This version supersedes the previous lower-middle annual selection. Built-in ImageGen adjusts the lower portraits to clear the central band; the shared native title builder applies the existing style at top-down center y=1050, bounds y=935...1165. Earlier artwork is preserved.
+
+- Exact prompt and input: `../prompts/commander_2018_centered_title_v3.md`.
+- Accepted unmodified output: `imagegen_commander_2018_centered_title_v3_raw.png`.
+- Full-bleed base: `../commander_2018_centered_title_v3_1800x2100.png`.
+- Selected counted print: `../commander_2018_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png`.
+- Raw SHA-256: `5eaa0c77b499a728fe50be8b2cf56c11e712ccb380a2639b4c7da523cf5ec267`.
+- Selected print SHA-256: `232674c81693915ea96cebb38b31432221f8029098adb5827cac616bc938a5c5`.
+
+All eight base/counted black-margin masters and eight high-resolution siblings passed the existing validators. See `images/ANNUAL_CENTERED_2026_09_21.md` for the batch record.

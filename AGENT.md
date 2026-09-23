@@ -9,7 +9,8 @@ Create deck-box-style face cards that make Magic: The Gathering Commander deck s
 - Final physical size: **3 × 3.5 inches** (portrait orientation unless a later instruction says otherwise).
 - Generate print-ready artwork at high resolution.
 - Minimum target: **900 × 1050 pixels at 300 DPI**.
-- Preferred target: **1800 × 2100 pixels at 600 DPI**, or higher when practical, while preserving the exact 6:7 aspect ratio.
+- Preferred editable/full-bleed master: **1800 × 2100 pixels at 600 DPI**, or higher when practical, while preserving the exact 6:7 aspect ratio.
+- Required final print derivative for every large drawer-face/set-identification image: **4138 × 4858 pixels at 1440 DPI**. Preserve the 600-DPI master and create the 1440-DPI file non-destructively.
 - Favor crisp typography, clean edges, and sufficient detail for physical printing.
 - Favor full, edge-to-edge compositions with useful visual detail throughout the frame.
 - Do not select or generate images containing large blank, white, featureless, or otherwise low-information areas.
@@ -18,15 +19,16 @@ Create deck-box-style face cards that make Magic: The Gathering Commander deck s
 ## Print-margin variants (black)
 
 - Preserve every existing full-bleed finished target. Never replace or overwrite it when preparing a print-margin version.
-- Every active print-margin variant uses the finalized project-wide treatment prototyped on Commander Masters. Keep the outer canvas at **1724 × 2024 pixels and 600 DPI**.
+- Build and retain the finalized project-wide print-margin master prototyped on Commander Masters at **1724 × 2024 pixels and 600 DPI**.
 - Build a 1574 × 1874 artwork source from the complete finished target as one unit, including its title, count seal, dividers, and all other artwork. The archived 1800 × 2100 3/16-inch derivative provides this source region.
 - Enlarge that complete artwork region to **1644 × 1944 pixels** without changing the 1724 × 2024 outer canvas. Center it horizontally at `x=40`; its top extends 16 pixels beyond the canvas and is clipped, while **96 total pixels** remain below it.
 - Fill all exposed print-margin space with opaque black (`#000000`). Add a **3-pixel opaque-black cut-guide border on the outermost pixels of the active file**. The visible black margins are exactly **37 pixels on each side, none at the top, and 93 pixels at the bottom**.
 - Do not redraw or reposition individual titles, markers, or panel dividers for this print derivative. The entire completed face is transformed together.
-- Name active derivatives by inserting `_1724x2024_black_margin_1_8in` before `.png`.
-- Store active variants alongside their corresponding finished targets in the main set directory. Do not create separate reframe or cut-guide siblings.
+- From every 600-DPI print-margin master, create the required high-resolution print sibling at **4138 × 4858 pixels and 1440 DPI** with high-quality sRGB resampling. This rounded 2.4× scale preserves the established physical print size to within 0.0003 inch.
+- Name 600-DPI masters by inserting `_1724x2024_black_margin_1_8in` before `.png`; name their 1440-DPI print siblings by inserting `_4138x4858_1440dpi_black_margin_1_8in` before `.png`.
+- Store both variants alongside their corresponding finished targets in the main set directory. Do not create separate reframe or cut-guide siblings.
 - Retain every superseded 1800 × 2100 white 3/16-inch derivative under that set's `src/superseded_white_margin_3_16in/`; do not leave superseded variants in the set-directory root.
-- Build active variants deterministically with `scripts/crop_white_margin.swift`, `scripts/add_cut_border.swift`, and `scripts/reframe_final_black_margin.swift`. Validate them with `scripts/validate_final_black_margin.swift`. `scripts/apply_white_margin.swift` and `scripts/validate_white_margin.swift` remain available for constructing and checking the archived white 3/16-inch intermediate from a full-bleed target.
+- Build the 600-DPI print-margin masters deterministically with `scripts/crop_white_margin.swift`, `scripts/add_cut_border.swift`, and `scripts/reframe_final_black_margin.swift`. Validate them with `scripts/validate_final_black_margin.swift`, then build and validate their 1440-DPI print siblings with `scripts/build_1440dpi_drawer_faces.swift` and `scripts/validate_1440dpi_drawer_faces.swift`. `scripts/apply_white_margin.swift` and `scripts/validate_white_margin.swift` remain available for constructing and checking the archived white 3/16-inch intermediate from a full-bleed target.
 
 ## Identification text and viewing context
 
@@ -47,6 +49,7 @@ Create deck-box-style face cards that make Magic: The Gathering Commander deck s
 
 ## Ongoing instructions
 
+- Organize the project-root `Print Sheets/` folder into two subfolders: `Boulder Tops/` for the complete Boulder deck-box top collection and `Fronts/` for large drawer fronts, including the optional Overflow sheet. Keep `Boulder_Tops` in top-sheet filenames; archived sheets are not a substitute for the current printable set. Future PDF generation must use these same subfolders.
 - For the first-half Boulder-top PDF sheets, preserve the approved 3300 x 2800 images at 2.75 x 2 1/3 inches. Use the Epson ET-8550 (the user replaced the HP), Letter borderless-compatible printing, and a 3 x 4 grid with 1/16-inch side margins/gaps and approximately 0.739583-inch top/bottom margins. Keep each release in one PDF and name the PDF for every release it contains. Never silently shrink labels to fit; warn about driver borderless expansion changing physical size.
 - Treat later user directions as additions or refinements to these project requirements.
 - Record durable follow-on project requirements in this file so future work remains consistent.
@@ -55,11 +58,13 @@ Create deck-box-style face cards that make Magic: The Gathering Commander deck s
 ## Collection inventory and grouping authority
 
 - Treat `INVENTORY.md` as the authoritative list of owned physical deck-release groups, owned/total counts, deck-count marker values, and drawer-face groupings.
-- Zendikar Rising Commander and Kamigawa: Neon Dynasty Commander use the approved equal vertical-split combined drawer face.
-- Commander 2013 and Commander 2016 remain standalone inventory groups, but an optional chronological Commander 2013 | Commander 2016 vertical-split candidate is authorized for comparison. Creating that candidate does not change the inventory grouping; update `INVENTORY.md` only if the user later confirms the combination.
-- Commander Legends and Phyrexia: All Will Be One Commander use one approved equal vertical-split drawer face with markers `2 / 2`: Commander Legends on the left and Phyrexia on the right. Both owned decks from each release are represented by this combined face. Their standalone full-release targets remain available as alternatives, not as additional active drawer allocations.
+- Commander 2013 and Commander 2016 use one approved equal vertical-split drawer face with markers `2 / 2`: Commander 2013 on the left and Commander 2016 on the right.
+- Zendikar Rising Commander and Commander Legends use one approved equal vertical-split drawer face with markers `2 / 2`: Zendikar Rising on the left and Commander Legends on the right.
+- Kamigawa: Neon Dynasty Commander and The Brothers' War Commander use one approved equal vertical-split drawer face with markers `2 / 2`: Kamigawa on the left and The Brothers' War on the right.
+- Phyrexia: All Will Be One Commander and Wilds of Eldraine Commander use one approved equal vertical-split drawer face with markers `2 / 2`: Phyrexia on the left and Wilds of Eldraine on the right.
+- The four pairings above are the active chronological two-deck groupings. Their standalone full-release targets remain available as alternatives, not as additional active drawer allocations. The user requested deletion of the superseded pairing archive on 2026-09-17; do not restore those old pairings.
+- Chronological pairing uses each owned two-deck Commander release group once and minimizes the total release-date gap: sort eligible groups by tabletop release date and pair consecutive entries. This includes the two partial annual releases. It does not mean every group can have its independent nearest neighbor; see the dated audit in `INVENTORY.md` for that distinction.
 - Commander 2020 / Ikoria, Strixhaven Commander, and March of the Machine Commander each remain standalone and use a `5` marker.
-- The Brothers' War Commander and Wilds of Eldraine Commander use one approved equal vertical-split drawer face with markers `2 / 2`. All owned decks from both releases are represented by that combined face; their prior standalone targets remain preserved as historical assets rather than active drawer allocations.
 - Doctor Who Commander uses a standalone `4` marker for the four unique preconstructed decks owned.
 - Turtle Power! Commander uses a standalone `1` marker because the release contains one ready-to-play Commander deck and the collection owns it.
 - Overflow is an open-ended storage-category face. It must read exactly `OVERFLOW` and intentionally receives no count marker.
@@ -127,4 +132,55 @@ Apply this workflow independently to each set or precon:
 7. Generate without pausing for approval when the user's requested direction and available references are sufficient.
 8. Inspect the result for exact text, immediate drawer readability, full-frame composition, recognizable set identity, unwanted empty space, repeated or incorrect subjects, and print-safe placement. Iterate when a material requirement fails.
 9. Preserve the unmodified generated output in `src/`, then create a non-destructive exact 6:7 print target at 1800 × 2100 pixels with 600-DPI metadata in the main set directory.
-10. Record the final asset, generation mode, exact prompt, transformations, and provenance in `src/sources.md`; keep the finished prompt brief in `prompts/` and the target image in the main set directory.
+10. Build the 600-DPI black-margin master, then create its 4138 × 4858, 1440-DPI print sibling without overwriting either earlier file.
+11. Record the final asset, generation mode, exact prompt, transformations, and provenance in `src/sources.md`; keep the finished prompt brief in `prompts/` and the target image in the main set directory.
+
+
+## Drawer-front readability and PDF handling — 2026-09-19
+
+- Keep large titles centered independently of the lower-right count seal; arrange a separate clear area for the seal rather than offsetting titles left.
+- Favor substantial letter weight and vivid artwork with readable shadow detail at small physical print size.
+- After correcting active drawer fronts, update `print_catalog.json` and regenerate affected print PDFs. Move superseded PDF editions into `Print Sheets/Fronts/.archive/` so the main folder remains the current printable set.
+- Do not open PDFs in Codex Files previews or through `open_in_codex`: the user reported a crash from the saved PDF preview. Inspect PDFs through metadata, extracted contents, and small rendered page PNGs only.
+
+
+## User typography refinements — 2026-09-19
+
+- Forgotten Realms: tight letter spacing and a darkened local background behind the light title; preserve the brighter upper artwork.
+- Warhammer 40,000: COMMANDER belongs directly beneath 40,000 inside the same extended crest, in matching metallic angular block lettering with compact spacing.
+- Eldraine Brawl: prefer the original Big Caslon / Luminari lettering, with a smaller BRAWL and clear space between ELDRAINE and BRAWL. Keep all commander faces unobscured and retain the vivid, bright artwork. This supersedes the previous temporary bold-serif title treatment.
+
+## Heading readability — 2026-09-20
+
+- Eldraine needs matching soft dark backing behind all three title rows (THRONE OF, ELDRAINE, BRAWL), not only THRONE OF. Keep consistent color, opacity and feathering, fit the backing to each line, and retain the original type, smaller BRAWL, clear faces and vivid colors. Updated 2026-09-21.
+- Ikoria COMMANDER 2020 should match the main IKORIA crystalline cyan/white angular serif lettering, with a dark edge/shadow for immediate small-print readability.
+
+## Addendum sheets — 2026-09-21
+
+- Fill vacant slots on existing addenda before starting another addendum. Preserve existing image order and use current catalog-selected artwork at the established physical size.
+- Sheet 7 contains, in reading order: Adventures in the Forgotten Realms; Warhammer 40,000; Commander 2020 / Ikoria; Throne of Eldraine Brawl; Zendikar Rising / Commander Legends split; Kamigawa / The Brothers' War split. The latest user instruction supersedes the earlier empty-slot requirement: sheet 7 is now full.
+- Sheet 8 contains, in reading order: Commander 2013 / 2016 split; Commander 2017; Commander 2018; Commander 2019; March of the Machine; The Lord of the Rings. The last two slots include earlier corrected fronts found during the full correction-history audit.
+- Sheet 9 contains the updated Commander 2020 / Ikoria front in slot 1. The previous Ixalan placement was removed at the user's request on 2026-09-22.
+- The addenda are convenient reprints and do not replace sheets 1–6. Build all three with `scripts/build_fronts_addenda.py`; `scripts/build_fronts_addendum_07.py` remains a compatibility entry point for sheet 7 alone. Per-sheet indices are `LATEST_fronts_addendum_07.json`, `LATEST_fronts_addendum_08.json` and `LATEST_fronts_addendum_09.json` under `Print Sheets/Fronts/.records/`; the combined index is `LATEST_fronts_addenda.json`.
+- Audit addendum coverage against the full correction history, not only the latest edit batch. See `images/ADDENDUM_CORRECTION_COVERAGE_2026_09_21.md`: twelve corrected fronts plus the separately requested Zendikar / Commander Legends front are included once each.
+- When future corrections affect an addendum front, refresh its addendum as well as its normal catalog sheet, and archive superseded editions. The current main Fronts folder now has nine PDFs.
+
+## Annual-title consistency and split correction — 2026-09-21
+
+- Commander 2017, 2018 and 2019 use the same MIDDLE title position, font, size, dark backing and antique-gold outline. The user's follow-up supersedes the lower-middle placement: the label belongs between upper and lower portraits and must not obscure commanders. The deterministic shared template is `scripts/build_unified_annual_titles.swift`, invoked with title-center argument `1050`: 1800 × 2100 full-bleed canvas, plaque x=62...1738 and top-down y=935...1165, Baskerville Bold at 156 pixels. Do not vary placement or plaque styling between annual releases.
+- The Commander 2013 / 2016 split uses the same plaque style in two equal-width panels at the identical y bounds. Both panels use the same two-line COMMANDER / year typography. Keep Jeleva and Oloro on the left; show both Breya and Atraxa, Praetors' Voice on the right. Atraxa represents the already-owned Breed Lethality deck, so markers remain 2 / 2.
+- Lower the bottom-left Arahbo portrait on Commander 2017 enough that the middle plaque clears his complete head, ears and mane. Keep Inalla's head clear too. Reserve corresponding middle space in every annual composition and the 2013/2016 split; all lower portraits begin below the plaque with comfortable clearance.
+- Kamigawa / The Brothers' War must place both set-title groups in the same lower horizontal area with aligned lower boundaries. Preserve their distinct neon and metallic wordmarks and the equal vertical split.
+- Commander 2020 is the official annual-product name for the five Ikoria Commander decks; it does not mean Ikoria was the only Commander product in 2020. The current Ikoria label is accurate and retained. Its annual alias is optional display information, not an inventory grouping change.
+- Current annual asset paths, prompt briefs and validation are recorded in `images/ANNUAL_CENTERED_2026_09_21.md`. Kamigawa's correction remains in `images/ANNUAL_ALIGNMENT_2026_09_21.md`. They supersede the prior catalog selections; preserve all earlier artwork files.
+
+## Trimmed front sheets — 2026-09-22
+
+- The latest user instruction applies to all nine front sheets: keep the established black outer area, but place the complete image smaller on the printed sheet. The catalog continues to use the `_4138x4858_1440dpi_black_margin_1_8in.png` sources; the front PDF boxes are 3946 × 4620 equivalent pixels (2.740278 × 3.208333 inches), so the artwork and black margins shrink together.
+- Sheet 9 replaces The Lost Caverns of Ixalan with the updated Ikoria / Commander 2020 front. The updated Ikoria artwork keeps all three title rows together at the bottom and leaves the lower-right area clear for the count seal.
+
+## Universes Beyond title cleanup — 2026-09-22
+
+- The collection's Universes Beyond fronts are Warhammer 40,000, The Lord of the Rings, Doctor Who, Fallout, Final Fantasy, Teenage Mutant Ninja Turtles, and Marvel Super Heroes.
+- Warhammer 40,000, The Lord of the Rings, Fallout, and Turtle Power received new versioned fronts with their top title treatments moved to the bottom. The Lord of the Rings and Fallout Universes Beyond labels were removed. Doctor Who, Final Fantasy, and Marvel Super Heroes already had acceptable placement and no visible Universes Beyond label, so their current fronts remain selected.
+- Dedicated proof sheets 10 and 11 contain all seven Universes Beyond fronts in chronological catalog order. Normal and addendum sheets were rebuilt to use the revised four fronts.

@@ -3,7 +3,7 @@
 ## Mode and intended use
 
 - **Use case:** `ads-marketing`
-- **Asset type:** preserved 3 × 3.5-inch portrait alternate full-release drawer face for the two owned Phyrexia: All Will Be One Commander decks. The current physical allocation represents both decks on the Commander Legends | Phyrexia: All Will Be One split face; this standalone target remains an alternate full-release candidate rather than an additional allocation.
+- **Asset type:** preserved 3 × 3.5-inch portrait alternate full-release drawer face for the two owned Phyrexia: All Will Be One Commander decks. The current physical allocation represents both decks on the Phyrexia: All Will Be One | Wilds of Eldraine split face; this standalone target remains an alternate full-release candidate rather than an additional allocation.
 - **Production mode:** direct, non-generative adaptation of official Wizards Play Network key art. Preserve the established set-level identity instead of forcing the two Commander leads into a montage.
 
 ## Input images and roles

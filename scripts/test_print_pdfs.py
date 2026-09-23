@@ -15,8 +15,9 @@ class LayoutTests(unittest.TestCase):
             spec = tool.layout(kind)
             boxes = tool.positions(kind, count)
             for i, (x, y, w, h) in enumerate(boxes):
-                self.assertAlmostEqual(w / 72, spec["pixels"][0] / 1440)
-                self.assertAlmostEqual(h / 72, spec["pixels"][1] / 1440)
+                print_pixels = spec.get("print_pixels", spec["pixels"])
+                self.assertAlmostEqual(w / 72, print_pixels[0] / 1440)
+                self.assertAlmostEqual(h / 72, print_pixels[1] / 1440)
                 self.assertTrue(0 <= x < x+w <= 612 and 0 <= y < y+h <= 792)
                 for bx, by, bw, bh in boxes[i+1:]:
                     self.assertTrue(x+w <= bx or bx+bw <= x or y+h <= by or by+bh <= y)
@@ -64,9 +65,9 @@ class LayoutTests(unittest.TestCase):
         result = tool.load_groups("fronts", catalog={"fronts": [dict(base, copies=6)]})
         self.assertEqual(result[0]["files"], ["source.png"] * 6)
 
-    def test_flat_output_names_and_hidden_records(self):
-        target = Path("Print Sheets/example.pdf")
-        self.assertEqual(tool.receipt_path(target), Path("Print Sheets/.records/example.json"))
+    def test_output_names_and_hidden_records(self):
+        target = Path("Print Sheets/Boulder Tops/example.pdf")
+        self.assertEqual(tool.receipt_path(target), Path("Print Sheets/Boulder Tops/.records/example.json"))
         groups = [dict(name="Commander_2013")]
         self.assertIn("Boulder_Tops", tool.page_name(1, groups, "test", "tops"))
         self.assertEqual(tool.page_name(1, groups, "test", "fronts"),

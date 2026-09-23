@@ -81,3 +81,17 @@ Finished targets:
 - `../warhammer_40000_commander_four_faction_v2_deck_count_4_1800x2100.png` — counted sibling created non-destructively by running `scripts/apply_deck_count.swift` with `4:1800`. The standard 210-pixel seal has equal 70-pixel right and bottom insets.
 
 Visual inspection confirmed exact title spelling, immediate product readability, four distinct leads appearing once each, full-bleed detail, no accidental or invented text, no large empty field, unobstructed faces, and safe count-marker placement.
+
+
+## Completed drawer-front correction — 2026-09-19
+
+Built-in ImageGen brightened shadow/midtone detail in the four-faction battlefield and lifted COMMANDER to bright ivory; raw result: src/imagegen_bright_v3_raw.png. Exact prompt: prompts/correction_2026_09_19.md. Final normalization: sips to 1800x2100 with 600-DPI metadata. Count remains 4.
+
+Final stem: `warhammer_40000_bright_v3`. Both unnumbered and counted full-bleed masters are retained, together with standard 1724x2024 / 600-DPI black-margin masters and 4138x4858 / 1440-DPI print derivatives. Earlier versions remain preserved. The print catalog selects the new counted derivative.
+
+
+## Typography refinement v4 — 2026-09-19
+
+Built-in ImageGen revised the crest to enclose WARHAMMER, 40,000 and a compact matching industrial COMMANDER tier. Exact prompt: `prompts/unified_crest_v4.md`; raw output: `src/imagegen_unified_crest_v4_raw.png`. `src/build_unified_crest_v4.swift` composites only the edited upper 800 pixels with a 40-pixel transition. All battlefield and character pixels from y=840 down are verified pixel-identical to the bright v3 base. Count remains 4.
+
+Active final stem: `warhammer_40000_unified_crest_v4`. This supersedes the prior active v3 candidate; earlier artwork remains preserved. The counted 1440-DPI derivative is selected in the print catalog.

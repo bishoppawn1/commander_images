@@ -123,3 +123,10 @@ The finalized full brief and deterministic finishing instructions are also retai
 - **Subject integrity:** one central Huatli, one main cavern bat, one raised staff, and coherent paired wings; no duplicate main subject, stray text, watermark, package, card, or Commander montage.
 - **Count seal:** the approved script's 210 px marker occupies x=1520..1730 and y=70..280 in bottom-origin coordinates, placing its outer edge exactly 70 px from both right and bottom. It covers only noncritical dark cavern texture and remains clear of both the title and focal subjects.
 - **Folder hygiene:** the set root contains only the unnumbered and counted finished PNGs plus `prompts/` and `src/`. Official/raw downloads, unmodified ImageGen output, extracted references, helper script, QA previews, and provenance remain under `src/`.
+
+
+## Completed drawer-front correction — 2026-09-19
+
+Native CoreGraphics recomposition from the retained background and official logo. Centered the 1450 px logo at x=175 and raised its bottom to y=310 in CoreGraphics coordinates, leaving the 4 seal below the lettering. Build: src/build_centered_target_v2.swift.
+
+Final stem: `lost_caverns_of_ixalan_centered_wordmark_v2`. Both unnumbered and counted full-bleed masters are retained, together with standard 1724x2024 / 600-DPI black-margin masters and 4138x4858 / 1440-DPI print derivatives. Earlier versions remain preserved. The print catalog selects the new counted derivative.

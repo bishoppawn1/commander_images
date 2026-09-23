@@ -1,0 +1,38 @@
+[
+  {
+    "id": "throne_of_eldraine_brawl",
+    "stem": "throne_of_eldraine_brawl_luminari_clear_v4",
+    "count": 4,
+    "base": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_luminari_clear_v4_1800x2100.png",
+    "counted": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_luminari_clear_v4_deck_count_4_1800x2100.png",
+    "active": true,
+    "base_600dpi": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_luminari_clear_v4_1724x2024_black_margin_1_8in.png",
+    "base_1440dpi": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_luminari_clear_v4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "counted_600dpi": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_luminari_clear_v4_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "counted_1440dpi": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_luminari_clear_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+  },
+  {
+    "id": "adventures_forgotten_realms_commander",
+    "stem": "adventures_forgotten_realms_contrast_tight_v4",
+    "count": 4,
+    "base": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_1800x2100.png",
+    "counted": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_deck_count_4_1800x2100.png",
+    "active": true,
+    "base_600dpi": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_1724x2024_black_margin_1_8in.png",
+    "base_1440dpi": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "counted_600dpi": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "counted_1440dpi": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+  },
+  {
+    "id": "warhammer_40000_commander",
+    "stem": "warhammer_40000_unified_crest_v4",
+    "count": 4,
+    "base": "images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_1800x2100.png",
+    "counted": "images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_deck_count_4_1800x2100.png",
+    "active": true,
+    "base_600dpi": "images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_1724x2024_black_margin_1_8in.png",
+    "base_1440dpi": "images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_4138x4858_1440dpi_black_margin_1_8in.png",
+    "counted_600dpi": "images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_deck_count_4_1724x2024_black_margin_1_8in.png",
+    "counted_1440dpi": "images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
+  }
+]

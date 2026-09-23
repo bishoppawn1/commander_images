@@ -84,3 +84,17 @@ The finalized secondary brief is retained at `../prompts/adventures_forgotten_re
 - Drawer-scale comparison at 360 × 420: the official fantasy-seriffed `FORGOTTEN REALMS` line remains immediately legible, the smaller official `ADVENTURES IN THE` line remains readable, and the `4` seal is clear.
 - The v2 typography is more release-native because its contours are the actual WPN set wordmark and its warm stone/gold material echoes the dragon fire and armor instead of presenting the name as generic spaced display type.
 - The standard counted sibling was produced only with `scripts/apply_deck_count.swift` using `4:1800`; the approved seal geometry is therefore exact.
+
+
+## Completed drawer-front correction — 2026-09-19
+
+Built-in ImageGen lifted shadow/midtone detail and removed the old title; raw result: src/imagegen_bright_title_removed_v3_raw.png. Exact prompt: prompts/correction_2026_09_19.md. The retained official transparent title was split into ADVENTURES IN THE / FORGOTTEN / REALMS, preserving the glyph shapes. Main lines are approximately twice their previous glyph height, with bright ivory/gold fill and a clean dark outline. Count remains 4. Build: src/build_bright_large_title_v3.swift.
+
+Final stem: `adventures_forgotten_realms_bright_large_title_v3`. Both unnumbered and counted full-bleed masters are retained, together with standard 1724x2024 / 600-DPI black-margin masters and 4138x4858 / 1440-DPI print derivatives. Earlier versions remain preserved. The print catalog selects the new counted derivative.
+
+
+## Typography refinement v4 — 2026-09-19
+
+Native layout revision using `src/build_contrast_tight_title_v4.swift`. Retains the bright art from `src/imagegen_bright_title_removed_v3_raw.png` and the exact official letterforms. A smooth dark plum-black vignette covers only the title ground, from top-left y=1295 downward (72–86% opacity through the text zone). Official glyph groups are repacked with 2-pixel internal gaps and 15-pixel word gaps before scaling; no glyph shape is compressed. First line source-mask width 1074→924, FORGOTTEN 992→914, REALMS 665→629. Count remains 4.
+
+Active final stem: `adventures_forgotten_realms_contrast_tight_v4`. This supersedes the prior active v3 candidate; earlier artwork remains preserved. The counted 1440-DPI derivative is selected in the print catalog.

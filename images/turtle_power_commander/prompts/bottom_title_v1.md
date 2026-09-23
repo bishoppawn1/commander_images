@@ -1,0 +1,1 @@
+Move TURTLE POWER! from the top to the bottom of the existing Teenage Mutant Ninja Turtles Commander image, above the existing official wordmark. Preserve the four turtles, city, colors, and count seal. Do not add Universes Beyond.

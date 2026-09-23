@@ -1,0 +1,75 @@
+{
+  "signature": "ed372eefbfa4c1ff20e8a3ae6e92f143d19098cd96cd5bddaca851aefeab7dcb",
+  "pdf": "06_6_Overflows_Optional_1440dpi_ed372eefbf.pdf",
+  "pdf_sha256": "b04daa09b08592913115f7b8edfe479103ad0d0667bf0a563db35e560e6a3d96",
+  "kind": "fronts",
+  "count": 6,
+  "labels": [
+    {
+      "group": "overflow",
+      "source": "images/overflow/overflow_abstract_magical_vault_target_v1_3946x4620_1440dpi_trimmed.png",
+      "box_points": [
+        54.0,
+        525.15,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "3aaaabf4114498d4ccccf33f5ea9c83b5c66e63ce54c7da56d34675e78286edd"
+    },
+    {
+      "group": "overflow",
+      "source": "images/overflow/overflow_abstract_magical_vault_target_v1_3946x4620_1440dpi_trimmed.png",
+      "box_points": [
+        360.70000000000005,
+        525.15,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "3aaaabf4114498d4ccccf33f5ea9c83b5c66e63ce54c7da56d34675e78286edd"
+    },
+    {
+      "group": "overflow",
+      "source": "images/overflow/overflow_abstract_magical_vault_target_v1_3946x4620_1440dpi_trimmed.png",
+      "box_points": [
+        54.0,
+        280.5,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "3aaaabf4114498d4ccccf33f5ea9c83b5c66e63ce54c7da56d34675e78286edd"
+    },
+    {
+      "group": "overflow",
+      "source": "images/overflow/overflow_abstract_magical_vault_target_v1_3946x4620_1440dpi_trimmed.png",
+      "box_points": [
+        360.70000000000005,
+        280.5,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "3aaaabf4114498d4ccccf33f5ea9c83b5c66e63ce54c7da56d34675e78286edd"
+    },
+    {
+      "group": "overflow",
+      "source": "images/overflow/overflow_abstract_magical_vault_target_v1_3946x4620_1440dpi_trimmed.png",
+      "box_points": [
+        54.0,
+        35.849999999999966,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "3aaaabf4114498d4ccccf33f5ea9c83b5c66e63ce54c7da56d34675e78286edd"
+    },
+    {
+      "group": "overflow",
+      "source": "images/overflow/overflow_abstract_magical_vault_target_v1_3946x4620_1440dpi_trimmed.png",
+      "box_points": [
+        360.70000000000005,
+        35.849999999999966,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "3aaaabf4114498d4ccccf33f5ea9c83b5c66e63ce54c7da56d34675e78286edd"
+    }
+  ]
+}

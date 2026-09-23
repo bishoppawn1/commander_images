@@ -1,0 +1,1 @@
+Remove the top MAGIC THE GATHERING / UNIVERSES BEYOND branding from the existing Lord of the Rings image, reconstruct the fire and sky, and move THE LORD OF THE RINGS: TALES OF MIDDLE-EARTH to the bottom. Preserve the face and official golden title styling.

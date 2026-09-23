@@ -1,0 +1,75 @@
+{
+  "signature": "7c9cd58cc6d3099fadbf3bf78b6ef255dbc6b560152eafabf1028320ae5ce7ff",
+  "pdf": "01_Commander_2013_Commander_2016_Commander_2017_Commander_2018_Commander_2019_Eldraine_Brawl_Commander_2020_Ikoria_1440dpi_7c9cd58cc6.pdf",
+  "pdf_sha256": "767dc1e2f56bb88b5ea5e232eccbf0f14d7ed6b440d18dd03a6812a23c49798c",
+  "kind": "fronts",
+  "count": 6,
+  "labels": [
+    {
+      "group": "commander_2013_commander_2016",
+      "source": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_chronological_v2_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        531.1,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "e85f8f16992cec74b654da88adac38c34855409f39471a1997e1b8926f783211"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017/commander_2017_four_tribes_ensemble_deck_count_4_v1_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        351.1,
+        531.1,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "4807d7a215364e1acde57a0c4cd8e307c077f2f671582c3483cb242f42ec562d"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018/commander_2018_four_leads_premium_cover_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        274.55000000000007,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "870e4e17944280478de89197ef32712c398cd2fe913d135fb0eaf3cb68a6ef38"
+    },
+    {
+      "group": "commander_2019",
+      "source": "images/commander_2019/commander_2019_four_leads_ensemble_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        351.1,
+        274.55000000000007,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "679a1509700d6b0a1e7e17ed0ac9c4c27773e153defa745895d61f5044a37eea"
+    },
+    {
+      "group": "throne_of_eldraine_brawl",
+      "source": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_unified_shadow_v6_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        18.000000000000114,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "8638cfa36600f2e4dd5154c31ac0c6c00df4034f6dadc2bd205b1e02eaf859c3"
+    },
+    {
+      "group": "commander_2020_ikoria",
+      "source": "images/commander_2020_ikoria/commander_2020_ikoria_crystal_commander_v5_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        351.1,
+        18.000000000000114,
+        206.89999999999998,
+        242.89999999999998
+      ],
+      "rgb_sha256": "23777873a9ed7425f7940f6093bdfd26b98b69f4fe982ed8ddd4108f53c357ef"
+    }
+  ]
+}

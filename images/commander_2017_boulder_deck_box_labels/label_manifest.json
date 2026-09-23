@@ -1,0 +1,41 @@
+{
+  "contactSheetName": "commander_2017_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "feline_ferocity",
+      "deckName": "FELINE FEROCITY",
+      "goalDescription": "EQUIP CATS • ATTACK AS A PRIDE",
+      "setName": "COMMANDER 2017",
+      "artPath": "images/commander_2017_boulder_deck_box_labels/src/regenerated_art_v1/arahbo_roar_of_the_world_regenerated_v1.png",
+      "colors": ["GREEN", "WHITE"],
+      "series": 1
+    },
+    {
+      "slug": "vampiric_bloodlust",
+      "deckName": "VAMPIRIC BLOODLUST",
+      "goalDescription": "MAKE VAMPIRES • DRAIN & OVERWHELM",
+      "setName": "COMMANDER 2017",
+      "artPath": "images/commander_2017_boulder_deck_box_labels/src/regenerated_art_v1/edgar_markov_regenerated_v1.png",
+      "colors": ["RED", "WHITE", "BLACK"],
+      "series": 1
+    },
+    {
+      "slug": "arcane_wizardry",
+      "deckName": "ARCANE WIZARDRY",
+      "goalDescription": "CAST WIZARDS • COPY THEIR TRIGGERS",
+      "setName": "COMMANDER 2017",
+      "artPath": "images/commander_2017_boulder_deck_box_labels/src/regenerated_art_v1/inalla_archmage_ritualist_regenerated_v1.png",
+      "colors": ["BLUE", "BLACK", "RED"],
+      "series": 1
+    },
+    {
+      "slug": "draconic_domination",
+      "deckName": "DRACONIC DOMINATION",
+      "goalDescription": "RAMP INTO DRAGONS • RULE THE SKIES",
+      "setName": "COMMANDER 2017",
+      "artPath": "images/commander_2017_boulder_deck_box_labels/src/regenerated_art_v1/the_ur_dragon_regenerated_v1.png",
+      "colors": ["WHITE", "BLUE", "BLACK", "RED", "GREEN"],
+      "series": 1
+    }
+  ]
+}

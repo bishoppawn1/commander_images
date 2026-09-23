@@ -1,0 +1,27 @@
+READY commander_2017_centered_title_v3_1724x2024_black_margin_1_8in.png
+READY commander_2017_centered_title_v3_deck_count_4_1724x2024_black_margin_1_8in.png
+READY commander_2013_commander_2016_vertical_split_centered_v4_1724x2024_black_margin_1_8in.png
+READY commander_2013_commander_2016_vertical_split_centered_v4_deck_counts_2_2_1724x2024_black_margin_1_8in.png
+READY commander_2018_centered_title_v3_1724x2024_black_margin_1_8in.png
+READY commander_2018_centered_title_v3_deck_count_4_1724x2024_black_margin_1_8in.png
+READY commander_2019_centered_title_v3_1724x2024_black_margin_1_8in.png
+READY commander_2019_centered_title_v3_deck_count_4_1724x2024_black_margin_1_8in.png
+PASS images/commander_2017/commander_2017_centered_title_v3_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+PASS images/commander_2017/commander_2017_centered_title_v3_deck_count_4_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+PASS images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_centered_v4_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+PASS images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_centered_v4_deck_counts_2_2_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+PASS images/commander_2018/commander_2018_centered_title_v3_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+PASS images/commander_2018/commander_2018_centered_title_v3_deck_count_4_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+PASS images/commander_2019/commander_2019_centered_title_v3_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+PASS images/commander_2019/commander_2019_centered_title_v3_deck_count_4_1724x2024_black_margin_1_8in.png: 1724 × 2024, 600 DPI, 3px cut guide, 37px side blacks, 93px bottom black, no top margin
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/commander_2017/commander_2017_centered_title_v3_4138x4858_1440dpi_black_margin_1_8in.png
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/commander_2017/commander_2017_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_centered_v4_4138x4858_1440dpi_black_margin_1_8in.png
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_centered_v4_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/commander_2018/commander_2018_centered_title_v3_4138x4858_1440dpi_black_margin_1_8in.png
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/commander_2018/commander_2018_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/commander_2019/commander_2019_centered_title_v3_4138x4858_1440dpi_black_margin_1_8in.png
+WROTE /Users/bishophall/_code/MTGCommanderFaces/images/commander_2019/commander_2019_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png
+DONE: 8 drawer-face image(s) converted to 4138x4858 at 1440 DPI.
+PASS: 8 drawer-face images are 4138x4858, 1440x1440 DPI, 8-bit sRGB RGB(A) PNGs.
+All derivatives built and validated.

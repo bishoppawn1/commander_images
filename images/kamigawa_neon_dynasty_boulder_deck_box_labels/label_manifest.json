@@ -1,0 +1,23 @@
+{
+  "contactSheetName": "kamigawa_neon_dynasty_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "upgrades_unleashed",
+      "deckName": "UPGRADES UNLEASHED",
+      "goalDescription": "MODIFY CREATURES • GROW THE TEAM",
+      "setName": "KAMIGAWA: NEON DYNASTY",
+      "artPath": "images/kamigawa_neon_dynasty_boulder_deck_box_labels/src/regenerated_art_v1/chishiro_the_shattered_blade_regenerated_v1.png",
+      "colors": ["RED", "GREEN"],
+      "series": 2
+    },
+    {
+      "slug": "buckle_up",
+      "deckName": "BUCKLE UP",
+      "goalDescription": "CREW VEHICLES • RIDE INTO COMBAT",
+      "setName": "KAMIGAWA: NEON DYNASTY",
+      "artPath": "images/kamigawa_neon_dynasty_boulder_deck_box_labels/src/regenerated_art_v1/kotori_pilot_prodigy_regenerated_v1.png",
+      "colors": ["WHITE", "BLUE"],
+      "series": 2
+    }
+  ]
+}

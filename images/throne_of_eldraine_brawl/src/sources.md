@@ -204,3 +204,27 @@ QA was performed on both the original counted target and the secondary counted t
 - Full bleed contains detailed art and filigree to every edge, with no large empty or opaque field.
 - The count `4` remains clear in the approved lower-right seal and does not obscure title text or a critical face.
 - Both secondary finals pass exact pixel-dimension and 600-DPI metadata inspection.
+
+
+## Completed drawer-front correction — 2026-09-19
+
+Built-in ImageGen produced the richer-color four-court background retained as src/imagegen_vivid_color_v2_raw.png. Exact prompt: prompts/correction_2026_09_18.md. Native title rebuilt in Baskerville Bold with solid warm-ivory faces, a thin gold rim and dark outer silhouette; this replaces the thin Luminari treatment. Count remains 4. Build: src/build_bold_vivid_v3.swift.
+
+Final stem: `throne_of_eldraine_brawl_bold_vivid_v3`. Both unnumbered and counted full-bleed masters are retained, together with standard 1724x2024 / 600-DPI black-margin masters and 4138x4858 / 1440-DPI print derivatives. Earlier versions remain preserved. The print catalog selects the new counted derivative.
+
+
+## Typography refinement v4 — 2026-09-19
+
+Native layout revision using `src/build_luminari_clear_v4.swift`. Restores original Big Caslon / Luminari letter styles over the same bright `src/imagegen_vivid_color_v2_raw.png` artwork. ELDRAINE uses a 235-point cap with 1480-pixel maximum width; BRAWL is reduced to a 160-point cap and 760-pixel maximum width (original was 300/1400). Lines have distinct vertical placements; the shortened lower flourish and BRAWL remain between the lower faces. Original white/gold/dark lettering treatment retained. Count remains 4.
+
+Active final stem: `throne_of_eldraine_brawl_luminari_clear_v4`. This supersedes the prior active v3 candidate; earlier artwork remains preserved. The counted 1440-DPI derivative is selected in the print catalog.
+
+## Readability refinement v5 — 2026-09-20
+
+Active full-bleed target: `throne_of_eldraine_brawl_luminari_shadow_v5_1800x2100.png`; counted target uses the standard 4 seal. Both have validated 600-DPI black-margin masters and 1440-DPI derivatives.
+
+Native editable title composition using `build_luminari_shadow_v5.swift` and preserved `imagegen_vivid_color_v2_raw.png`. Adds a feathered near-black plum field behind THRONE OF; all typography and positions remain as in v4. Brief: `../prompts/luminari_shadow_v5.md`.
+
+## Unified title shadow v6 — 2026-09-21
+
+Native editable composition using `build_unified_shadow_v6.swift` and original `imagegen_vivid_color_v2_raw.png`. All three rows now share the same feathered dark plum backing, sized to their text widths. Fonts, text positions, vivid artwork and standard count-4 seal are preserved. Brief: `../prompts/unified_shadow_v6.md`. Active target: `throne_of_eldraine_brawl_unified_shadow_v6_1800x2100.png`, plus counted, 600-DPI margin and 1440-DPI print siblings. No new image generation.
