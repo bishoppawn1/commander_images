@@ -1,0 +1,141 @@
+{
+  "signature": "f279dea48e41e2084dc2014e0283acc44f4063668164c9c93d4b0c63d561eb5e",
+  "pdf": "05_Boulder_Tops_March_of_the_Machine_Lord_of_the_Rings_Wilds_of_Eldraine_Turtle_Power_1440dpi_f279dea48e.pdf",
+  "pdf_sha256": "006a1e47cbc99bf240db6ff802ab8020eb7f1f59d9528acbe60d8fc5cbd2b790",
+  "kind": "tops",
+  "count": 12,
+  "labels": [
+    {
+      "group": "march_of_the_machine",
+      "source": "images/march_of_the_machine/Tops/call_for_backup_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "d0f2dda4b9d24cb3d77dedc323f4bee82e608f3462d5e23e645968f48157d025"
+    },
+    {
+      "group": "march_of_the_machine",
+      "source": "images/march_of_the_machine/Tops/cavalry_charge_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "a86d8e9d16f33ffe874949f1de4633887e97bf8d960e0d134d23935c4aad619e"
+    },
+    {
+      "group": "march_of_the_machine",
+      "source": "images/march_of_the_machine/Tops/divine_convocation_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "038b0e38ae34cdd04e0cf32a8aabe551d04bea79040529a24014129758cd3b51"
+    },
+    {
+      "group": "march_of_the_machine",
+      "source": "images/march_of_the_machine/Tops/growing_threat_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "33b17a038b80cc082675e2b2f1a7bfeb160ed6cf34716fe229bef4f6bc000269"
+    },
+    {
+      "group": "march_of_the_machine",
+      "source": "images/march_of_the_machine/Tops/tinker_time_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "6eb54340dd30885905e08355b1388c048270d51ec30e7c9269f4327d0497aae1"
+    },
+    {
+      "group": "lord_of_the_rings",
+      "source": "images/lord_of_the_rings/Tops/food_and_fellowship_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "5efa065fc663f38663244a8c14be9ba465a416f6f0816c8e2f0f1e45c0be486a"
+    },
+    {
+      "group": "lord_of_the_rings",
+      "source": "images/lord_of_the_rings/Tops/riders_of_rohan_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "8d5df4a39e35721565958ee6b1a8e4771fdd393a39f9b0373f4e9e3d2170ebe9"
+    },
+    {
+      "group": "lord_of_the_rings",
+      "source": "images/lord_of_the_rings/Tops/the_hosts_of_mordor_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "fd91778b5943a956a1465ae83ae12f3fa77f17b56437e0267238fefc960e783f"
+    },
+    {
+      "group": "lord_of_the_rings",
+      "source": "images/lord_of_the_rings/Tops/elven_council_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "8791536e34daec4456c8160f0fb85968510ac6d8250c7d17de705f029bc6f609"
+    },
+    {
+      "group": "wilds_of_eldraine",
+      "source": "images/wilds_of_eldraine/Tops/fae_dominion_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "944db16145ad51d485f9ca752c2d6fa4b7d2d230f9b8238e3ab4700a7e69f1f8"
+    },
+    {
+      "group": "wilds_of_eldraine",
+      "source": "images/wilds_of_eldraine/Tops/virtue_and_valor_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "2371ee1aa9cde47c7dcbb83036c39e330523b50671b9bdae31bb77692dd29880"
+    },
+    {
+      "group": "teenage_mutant_ninja_turtles",
+      "source": "images/teenage_mutant_ninja_turtles/Tops/turtle_power_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "9ef3870690fb621a243620162acc894d3c7519b79556467c79788a2fa3c32689"
+    }
+  ]
+}

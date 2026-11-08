@@ -1,0 +1,13 @@
+[
+  {
+    "deck": "MULTIVERSE REFORGED",
+    "commander": "Jace, Multiverse Architect",
+    "raw_file": "images/reality_fracture/Tops/src/multiverse_reforged_regenerated_v2.png",
+    "raw_pixels": [
+      1360,
+      1156
+    ],
+    "prompt": "images/reality_fracture/Tops/prompts/multiverse_reforged_art_v2.txt",
+    "final_file": "images/reality_fracture/Tops/multiverse_reforged_boulder_top_label_tall_3960x3360_1440dpi.png"
+  }
+]

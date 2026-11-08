@@ -4,6 +4,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import make_print_pdfs as tool
@@ -32,10 +33,10 @@ class LayoutTests(unittest.TestCase):
             tool.pack_groups([dict(id="oversize", files=list(range(13)))], 12)
 
     def test_catalog_current_counts(self):
-        for scope, expected in (("first", 46), ("second", 46), ("anthology", 8), ("all", 100)):
+        for scope, expected in (("first", 46), ("second", 60), ("anthology", 8), ("all", 114)):
             groups = tool.load_groups("tops", scope)
             self.assertEqual(sum(len(g["files"]) for g in groups), expected)
-        self.assertEqual(len(tool.load_groups("fronts")), 29)
+        self.assertEqual(len(tool.load_groups("fronts")), 32)
         with self.assertRaises(ValueError):
             tool.load_groups("tops", ids=["not_a_real_set"])
 
@@ -48,7 +49,7 @@ class LayoutTests(unittest.TestCase):
 
     def test_six_overflows_on_separate_sheet(self):
         pages = tool.pack_groups(tool.load_groups("fronts"), 6)
-        self.assertEqual([sum(len(g["files"]) for g in p) for p in pages], [6, 6, 6, 6, 4, 6])
+        self.assertEqual([sum(len(g["files"]) for g in p) for p in pages], [6, 6, 6, 6, 6, 6, 1])
         self.assertTrue(all(g["id"] != "overflow" for p in pages[:5] for g in p))
         self.assertEqual([g["id"] for g in pages[5]], ["overflow"])
         self.assertEqual(len(set(pages[5][0]["files"])), 1)
@@ -64,6 +65,41 @@ class LayoutTests(unittest.TestCase):
                 tool.load_groups("fronts", catalog={"fronts": [dict(base, copies=invalid)]})
         result = tool.load_groups("fronts", catalog={"fronts": [dict(base, copies=6)]})
         self.assertEqual(result[0]["files"], ["source.png"] * 6)
+
+    def test_append_numbering_preserves_existing_sheets(self):
+        groups = [dict(id="existing", files=["a"]),
+                  dict(id="appended", files=["b", "c"], sheet_number=10)]
+        pages = tool.numbered_pages(tool.pack_groups(groups, 12))
+        self.assertEqual(pages, [(1, [groups[0]]), (10, [groups[1]])])
+        with self.assertRaises(ValueError):
+            tool.pack_groups([dict(id="a", files=["x"] * 4, sheet_number=12),
+                              dict(id="b", files=["y"] * 3, sheet_number=12)], 6)
+        for invalid in (0, -1, True, "12"):
+            with self.assertRaises(ValueError):
+                tool.pack_groups([dict(id="a", files=["x"], sheet_number=invalid)], 6)
+
+    def test_condensed_collection_is_complete(self):
+        from collections import Counter
+        import math
+        for kind, capacity in (("tops", 12), ("fronts", 6)):
+            groups = tool.load_groups(kind)
+            pages = tool.pack_groups(groups, capacity)
+            expected = Counter((g['id'], f) for g in groups for f in g['files'])
+            actual = Counter((g['id'], f) for page in pages for g in page for f in g['files'])
+            self.assertEqual(actual, expected)
+            self.assertEqual(len(pages), math.ceil(sum(expected.values()) / capacity))
+            self.assertFalse(any('sheet_number' in g for g in groups))
+
+    def test_failed_refresh_preserves_old_pdfs(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary)
+            old = output / 'Boulder Tops' / 'old.pdf'
+            old.parent.mkdir()
+            old.write_bytes(b'previous verified edition')
+            with patch.object(tool, 'preflight'), patch.object(tool, 'build_page', side_effect=RuntimeError('render failure')):
+                with self.assertRaises(RuntimeError):
+                    tool.main(['--kind','tops','--replace-all','--output',str(output)])
+            self.assertEqual(old.read_bytes(), b'previous verified edition')
 
     def test_output_names_and_hidden_records(self):
         target = Path("Print Sheets/Boulder Tops/example.pdf")

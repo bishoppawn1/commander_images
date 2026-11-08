@@ -1,0 +1,8 @@
+Use case: precise-object-edit.
+Asset type: print-ready Magic Commander drawer front, 6:7 portrait.
+Edit target: the supplied current Turtle Power / Reality Fracture equal-split artwork (unnumbered base).
+Primary request: Change ONLY the interior fill color of the two large words "TURTLE" and "POWER!" in the LEFT panel from bright neon green to clean bright opaque WHITE. Every interior face of every letter in those two words, including the exclamation point, should be white with subtle neutral white/ivory highlights, not green or lime. Preserve the existing orange outline and dark outer shadow exactly, and preserve each letter's shape, position, size, spacing, straight baseline, and exact spelling: first line "TURTLE", second line "POWER!". The white fill should be immediately legible at small printed size.
+Invariants: Keep Raphael's red bandana strictly on his head and his raised arm fully green with its separate brown wrist guard. Keep all four turtles, the city and manhole, the gold central divider, Jace and the blue fractured-reality right panel, and its exact "REALITY" / "FRACTURE" lettering unchanged. Keep all other colors, lighting, detail, panel geometry, composition, and full-bleed edges unchanged. Do not redraw characters or alter text beyond the left-title color. Leave the clear lower corners free for later count seals. Do not add a seal, numeral, circle, logo, caption, or watermark.
+
+Edit target:
+../turtle_power_reality_fracture_vertical_split_v2_raphael_fixed_1800x2100.png

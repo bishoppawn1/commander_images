@@ -1,0 +1,70 @@
+{
+  "contactSheetName": "commander_2018_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "adaptive_enchantment",
+      "deckName": "ADAPTIVE ENCHANTMENT",
+      "goalDescription": "PLAY AURAS \u2022 ADAPT TO THE BOARD",
+      "setName": "COMMANDER 2018",
+      "artPath": "images/commander_2018/Tops/src/regenerated_art_v1/estrid_the_masked_regenerated_v1.png",
+      "colors": [
+        "GREEN",
+        "WHITE",
+        "BLUE"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.18,
+      "manaAlignment": "center",
+      "outputStem": "adaptive_enchantment_readability_v4",
+      "backgroundExtensionPath": "images/commander_2018/Tops/src/adaptive_enchantment_background_extension_v3.png"
+    },
+    {
+      "slug": "exquisite_invention",
+      "deckName": "EXQUISITE INVENTION",
+      "goalDescription": "MAKE ARTIFACTS \u2022 CAST BIG SPELLS",
+      "setName": "COMMANDER 2018",
+      "artPath": "images/commander_2018/Tops/src/exquisite_invention_composition_v4.png",
+      "colors": [
+        "BLUE",
+        "RED"
+      ],
+      "series": 2,
+      "manaAlignment": "center",
+      "outputStem": "exquisite_invention_readability_v4"
+    },
+    {
+      "slug": "natures_vengeance",
+      "deckName": "NATURE\u2019S VENGEANCE",
+      "goalDescription": "FILL THE GRAVEYARD \u2022 RECUR LANDS",
+      "setName": "COMMANDER 2018",
+      "artPath": "images/commander_2018/Tops/src/regenerated_art_v1/lord_windgrace_regenerated_v1.png",
+      "colors": [
+        "BLACK",
+        "RED",
+        "GREEN"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.18,
+      "manaAlignment": "center",
+      "outputStem": "natures_vengeance_readability_v4",
+      "backgroundExtensionPath": "images/commander_2018/Tops/src/natures_vengeance_background_extension_v3.png"
+    },
+    {
+      "slug": "subjective_reality",
+      "deckName": "SUBJECTIVE REALITY",
+      "goalDescription": "BLINK PERMANENTS \u2022 CONTROL THE TOP",
+      "setName": "COMMANDER 2018",
+      "artPath": "images/commander_2018/Tops/src/regenerated_art_v1/aminatou_the_fateshifter_regenerated_v1.png",
+      "colors": [
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.12,
+      "manaAlignment": "center",
+      "outputStem": "subjective_reality_readability_v4",
+      "backgroundExtensionPath": "images/commander_2018/Tops/src/subjective_reality_background_extension_v3.png"
+    }
+  ]
+}

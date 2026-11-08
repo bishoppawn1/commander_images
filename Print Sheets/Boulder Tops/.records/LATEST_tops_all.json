@@ -1,1354 +1,1345 @@
 [
   {
-    "signature": "957f00e743dc5e9b28092bed78fb141a956bdef54d322d176b7419462d46c50b",
-    "pdf": "01_Boulder_Tops_Commander_2013_Commander_2016_Commander_2017_Commander_2018_1440dpi_957f00e743.pdf",
-    "pdf_sha256": "a3eba2f70f8d6fbe6b3b862dba086630d37722e7648a3b8894aca78ecf3352ed",
+    "signature": "618f3fb784e355a8c5731f36e98183319e3e592bab96ca1e13d809ed9ec78cf9",
+    "pdf": "01_Boulder_Tops_Commander_2013_Commander_2016_Commander_2017_Commander_2018_1440dpi_618f3fb784.pdf",
+    "pdf_sha256": "d212355b8c231ce71a105d9bd64eb32a07e27c096b2f4643fc8e303bd001d156",
     "kind": "tops",
     "count": 12,
     "labels": [
       {
         "group": "commander_2013",
-        "source": "images/commander_2013_boulder_deck_box_labels/eternal_bargain_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2013/Tops/eternal_bargain_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "686bddf2f8f8d3069f2c9450d4ab2569fe46fcfe965cd60490d6ab0749b218f9"
+        "rgb_sha256": "85757a63133c42de175605f54a945ea5df497d0659bd43a3a9160a381db3cba8"
       },
       {
         "group": "commander_2013",
-        "source": "images/commander_2013_boulder_deck_box_labels/mind_seize_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2013/Tops/mind_seize_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "73a256f082b0271c999eddbc5c58c77fcba6da80ec93b472d38d22a572b445cf"
+        "rgb_sha256": "4f1fec3b3244f1068bd6a52c77033d94c40f54497c193e47f3c6046e0cc02084"
       },
       {
         "group": "commander_2016",
-        "source": "images/commander_2016_boulder_deck_box_labels/invent_superiority_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2016/Tops/invent_superiority_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "14fbc08d87c880ff7d45c22131d86c3bb969691ac24eae30a5d3dd43ceb51ea3"
+        "rgb_sha256": "677fd222112e9e9781061239358a8db28b5f6853e55234f8e71244a37af5cd11"
       },
       {
         "group": "commander_2016",
-        "source": "images/commander_2016_boulder_deck_box_labels/breed_lethality_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2016/Tops/breed_lethality_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "f48ee112e0a53b5aa6c39cb9e0cbb9d79b1f0181898b264cf2c1d658d25571d3"
+        "rgb_sha256": "b108c85f7bce71c6ef0e597c2dfb1aebe713f9f11c96ddb30f97fdd25ce42d72"
       },
       {
         "group": "commander_2017",
-        "source": "images/commander_2017_boulder_deck_box_labels/feline_ferocity_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2017/Tops/feline_ferocity_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "29a122aeb378d1838c4d019cfc1ee753658f6a3a43c603b9769e1dfdf8744730"
+        "rgb_sha256": "fabac1363bc895db82f3dd4287cb642ad4160aeb97f1ea35b48f0cdcf0eb30cf"
       },
       {
         "group": "commander_2017",
-        "source": "images/commander_2017_boulder_deck_box_labels/vampiric_bloodlust_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2017/Tops/vampiric_bloodlust_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "4ff1f5e7a8c12ba0317ae70ef4ab0bb212548274e8733b721033ee1bd40c8edc"
+        "rgb_sha256": "b4c68ae72c4c024cc36b8d90658f6dc41a50146aeb596e864e21ed8349dbb4a5"
       },
       {
         "group": "commander_2017",
-        "source": "images/commander_2017_boulder_deck_box_labels/arcane_wizardry_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2017/Tops/arcane_wizardry_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "5c0d246055e1f176b495064b737ab8d0778e912962a59deb82da82dacb65928e"
+        "rgb_sha256": "8cd23dd8432e453f424224ead54592fbad81ee45f379ff3188c8c8f6250658b2"
       },
       {
         "group": "commander_2017",
-        "source": "images/commander_2017_boulder_deck_box_labels/draconic_domination_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2017/Tops/draconic_domination_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "9bd98d514e8b360b2be06bf66bce860fcc161725bf5c7781ae71edbdf4e83f50"
+        "rgb_sha256": "7eec9fc6acbc40a18120ccd8e2aabbfb4ccf34dfc77dd0e415e954ef2dde30b9"
       },
       {
         "group": "commander_2018",
-        "source": "images/commander_2018_boulder_deck_box_labels/adaptive_enchantment_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2018/Tops/adaptive_enchantment_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "d3551fbab899f3cc082f83b3544b9d311d4ee7f647dc0d68109e45d7bbc3c8c8"
+        "rgb_sha256": "d1e8fa60f900cfdb901591317b9890a4cd368f31c41b5ef80a4492e05b620173"
       },
       {
         "group": "commander_2018",
-        "source": "images/commander_2018_boulder_deck_box_labels/exquisite_invention_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2018/Tops/exquisite_invention_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "d6c7b3e63bf0a49e58170cf35e000ae5a927fd98b20e8d060c53de885bde1447"
+        "rgb_sha256": "48e6ebae4d190b0233b8d463838eca53564988417279e458b97fbf48473e56c0"
       },
       {
         "group": "commander_2018",
-        "source": "images/commander_2018_boulder_deck_box_labels/natures_vengeance_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2018/Tops/natures_vengeance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "1c1474ae002f16ff6a45602115ba23417e7a2bad55a8e2cf67bf4810ae977b99"
+        "rgb_sha256": "8b394a41eab546da4f2f8e917e475f1cd322dbbe0773624c388c43f9e6236b3e"
       },
       {
         "group": "commander_2018",
-        "source": "images/commander_2018_boulder_deck_box_labels/subjective_reality_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2018/Tops/subjective_reality_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "addfd913fce4a56237ddcae1ae2175c0b736263785f55fbbdff6e1aaee24649b"
+        "rgb_sha256": "8d78172228333dd8ee9374f1db73b90c2937dc57ac43661f41dab7688e72a16a"
       }
     ]
   },
   {
-    "signature": "dbac9e296774bc5517b9aa2c456fc9eaef454fd2586290a74b4d88aa3c952059",
-    "pdf": "02_Boulder_Tops_Commander_2019_Eldraine_Brawl_Zendikar_Rising_Commander_Legends_1440dpi_dbac9e2967.pdf",
-    "pdf_sha256": "4f1b05e3667f1328ec9832b8bd86ccc241b013d9391ee67612d6379d36da0e8a",
+    "signature": "ddf430e3d51c227851af4c1df0bc4277a4e6b9afb8070ede47c7d747411dcf19",
+    "pdf": "02_Boulder_Tops_Commander_2019_Eldraine_Brawl_Zendikar_Rising_Commander_Legends_1440dpi_ddf430e3d5.pdf",
+    "pdf_sha256": "f5a677ce10d41a3674c4bb913e57213e97cf06b286f305ff9c87cae847aef710",
     "kind": "tops",
     "count": 12,
     "labels": [
       {
         "group": "commander_2019",
-        "source": "images/commander_2019_boulder_deck_box_labels/merciless_rage_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2019/Tops/merciless_rage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "2483513ce6b853d40ddcfa7f78890fa8d01b19a512a7edd96ff3f414d2876c2b"
+        "rgb_sha256": "832cd93b914e3d5a369163f9bdbe746d55cbc63514560822dc6621f5ad032ff8"
       },
       {
         "group": "commander_2019",
-        "source": "images/commander_2019_boulder_deck_box_labels/primal_genesis_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2019/Tops/primal_genesis_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "21941f11962ca90898ef675a467aa4ef0203bc00aa0feca5a95815451c2f3fea"
+        "rgb_sha256": "32cc7489c34d1495c4f933bcf869cb693fe807766c0523286fa505c1889566c3"
       },
       {
         "group": "commander_2019",
-        "source": "images/commander_2019_boulder_deck_box_labels/faceless_menace_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2019/Tops/faceless_menace_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "6a7d3cf2c60f38384f99449e48cf35e76ad8ab5d902b7331f0dc9006ebb4ecc8"
+        "rgb_sha256": "4d50a1145951cf739c66a04fd5b954a46ec79b7138166f86cd5e00de1c857a83"
       },
       {
         "group": "commander_2019",
-        "source": "images/commander_2019_boulder_deck_box_labels/mystic_intellect_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2019/Tops/mystic_intellect_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "d37bb08d80abc0706444a40d3365417aca965bd7cf7cd27b70ae78bb774b0962"
+        "rgb_sha256": "8693be7601d2dec7792a53becb2a0f6672fd21698212eb5530be764933efdd30"
       },
       {
         "group": "throne_of_eldraine_brawl",
-        "source": "images/throne_of_eldraine_brawl_boulder_deck_box_labels/wild_bounty_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/throne_of_eldraine_brawl/Tops/wild_bounty_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "21f708b91beb67146310d983a964f0d333b02d5dc90a6301337f78a09499b430"
+        "rgb_sha256": "19a8873696c1f6f5446edefa9081b2b7067fb8280924180a67e6c04b0df8ee5b"
       },
       {
         "group": "throne_of_eldraine_brawl",
-        "source": "images/throne_of_eldraine_brawl_boulder_deck_box_labels/faerie_schemes_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/throne_of_eldraine_brawl/Tops/faerie_schemes_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "90c865e0a21ec3ccbe27a24094e66e25c13b7348a45828e083fd598d8935f8f7"
+        "rgb_sha256": "720a77d26cd15305d736b8a24b9fc5ae2c9a471c8ac618b5f0ebbd395a141676"
       },
       {
         "group": "throne_of_eldraine_brawl",
-        "source": "images/throne_of_eldraine_brawl_boulder_deck_box_labels/knights_charge_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/throne_of_eldraine_brawl/Tops/knights_charge_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "b4258fbb43bed50e740b64415aaffdf9fb38ff0d9991a27ac953021bedfdc2b8"
+        "rgb_sha256": "cdbf90a1f7892cb2e23e3c464a2e49963092b77e57fccb822ca2ab795f842578"
       },
       {
         "group": "throne_of_eldraine_brawl",
-        "source": "images/throne_of_eldraine_brawl_boulder_deck_box_labels/savage_hunger_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/throne_of_eldraine_brawl/Tops/savage_hunger_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "fd7d121ee56bbb6d947ffb4807c8aa653596b5c44bc7227bd35c09f6485c70ef"
+        "rgb_sha256": "1e8779654ae388695ada3922a7cc87d537a4ddf324a2624c7897563324b8ff9a"
       },
       {
         "group": "zendikar_rising",
-        "source": "images/zendikar_rising_boulder_deck_box_labels/sneak_attack_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/zendikar_rising/Tops/sneak_attack_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "f198b9d6923351bf07398c49676a352a244ffaddf693ace242a922bd222e2042"
+        "rgb_sha256": "debae7b2d567ed3a82db394391f04d06d8c98b4c2e0d0b3a0cd7215dd779fabe"
       },
       {
         "group": "zendikar_rising",
-        "source": "images/zendikar_rising_boulder_deck_box_labels/lands_wrath_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/zendikar_rising/Tops/lands_wrath_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "78886f4b72644c3d26c5953759fc749575a6a7b065f4f9a03f7b66ae4f788131"
+        "rgb_sha256": "e1674784c0deae50052eb285689a8a253fb316577ff1378d0345b3669914d19f"
       },
       {
         "group": "commander_legends",
-        "source": "images/commander_legends_boulder_deck_box_labels/arm_for_battle_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_legends/Tops/arm_for_battle_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "72cd5b19b3558b712d7ffe5270d5ff21ce3201083430b5a8fdb9f4788c033a0c"
+        "rgb_sha256": "d3588ad54fc488d5994a9e640c15619b5b17aa163c16ca4202f850b77bbb896f"
       },
       {
         "group": "commander_legends",
-        "source": "images/commander_legends_boulder_deck_box_labels/reap_the_tides_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_legends/Tops/reap_the_tides_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "5a5ab3a4a5941dbbdb262e77dd45974a8f8a12919ceff9c948a7d127ad6f8269"
+        "rgb_sha256": "e08165967c95ed1df8909cc1d973220961f1443e8f0f06a6e343887e484b6f7d"
       }
     ]
   },
   {
-    "signature": "21e0d345f6dccb340b471da2035c7bf6cab95e2737bca5ce40c1bcdad82fb404",
-    "pdf": "03_Boulder_Tops_Commander_2020_Strixhaven_Kamigawa_Neon_Dynasty_1440dpi_21e0d345f6.pdf",
-    "pdf_sha256": "24ab3954c4fede545828ae69573cd0af64bb9006007143939b01729987b5e183",
+    "signature": "72987489fc46dce0b4bf85eb64a2910d10f7c0b404f02081554ddd6119e71535",
+    "pdf": "03_Boulder_Tops_Commander_2020_Strixhaven_Kamigawa_Neon_Dynasty_1440dpi_72987489fc.pdf",
+    "pdf_sha256": "7c26230a32d3bae83bd9515cd11521fcf0d63d7fd64c7117c706c81524d56589",
     "kind": "tops",
     "count": 12,
     "labels": [
       {
         "group": "commander_2020",
-        "source": "images/commander_2020_boulder_deck_box_labels/enhanced_evolution_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2020/Tops/enhanced_evolution_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "8b25cdf6e3a1da960ba177cc314f477532a2107abf74b9de13ca4ed792f5dec2"
+        "rgb_sha256": "3e8ce1d94d85ade955ec7af6f6a55ad807eb47611fe6d4e2292d1b5b576fd9f5"
       },
       {
         "group": "commander_2020",
-        "source": "images/commander_2020_boulder_deck_box_labels/timeless_wisdom_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2020/Tops/timeless_wisdom_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "591bf1f24272a7b40a4085d1534d26e3c7afd6bc016d94815d5177f02da2519d"
+        "rgb_sha256": "c0c6f7cffb6e6f3622be43db7c2256c5ceb7959c41ab94d81f7fe8ab00a480f0"
       },
       {
         "group": "commander_2020",
-        "source": "images/commander_2020_boulder_deck_box_labels/ruthless_regiment_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2020/Tops/ruthless_regiment_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "85a349e0746ac4ea6660a12c96aa0de854d4fe1e2d0621fa0c63389a4b843c8f"
+        "rgb_sha256": "946939d8ca8a670b135313f2ba444be5791acfd6d782b636f869a14d8f35c2d7"
       },
       {
         "group": "commander_2020",
-        "source": "images/commander_2020_boulder_deck_box_labels/arcane_maelstrom_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2020/Tops/arcane_maelstrom_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "f673a87e8cd4c0939da0b37e1528d201b53bc0a271d2921dc979acbb82b9955a"
+        "rgb_sha256": "a94039478ea1509a07a6b3da5aade8ca8983adddb2ae55dbd687df6e6173c555"
       },
       {
         "group": "commander_2020",
-        "source": "images/commander_2020_boulder_deck_box_labels/symbiotic_swarm_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2020/Tops/symbiotic_swarm_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "501c90bf3170b4063fc2825de64cfabd00e36cf0766e72e4dc9181b8a2c23572"
+        "rgb_sha256": "b49b08abe8d7c46d50117aad8516185b22900f86d4320bc18e5149c274b2ee32"
       },
       {
         "group": "strixhaven",
-        "source": "images/strixhaven_boulder_deck_box_labels/prismari_performance_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/strixhaven/Tops/prismari_performance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "42d6b3b32e74c5637bad6bdec107779e81bbae7d3bd1eacd9265ec0bf4419ffd"
+        "rgb_sha256": "1a386a30e1b8c1c5f26eab91de64cf1cd472d6ee8decaa24d6e1ba8d5fb2ba69"
       },
       {
         "group": "strixhaven",
-        "source": "images/strixhaven_boulder_deck_box_labels/silverquill_statement_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/strixhaven/Tops/silverquill_statement_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "7da806b48ea83c5170a725f85297bdf9d11e6669841183aa136344512bd92bd6"
+        "rgb_sha256": "b6f644d121766295ee83de970bca870bf6049bf2cbe5a1eb790f2c0d1f42af15"
       },
       {
         "group": "strixhaven",
-        "source": "images/strixhaven_boulder_deck_box_labels/quantum_quandrix_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/strixhaven/Tops/quantum_quandrix_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "fa5e63d3707df8623bdb109c3e485e0f68af5e246904b6feda3333406c59ef37"
+        "rgb_sha256": "1c3eb5e18e10b5d2f51bb5939b4c4d46ac5afbc969eba04d30d08c5040af9fe2"
       },
       {
         "group": "strixhaven",
-        "source": "images/strixhaven_boulder_deck_box_labels/lorehold_legacies_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/strixhaven/Tops/lorehold_legacies_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "cf4dbd1ccc21c8904a1d607ad0eec3e144207f7b65712742dda73c9deccfd9e7"
+        "rgb_sha256": "e746f0440b36c18475457f56cb46e982b5504aee16bd6ad0c5220a8b48cd873a"
       },
       {
         "group": "strixhaven",
-        "source": "images/strixhaven_boulder_deck_box_labels/witherbloom_witchcraft_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/strixhaven/Tops/witherbloom_witchcraft_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "2db670a9ab568121e3a7fbe203c99ff8538430230bcb1559dffdaf7d4e670ae2"
+        "rgb_sha256": "46347600dab5dc40cba15694b21fa83bb5662644b854d38511c58a06131f02e7"
       },
       {
         "group": "kamigawa_neon_dynasty",
-        "source": "images/kamigawa_neon_dynasty_boulder_deck_box_labels/upgrades_unleashed_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/kamigawa_neon_dynasty/Tops/upgrades_unleashed_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "403ed557f1383774a5a701f74141f0e10ada116cb188d72fca911d9ca94a4e10"
+        "rgb_sha256": "b007cfd31b2d23c131c00caa41f964ef24f3ef7d743ca708c0768d82c9f01303"
       },
       {
         "group": "kamigawa_neon_dynasty",
-        "source": "images/kamigawa_neon_dynasty_boulder_deck_box_labels/buckle_up_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/kamigawa_neon_dynasty/Tops/buckle_up_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "6e5db3da41c4a54001aef613a91a6dae7d31574cab427a3ddd9341510f98df7f"
+        "rgb_sha256": "d82649b4432886954c293419206edeb49c869bc80c2ae91f06a17d054adac0a6"
       }
     ]
   },
   {
-    "signature": "a5e6834402076369d5c86f33453f49d90160eae51635e1313b02d575904e08ea",
-    "pdf": "04_Boulder_Tops_Forgotten_Realms_Warhammer_40000_Brothers_War_Phyrexia_All_Will_Be_One_1440dpi_a5e6834402.pdf",
-    "pdf_sha256": "6c45d78372428b300ee0316eeb41c5d6629b5ee778ed5bdc411cb43268892d40",
+    "signature": "1dfb208d4c8f937f01de1286d6e7bf8eb0aec5fd1ed92201b1e0737a7e36f624",
+    "pdf": "04_Boulder_Tops_Forgotten_Realms_Warhammer_40000_Brothers_War_Phyrexia_All_Will_Be_One_1440dpi_1dfb208d4c.pdf",
+    "pdf_sha256": "6440207e40531ce725aaf7f8908f80c656e4db51fc695a300ca64e1d8e7b2b26",
     "kind": "tops",
     "count": 12,
     "labels": [
       {
         "group": "adventures_in_the_forgotten_realms",
-        "source": "images/adventures_in_the_forgotten_realms_boulder_deck_box_labels/draconic_rage_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/adventures_in_the_forgotten_realms/Tops/draconic_rage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "c90ddd337813e3366cd3554841696ea08c7237b46e88b64530ca740a2ef7d584"
+        "rgb_sha256": "400f0fedf6d854b222d6c8c9129d20b6c5377acfadebe777b57f4a1760362fdf"
       },
       {
         "group": "adventures_in_the_forgotten_realms",
-        "source": "images/adventures_in_the_forgotten_realms_boulder_deck_box_labels/dungeons_of_death_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/adventures_in_the_forgotten_realms/Tops/dungeons_of_death_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "1784a5152ef71c5bd7ca6061d63380de206dab599f93de2cadb982e9aa7edafd"
+        "rgb_sha256": "c06bb9b77d490b6fa239bbcb3abb0949eb8c05dd81d430c4efc9be1478331497"
       },
       {
         "group": "adventures_in_the_forgotten_realms",
-        "source": "images/adventures_in_the_forgotten_realms_boulder_deck_box_labels/aura_of_courage_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/adventures_in_the_forgotten_realms/Tops/aura_of_courage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "1403a6aa58e6e1165c3304c02c85966078a1767dd26705c3306079ffc8e3ec88"
+        "rgb_sha256": "15d709d739ba899bc17affef58e6b77f2533a50504d05410f02c61e1eb3b1a30"
       },
       {
         "group": "adventures_in_the_forgotten_realms",
-        "source": "images/adventures_in_the_forgotten_realms_boulder_deck_box_labels/planar_portal_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/adventures_in_the_forgotten_realms/Tops/planar_portal_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "b5f849fc07412f6278df0b0b3e24a7c1282d0256ec818b36d2dfa246209ebdee"
+        "rgb_sha256": "9adbe9317b3f21cfd67822b2ff0ce4efad3a0cf6a4178235352c4da93c3ff20c"
       },
       {
         "group": "warhammer_40000",
-        "source": "images/warhammer_40000_boulder_deck_box_labels/tyranid_swarm_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/warhammer_40000/Tops/tyranid_swarm_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "dc087b1d142a325c20a2b07378cfb86cfed29d4a947aec5af305f659acb693e3"
+        "rgb_sha256": "9f55dd5b1f397dfe90ac1c6987590eae1a0b412bcd39136ac43f2150d87cb063"
       },
       {
         "group": "warhammer_40000",
-        "source": "images/warhammer_40000_boulder_deck_box_labels/forces_of_the_imperium_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/warhammer_40000/Tops/forces_of_the_imperium_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "57bf9b6dddd3bfed660b248a907c5a4fd380ef65fb65f96a0eef0c22870ce65d"
+        "rgb_sha256": "402c5e72a268bc17dbab0096d55c32b163c058f0c8eca844956bd80a4f9c43e6"
       },
       {
         "group": "warhammer_40000",
-        "source": "images/warhammer_40000_boulder_deck_box_labels/necron_dynasties_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/warhammer_40000/Tops/necron_dynasties_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "60f4428fc1f300bff19ba2a661a43a358fca7dda216099356055e2178395cc41"
+        "rgb_sha256": "83c9196d113042ad671ab538793f41cfa38dd517aaf0e2b39c9c920f2c52225e"
       },
       {
         "group": "warhammer_40000",
-        "source": "images/warhammer_40000_boulder_deck_box_labels/the_ruinous_powers_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/warhammer_40000/Tops/the_ruinous_powers_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "1070e014aa7cff3e839e0f543614215c12d0a2f09a9b754cc2ff210ebb8e0702"
+        "rgb_sha256": "40600fd8fa5ebee7d820f7e263367831bc1cc1667bd5fe977534fbc0bb7cd00e"
       },
       {
         "group": "brothers_war",
-        "source": "images/brothers_war_boulder_deck_box_labels/urzas_iron_alliance_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/brothers_war/Tops/urzas_iron_alliance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "d0d2f1f9cb3524d4a90bf6c97e158309e4931a4445b60eff964b115288a9dc86"
+        "rgb_sha256": "c2fa9fb2b8d08c4dd92ce735cb286bf03dbc503057a775fed0c9f1a49ec43f19"
       },
       {
         "group": "brothers_war",
-        "source": "images/brothers_war_boulder_deck_box_labels/mishras_burnished_banner_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/brothers_war/Tops/mishras_burnished_banner_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "a75c30ee8a278ab77a4b3f2244711c4b48b6aa901be9e0582b94e0a98d2190a3"
+        "rgb_sha256": "8f089e6e5d53a142186db9662b76be00148dd4e84b9222a181e0bc392d78e7c0"
       },
       {
         "group": "phyrexia_all_will_be_one",
-        "source": "images/phyrexia_all_will_be_one_boulder_deck_box_labels/corrupting_influence_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/phyrexia_all_will_be_one/Tops/corrupting_influence_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "fd235a2d101a1a9556802859d0556b13121294e630453bca9b5dd6a74369534b"
+        "rgb_sha256": "d3698f0501aadd92d410e31ba3a41abd146d1237c54c4b7919c268755900db72"
       },
       {
         "group": "phyrexia_all_will_be_one",
-        "source": "images/phyrexia_all_will_be_one_boulder_deck_box_labels/rebellion_rising_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/phyrexia_all_will_be_one/Tops/rebellion_rising_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "c164672b65ad208cc46967e8ec26714007617916a3a2c44a0b7f97a81384ce21"
+        "rgb_sha256": "982afa764ff23afebce52a689b0160578b9d05e999db209178e218a1f8fd8516"
       }
     ]
   },
   {
-    "signature": "80e40449253b1d670d94ecd104722b1ce91d86960ba110e060f13ece0d014b5c",
-    "pdf": "05_Boulder_Tops_March_of_the_Machine_Lord_of_the_Rings_Wilds_of_Eldraine_Turtle_Power_1440dpi_80e4044925.pdf",
-    "pdf_sha256": "e84a8aec93fac8c3e09f6c1597834b66b0a37cc86c43658061b18a7cfe6367c6",
+    "signature": "f279dea48e41e2084dc2014e0283acc44f4063668164c9c93d4b0c63d561eb5e",
+    "pdf": "05_Boulder_Tops_March_of_the_Machine_Lord_of_the_Rings_Wilds_of_Eldraine_Turtle_Power_1440dpi_f279dea48e.pdf",
+    "pdf_sha256": "006a1e47cbc99bf240db6ff802ab8020eb7f1f59d9528acbe60d8fc5cbd2b790",
     "kind": "tops",
     "count": 12,
     "labels": [
       {
         "group": "march_of_the_machine",
-        "source": "images/march_of_the_machine_boulder_deck_box_labels/call_for_backup_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/march_of_the_machine/Tops/call_for_backup_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "c21964adb969a72628b7dd83cc8d7d2dad3d8a0e5ddd892496f19979df839a5a"
+        "rgb_sha256": "d0f2dda4b9d24cb3d77dedc323f4bee82e608f3462d5e23e645968f48157d025"
       },
       {
         "group": "march_of_the_machine",
-        "source": "images/march_of_the_machine_boulder_deck_box_labels/cavalry_charge_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/march_of_the_machine/Tops/cavalry_charge_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "f2d597987d23cc08c9410ff09bf3b1dd64b828adbb8eb78df2266a132eeff7c4"
+        "rgb_sha256": "a86d8e9d16f33ffe874949f1de4633887e97bf8d960e0d134d23935c4aad619e"
       },
       {
         "group": "march_of_the_machine",
-        "source": "images/march_of_the_machine_boulder_deck_box_labels/divine_convocation_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/march_of_the_machine/Tops/divine_convocation_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "ec88452c7ef48d18db02d83de6d8bd4307f3ccf20bca13261d4f5fa943e83aaa"
+        "rgb_sha256": "038b0e38ae34cdd04e0cf32a8aabe551d04bea79040529a24014129758cd3b51"
       },
       {
         "group": "march_of_the_machine",
-        "source": "images/march_of_the_machine_boulder_deck_box_labels/growing_threat_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/march_of_the_machine/Tops/growing_threat_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "db006799fe7be2d932334e3fc8534c9a5779498f85e6419a359331342d668c96"
+        "rgb_sha256": "33b17a038b80cc082675e2b2f1a7bfeb160ed6cf34716fe229bef4f6bc000269"
       },
       {
         "group": "march_of_the_machine",
-        "source": "images/march_of_the_machine_boulder_deck_box_labels/tinker_time_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/march_of_the_machine/Tops/tinker_time_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "4ac163c6fe7ca08667edc7766640d73d4cfca0350da244f56c1949bb91279e19"
+        "rgb_sha256": "6eb54340dd30885905e08355b1388c048270d51ec30e7c9269f4327d0497aae1"
       },
       {
         "group": "lord_of_the_rings",
-        "source": "images/lord_of_the_rings_boulder_deck_box_labels/food_and_fellowship_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/lord_of_the_rings/Tops/food_and_fellowship_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "4849e69aeaafb6a7942453b727136c389053cae1ea29994179b98c7dc410eac5"
+        "rgb_sha256": "5efa065fc663f38663244a8c14be9ba465a416f6f0816c8e2f0f1e45c0be486a"
       },
       {
         "group": "lord_of_the_rings",
-        "source": "images/lord_of_the_rings_boulder_deck_box_labels/riders_of_rohan_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/lord_of_the_rings/Tops/riders_of_rohan_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "9be89113cda0626bd13f3ee38a5bb03c82b74b50335a35f0748fa1d5aca20bde"
+        "rgb_sha256": "8d5df4a39e35721565958ee6b1a8e4771fdd393a39f9b0373f4e9e3d2170ebe9"
       },
       {
         "group": "lord_of_the_rings",
-        "source": "images/lord_of_the_rings_boulder_deck_box_labels/the_hosts_of_mordor_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/lord_of_the_rings/Tops/the_hosts_of_mordor_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "05fafb4e3cdf701ebef85341ce3ed5973f6083bd4704afa3b2db9ec873e0a31f"
+        "rgb_sha256": "fd91778b5943a956a1465ae83ae12f3fa77f17b56437e0267238fefc960e783f"
       },
       {
         "group": "lord_of_the_rings",
-        "source": "images/lord_of_the_rings_boulder_deck_box_labels/elven_council_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/lord_of_the_rings/Tops/elven_council_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "ccfa07eef582140ad8a5346357e75648c930c5376df6f45063c4759cd038d637"
+        "rgb_sha256": "8791536e34daec4456c8160f0fb85968510ac6d8250c7d17de705f029bc6f609"
       },
       {
         "group": "wilds_of_eldraine",
-        "source": "images/wilds_of_eldraine_boulder_deck_box_labels/fae_dominion_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/wilds_of_eldraine/Tops/fae_dominion_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "d925d82bc7a8c59fcc7de60932e1cc87dea137cfc511b7dca0bc40f44f5c2dd9"
+        "rgb_sha256": "944db16145ad51d485f9ca752c2d6fa4b7d2d230f9b8238e3ab4700a7e69f1f8"
       },
       {
         "group": "wilds_of_eldraine",
-        "source": "images/wilds_of_eldraine_boulder_deck_box_labels/virtue_and_valor_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/wilds_of_eldraine/Tops/virtue_and_valor_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "17c4fd29efeacadbd46875545f8c554d2b508944c1ea1b59e25e83513afe3d71"
+        "rgb_sha256": "2371ee1aa9cde47c7dcbb83036c39e330523b50671b9bdae31bb77692dd29880"
       },
       {
         "group": "teenage_mutant_ninja_turtles",
-        "source": "images/teenage_mutant_ninja_turtles_boulder_deck_box_labels/turtle_power_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/teenage_mutant_ninja_turtles/Tops/turtle_power_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "c97310cb2cf75aa9a868ae199d972bb33fee30e33de61e1c8f8f513d252033e6"
+        "rgb_sha256": "9ef3870690fb621a243620162acc894d3c7519b79556467c79788a2fa3c32689"
       }
     ]
   },
   {
-    "signature": "9bbf220d5b4d07e078f146c5e18d41b379a53ad581e148ad5f04298ec4513076",
-    "pdf": "06_Boulder_Tops_Commander_Masters_Doctor_Who_Lost_Caverns_of_Ixalan_1440dpi_9bbf220d5b.pdf",
-    "pdf_sha256": "d13061144f18d128446ed41c7d3da77dbb2a959f053ddc10f7ea5cce6d5ef853",
+    "signature": "3f2cd4775da10d1b5b1776f6fc18583f56a0ffad5b83722751859be6eac020b0",
+    "pdf": "06_Boulder_Tops_Commander_Masters_Doctor_Who_Lost_Caverns_of_Ixalan_1440dpi_3f2cd4775d.pdf",
+    "pdf_sha256": "b89c434af3e9589f43521d23f3e08c2376dd890b21f12ef2722bd207263889b9",
     "kind": "tops",
     "count": 12,
     "labels": [
       {
         "group": "commander_masters",
-        "source": "images/commander_masters_boulder_deck_box_labels/eldrazi_unbound_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_masters/Tops/eldrazi_unbound_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "741e8d1ab5c9ffdf9bb3d209aaf78fae6a17f1e64604ed74b93abebb8303d432"
+        "rgb_sha256": "456c2c8c590f792ab35520228a04a72e7e0b8a62dd88eae646f28d2ac6279b78"
       },
       {
         "group": "commander_masters",
-        "source": "images/commander_masters_boulder_deck_box_labels/enduring_enchantments_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_masters/Tops/enduring_enchantments_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "04f30cb407936ba63c6eb9177f90ad26e2048712ac1590e2b50515e94fcd9e16"
+        "rgb_sha256": "9a252d98b6c539250df598c6c587310e7f9544c778561840854dc0d4395e53f6"
       },
       {
         "group": "commander_masters",
-        "source": "images/commander_masters_boulder_deck_box_labels/planeswalker_party_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_masters/Tops/planeswalker_party_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "ada5835686cf894b264843e2940e7c01348aebad015bbdf553116b914cce8a9d"
+        "rgb_sha256": "fe2c612ab9e3f8cf4483eb93ab793e6562f742db61486269b8017c7e5fea4502"
       },
       {
         "group": "commander_masters",
-        "source": "images/commander_masters_boulder_deck_box_labels/sliver_swarm_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_masters/Tops/sliver_swarm_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "253638805239e1c6bbd776f9416cb6cadd370e1ec193decf884b1aa87c2022f8"
+        "rgb_sha256": "bde12cb8417526450673c142eda8a0362c9091be8de4557dfddc15741ef858dc"
       },
       {
         "group": "doctor_who",
-        "source": "images/doctor_who_boulder_deck_box_labels/blast_from_the_past_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/doctor_who/Tops/blast_from_the_past_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "d442777cad74bbc10d62644833b3f7af4ee462095a17e8f67ec9be69659df22f"
+        "rgb_sha256": "0cb7283ca52861aa6ac621e3302d20b78c79907be069cd535856bcd9f59c747d"
       },
       {
         "group": "doctor_who",
-        "source": "images/doctor_who_boulder_deck_box_labels/timey_wimey_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/doctor_who/Tops/timey_wimey_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "66a701b8de9478ed6b9c1dd30d4d2be3efad3d68981c608401f58f5efa2231c5"
+        "rgb_sha256": "3ce22100624b3dafb17d6bf536e284fc7efce88b56d3791f683795ce78d29291"
       },
       {
         "group": "doctor_who",
-        "source": "images/doctor_who_boulder_deck_box_labels/paradox_power_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/doctor_who/Tops/paradox_power_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "9b82226beb1696109754b6c6f404eef363c8a88f3124cd1ffda9c06891af3d0b"
+        "rgb_sha256": "23ec419c90eebfe3ae81f30c507d0ce5798dbc8d6308d18fde01fbfca58aef2d"
       },
       {
         "group": "doctor_who",
-        "source": "images/doctor_who_boulder_deck_box_labels/masters_of_evil_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/doctor_who/Tops/masters_of_evil_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "66d6eed771d37b9db8efe64887ccba4ed716eeb81208de125e5c674f71e5cfeb"
+        "rgb_sha256": "9c834eeebdef78fb47c0fdd18fe5978b31dd0a4eaa33ab5c3dd2e4bb82ae3349"
       },
       {
         "group": "lost_caverns_of_ixalan",
-        "source": "images/lost_caverns_of_ixalan_boulder_deck_box_labels/ahoy_mateys_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/lost_caverns_of_ixalan/Tops/ahoy_mateys_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "97bbdb579ab9748ae6a238ce09e94e61b012dcb317c80d90a2479619e58f9eff"
+        "rgb_sha256": "fde01b38aa7c99e71cda1c7f96cf9a5585c63a90f61ff4cc0af64c68b571ab17"
       },
       {
         "group": "lost_caverns_of_ixalan",
-        "source": "images/lost_caverns_of_ixalan_boulder_deck_box_labels/blood_rites_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/lost_caverns_of_ixalan/Tops/blood_rites_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "9aa7b0caef55fb000b1fd33a7b320120ee7c6af59bf00cfde20e0fc1489d6061"
+        "rgb_sha256": "4e3fb37ff7808ec8e48e13bcf58de9cd2519e117875919580615978a8c23d070"
       },
       {
         "group": "lost_caverns_of_ixalan",
-        "source": "images/lost_caverns_of_ixalan_boulder_deck_box_labels/explorers_of_the_deep_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/lost_caverns_of_ixalan/Tops/explorers_of_the_deep_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "4da288b96497a7d99fa7530315609d331190582bdbb8acc564f3e3903ef094bb"
+        "rgb_sha256": "08f404567aaf80ba01f7eb65ada36e341b96004c05050f79f9ae6af8089f1369"
       },
       {
         "group": "lost_caverns_of_ixalan",
-        "source": "images/lost_caverns_of_ixalan_boulder_deck_box_labels/veloci_ramp_tor_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/lost_caverns_of_ixalan/Tops/veloci_ramp_tor_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "b5a8ddce2aaacbb08af8e75d8f52a2b86f248e254c025b1fa7055c6e062115d3"
+        "rgb_sha256": "8b21c5b203d68bcc0007dc510376e0640c5aca6954e12e96f65d20b5d271ac9e"
       }
     ]
   },
   {
-    "signature": "3ae0fc7e4cb4b116f8d35e716ead61b7393261d4e39735cd8f414933d51bd6fe",
-    "pdf": "07_Boulder_Tops_Fallout_Modern_Horizons_3_Bloomburrow_1440dpi_3ae0fc7e4c.pdf",
-    "pdf_sha256": "cae6a85afa7475e00c00de7218cf85c5ed267d4141fd91db3f6fbc9ba84b676d",
+    "signature": "b00e4b65024c5594569b3faae8cb1a8d8e60136f37c731d125844f7d66bb23f7",
+    "pdf": "07_Boulder_Tops_Fallout_Modern_Horizons_3_Bloomburrow_1440dpi_b00e4b6502.pdf",
+    "pdf_sha256": "030e4b9e29796f4f7ba44763cd7f76664cea059075f9772fe9c8754f55d5a54c",
     "kind": "tops",
     "count": 12,
     "labels": [
       {
         "group": "fallout",
-        "source": "images/fallout_boulder_deck_box_labels/scrappy_survivors_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/fallout/Tops/scrappy_survivors_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "843849848e6de82d5f8474386053ee9384d6ae206517508238e16d8252eef727"
+        "rgb_sha256": "35ff145bc702fdb0df09f8eb610faab3b3193d586a169f89be88c61d8f7737fa"
       },
       {
         "group": "fallout",
-        "source": "images/fallout_boulder_deck_box_labels/hail_caesar_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/fallout/Tops/hail_caesar_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "07e714d6059267a2e56a6c536bc3697b9c876c34c01e65293d55d13ba86d8fce"
+        "rgb_sha256": "c7be5af1dc699f7c359a63c949f73890f63b710d1cc39f8da68893db1a8e7b81"
       },
       {
         "group": "fallout",
-        "source": "images/fallout_boulder_deck_box_labels/science_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/fallout/Tops/science_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "4e573ef9a647e0e78b2a4c7495b3d5c7699e9d83dde085ac19d4cd37679f5acd"
+        "rgb_sha256": "0d30f107112c48675bae178aaabfb6af2f70d8b191091808254851f33f2e4f4b"
       },
       {
         "group": "fallout",
-        "source": "images/fallout_boulder_deck_box_labels/mutant_menace_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/fallout/Tops/mutant_menace_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "d19edd16c0315ab409a5b99507b73868fd8a58ceb80efec54a24d9afb9b93c0e"
+        "rgb_sha256": "e45196c65115b91af4aea683a24cf21d3655d3d975b236670a3874f64adde975"
       },
       {
         "group": "modern_horizons_3",
-        "source": "images/modern_horizons_3_boulder_deck_box_labels/graveyard_overdrive_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/modern_horizons_3/Tops/graveyard_overdrive_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "076a8b1432efe0699243b1d56a974e3308b8ee3250ba01667df68da4c398db73"
+        "rgb_sha256": "cda8d7f7dedc53bd683c7f7899eab4da5fae1e74fa45a8acbed74ecccb5e9bf3"
       },
       {
         "group": "modern_horizons_3",
-        "source": "images/modern_horizons_3_boulder_deck_box_labels/creative_energy_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/modern_horizons_3/Tops/creative_energy_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "e2d3be7ae02ecd34045aaa4a9e653e11440dc511b8a5629af89141531686f277"
+        "rgb_sha256": "89bddc0bac1b9e255367844af4198389a5793474ab7b793fe2d7719593282fd5"
       },
       {
         "group": "modern_horizons_3",
-        "source": "images/modern_horizons_3_boulder_deck_box_labels/tricky_terrain_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/modern_horizons_3/Tops/tricky_terrain_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "f4862c61308ca1be2da824d91a3664ddf8ac954c44518d2a3fbe60160bea3376"
+        "rgb_sha256": "1f92486bc8c234bdb252133519bd4170f704d4803d5ef1cd02be3b820ef7901c"
       },
       {
         "group": "modern_horizons_3",
-        "source": "images/modern_horizons_3_boulder_deck_box_labels/eldrazi_incursion_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/modern_horizons_3/Tops/eldrazi_incursion_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "6b6e2b35d67b4b4136acd999fcd64a4eecfa2e911382865f01b70bce3ee23e92"
+        "rgb_sha256": "7851fdaca559057401b1f50d47d510563aeadcc6080333fc2b61c07779a9dd52"
       },
       {
         "group": "bloomburrow",
-        "source": "images/bloomburrow_boulder_deck_box_labels/animated_army_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/bloomburrow/Tops/animated_army_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "0a39b66ce10cf4090b939a5b10d06b5d0252dc8487a289121edcad03f90507bc"
+        "rgb_sha256": "51f23539948bbcde7adc7d39e67e6133793a8775e6fc9931602fac8c9ee59239"
       },
       {
         "group": "bloomburrow",
-        "source": "images/bloomburrow_boulder_deck_box_labels/family_matters_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/bloomburrow/Tops/family_matters_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "4151b93ba4e78c8b3b184a3af3150a8329fdf6fe46a51a6f98350c5e514b4639"
+        "rgb_sha256": "8fa464c81a46b164811576afeb82eebb129920a4c4a5a5142ec38add7adf09f2"
       },
       {
         "group": "bloomburrow",
-        "source": "images/bloomburrow_boulder_deck_box_labels/peace_offering_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/bloomburrow/Tops/peace_offering_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "c585bc41247b7d2126a4d6f428851b1c917dddabcc46aaf3c4c9f07ab7829de2"
+        "rgb_sha256": "6b133ef2d5fed7f1411496f0115368ba7ca6e0d511ba6261547e97c521dbc831"
       },
       {
         "group": "bloomburrow",
-        "source": "images/bloomburrow_boulder_deck_box_labels/squirreled_away_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/bloomburrow/Tops/squirreled_away_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "84b103ed2971dde86696e1a0a013a847968f00048f992a10a3df5dd0a94add9f"
+        "rgb_sha256": "9f272cabd2c9847def63a84d1a4f4517038d9c59a43b312cb22432dcb557837b"
       }
     ]
   },
   {
-    "signature": "ede0f99ade0ac846f33f92a79740dbdd481ffdc4679e3f30ab09386862263bee",
-    "pdf": "08_Boulder_Tops_Final_Fantasy_Marvel_Super_Heroes_Commander_Anthology_I_1440dpi_ede0f99ade.pdf",
-    "pdf_sha256": "4076073ca7ff6bea7dec9352bf789a05d0cac4def58686ed9a555a84a63a068f",
+    "signature": "07897dd8b5c8ac9f951fbb125ada6e544a5842741351184b2f97df86d01df756",
+    "pdf": "08_Boulder_Tops_Final_Fantasy_Marvel_Super_Heroes_Commander_Anthology_I_1440dpi_07897dd8b5.pdf",
+    "pdf_sha256": "d18aabd7af1c7a03d103b89652285bf27b831d6bebde6a6ea2a823dfee9b9c27",
     "kind": "tops",
     "count": 12,
     "labels": [
       {
         "group": "final_fantasy",
-        "source": "images/final_fantasy_boulder_deck_box_labels/revival_trance_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/final_fantasy/Tops/revival_trance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "f9fead37425e918724b1e1159c48e4ee4025b70daf0a97159518ec03e952c2f6"
+        "rgb_sha256": "a1d86706c991bb8447012166279b45c76fc829d14a6b66c68551395dc66c3588"
       },
       {
         "group": "final_fantasy",
-        "source": "images/final_fantasy_boulder_deck_box_labels/limit_break_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/final_fantasy/Tops/limit_break_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "970857e5926e6099abafbece1b026868c0bec04c60f7c9d7d0c967c2a60d6ac0"
+        "rgb_sha256": "998590a61843cee7598e3e216d0c5ff97cfcf1dec43f528bb7ffddffa3628c37"
       },
       {
         "group": "final_fantasy",
-        "source": "images/final_fantasy_boulder_deck_box_labels/counter_blitz_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/final_fantasy/Tops/counter_blitz_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "458fb32228948747206d96c904abdf1cc988bbb7eb8f63434d1c31acfd4a741d"
+        "rgb_sha256": "4ed5d10ab97f960d16fc292464fdec5e390e241e90526c7ae13ff0e0e5159559"
       },
       {
         "group": "final_fantasy",
-        "source": "images/final_fantasy_boulder_deck_box_labels/scions_and_spellcraft_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/final_fantasy/Tops/scions_and_spellcraft_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "23ff4c71cbc25a0f12fa354fbad7fbd85d28f1248b7c7564996c34271ea960ea"
+        "rgb_sha256": "76e5f7232a9efd5934d0610296eee4e1567e0963b7d1ec2d51836db62275884a"
       },
       {
         "group": "marvel_super_heroes",
-        "source": "images/marvel_super_heroes_boulder_deck_box_labels/avengers_assemble_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/marvel_super_heroes/Tops/avengers_assemble_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "96eb7ff5c4b8d9e11f6841694d8f3317f3fd7175f8a812425c28dc7edcc18e2b"
+        "rgb_sha256": "0a71a07a5b94def0fb3eb14d515f086c937ad2523f60f7f2f70021779d6e9774"
       },
       {
         "group": "marvel_super_heroes",
-        "source": "images/marvel_super_heroes_boulder_deck_box_labels/wakanda_forever_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/marvel_super_heroes/Tops/wakanda_forever_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "740ef046ca69d6fcde26de389dc14129a79342b28783c2595108248d4ca243c6"
+        "rgb_sha256": "a5f2dd821c7e986cb004d81b3d3deaa6c23e82a67d5581a2f5a2b0e887271472"
       },
       {
         "group": "marvel_super_heroes",
-        "source": "images/marvel_super_heroes_boulder_deck_box_labels/the_fantastic_four_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/marvel_super_heroes/Tops/the_fantastic_four_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "eae8697f9e738a2d197e881e023d4a305b7e9b14e3a23a022be0c40e168daf3d"
+        "rgb_sha256": "4ced02ecbfb196966c5c5979cd427252a44c66b618c69583f805130152ffc545"
       },
       {
         "group": "marvel_super_heroes",
-        "source": "images/marvel_super_heroes_boulder_deck_box_labels/doom_prevails_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/marvel_super_heroes/Tops/doom_prevails_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "e4d2fa35e3c6b735d8580beace6019b28be52d79ba60137975988a6e5026da3b"
+        "rgb_sha256": "c0cfae250ab40df77f74921863a470344a256aef6bfa9b0da999cadf544f9073"
       },
       {
         "group": "commander_anthology_i",
-        "source": "images/commander_anthology_deck_box_labels/heavenly_inferno_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_anthology_i/Tops/heavenly_inferno_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "f7de81439bea7cd21acd40adf4c776a4b5f0002c121c89723645cacb4fae86e7"
+        "rgb_sha256": "7c6782b3998677bd843bba00544cb7fb81d901330f716d172950fd4ce0dca556"
       },
       {
         "group": "commander_anthology_i",
-        "source": "images/commander_anthology_deck_box_labels/evasive_maneuvers_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_anthology_i/Tops/evasive_maneuvers_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "8a4ee1a755789e494f0695bee03625881450ec2fef507c2cf1c0710828467377"
+        "rgb_sha256": "7e2fd611791ab98ce29e3d65bceacf16ac53cc3eef56e54229fe2457f8d97f1c"
       },
       {
         "group": "commander_anthology_i",
-        "source": "images/commander_anthology_deck_box_labels/guided_by_nature_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_anthology_i/Tops/guided_by_nature_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "c6c7068108a997c6c1e480f09324c6a02e7da75dac471f4192018afef5e3036d"
+        "rgb_sha256": "1693b03015cb154115c5644c558ffee4c074df29d1e7229bae962f63125fb6fe"
       },
       {
         "group": "commander_anthology_i",
-        "source": "images/commander_anthology_deck_box_labels/plunder_the_graves_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_anthology_i/Tops/plunder_the_graves_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "ec0582be739fc173fcb322e2d4ec87c962ea8e4c03aee537e2f91e340f15cc98"
+        "rgb_sha256": "9b0bbae33cd7de7f521c38a2ce5b7c210c64ae26be0d3aa1056ba10759a06b6c"
       }
     ]
   },
   {
-    "signature": "75a84daf17bdc2ce0d6a01ca051bc5d6f52d794e7a4a80cb39d000625bd90f7a",
-    "pdf": "09_Boulder_Tops_Commander_Anthology_II_1440dpi_75a84daf17.pdf",
-    "pdf_sha256": "d436c3a7b41d35f5e0c3aa56259315b2e2680877c60ed78102bf478651653ffc",
+    "signature": "fce7bce466c24a6f1e8dc96ccc7ecbaaea59b2e009ed50c08e3d47a5df6c5208",
+    "pdf": "09_Boulder_Tops_Commander_Anthology_II_Aetherdrift_Edge_of_Eternities_Reality_Fracture_1440dpi_fce7bce466.pdf",
+    "pdf_sha256": "e264c253d9d8acfb31a9295874b42d319b066c79675017cea4624513b596a62e",
     "kind": "tops",
-    "count": 4,
+    "count": 9,
     "labels": [
       {
         "group": "commander_anthology_ii",
-        "source": "images/commander_anthology_deck_box_labels/devour_for_power_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_anthology_i/Tops/devour_for_power_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "7884d701d297caed76e76cd318df29a05fc1a45aeb01bd1192e166d930758e68"
+        "rgb_sha256": "6f96ded983ce17d5b2a82315c4e51c4878b978c4f98065a5e65671fa8ebd0782"
       },
       {
         "group": "commander_anthology_ii",
-        "source": "images/commander_anthology_deck_box_labels/built_from_scratch_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_anthology_i/Tops/built_from_scratch_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "40081ea3e0f65bc681efa5edd097822a9f4c9015f7614a16b10a9494ab3dd57c"
+        "rgb_sha256": "53f4a49afa76d3ad7d827f09ec372647ddcbf393103a11cd6fff3d815c36db47"
       },
       {
         "group": "commander_anthology_ii",
-        "source": "images/commander_anthology_deck_box_labels/wade_into_battle_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_anthology_i/Tops/wade_into_battle_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "f28c9056791e8bfc9592aef6119c7a53e3e6c1a23f4d703c95a75babe70543bd"
+        "rgb_sha256": "41803c69369fdd7720f0711a7bea508fde552a12d984d4d38aba4e581b714530"
       },
       {
         "group": "commander_anthology_ii",
-        "source": "images/commander_anthology_deck_box_labels/breed_lethality_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_anthology_i/Tops/breed_lethality_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "f48ee112e0a53b5aa6c39cb9e0cbb9d79b1f0181898b264cf2c1d658d25571d3"
-      }
-    ]
-  },
-  {
-    "signature": "6016c3fad3e76f936cbd62a0824e266ccab5504b18a504f2bdeff1863f97accb",
-    "pdf": "10_Boulder_Tops_Aetherdrift_Edge_of_Eternities_Starter_Commander_Reality_Fracture_1440dpi_6016c3fad3.pdf",
-    "pdf_sha256": "38c7d6c02452fd86f8d20bf3833700265f2e491259f0cbfad94b04157f46b4b5",
-    "kind": "tops",
-    "count": 10,
-    "labels": [
-      {
-        "group": "aetherdrift",
-        "source": "images/aetherdrift_boulder_deck_box_labels/living_energy_boulder_top_label_tall_3960x3360_1440dpi.png",
-        "box_points": [
-          4.5,
-          570.75,
-          198.0,
-          168.0
-        ],
-        "rgb_sha256": "545dd4bd72a77c00cbfd7bc2f2203fc0b0e7c0dc6e11fb5c371b97da95146f10"
+        "rgb_sha256": "b108c85f7bce71c6ef0e597c2dfb1aebe713f9f11c96ddb30f97fdd25ce42d72"
       },
       {
         "group": "aetherdrift",
-        "source": "images/aetherdrift_boulder_deck_box_labels/eternal_might_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
-        "box_points": [
-          207.0,
-          570.75,
-          198.0,
-          168.0
-        ],
-        "rgb_sha256": "bed9c719fc51d511a9e8a63d7dd1bafb2faf981779c78d0550f41ab7c0148b6c"
-      },
-      {
-        "group": "edge_of_eternities",
-        "source": "images/edge_of_eternities_boulder_deck_box_labels/world_shaper_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
-        "box_points": [
-          409.5,
-          570.75,
-          198.0,
-          168.0
-        ],
-        "rgb_sha256": "926adc262b92cb53c682308349e839146c036cc687c36f38ee2b60b0853d76f4"
-      },
-      {
-        "group": "edge_of_eternities",
-        "source": "images/edge_of_eternities_boulder_deck_box_labels/counter_intelligence_boulder_top_label_tall_3960x3360_1440dpi.png",
-        "box_points": [
-          4.5,
-          398.25,
-          198.0,
-          168.0
-        ],
-        "rgb_sha256": "3209546a8ab9d44f2df25aca6ff2967fac2c64757045e221ffdcd556cf2850cc"
-      },
-      {
-        "group": "starter_commander",
-        "source": "images/starter_commander_boulder_deck_box_labels/first_flight_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/aetherdrift/Tops/living_energy_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "12a388c66320543975501942c164e5a55798e8a08fb96526cfb33c17379471be"
+        "rgb_sha256": "6bf8cf9ee49a2717f7c4da27c71438f397065faeb7acea6db8386d54289a060e"
       },
       {
-        "group": "starter_commander",
-        "source": "images/starter_commander_boulder_deck_box_labels/grave_danger_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "group": "aetherdrift",
+        "source": "images/aetherdrift/Tops/eternal_might_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "f986a61a31d308936422ff3bc63d70bc81e138efc4450031f4935c476a25549a"
+        "rgb_sha256": "77f9434462042c60f8806a83a2fc626335ae19c325cbcfcee02ed0c1e3d5db05"
       },
       {
-        "group": "starter_commander",
-        "source": "images/starter_commander_boulder_deck_box_labels/chaos_incarnate_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "group": "edge_of_eternities",
+        "source": "images/edge_of_eternities/Tops/world_shaper_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "5fb1f4df68d39747418b40dd21e191870ad5a07ed187dbe0f063b3d6d9a50b39"
+        "rgb_sha256": "3f84a2f271ccb10a04ed0deaa3b216605f1454293d4dd6d8284526f99b6169b0"
       },
       {
-        "group": "starter_commander",
-        "source": "images/starter_commander_boulder_deck_box_labels/draconic_destruction_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "group": "edge_of_eternities",
+        "source": "images/edge_of_eternities/Tops/counter_intelligence_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "32dd54fb29faa75ecc15508bd90f6b5634b0898e1d96c6c4cae24d268cc0b151"
-      },
-      {
-        "group": "starter_commander",
-        "source": "images/starter_commander_boulder_deck_box_labels/token_triumph_boulder_top_label_tall_3960x3360_1440dpi.png",
-        "box_points": [
-          409.5,
-          225.75,
-          198.0,
-          168.0
-        ],
-        "rgb_sha256": "f6db6808a433871f75e3acd11dc1a3d6006fc363da772c410b72099a394127c1"
+        "rgb_sha256": "eb7f807388b10e985da8f718b430880f662e728bb637f26806a75d1fc5aec4ec"
       },
       {
         "group": "reality_fracture",
-        "source": "images/reality_fracture_boulder_deck_box_labels/multiverse_reforged_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/reality_fracture/Tops/multiverse_reforged_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
-          53.25,
+          409.5,
+          225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "87d90fd97294e98a518c2be66b0cea2148c4f2dfef50bb9a8159f832813a3a1f"
+        "rgb_sha256": "d38e3a11bcb4d41a2b9438a355e0385ffafb7256404c829030c8c3ee9f0d7b25"
       }
     ]
   },
   {
-    "signature": "5fa6dd54f5042633695e5f9028d31a17849c257d2a5a8848e691eade45be4f2b",
-    "pdf": "11_Boulder_Tops_Star_Trek_Commander_1440dpi_5fa6dd54f5.pdf",
-    "pdf_sha256": "c58fd6391c8bbf489647657a4c16ce4787ebb71e21714f15efe9dd59f4dedd14",
+    "signature": "cadb2827680545b9f0fe5964ada69a99fb0392785d41e69c6dce41daf1feb1af",
+    "pdf": "10_Boulder_Tops_Starter_Commander_Star_Trek_Commander_1440dpi_cadb282768.pdf",
+    "pdf_sha256": "90f443cc4b543e68f2df862b8c91a0910121d29cc166c30c2bd3f635ad57b051",
     "kind": "tops",
-    "count": 4,
+    "count": 9,
     "labels": [
       {
-        "group": "star_trek",
-        "source": "images/star_trek_boulder_deck_box_labels/federation_fleet_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "group": "starter_commander",
+        "source": "images/starter_commander/Tops/first_flight_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "02dfbd1f5802de8511e54dff8aad01398ca93b676199ea7e46ca96687ea8032c"
+        "rgb_sha256": "89503b891eba6ab18000898b80ca2d3e5967ccbcedb3334a6045f642121dccd1"
       },
       {
-        "group": "star_trek",
-        "source": "images/star_trek_boulder_deck_box_labels/landing_party_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "group": "starter_commander",
+        "source": "images/starter_commander/Tops/grave_danger_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "8cf6372dd5117e4bf2740cfeeeac72a7798400c91bf0e159acc4d78da187bb1d"
+        "rgb_sha256": "671b4faafd9d0d3a851ffc70be01508b3e434638bacfd50c9c9bb8f26c2f9927"
       },
       {
-        "group": "star_trek",
-        "source": "images/star_trek_boulder_deck_box_labels/klingon_fury_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "group": "starter_commander",
+        "source": "images/starter_commander/Tops/chaos_incarnate_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "6033dcf7c333306ea369bc6555afc04bf1cc6811add2e4ee23b7dcd18f45dd68"
+        "rgb_sha256": "d09eaa5daa091074d661197586ea106794e66fabd7a02e12195a2008a18632ce"
       },
       {
-        "group": "star_trek",
-        "source": "images/star_trek_boulder_deck_box_labels/we_are_the_borg_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "group": "starter_commander",
+        "source": "images/starter_commander/Tops/draconic_destruction_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "5af68e96dc5c2fb93879075ee37970d16b709e54de3c61d59b16e23ade4c1063"
+        "rgb_sha256": "9d3a15a29762ed7fd59b4100362f7ab0ea22c2a545a0b0be9ddddc902adc5cf3"
+      },
+      {
+        "group": "starter_commander",
+        "source": "images/starter_commander/Tops/token_triumph_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "box_points": [
+          207.0,
+          398.25,
+          198.0,
+          168.0
+        ],
+        "rgb_sha256": "4826a6256d684bbe31a9e950ba1f76dbe395f09ceb9b83f75f2aa94e32bdb72f"
+      },
+      {
+        "group": "star_trek",
+        "source": "images/star_trek/Tops/federation_fleet_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "box_points": [
+          409.5,
+          398.25,
+          198.0,
+          168.0
+        ],
+        "rgb_sha256": "0d8741bb0756cadff0c3c20cb24feaaf727d78a5fc3634d2475478273c46389b"
+      },
+      {
+        "group": "star_trek",
+        "source": "images/star_trek/Tops/landing_party_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "box_points": [
+          4.5,
+          225.75,
+          198.0,
+          168.0
+        ],
+        "rgb_sha256": "68fa06d74aeb9292b35c96f9ee6961564d955c7c5b90320455316858a4f6db14"
+      },
+      {
+        "group": "star_trek",
+        "source": "images/star_trek/Tops/klingon_fury_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "box_points": [
+          207.0,
+          225.75,
+          198.0,
+          168.0
+        ],
+        "rgb_sha256": "598bf4a79aa00aa6f3f3882016fb527dd3c5a91feb0f4dac2d811af8ca206f96"
+      },
+      {
+        "group": "star_trek",
+        "source": "images/star_trek/Tops/we_are_the_borg_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "box_points": [
+          409.5,
+          225.75,
+          198.0,
+          168.0
+        ],
+        "rgb_sha256": "9fd728384821c4c2f63d3c20ff38b366427b8de0cb6cd2b1d9df8ea8fd03388b"
       }
     ]
   }

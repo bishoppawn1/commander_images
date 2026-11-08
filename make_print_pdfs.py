@@ -7,6 +7,7 @@ from io import BytesIO
 import json
 from pathlib import Path
 import re
+import shutil
 import sys
 import tempfile
 
@@ -262,12 +263,16 @@ def main(argv=None):
     parser.add_argument("--output", type=Path, default=ROOT / "Print Sheets",
                         help="Parent folder for the Boulder Tops and Fronts subfolders")
     parser.add_argument("--interactive", action="store_true")
+    parser.add_argument("--replace-all", action="store_true",
+                        help="Build and validate a complete batch, then remove superseded PDFs and receipts")
     args = parser.parse_args(argv)
     if args.interactive:
         args.kind = {"1": "tops", "2": "fronts", "3": "both"}[input("1 Boulder tops | 2 Large fronts | 3 Both: ").strip()]
         args.scope = {"1": "all", "2": "first", "3": "second"}[input("1 All | 2 First half | 3 Second half: ").strip()]
     if args.sets and args.kind == "both":
         parser.error("Use --sets with --kind tops or --kind fronts")
+    if args.replace_all and (args.scope != "all" or args.sets):
+        parser.error("--replace-all requires the complete collection, without --sets")
     jobs = []
     for kind in (["tops", "fronts"] if args.kind == "both" else [args.kind]):
         groups = load_groups(kind, args.scope, [s.strip() for s in args.sets.split(",")] if args.sets else None)
@@ -288,15 +293,31 @@ def main(argv=None):
     if args.interactive and input("Create these PDFs? Type y to continue: ").strip().lower() != "y":
         print("Cancelled. No PDFs changed.")
         return
-    for kind, pages in jobs:
-        output = args.output / OUTPUT_SUBDIRS[kind]
-        results = [build_page(kind, page, i, output) for i, page in numbered_pages(pages)]
-        # Content-addressed PDFs retain older editions. This index identifies the current batch.
-        selection = args.scope
-        if args.sets:
-            selection += "_" + hashlib.sha256(args.sets.encode()).hexdigest()[:10]
-        (output / ".records" / f"LATEST_{kind}_{selection}.json").write_text(json.dumps(results, indent=2) + "\n")
-        print(f"DONE: {output}")
+    args.output.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix='.refresh-', dir=args.output) as scratch:
+        destination = Path(scratch) if args.replace_all else args.output
+        for kind, pages in jobs:
+            output = destination / OUTPUT_SUBDIRS[kind]
+            results = [build_page(kind, page, i, output) for i, page in numbered_pages(pages)]
+            selection = args.scope
+            if args.sets:
+                selection += "_" + hashlib.sha256(args.sets.encode()).hexdigest()[:10]
+            (output / ".records" / f"LATEST_{kind}_{selection}.json").write_text(json.dumps(results, indent=2) + "\n")
+        # Finish every requested kind before retiring ANY old PDFs. Preserve
+        # non-PDF documentation; originals remain in git and image history.
+        if args.replace_all:
+            for kind, _ in jobs:
+                output = args.output / OUTPUT_SUBDIRS[kind]
+                output.mkdir(parents=True, exist_ok=True)
+                for p in output.rglob('*'):
+                    if p.is_file() and p.suffix.lower() in {'.pdf', '.json'}:
+                        p.unlink()
+                for p in sorted(output.rglob('*'), key=lambda p: len(p.parts), reverse=True):
+                    if p.is_dir() and not any(p.iterdir()):
+                        p.rmdir()
+                shutil.copytree(destination / OUTPUT_SUBDIRS[kind], output, dirs_exist_ok=True)
+        for kind, _ in jobs:
+            print(f"DONE: {args.output / OUTPUT_SUBDIRS[kind]}")
     print("Print at Actual Size / 100%. Tops need Letter Borderless; check expansion with a measured proof.")
 
 

@@ -1,0 +1,32 @@
+{
+  "contactSheetName": "phyrexia_all_will_be_one_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "corrupting_influence",
+      "deckName": "CORRUPTING INFLUENCE",
+      "goalDescription": "SPREAD POISON \u2022 PROLIFERATE THE TABLE",
+      "setName": "PHYREXIA: ALL WILL BE ONE",
+      "artPath": "images/phyrexia_all_will_be_one/Tops/src/regenerated_art_v1/ixhel_scion_of_atraxa_regenerated_v1.png",
+      "colors": [
+        "WHITE",
+        "BLACK",
+        "GREEN"
+      ],
+      "series": 1,
+      "outputStem": "corrupting_influence_readability_v4"
+    },
+    {
+      "slug": "rebellion_rising",
+      "deckName": "REBELLION RISING",
+      "goalDescription": "MAKE REBELS \u2022 ATTACK WITH TOKENS",
+      "setName": "PHYREXIA: ALL WILL BE ONE",
+      "artPath": "images/phyrexia_all_will_be_one/Tops/src/regenerated_art_v1/neyali_suns_vanguard_regenerated_v1.png",
+      "colors": [
+        "RED",
+        "WHITE"
+      ],
+      "series": 1,
+      "outputStem": "rebellion_rising_readability_v4"
+    }
+  ]
+}

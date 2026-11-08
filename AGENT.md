@@ -1,10 +1,20 @@
 # MTG Commander Deck Box Face Cards
 
+## Readability, restrained lighting and collection layout — 2026-11-08
+
+- Use a dark opaque keyline plus a soft black halo behind every mana pip, keeping its original glyph crisp and its row top centered. Verify separation on both bright and dark scenery.
+- Place a feathered translucent black shade behind the entire bottom text block, including title, strategy and set name. Preserve visible artwork; avoid hard rectangular panels and keep the shade below focal faces.
+- Historical prompt files are provenance, not current defaults. Apply the latest composition brief when reusing them.
+- Preserve source exposure, palette and medium. Do not request HDR, lifted shadows, punchy contrast, saturation boosts, bright print-oriented exposure, added rim light or bloom by default. Do not apply automatic screen lightening or mana-color washes in the builder. The approved Star Trek tops (formerly sheet 11) are the restrained lighting reference, not a requirement to repaint other sets in their style.
+- Outpaint missing scenery when reframing leaves a gap; inspect the FINAL layered composite for duplicate heads, seams, missing edges and symbol/head overlap. A clean generated source alone does not prove the composite is correct. Keep old/new image links in the review.
+- Keep set assets together as `images/<set>/Tops/` and `images/<set>/Fronts/`, each with its own sources/prompts. Store shared assets once and link from the other set with relative symlinks.
+- For this collection refresh, rebuild the entire PDF collection, removing superseded PDF editions and old page reservations. Repack whole sets at existing physical sizes. Current target: 114 top placements on 10 sheets; 37 front placements on 7 sheets including six optional overflow labels. Earlier sheet-number/addendum preservation directions below are historical and superseded.
+
 ## Boulder-top portrait framing — 2026-11-08
 
 - Artwork must fill the top label from top to bottom inside its normal decorative/cut frame. If lowering or shrinking a portrait exposes a black band or an empty area, generate/outpaint the missing background above or around it. A reserved mana area means continuous scene artwork behind the symbols, not a solid black header. Preserve the approved character, head placement, title and mana layout; do not stretch or mirror background pixels as a substitute for generation.
 - Re-audit the final composite specifically for exposed canvas, seams and accidental dark bands. Preserve earlier versions and provide a before/after table identifying every affected label and its recreation.
-- Current background audit: `images/boulder_background_audit_2026_11_08.json`; visual before/after table: `reviews/boulder_backgrounds_2026_11_08/index.html`. Of 114 placements, 80 had no gap, 32 use `_full_bleed_v3` extensions, and Avengers Assemble / The Fantastic Four retain `_portrait_v2` because ImageGen rejected the output attempts. Do not mark those two as corrected. Rebuild completed corrections with `scripts/build_boulder_background_extensions.py`; the builder intentionally rejects new lowered-art renders without an extension.
+- Historical gap-audit records remain at `images/boulder_background_audit_2026_11_08.json` and `reviews/boulder_backgrounds_2026_11_08/index.html`. They describe the earlier v3 pass, including two unsuccessful generation attempts. The current v4 refresh resolves Fantastic Four with generated scenery and Avengers Assemble with retained-source framing. Current audit: `images/boulder_readability_audit_2026_11_08.json`; current old/new gallery: `reviews/boulder_readability_2026_11_08/index.html`. Use the current manifests and `scripts/build_boulder_collection.py` for rendering.
 
 - Visually audit existing tops before changing them. Preserve satisfactory images; do not regenerate the collection by default. Prefer moving/scaling retained artwork, and regenerate/outpaint only when the source itself lacks necessary content.
 - Keep complete heads (including hair, ears, horns, crowns and hats) clear of the cut border, mana symbols and titles. Focal faces gravitate toward the central artwork area, below the mana row and above the title, rather than against the upper edge.
@@ -15,8 +25,8 @@
 ## Star Trek label additions — 2026-11-08
 
 - Star Trek Commander front features exactly Sisko, Kirk, Picard, Janeway and Jonathan Archer. The user requested Archer after removing the original rightmost captain. Five portraits still represent four Commander decks, so use the standard `4` seal.
-- Current front: `images/star_trek_commander/star_trek_five_captains_archer_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png`, on new normal Fronts sheet 9. Preserve the existing separate sheet 8.
-- Four tops: Federation Fleet, Landing Party, Klingon Fury and We Are the Borg, on Boulder Tops sheet 11. Picard and Spock keep the approved v1 art; Worf and the Queen use card-art-based v2 revisions. Use `images/star_trek_boulder_deck_box_labels/label_manifest.json` and `scripts/build_star_trek_sheets.py`. The current `_full_bleed_v3` outputs place complete heads below top-centered mana symbols and extend the scene to the top; earlier output versions remain available.
+- Current front: `images/star_trek/Fronts/star_trek_five_captains_archer_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png`, now on condensed Fronts sheet 7.
+- Four tops: Federation Fleet, Landing Party, Klingon Fury and We Are the Borg, now on condensed Boulder Tops sheet 10. Picard and Spock keep the approved v1 art; Worf and the Queen use card-art-based v2 revisions. Use `images/star_trek/Tops/label_manifest.json` and `scripts/build_star_trek_sheets.py`. The earlier `_full_bleed_v3` outputs place complete heads below top-centered mana symbols and extend the scene to the top; earlier output versions remain available.
 
 ## Project purpose
 
@@ -44,7 +54,7 @@ Create deck-box-style face cards that make Magic: The Gathering Commander deck s
 - Do not redraw or reposition individual titles, markers, or panel dividers for this print derivative. The entire completed face is transformed together.
 - From every 600-DPI print-margin master, create the required high-resolution print sibling at **4138 × 4858 pixels and 1440 DPI** with high-quality sRGB resampling. This rounded 2.4× scale preserves the established physical print size to within 0.0003 inch.
 - Name 600-DPI masters by inserting `_1724x2024_black_margin_1_8in` before `.png`; name their 1440-DPI print siblings by inserting `_4138x4858_1440dpi_black_margin_1_8in` before `.png`.
-- Store both variants alongside their corresponding finished targets in the main set directory. Do not create separate reframe or cut-guide siblings.
+- Store both variants alongside their corresponding finished targets in the applicable Tops or Fronts directory. Do not create separate reframe or cut-guide siblings.
 - Retain every superseded 1800 × 2100 white 3/16-inch derivative under that set's `src/superseded_white_margin_3_16in/`; do not leave superseded variants in the set-directory root.
 - Build the 600-DPI print-margin masters deterministically with `scripts/crop_white_margin.swift`, `scripts/add_cut_border.swift`, and `scripts/reframe_final_black_margin.swift`. Validate them with `scripts/validate_final_black_margin.swift`, then build and validate their 1440-DPI print siblings with `scripts/build_1440dpi_drawer_faces.swift` and `scripts/validate_1440dpi_drawer_faces.swift`. `scripts/apply_white_margin.swift` and `scripts/validate_white_margin.swift` remain available for constructing and checking the archived white 3/16-inch intermediate from a full-bleed target.
 
@@ -91,15 +101,11 @@ Create deck-box-style face cards that make Magic: The Gathering Commander deck s
 
 ## Image asset organization
 
-- Keep cross-set GIMP sheet tools and their user instructions at the project root, not inside a particular set's folder. The user requested specific arrangements, not a generic layout prompt: `arrange_gimp_sheets.py` must target only the six screenshot/inventory-matched sheets in `GIMP_SHEET_PLAN.md`; `GIMP_GRIDS.md` is its guide. Match exact image-layer names, preserve their dimensions, allow sheet 5's partial grid, and leave unrelated or changed/ambiguous documents alone.
-- Use a descriptive lowercase snake-case directory name for `<set_or_precon>`, such as `images/commander_anthology_i/`.
-- Keep the main `images/<set_or_precon>/` directory clean: apart from the `prompts/` and `src/` subdirectories, it may contain only finished face-card target images. A finished target belongs here whether it is generated, adapted, or directly reused from official Wizards artwork.
-- Keep finalized generation/edit prompt briefs in `images/<set_or_precon>/prompts/`. Do not store prompt files in the main set directory or in `src/`.
-- Keep only raw source/reference images, unmodified ImageGen outputs, and supporting production notes in `images/<set_or_precon>/src/`. Never place a finished or print-ready target candidate in `src/`.
-- Treat a suitable official reveal, key-art, or social image as a target—not merely as a source—once it satisfies the face-card requirements. If it already has the exact output specifications, keep that target in the main directory without making an unnecessary duplicate in `src/`. If it needs cropping, extension, or normalization, preserve the untouched download in `src/` and place the finished adapted target in the main directory.
-- Preserve source images without overwriting them. Give finished targets and revisions distinct descriptive filenames in the main set directory.
-- Record source URLs, artist attribution when known, original pixel dimensions, transformations, and relevant usage notes in `images/<set_or_precon>/src/sources.md`.
-- Product photographs or references with substantial empty backgrounds may be retained for design information, but must not be used directly as final face-card artwork without being cropped, reframed, or reconstructed.
+- Store each set under `images/<set>/`, with `Tops/` and `Fronts/` subdirectories. Finished files, `src/`, `prompts/` and manifests belong inside the applicable format directory. Cross-set builders and composition rules stay at the project root or `images/` root.
+- Preserve raw references and original ImageGen outputs in the format's `src/`; preserve finalized briefs in its `prompts/`. Version finished files without overwriting older images. Record sources, artists, transforms and generation provenance in `src/sources.md`.
+- Shared paired fronts live in the earlier set's `Fronts/<pair>/`; the other set has a relative directory symlink to that owner. Shared Anthology tops live in `commander_anthology_i/Tops`, linked from volume II. Reuse one physical asset rather than copying it.
+- Existing path migration is recorded in `images/asset_path_migration_2026_11_08.json`. Resolve paths from current manifests/catalogs rather than historical folder names.
+- Keep cross-set GIMP tools at project root. Respect `GIMP_SHEET_PLAN.md` and preserve unrelated or ambiguous GIMP documents.
 
 ## Source selection for set-based Commander products
 
@@ -115,7 +121,7 @@ Create deck-box-style face cards that make Magic: The Gathering Commander deck s
 ## Dual-set drawer-face edge case
 
 - Some storage drawers contain two sets and require one 3 × 3.5-inch face card to identify both. Apply all normal resolution, fullness, print-safety, source-selection, provenance, and drawer-legibility requirements to these combined faces.
-- Create a combined directory named `images/<first_set>_<second_set>/`, with the normal `prompts/` and `src/` subdirectories. Store only finished 6:7 target images in the combined directory root.
+- Store the combined face in `images/<first_set>/Fronts/<first_set>_<second_set>/`, with `prompts/` and `src/`; link it from the second set’s `Fronts/` using a relative symlink.
 - Unless later direction says otherwise, order the two sets chronologically: the earlier set appears on the left and the later set appears on the right.
 - Use two equal left/right panels separated by one straight top-to-bottom divider line.
 - Use one deliberate, narrow, high-contrast divider. Do not add extra panel borders, gutters, frames, decorative separators, blended seams, or empty gaps.
@@ -141,23 +147,23 @@ Create deck-box-style face cards that make Magic: The Gathering Commander deck s
 
 Apply this workflow independently to each set or precon:
 
-1. Create or identify `images/<set_or_precon>/` and its `prompts/` and `src/` subdirectories using a descriptive lowercase snake-case set or precon name.
+1. Create or identify `images/<set_or_precon>/Fronts/` and its `prompts/` and `src/` subdirectories using a descriptive lowercase snake-case set or precon name.
 2. Verify the product name and associated MTG set from authoritative sources. Verify individual decks and face commanders only when they are relevant to the requested face.
 3. Research the official First Look/reveal/debut article and Wizards Play Network assets for branded key-art graphics with the set name already integrated. Keep those in contention with official vertical set art, then inspect other key art, phone wallpapers, packaging, logos, promotional imagery, posters, and—only when relevant—face-card art.
-4. Retain only useful raw source/reference images in `src/` and document their URLs, attribution, pixel dimensions, and intended role in `src/sources.md`. Promote every completed face-card candidate—including official-art candidates—to a finished target in the main set directory.
-5. Decide whether to reuse, adapt, or generate. Prefer reuse/adaptation when existing art already satisfies the format and visual requirements. Directly reused official art is a finished target and must be stored in the main set directory.
+4. Retain only useful raw source/reference images in `src/` and document their URLs, attribution, pixel dimensions, and intended role in `src/sources.md`. Promote every completed face-card candidate—including official-art candidates—to a finished target in the applicable Tops or Fronts directory.
+5. Decide whether to reuse, adapt, or generate. Prefer reuse/adaptation when existing art already satisfies the format and visual requirements. Directly reused official art is a finished target and must be stored in the applicable Tops or Fronts directory.
 6. Before generation, create a finalized set-specific prompt brief in `prompts/` that names every `src/` input image and its role, defines the exact identification text, preserves the set's established visual identity, and repeats the print, fullness, and drawer-legibility constraints.
 7. Generate without pausing for approval when the user's requested direction and available references are sufficient.
 8. Inspect the result for exact text, immediate drawer readability, full-frame composition, recognizable set identity, unwanted empty space, repeated or incorrect subjects, and print-safe placement. Iterate when a material requirement fails.
-9. Preserve the unmodified generated output in `src/`, then create a non-destructive exact 6:7 print target at 1800 × 2100 pixels with 600-DPI metadata in the main set directory.
+9. Preserve the unmodified generated output in `src/`, then create a non-destructive exact 6:7 print target at 1800 × 2100 pixels with 600-DPI metadata in the applicable Tops or Fronts directory.
 10. Build the 600-DPI black-margin master, then create its 4138 × 4858, 1440-DPI print sibling without overwriting either earlier file.
-11. Record the final asset, generation mode, exact prompt, transformations, and provenance in `src/sources.md`; keep the finished prompt brief in `prompts/` and the target image in the main set directory.
+11. Record the final asset, generation mode, exact prompt, transformations, and provenance in `src/sources.md`; keep the finished prompt brief in `prompts/` and the target image in the applicable Tops or Fronts directory.
 
 
 ## Drawer-front readability and PDF handling — 2026-09-19
 
 - Keep large titles centered independently of the lower-right count seal; arrange a separate clear area for the seal rather than offsetting titles left.
-- Favor substantial letter weight and vivid artwork with readable shadow detail at small physical print size.
+- Favor substantial letter weight and readable shadow detail at small physical print size.
 - After correcting active drawer fronts, update `print_catalog.json` and regenerate affected print PDFs. Move superseded PDF editions into `Print Sheets/Fronts/.archive/` so the main folder remains the current printable set.
 - Do not open PDFs in Codex Files previews or through `open_in_codex`: the user reported a crash from the saved PDF preview. Inspect PDFs through metadata, extracted contents, and small rendered page PNGs only.
 
@@ -166,11 +172,11 @@ Apply this workflow independently to each set or precon:
 
 - Forgotten Realms: tight letter spacing and a darkened local background behind the light title; preserve the brighter upper artwork.
 - Warhammer 40,000: COMMANDER belongs directly beneath 40,000 inside the same extended crest, in matching metallic angular block lettering with compact spacing.
-- Eldraine Brawl: prefer the original Big Caslon / Luminari lettering, with a smaller BRAWL and clear space between ELDRAINE and BRAWL. Keep all commander faces unobscured and retain the vivid, bright artwork. This supersedes the previous temporary bold-serif title treatment.
+- Eldraine Brawl: prefer the original Big Caslon / Luminari lettering, with a smaller BRAWL and clear space between ELDRAINE and BRAWL. Keep all commander faces unobscured. This supersedes the previous temporary bold-serif title treatment.
 
 ## Heading readability — 2026-09-20
 
-- Eldraine needs matching soft dark backing behind all three title rows (THRONE OF, ELDRAINE, BRAWL), not only THRONE OF. Keep consistent color, opacity and feathering, fit the backing to each line, and retain the original type, smaller BRAWL, clear faces and vivid colors. Updated 2026-09-21.
+- Eldraine needs matching soft dark backing behind all three title rows (THRONE OF, ELDRAINE, BRAWL), not only THRONE OF. Keep consistent color, opacity and feathering, fit the backing to each line, and retain the original type, smaller BRAWL, and clear faces. Updated 2026-09-21.
 - Ikoria COMMANDER 2020 should match the main IKORIA crystalline cyan/white angular serif lettering, with a dark edge/shadow for immediate small-print readability.
 
 ## Addendum sheets — 2026-09-21
@@ -202,3 +208,63 @@ Apply this workflow independently to each set or precon:
 - The collection's Universes Beyond fronts are Warhammer 40,000, The Lord of the Rings, Doctor Who, Fallout, Final Fantasy, Teenage Mutant Ninja Turtles, and Marvel Super Heroes.
 - Warhammer 40,000, The Lord of the Rings, Fallout, and Turtle Power received new versioned fronts with their top title treatments moved to the bottom. The Lord of the Rings and Fallout Universes Beyond labels were removed. Doctor Who, Final Fantasy, and Marvel Super Heroes already had acceptable placement and no visible Universes Beyond label, so their current fronts remain selected.
 - Dedicated proof sheets 10 and 11 contain all seven Universes Beyond fronts in chronological catalog order. Normal and addendum sheets were rebuilt to use the revised four fronts.
+
+
+## New releases and appended sheets — 2026-10-05
+
+- The collection now includes Aetherdrift Commander (2), Edge of Eternities Commander (2), the two-color Starter Commander Decks (5), and Reality Fracture / Multiverse Reforged (1). The user explicitly confirmed Starter Commander, not the mono-color Foundations products.
+- Add the fifth paired front: Aetherdrift on the left and Edge of Eternities on the right, equal vertical split with one central divider and `2 / 2` markers. Starter Commander remains standalone with `5`; Reality Fracture remains standalone with `1`. Preserve the earlier four pairings.
+- The user requested the next numbered sheets for these additions. Use **Fronts 12** for the three fronts and **Boulder Tops 10** for all ten individual labels. This supersedes filling older vacant addendum slots for this batch.
+- New catalog groups have `sheet_number` fields. The shared PDF builder keeps them on those pages, including subset exports, and never backfills them into earlier sheets. Existing pages and their source selections remain unchanged.
+- Rebuild this batch with `scripts/build_new_sets_2026_10_05.py`. Maintain `LATEST_fronts_additions_2026_10_05.json` and `LATEST_tops_additions_2026_10_05.json`, and include the new pages in each `LATEST_*_all.json` index.
+
+## Turtle Power / Reality Fracture temporary addendum — 2026-10-06
+
+- The user combined Turtle Power! Commander and Reality Fracture Commander into one front. Use an equal vertical split, Turtle Power on the left and Reality Fracture on the right, with standard `1 / 1` seals. This supersedes their standalone drawer allocation above; preserve those individual artworks as alternatives.
+- Put this single combined front on its own **temporary addendum sheet 13**, in the standard first slot at 2.740278 × 3.208333 inches on Letter. Leave the remaining slots blank. This explicit request overrides filling older addendum vacancies.
+- Keep this temporary sheet separate from normal catalog packing and preserve the previous print PDFs and regular catalog selections. The inventory records the combined physical drawer; the existing regular sheets retain individual alternatives. Do not silently rebuild other sheets for this temporary export.
+- Rebuild with `scripts/build_fronts_temporary_addendum_13.py`; its index is `Print Sheets/Fronts/.records/LATEST_fronts_temporary_addendum_13.json`. Finished images, prompt, retained references, and provenance are under `images/teenage_mutant_ninja_turtles/Fronts/turtle_power_reality_fracture/`.
+- The user's October 6 correction requires Raphael's red bandana to stay on his head and not visually wrap onto his raised arm. Use `turtle_power_reality_fracture_vertical_split_v2_raphael_fixed_deck_counts_1_1_4138x4858_1440dpi_black_margin_1_8in.png` for current temporary sheet 13. The prior v1 image assets remain, and its PDF edition is archived.
+
+## Current print selection — 2026-10-08
+
+- The user retired **all addendum sheets**. Delete addendum PDFs and their receipts and indexes, including archived editions of sheets 7–9 and temporary sheet 13. Do not regenerate addenda unless the user explicitly requests them again. Preserve finished artwork and prompts.
+- Select the corrected Turtle Power / Reality Fracture `1 / 1` combined front on **normal Fronts sheet 12** with the Aetherdrift / Edge and Starter Commander fronts. Remove the individual Turtle Power and Reality Fracture fronts from the active normal catalog; keep the underlying artwork files as alternatives.
+- Rebuild normal sheets 4, 5, and 12 with the shared catalog generator. Commander Anthology II moves from sheet 5 to the open sheet-4 slot; sheet 5 then holds three category fronts. Update the current full front index and archive superseded normal PDF editions. Normal sheets 1–3 and 6 and all Boulder-top sheets remain selected as before.
+
+## White Turtle Power title — 2026-10-11
+
+- On the active Turtle Power / Reality Fracture combined front, `TURTLE POWER!` uses a white letter fill with its orange outline and dark shadow. Preserve Raphael's corrected green raised arm and red head bandana, the right Reality Fracture panel, and `1 / 1` count seals.
+- The active sheet-12 source is `images/teenage_mutant_ninja_turtles/Fronts/turtle_power_reality_fracture/turtle_power_reality_fracture_vertical_split_v3_white_title_deck_counts_1_1_4138x4858_1440dpi_black_margin_1_8in.png`. Earlier v1/v2 artwork is retained; the previous normal sheet-12 PDF is archived under `.archive/white_turtle_title_2026_10_11/`.
+- The user also requested this exact white-title front on its **own special addendum sheet 13**. It is a one-image reprint in the first standard front slot; keep the same image on normal sheet 12. This is an explicit exception to the October 8 addendum retirement. Build it with `scripts/build_fronts_special_addendum_13.py`; index it as `Print Sheets/Fronts/.records/LATEST_fronts_special_addendum_13.json`. Do not restore other retired addenda.
+
+## Consecutive front numbering — 2026-10-11
+
+- The user observed the gap after the former addenda were deleted and requested consecutive numbering. Current normal fronts are sheets **1–7**; the separate one-image Turtle Power / Reality Fracture special addendum is sheet **8**. The old 12/13 editions are archived. This supersedes all earlier current-number statements for these two sheets.
+- The three new front groups in `print_catalog.json` have `sheet_number: 7`. The white-title combined source remains the same. Build the special reprint with `scripts/build_fronts_special_addendum_08.py`; its current index is `Print Sheets/Fronts/.records/LATEST_fronts_special_addendum_08.json`. Top-sheet numbering remains unchanged.
+
+## Current Starter Commander front and addendum status — 2026-10-12
+
+- The user deleted the one-image special addendum sheet 8. Its archived sheet-13 predecessor was also removed. Keep the Turtle Power / Reality Fracture combined front on normal sheet 7; do not regenerate special addenda without a new explicit request. This supersedes the October 11 special-addendum instruction.
+- Starter Commander is the 2022 five two-color-deck product. Its current front title reads `STARTER COMMANDER 2022`, with the `5` count seal. Use `images/starter_commander/Fronts/starter_commander_five_legends_v3_2022_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png` on normal sheet 7. Preserve prior versions and the existing top labels.
+
+## Color-matched new fronts — 2026-10-12
+
+- The user asked to make all three newly added normal-sheet fronts less vibrant after comparing them to the older collection. Current counted 1440-DPI assets are `aetherdrift_edge_of_eternities_vertical_split_v2_muted_deck_counts_2_2`, `starter_commander_five_legends_v4_2022_muted_deck_count_5`, and `turtle_power_reality_fracture_vertical_split_v5_white_title_muted_deck_counts_1_1` in their respective `images/` directories. Keep these on normal Fronts sheet 7. The original high-vibrancy versions are preserved as alternatives.
+- The revised counted print images measure mean HSV saturation 0.435, 0.425, and 0.468, versus 0.510, 0.518, and 0.613 previously; 27 older non-overflow active fronts averaged 0.445. Preserve exact titles, seals, split sides, and Raphael's red head bandana/green arm. Boulder tops were not color-edited in this pass.
+
+## Turtle Power original-palette correction — 2026-10-12
+
+- The user clarified that the split Turtle Power half had distracting rainbow/neon colors compared with the original full Turtle Power drawer front. The current normal-sheet source is `images/teenage_mutant_ninja_turtles/Fronts/turtle_power_reality_fracture/turtle_power_reality_fracture_vertical_split_v7_original_palette_deck_counts_1_1_4138x4858_1440dpi_black_margin_1_8in.png`. It was edited using the original full front as a palette and city-lighting reference; preserve the white title, corrected Raphael head bandana/green arm, right Reality Fracture panel, and `1 / 1` seals. Earlier v5 and v6 variants are retained.
+
+## Current Turtle Power puddle scene — 2026-10-12
+
+- The user clarified that the split left panel must replace its busy neon street scene with the original full Turtle Power front's large subdued puddle. Use `images/teenage_mutant_ninja_turtles/Fronts/turtle_power_reality_fracture/turtle_power_reality_fracture_vertical_split_v8_big_puddle_deck_counts_1_1_4138x4858_1440dpi_black_margin_1_8in.png` on normal Fronts sheet 7. This supersedes v7 original-palette guidance. Preserve four turtles, white title, Raphael's red head bandana and green raised arm, right Reality Fracture panel, and `1 / 1` seals.
+
+## Current Turtle Power direct full-art fit — 2026-10-12
+
+- The user explicitly requested using retained Turtle Power character art, without generating another turtle scene. The current normal-sheet source is `images/teenage_mutant_ninja_turtles/Fronts/turtle_power_reality_fracture/turtle_power_reality_fracture_vertical_split_v14_official_reality_deck_counts_1_1_4138x4858_1440dpi_black_margin_1_8in.png`. Rebuild the Turtle Power half with `scripts/build_turtle_split_from_tall.swift`; its center turtles and puddle come from the official tall source at uniform scale, and only the skyline above them uses a localized logo-removal edit. It draws the white title by code. Then run `scripts/build_turtle_reality_from_official.py` to place the retained official Reality Fracture Story portrait on the right in its original colors. Never stretch the puddle or turtle characters to fill the panel. This supersedes v13's dark color grade, v11's warped lower-water extension, v10's horizontal squeeze, and v8's generated turtle scene. The retained source contains the original red forearm wrap on Raphael.
+
+## Current one-image addendum — 2026-10-18
+
+- At the user’s explicit request, the current Turtle Power / Reality Fracture combined front is duplicated on its own **Fronts addendum sheet 8**. Normal sheet 7 still includes it. The addendum has one image in the first standard front slot and five blank slots. Build with `scripts/build_fronts_special_addendum_08.py`, which reads the current catalog-selected image. Its active PDF is `Print Sheets/Fronts/08_Special_Addendum_Turtle_Power_Reality_Fracture_1440dpi_635d866b8b.pdf`. This supersedes the October 12 addendum retirement only for this one sheet.

@@ -1,0 +1,31 @@
+{
+  "contactSheetName": "commander_legends_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "arm_for_battle",
+      "deckName": "ARM FOR BATTLE",
+      "goalDescription": "EQUIP WYLETH \u2022 DRAW THROUGH COMBAT",
+      "setName": "COMMANDER LEGENDS",
+      "artPath": "images/commander_legends/Tops/src/regenerated_art_v1/wyleth_soul_of_steel_regenerated_v1.png",
+      "colors": [
+        "RED",
+        "WHITE"
+      ],
+      "series": 1,
+      "outputStem": "arm_for_battle_readability_v4"
+    },
+    {
+      "slug": "reap_the_tides",
+      "deckName": "REAP THE TIDES",
+      "goalDescription": "PLAY LANDS \u2022 DRAW & RAISE KRAKENS",
+      "setName": "COMMANDER LEGENDS",
+      "artPath": "images/commander_legends/Tops/src/regenerated_art_v1/aesi_tyrant_of_gyre_strait_regenerated_v1.png",
+      "colors": [
+        "GREEN",
+        "BLUE"
+      ],
+      "series": 1,
+      "outputStem": "reap_the_tides_readability_v4"
+    }
+  ]
+}

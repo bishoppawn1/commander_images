@@ -1,9 +1,0 @@
-{
-  "contactSheetName":"bloomburrow_boulder_labels_tall_1200dpi_contact_sheet.png",
-  "labels":[
-    {"slug":"animated_army","deckName":"ANIMATED ARMY","goalDescription":"ANIMATE ARTIFACTS • SMASH THE TABLE","setName":"BLOOMBURROW COMMANDER","artPath":"images/bloomburrow_boulder_deck_box_labels/src/regenerated_art_v1/bello_bard_of_the_brambles_regenerated_v1.png","colors":["RED","GREEN"],"series":2},
-    {"slug":"family_matters","deckName":"FAMILY MATTERS","goalDescription":"CREATE OFFSPRING • GO WIDE","setName":"BLOOMBURROW COMMANDER","artPath":"images/bloomburrow_boulder_deck_box_labels/src/regenerated_art_v1/zinnia_valleys_voice_regenerated_v1.png","colors":["BLUE","RED","WHITE"],"series":2},
-    {"slug":"peace_offering","deckName":"PEACE OFFERING","goalDescription":"GIVE GIFTS • DRAW & GROW","setName":"BLOOMBURROW COMMANDER","artPath":"images/bloomburrow_boulder_deck_box_labels/src/regenerated_art_v1/ms_bumbleflower_regenerated_v1.png","colors":["GREEN","WHITE","BLUE"],"series":2},
-    {"slug":"squirreled_away","deckName":"SQUIRRELED AWAY","goalDescription":"MAKE SQUIRRELS • STOCKPILE TOKENS","setName":"BLOOMBURROW COMMANDER","artPath":"images/bloomburrow_boulder_deck_box_labels/src/regenerated_art_v1/hazel_of_the_rootbloom_regenerated_v1.png","colors":["BLACK","GREEN"],"series":2}
-  ]
-}

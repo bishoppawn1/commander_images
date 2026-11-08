@@ -1,0 +1,75 @@
+{
+  "signature": "e9d27114957f2490e96456ff4172b0c12a530c4de90a5acb9a77252993245723",
+  "pdf": "03_March_of_the_Machine_Lord_of_the_Rings_Commander_Masters_Doctor_Who_Lost_Caverns_of_Ixalan_Fallout_1440dpi_e9d2711495.pdf",
+  "pdf_sha256": "880b7d910fda2be91e18115fc89edec8266fb40693cf9f85ce2b98f72681f3cf",
+  "kind": "fronts",
+  "count": 6,
+  "labels": [
+    {
+      "group": "march_of_the_machine_commander",
+      "source": "images/march_of_the_machine/Fronts/march_of_the_machine_large_lower_title_v2_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        525.15,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "cfdb636b2fac40e45aa2a101a78ee6d243a1d61dae91f6ff4f0097fc17d6b75a"
+    },
+    {
+      "group": "lord_of_the_rings_tales_of_middle_earth_commander",
+      "source": "images/lord_of_the_rings/Fronts/lord_of_the_rings_bottom_title_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        360.70000000000005,
+        525.15,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "2d29d5debb71249c22ed4438e13a8fba00270a3c0e56ee9947f2db4a5cddb3be"
+    },
+    {
+      "group": "commander_masters",
+      "source": "images/commander_masters/Fronts/commander_masters_official_wpn_poster_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        280.5,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "bd805a1e5bdda897a23fbadbe4b34f20cc526f1770d0904115bf2b0f61110bae"
+    },
+    {
+      "group": "doctor_who_commander",
+      "source": "images/doctor_who/Fronts/doctor_who_commander_official_wpn_tardis_key_art_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        360.70000000000005,
+        280.5,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "13dfd5779d3563090f79abd96470cf429b949c944fcf9d31adeb733356bc45a0"
+    },
+    {
+      "group": "lost_caverns_of_ixalan_commander",
+      "source": "images/lost_caverns_of_ixalan/Fronts/lost_caverns_of_ixalan_centered_wordmark_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        35.849999999999966,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "9d4f92341bd76d8bae38710793ab99f0868e98321b5b8300482514513d68f905"
+    },
+    {
+      "group": "fallout_commander",
+      "source": "images/fallout/Fronts/fallout_bottom_title_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        360.70000000000005,
+        35.849999999999966,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "eca7b0c89d937ca849a5f54001cfeb82e914a595e71d84de3afa472b308a9f38"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "signature": "07897dd8b5c8ac9f951fbb125ada6e544a5842741351184b2f97df86d01df756",
+  "pdf": "08_Boulder_Tops_Final_Fantasy_Marvel_Super_Heroes_Commander_Anthology_I_1440dpi_07897dd8b5.pdf",
+  "pdf_sha256": "d18aabd7af1c7a03d103b89652285bf27b831d6bebde6a6ea2a823dfee9b9c27",
+  "kind": "tops",
+  "count": 12,
+  "labels": [
+    {
+      "group": "final_fantasy",
+      "source": "images/final_fantasy/Tops/revival_trance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "a1d86706c991bb8447012166279b45c76fc829d14a6b66c68551395dc66c3588"
+    },
+    {
+      "group": "final_fantasy",
+      "source": "images/final_fantasy/Tops/limit_break_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "998590a61843cee7598e3e216d0c5ff97cfcf1dec43f528bb7ffddffa3628c37"
+    },
+    {
+      "group": "final_fantasy",
+      "source": "images/final_fantasy/Tops/counter_blitz_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "4ed5d10ab97f960d16fc292464fdec5e390e241e90526c7ae13ff0e0e5159559"
+    },
+    {
+      "group": "final_fantasy",
+      "source": "images/final_fantasy/Tops/scions_and_spellcraft_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "76e5f7232a9efd5934d0610296eee4e1567e0963b7d1ec2d51836db62275884a"
+    },
+    {
+      "group": "marvel_super_heroes",
+      "source": "images/marvel_super_heroes/Tops/avengers_assemble_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "0a71a07a5b94def0fb3eb14d515f086c937ad2523f60f7f2f70021779d6e9774"
+    },
+    {
+      "group": "marvel_super_heroes",
+      "source": "images/marvel_super_heroes/Tops/wakanda_forever_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "a5f2dd821c7e986cb004d81b3d3deaa6c23e82a67d5581a2f5a2b0e887271472"
+    },
+    {
+      "group": "marvel_super_heroes",
+      "source": "images/marvel_super_heroes/Tops/the_fantastic_four_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "4ced02ecbfb196966c5c5979cd427252a44c66b618c69583f805130152ffc545"
+    },
+    {
+      "group": "marvel_super_heroes",
+      "source": "images/marvel_super_heroes/Tops/doom_prevails_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "c0cfae250ab40df77f74921863a470344a256aef6bfa9b0da999cadf544f9073"
+    },
+    {
+      "group": "commander_anthology_i",
+      "source": "images/commander_anthology_i/Tops/heavenly_inferno_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "7c6782b3998677bd843bba00544cb7fb81d901330f716d172950fd4ce0dca556"
+    },
+    {
+      "group": "commander_anthology_i",
+      "source": "images/commander_anthology_i/Tops/evasive_maneuvers_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "7e2fd611791ab98ce29e3d65bceacf16ac53cc3eef56e54229fe2457f8d97f1c"
+    },
+    {
+      "group": "commander_anthology_i",
+      "source": "images/commander_anthology_i/Tops/guided_by_nature_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "1693b03015cb154115c5644c558ffee4c074df29d1e7229bae962f63125fb6fe"
+    },
+    {
+      "group": "commander_anthology_i",
+      "source": "images/commander_anthology_i/Tops/plunder_the_graves_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "9b0bbae33cd7de7f521c38a2ce5b7c210c64ae26be0d3aa1056ba10759a06b6c"
+    }
+  ]
+}

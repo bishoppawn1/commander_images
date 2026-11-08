@@ -1,0 +1,4 @@
+Edit this existing Jeleva fantasy illustration to correct portrait placement for a deck-box label. Keep the same recognizable vampire woman, face, crown, costume, reaching hands, purple magic and gothic scene. Translate the woman leftward and downward so her face is centered horizontally at x=50 percent, y=39 percent. Show her complete crown and hair below y=22 percent. Extend the castle, clouds and moonlit sky into all vacated areas. Continuous artwork across the entire canvas, no black bars. Preserve the source's dark painterly palette with moderate saturation, no HDR or exposure boost, no added bloom. Exactly one head and one body. No text, border or symbols. Output landscape 33:28 aspect ratio.
+
+Built-in ImageGen edit; reference: images/commander_2013/Tops/src/regenerated_art_v1/jeleva_nephalias_scourge_regenerated_v1.png
+Output: images/commander_2013/Tops/src/mind_seize_composition_v4.png

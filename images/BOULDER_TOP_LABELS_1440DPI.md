@@ -29,8 +29,8 @@ For Commander Anthology:
 
 ```sh
 BOULDER_DPI=1440 BOULDER_SKIP_CONTACT_SHEET=1 \
-  swift images/commander_anthology_deck_box_labels/src/build_labels.swift \
-  "$PWD" images/commander_anthology_deck_box_labels
+  swift images/commander_anthology_i/Tops/src/build_labels.swift \
+  "$PWD" images/commander_anthology_i/Tops
 ```
 
 The renderers use the original 3300 × 2800 logical layout and a 1.2× rendering transform. This produces genuine 3960 × 3360 output while retaining the exact physical size and established composition.

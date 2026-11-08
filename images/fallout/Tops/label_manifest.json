@@ -1,0 +1,64 @@
+{
+  "contactSheetName": "fallout_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "scrappy_survivors",
+      "deckName": "SCRAPPY SURVIVORS",
+      "goalDescription": "EQUIP SURVIVORS \u2022 SCAVENGE THE WASTELAND",
+      "setName": "FALLOUT COMMANDER",
+      "artPath": "images/fallout/Tops/src/regenerated_art_v1/dogmeat_ever_loyal_regenerated_v1.png",
+      "colors": [
+        "RED",
+        "GREEN",
+        "WHITE"
+      ],
+      "series": 2,
+      "outputStem": "scrappy_survivors_readability_v4"
+    },
+    {
+      "slug": "hail_caesar",
+      "deckName": "HAIL, CAESAR",
+      "goalDescription": "MAKE SOLDIERS \u2022 SACRIFICE FOR WAR",
+      "setName": "FALLOUT COMMANDER",
+      "artPath": "images/fallout/Tops/src/regenerated_art_v1/caesar_legions_emperor_regenerated_v1.png",
+      "colors": [
+        "RED",
+        "WHITE",
+        "BLACK"
+      ],
+      "series": 2,
+      "outputStem": "hail_caesar_readability_v4"
+    },
+    {
+      "slug": "science",
+      "deckName": "SCIENCE!",
+      "goalDescription": "BUILD ARTIFACTS \u2022 HARNESS ENERGY",
+      "setName": "FALLOUT COMMANDER",
+      "artPath": "images/fallout/Tops/src/regenerated_art_v1/dr_madison_li_regenerated_v1.png",
+      "colors": [
+        "BLUE",
+        "RED",
+        "WHITE"
+      ],
+      "series": 2,
+      "outputStem": "science_readability_v4"
+    },
+    {
+      "slug": "mutant_menace",
+      "deckName": "MUTANT MENACE",
+      "goalDescription": "MILL THE TABLE \u2022 SPREAD RADIATION",
+      "setName": "FALLOUT COMMANDER",
+      "artPath": "images/fallout/Tops/src/regenerated_art_v1/the_wise_mothman_regenerated_v1.png",
+      "colors": [
+        "BLACK",
+        "GREEN",
+        "BLUE"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.12,
+      "manaAlignment": "center",
+      "outputStem": "mutant_menace_readability_v4",
+      "backgroundExtensionPath": "images/fallout/Tops/src/mutant_menace_background_extension_v3.png"
+    }
+  ]
+}

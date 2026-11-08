@@ -1,0 +1,108 @@
+{
+  "signature": "fce7bce466c24a6f1e8dc96ccc7ecbaaea59b2e009ed50c08e3d47a5df6c5208",
+  "pdf": "09_Boulder_Tops_Commander_Anthology_II_Aetherdrift_Edge_of_Eternities_Reality_Fracture_1440dpi_fce7bce466.pdf",
+  "pdf_sha256": "e264c253d9d8acfb31a9295874b42d319b066c79675017cea4624513b596a62e",
+  "kind": "tops",
+  "count": 9,
+  "labels": [
+    {
+      "group": "commander_anthology_ii",
+      "source": "images/commander_anthology_i/Tops/devour_for_power_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "6f96ded983ce17d5b2a82315c4e51c4878b978c4f98065a5e65671fa8ebd0782"
+    },
+    {
+      "group": "commander_anthology_ii",
+      "source": "images/commander_anthology_i/Tops/built_from_scratch_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "53f4a49afa76d3ad7d827f09ec372647ddcbf393103a11cd6fff3d815c36db47"
+    },
+    {
+      "group": "commander_anthology_ii",
+      "source": "images/commander_anthology_i/Tops/wade_into_battle_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "41803c69369fdd7720f0711a7bea508fde552a12d984d4d38aba4e581b714530"
+    },
+    {
+      "group": "commander_anthology_ii",
+      "source": "images/commander_anthology_i/Tops/breed_lethality_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "b108c85f7bce71c6ef0e597c2dfb1aebe713f9f11c96ddb30f97fdd25ce42d72"
+    },
+    {
+      "group": "aetherdrift",
+      "source": "images/aetherdrift/Tops/living_energy_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "6bf8cf9ee49a2717f7c4da27c71438f397065faeb7acea6db8386d54289a060e"
+    },
+    {
+      "group": "aetherdrift",
+      "source": "images/aetherdrift/Tops/eternal_might_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "77f9434462042c60f8806a83a2fc626335ae19c325cbcfcee02ed0c1e3d5db05"
+    },
+    {
+      "group": "edge_of_eternities",
+      "source": "images/edge_of_eternities/Tops/world_shaper_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "3f84a2f271ccb10a04ed0deaa3b216605f1454293d4dd6d8284526f99b6169b0"
+    },
+    {
+      "group": "edge_of_eternities",
+      "source": "images/edge_of_eternities/Tops/counter_intelligence_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "eb7f807388b10e985da8f718b430880f662e728bb637f26806a75d1fc5aec4ec"
+    },
+    {
+      "group": "reality_fracture",
+      "source": "images/reality_fracture/Tops/multiverse_reforged_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "d38e3a11bcb4d41a2b9438a355e0385ffafb7256404c829030c8c3ee9f0d7b25"
+    }
+  ]
+}

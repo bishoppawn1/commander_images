@@ -1,0 +1,4 @@
+Edit this existing Saheeli fantasy illustration for a deck-box label. Keep her recognizable face, costume, hands, golden workshop and art style. Reframe the single woman slightly smaller and lower: the TOP of her complete hair bun should be at 25 percent of image height, face centered horizontally and around 40 percent down. Exactly one head and one body. Fill all edges with continuous workshop architecture and sky, including the entire top quarter; no black bars. Use restrained natural painted lighting and moderate saturation, without HDR, bloom, extra rim light, or lifted exposure. No text, border or symbols. Output landscape canvas 33:28 aspect ratio. Preserve identity and main scene.
+
+Built-in ImageGen edit; reference: images/commander_2018/Tops/src/exquisite_invention_background_extension_v3.png
+Output: images/commander_2018/Tops/src/exquisite_invention_composition_v4.png

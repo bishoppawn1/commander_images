@@ -1,0 +1,141 @@
+{
+  "signature": "ddf430e3d51c227851af4c1df0bc4277a4e6b9afb8070ede47c7d747411dcf19",
+  "pdf": "02_Boulder_Tops_Commander_2019_Eldraine_Brawl_Zendikar_Rising_Commander_Legends_1440dpi_ddf430e3d5.pdf",
+  "pdf_sha256": "f5a677ce10d41a3674c4bb913e57213e97cf06b286f305ff9c87cae847aef710",
+  "kind": "tops",
+  "count": 12,
+  "labels": [
+    {
+      "group": "commander_2019",
+      "source": "images/commander_2019/Tops/merciless_rage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "832cd93b914e3d5a369163f9bdbe746d55cbc63514560822dc6621f5ad032ff8"
+    },
+    {
+      "group": "commander_2019",
+      "source": "images/commander_2019/Tops/primal_genesis_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "32cc7489c34d1495c4f933bcf869cb693fe807766c0523286fa505c1889566c3"
+    },
+    {
+      "group": "commander_2019",
+      "source": "images/commander_2019/Tops/faceless_menace_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "4d50a1145951cf739c66a04fd5b954a46ec79b7138166f86cd5e00de1c857a83"
+    },
+    {
+      "group": "commander_2019",
+      "source": "images/commander_2019/Tops/mystic_intellect_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "8693be7601d2dec7792a53becb2a0f6672fd21698212eb5530be764933efdd30"
+    },
+    {
+      "group": "throne_of_eldraine_brawl",
+      "source": "images/throne_of_eldraine_brawl/Tops/wild_bounty_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "19a8873696c1f6f5446edefa9081b2b7067fb8280924180a67e6c04b0df8ee5b"
+    },
+    {
+      "group": "throne_of_eldraine_brawl",
+      "source": "images/throne_of_eldraine_brawl/Tops/faerie_schemes_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "720a77d26cd15305d736b8a24b9fc5ae2c9a471c8ac618b5f0ebbd395a141676"
+    },
+    {
+      "group": "throne_of_eldraine_brawl",
+      "source": "images/throne_of_eldraine_brawl/Tops/knights_charge_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "cdbf90a1f7892cb2e23e3c464a2e49963092b77e57fccb822ca2ab795f842578"
+    },
+    {
+      "group": "throne_of_eldraine_brawl",
+      "source": "images/throne_of_eldraine_brawl/Tops/savage_hunger_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "1e8779654ae388695ada3922a7cc87d537a4ddf324a2624c7897563324b8ff9a"
+    },
+    {
+      "group": "zendikar_rising",
+      "source": "images/zendikar_rising/Tops/sneak_attack_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "debae7b2d567ed3a82db394391f04d06d8c98b4c2e0d0b3a0cd7215dd779fabe"
+    },
+    {
+      "group": "zendikar_rising",
+      "source": "images/zendikar_rising/Tops/lands_wrath_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "e1674784c0deae50052eb285689a8a253fb316577ff1378d0345b3669914d19f"
+    },
+    {
+      "group": "commander_legends",
+      "source": "images/commander_legends/Tops/arm_for_battle_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "d3588ad54fc488d5994a9e640c15619b5b17aa163c16ca4202f850b77bbb896f"
+    },
+    {
+      "group": "commander_legends",
+      "source": "images/commander_legends/Tops/reap_the_tides_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "e08165967c95ed1df8909cc1d973220961f1443e8f0f06a6e343887e484b6f7d"
+    }
+  ]
+}

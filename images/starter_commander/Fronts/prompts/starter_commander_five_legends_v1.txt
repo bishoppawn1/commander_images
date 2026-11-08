@@ -1,0 +1,8 @@
+Create a premium Magic: The Gathering storage drawer identification face, portrait exact 6:7 aspect ratio, high-resolution 1800x2100 or larger. These five reference artworks identify the five Starter Commander decks. Build a rich painterly montage of these exact recognizable commanders: upper left Isperia a blue-faced armored sphinx with wings above a city; upper right Gisa and Geralf the two human necromancer siblings together; middle center Kardur a huge horned red-black demon; lower-left Atarka the bronze horned dragon; lower right Emmara the blond elf in green with staff. Preserve their distinguishing appearances and do not duplicate or omit a commander. This is five decks (Gisa and Geralf together counts as one). Full edge-to-edge vivid illustration, cohesive dramatic fantasy lighting, all faces large and unobstructed. No empty space, no panels or borders. Across the lower fifth, one large centered integrated dark antique metal title treatment, ivory/gold elegant fantasy serif text exactly on two lines: STARTER / COMMANDER. The second line spans almost the full safe width. Reserve the bottom-right 12 percent for a count seal to be added later; do not draw any numeral or circle. Title must end above the bottom 15 percent so seal will not overlap it. Keep all text at least 6 percent away from side edges. No other text, no logos, no mana pips. Crisp drawer-readable type.
+
+Reference inputs:
+images/starter_commander/Fronts/src/first_flight_official_art.jpg
+images/starter_commander/Fronts/src/grave_danger_official_art.jpg
+images/starter_commander/Fronts/src/chaos_incarnate_official_art.jpg
+images/starter_commander/Fronts/src/draconic_destruction_official_art.jpg
+images/starter_commander/Fronts/src/token_triumph_official_art.jpg

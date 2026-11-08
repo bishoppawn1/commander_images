@@ -1,0 +1,59 @@
+{
+  "contactSheetName": "warhammer_40000_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "tyranid_swarm",
+      "deckName": "TYRANID SWARM",
+      "goalDescription": "RAMP INTO X SPELLS \u2022 SWARM WITH TYRANIDS",
+      "setName": "WARHAMMER 40,000 COMMANDER",
+      "artPath": "images/warhammer_40000/Tops/src/regenerated_art_v1/the_swarmlord_regenerated_v1.png",
+      "colors": [
+        "GREEN",
+        "BLUE",
+        "RED"
+      ],
+      "series": 1,
+      "outputStem": "tyranid_swarm_readability_v4"
+    },
+    {
+      "slug": "forces_of_the_imperium",
+      "deckName": "FORCES OF THE IMPERIUM",
+      "goalDescription": "MAKE SOLDIERS \u2022 ENFORCE ORDER",
+      "setName": "WARHAMMER 40,000 COMMANDER",
+      "artPath": "images/warhammer_40000/Tops/src/regenerated_art_v1/inquisitor_greyfax_regenerated_v1.png",
+      "colors": [
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ],
+      "series": 1,
+      "outputStem": "forces_of_the_imperium_readability_v4"
+    },
+    {
+      "slug": "necron_dynasties",
+      "deckName": "NECRON DYNASTIES",
+      "goalDescription": "MILL ARTIFACTS \u2022 REANIMATE THE LEGION",
+      "setName": "WARHAMMER 40,000 COMMANDER",
+      "artPath": "images/warhammer_40000/Tops/src/regenerated_art_v1/szarekh_the_silent_king_regenerated_v1.png",
+      "colors": [
+        "BLACK"
+      ],
+      "series": 1,
+      "outputStem": "necron_dynasties_readability_v4"
+    },
+    {
+      "slug": "the_ruinous_powers",
+      "deckName": "THE RUINOUS POWERS",
+      "goalDescription": "CASCADE INTO CHAOS \u2022 ATTACK EVERYWHERE",
+      "setName": "WARHAMMER 40,000 COMMANDER",
+      "artPath": "images/warhammer_40000/Tops/src/regenerated_art_v1/abaddon_the_despoiler_regenerated_v1.png",
+      "colors": [
+        "BLUE",
+        "BLACK",
+        "RED"
+      ],
+      "series": 1,
+      "outputStem": "the_ruinous_powers_readability_v4"
+    }
+  ]
+}

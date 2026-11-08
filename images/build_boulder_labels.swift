@@ -382,7 +382,7 @@ func drawPip(_ manaColor: ManaColor, center: CGPoint, diameter: CGFloat, context
     }
 
     let symbolURL = repositoryRoot
-        .appendingPathComponent("images/commander_anthology_deck_box_labels/src/mana_symbols")
+        .appendingPathComponent("images/commander_anthology_i/Tops/src/mana_symbols")
         .appendingPathComponent("\(symbolCode).png")
     let symbol = loadImage(symbolURL)
     let rect = CGRect(
@@ -393,7 +393,14 @@ func drawPip(_ manaColor: ManaColor, center: CGPoint, diameter: CGFloat, context
     )
 
     context.saveGState()
-    context.setShadow(offset: CGSize(width: 0, height: -10), blur: 24, color: shadow)
+    // Opaque dark keyline plus a soft halo separates every pip from busy art.
+    // Draw behind the original symbol so the canonical glyph remains crisp.
+    context.setShadow(offset: .zero, blur: 48, color: CGColor(gray: 0, alpha: 0.95))
+    context.setFillColor(CGColor(gray: 0, alpha: 0.96))
+    context.fillEllipse(in: rect.insetBy(dx: -15, dy: -15))
+    context.restoreGState()
+    context.saveGState()
+    context.setShadow(offset: CGSize(width: 0, height: -8), blur: 15, color: shadow)
     context.draw(symbol, in: rect)
     context.restoreGState()
 }
@@ -487,23 +494,8 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
         return image
     }
 
-    // Regenerated artwork uses the label's horizontal 33:28 aspect ratio. A
-    // restrained screen lift compensates for darkening on home printers.
-    let isBreedLethality = label.slug == "breed_lethality"
-    context.setBlendMode(.screen)
-    context.setFillColor(CGColor(
-        srgbRed: isBreedLethality ? 0.88 : 0.72,
-        green: isBreedLethality ? 0.91 : 0.78,
-        blue: isBreedLethality ? 0.96 : 0.86,
-        alpha: isBreedLethality ? 0.17 : 0.07
-    ))
-    context.fill(bounds)
-    context.setBlendMode(.normal)
-
-    context.setBlendMode(.color)
-    context.setFillColor(blendedWash(for: label.colors, alpha: 0.09))
-    context.fill(bounds)
-    context.setBlendMode(.normal)
+    // Preserve source exposure and palette. No automatic screen lift, mana-color
+    // wash, HDR/contrast boost or special brightening for individual decks.
 
     drawVerticalGradient(
         context: context,
@@ -521,13 +513,13 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
         context: context,
         rect: bounds,
         colors: [
-            CGColor(srgbRed: 0.004, green: 0.006, blue: 0.010, alpha: isBreedLethality ? 0.28 : 0.38),
-            CGColor(srgbRed: 0.004, green: 0.006, blue: 0.010, alpha: isBreedLethality ? 0.14 : 0.22),
-            CGColor(srgbRed: 0.004, green: 0.006, blue: 0.010, alpha: 0.06)
+            CGColor(gray: 0, alpha: 0.82),
+            CGColor(gray: 0, alpha: 0.65),
+            CGColor(gray: 0, alpha: 0.00)
         ],
-        locations: [0, 0.56, 1],
+        locations: [0, 0.48, 1],
         startY: 0,
-        endY: 1750
+        endY: 1560
     )
 
     let accent = label.series == 1 ? anthologyGold : anthologyGreen

@@ -106,14 +106,14 @@ let root = URL(fileURLWithPath: FileManager.default.currentDirectoryPath).standa
 func path(_ relative: String) -> String { root + "/" + relative }
 
 let panels = [
-    path("images/commander_2013_commander_2016/src/approved_panels/commander_2013_approved_left_panel_900x2100.png"),
-    path("images/commander_2013_commander_2016/src/approved_panels/commander_2016_approved_right_panel_900x2100.png"),
-    path("images/zendikar_rising_commander_legends/src/approved_panels/zendikar_rising_approved_panel_900x2100.png"),
-    path("images/zendikar_rising_commander_legends/src/approved_panels/commander_legends_approved_panel_900x2100.png"),
-    path("images/kamigawa_neon_dynasty_brothers_war/src/approved_panels/kamigawa_neon_dynasty_approved_panel_900x2100.png"),
-    path("images/kamigawa_neon_dynasty_brothers_war/src/approved_panels/brothers_war_approved_panel_900x2100.png"),
-    path("images/phyrexia_all_will_be_one_wilds_of_eldraine/src/approved_panels/phyrexia_all_will_be_one_approved_panel_900x2100.png"),
-    path("images/phyrexia_all_will_be_one_wilds_of_eldraine/src/approved_panels/wilds_of_eldraine_approved_panel_900x2100.png")
+    path("images/commander_2013/Fronts/commander_2013_commander_2016/src/approved_panels/commander_2013_approved_left_panel_900x2100.png"),
+    path("images/commander_2013/Fronts/commander_2013_commander_2016/src/approved_panels/commander_2016_approved_right_panel_900x2100.png"),
+    path("images/zendikar_rising/Fronts/zendikar_rising_commander_legends/src/approved_panels/zendikar_rising_approved_panel_900x2100.png"),
+    path("images/zendikar_rising/Fronts/zendikar_rising_commander_legends/src/approved_panels/commander_legends_approved_panel_900x2100.png"),
+    path("images/kamigawa_neon_dynasty/Fronts/kamigawa_neon_dynasty_brothers_war/src/approved_panels/kamigawa_neon_dynasty_approved_panel_900x2100.png"),
+    path("images/kamigawa_neon_dynasty/Fronts/kamigawa_neon_dynasty_brothers_war/src/approved_panels/brothers_war_approved_panel_900x2100.png"),
+    path("images/phyrexia_all_will_be_one/Fronts/phyrexia_all_will_be_one_wilds_of_eldraine/src/approved_panels/phyrexia_all_will_be_one_approved_panel_900x2100.png"),
+    path("images/phyrexia_all_will_be_one/Fronts/phyrexia_all_will_be_one_wilds_of_eldraine/src/approved_panels/wilds_of_eldraine_approved_panel_900x2100.png")
 ]
 
 for panel in panels { _ = load(panel, width: panelWidth, height: canvasHeight) }
@@ -122,22 +122,22 @@ let pairs = [
     PairSpec(
         leftPanel: panels[0],
         rightPanel: panels[1],
-        output: path("images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_chronological_v2_1800x2100.png")
+        output: path("images/commander_2013/Fronts/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_chronological_v2_1800x2100.png")
     ),
     PairSpec(
         leftPanel: panels[2],
         rightPanel: panels[3],
-        output: path("images/zendikar_rising_commander_legends/zendikar_rising_commander_legends_vertical_split_v1_1800x2100.png")
+        output: path("images/zendikar_rising/Fronts/zendikar_rising_commander_legends/zendikar_rising_commander_legends_vertical_split_v1_1800x2100.png")
     ),
     PairSpec(
         leftPanel: panels[4],
         rightPanel: panels[5],
-        output: path("images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_v1_1800x2100.png")
+        output: path("images/kamigawa_neon_dynasty/Fronts/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_v1_1800x2100.png")
     ),
     PairSpec(
         leftPanel: panels[6],
         rightPanel: panels[7],
-        output: path("images/phyrexia_all_will_be_one_wilds_of_eldraine/phyrexia_all_will_be_one_wilds_of_eldraine_vertical_split_v1_1800x2100.png")
+        output: path("images/phyrexia_all_will_be_one/Fronts/phyrexia_all_will_be_one_wilds_of_eldraine/phyrexia_all_will_be_one_wilds_of_eldraine_vertical_split_v1_1800x2100.png")
     )
 ]
 

@@ -1,0 +1,75 @@
+{
+  "signature": "fb982256d26efd64d185c2b5a51592f3cdc773f474ca47e4d7e858b09e49ac48",
+  "pdf": "04_Modern_Horizons_3_Bloomburrow_Final_Fantasy_Marvel_Super_Heroes_Commander_Anthology_I_Commander_Anthology_II_1440dpi_fb982256d2.pdf",
+  "pdf_sha256": "d2c219818e3bab457789fff01200c2edd8c4eaaa4cb0025c1fa7bf18034b322a",
+  "kind": "fronts",
+  "count": 6,
+  "labels": [
+    {
+      "group": "modern_horizons_3_commander",
+      "source": "images/modern_horizons_3/Fronts/modern_horizons_3_commander_cosmic_rift_alternate_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        525.15,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "d6511cdb175c7bc67bd6d683051b13dd3a0a5f93dfff996c0d95efa524d46d21"
+    },
+    {
+      "group": "bloomburrow_commander",
+      "source": "images/bloomburrow/Fronts/bloomburrow_target_v3_official_key_art_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        360.70000000000005,
+        525.15,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "48dce4d474b0fcb2c48cc3a3370a8b6f7e9f50c4cfba5a5dd6fbe6789bdaa95a"
+    },
+    {
+      "group": "final_fantasy_commander",
+      "source": "images/final_fantasy/Fronts/final_fantasy_commander_official_key_art_crystal_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        280.5,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "9f9ce7f20e022a59e25b6ae37eeb48b489814795fc70efc5639f3f9bb5870cc5"
+    },
+    {
+      "group": "marvel_super_heroes_commander",
+      "source": "images/marvel_super_heroes/Fronts/marvel_super_heroes_commander_official_wpn_key_art_target_v1_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        360.70000000000005,
+        280.5,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "966ff39f6e5eccf6a0a69e3968cb041bc0ea8ac7588e2cb89d382e1883397241"
+    },
+    {
+      "group": "commander_anthology_i",
+      "source": "images/commander_anthology_i/Fronts/commander_anthology_i_target_v3_deck_count_4_trial_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        54.0,
+        35.849999999999966,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "987c4a027f1aa43ef298c28371e07f1f0f01e6b457e8d8f7fc3f41bf7262c747"
+    },
+    {
+      "group": "commander_anthology_ii",
+      "source": "images/commander_anthology_ii/Fronts/commander_anthology_ii_target_v3_deck_count_4_trial_4138x4858_1440dpi_black_margin_1_8in.png",
+      "box_points": [
+        360.70000000000005,
+        35.849999999999966,
+        197.29999999999998,
+        231.0
+      ],
+      "rgb_sha256": "b0e1b9d8dbdd41db1446ab897ff4bd7c101afb5f5df243b85195c3acdaab12f3"
+    }
+  ]
+}

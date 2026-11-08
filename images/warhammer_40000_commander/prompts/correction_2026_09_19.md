@@ -1,5 +1,0 @@
-# Drawer-front correction — 2026-09-19
-
-Built-in ImageGen edit. Input/edit target: `images/warhammer_40000_commander/warhammer_40000_commander_four_faction_v2_1800x2100.png`.
-
-Use case: lighting-weather. Edit this exact 6:7 portrait Warhammer 40,000 Commander drawer face with a substantial exposure and color correction for small-format printing. It is much too dark. Brighten and open the shadows and midtones throughout the battlefield so all four foreground commanders, faces, armor, weapons, soldiers, gothic architecture and ships are immediately visible. Strengthen illuminated blue steel, rich bronze and gold, Tyranid violet, emerald Necron energy and warm orange fire. Preserve dramatic grimdark mood with textured darks but no large muddy near-black regions. Preserve all subjects, faces, poses, object locations, composition and painterly style exactly. Preserve upper WARHAMMER 40,000 logo plate unchanged; make COMMANDER letters clean bright ivory, retaining their size, font and position. Text verbatim WARHAMMER 40,000 and COMMANDER. Do not add any text, numbers, seals or new effects. Do not crop or reframe. Keep 6:7 portrait, high resolution.

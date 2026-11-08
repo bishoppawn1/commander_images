@@ -1,0 +1,36 @@
+{
+  "contactSheetName": "aetherdrift_labels_preview.png",
+  "labels": [
+    {
+      "slug": "living_energy",
+      "deckName": "LIVING ENERGY",
+      "goalDescription": "STORE ENERGY \u2022 COPY ARTIFACTS",
+      "setName": "AETHERDRIFT COMMANDER",
+      "artPath": "images/aetherdrift/Tops/src/living_energy_regenerated_v1.png",
+      "colors": [
+        "GREEN",
+        "BLUE",
+        "RED"
+      ],
+      "series": 2,
+      "outputStem": "living_energy_readability_v4"
+    },
+    {
+      "slug": "eternal_might",
+      "deckName": "ETERNAL MIGHT",
+      "goalDescription": "DRAW CARDS \u2022 EMPOWER ZOMBIES",
+      "setName": "AETHERDRIFT COMMANDER",
+      "artPath": "images/aetherdrift/Tops/src/eternal_might_regenerated_v1.png",
+      "colors": [
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.13,
+      "manaAlignment": "center",
+      "outputStem": "eternal_might_readability_v4",
+      "backgroundExtensionPath": "images/aetherdrift/Tops/src/eternal_might_background_extension_v3.png"
+    }
+  ]
+}

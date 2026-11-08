@@ -1,0 +1,33 @@
+{
+  "contactSheetName": "brothers_war_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "urzas_iron_alliance",
+      "deckName": "URZA\u2019S IRON ALLIANCE",
+      "goalDescription": "BUILD CONSTRUCTS \u2022 GROW THE ALLIANCE",
+      "setName": "THE BROTHERS\u2019 WAR COMMANDER",
+      "artPath": "images/brothers_war/Tops/src/regenerated_art_v1/urza_chief_artificer_regenerated_v1.png",
+      "colors": [
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ],
+      "series": 2,
+      "outputStem": "urzas_iron_alliance_readability_v4"
+    },
+    {
+      "slug": "mishras_burnished_banner",
+      "deckName": "MISHRA\u2019S BURNISHED BANNER",
+      "goalDescription": "COPY ARTIFACTS \u2022 SACRIFICE REPLICAS",
+      "setName": "THE BROTHERS\u2019 WAR COMMANDER",
+      "artPath": "images/brothers_war/Tops/src/regenerated_art_v1/mishra_eminent_one_regenerated_v1.png",
+      "colors": [
+        "BLUE",
+        "BLACK",
+        "RED"
+      ],
+      "series": 2,
+      "outputStem": "mishras_burnished_banner_readability_v4"
+    }
+  ]
+}

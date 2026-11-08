@@ -1,0 +1,62 @@
+{
+  "contactSheetName": "modern_horizons_3_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "graveyard_overdrive",
+      "deckName": "GRAVEYARD OVERDRIVE",
+      "goalDescription": "FILL GRAVEYARDS \u2022 DRIVE GOYFS FORWARD",
+      "setName": "MODERN HORIZONS 3 COMMANDER",
+      "artPath": "images/modern_horizons_3/Tops/src/regenerated_art_v1/disa_the_restless_regenerated_v1.png",
+      "colors": [
+        "BLACK",
+        "RED",
+        "GREEN"
+      ],
+      "series": 2,
+      "outputStem": "graveyard_overdrive_readability_v4"
+    },
+    {
+      "slug": "creative_energy",
+      "deckName": "CREATIVE ENERGY",
+      "goalDescription": "BUILD ENERGY \u2022 COPY ARTIFACT CREATURES",
+      "setName": "MODERN HORIZONS 3 COMMANDER",
+      "artPath": "images/modern_horizons_3/Tops/src/regenerated_art_v1/satya_aetherflux_genius_regenerated_v1.png",
+      "colors": [
+        "BLUE",
+        "RED",
+        "WHITE"
+      ],
+      "series": 2,
+      "outputStem": "creative_energy_readability_v4"
+    },
+    {
+      "slug": "tricky_terrain",
+      "deckName": "TRICKY TERRAIN",
+      "goalDescription": "PLACE EVERYTHING COUNTERS \u2022 COPY LANDS",
+      "setName": "MODERN HORIZONS 3 COMMANDER",
+      "artPath": "images/modern_horizons_3/Tops/src/regenerated_art_v1/omo_queen_of_vesuva_regenerated_v1.png",
+      "colors": [
+        "GREEN",
+        "BLUE"
+      ],
+      "series": 2,
+      "outputStem": "tricky_terrain_readability_v4"
+    },
+    {
+      "slug": "eldrazi_incursion",
+      "deckName": "ELDRAZI INCURSION",
+      "goalDescription": "CAST ELDRAZI \u2022 DOUBLE EVERY TRIGGER",
+      "setName": "MODERN HORIZONS 3 COMMANDER",
+      "artPath": "images/modern_horizons_3/Tops/src/regenerated_art_v1/ulalek_fused_atrocity_regenerated_v1.png",
+      "colors": [
+        "WHITE",
+        "BLUE",
+        "BLACK",
+        "RED",
+        "GREEN"
+      ],
+      "series": 2,
+      "outputStem": "eldrazi_incursion_readability_v4"
+    }
+  ]
+}

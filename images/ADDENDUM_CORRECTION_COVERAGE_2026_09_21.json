@@ -16,91 +16,91 @@
       "sheet": 7,
       "slot": 1,
       "id": "adventures_forgotten_realms_commander",
-      "source": "images/adventures_forgotten_realms_commander/adventures_forgotten_realms_contrast_tight_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "source": "images/adventures_in_the_forgotten_realms/Fronts/adventures_forgotten_realms_contrast_tight_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
       "is_correction": true
     },
     {
       "sheet": 7,
       "slot": 2,
       "id": "warhammer_40000_commander",
-      "source": "images/warhammer_40000_commander/warhammer_40000_unified_crest_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "source": "images/warhammer_40000/Fronts/warhammer_40000_unified_crest_v4_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
       "is_correction": true
     },
     {
       "sheet": 7,
       "slot": 3,
       "id": "commander_2020_ikoria",
-      "source": "images/commander_2020_ikoria/commander_2020_ikoria_crystal_commander_v5_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+      "source": "images/commander_2020/Fronts/commander_2020_ikoria_crystal_commander_v5_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
       "is_correction": true
     },
     {
       "sheet": 7,
       "slot": 4,
       "id": "throne_of_eldraine_brawl",
-      "source": "images/throne_of_eldraine_brawl/throne_of_eldraine_brawl_unified_shadow_v6_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "source": "images/throne_of_eldraine_brawl/Fronts/throne_of_eldraine_brawl_unified_shadow_v6_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
       "is_correction": true
     },
     {
       "sheet": 7,
       "slot": 5,
       "id": "zendikar_rising_commander_legends",
-      "source": "images/zendikar_rising_commander_legends/zendikar_rising_commander_legends_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+      "source": "images/zendikar_rising/Fronts/zendikar_rising_commander_legends/zendikar_rising_commander_legends_vertical_split_v1_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
       "is_correction": false
     },
     {
       "sheet": 7,
       "slot": 6,
       "id": "kamigawa_neon_dynasty_brothers_war",
-      "source": "images/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+      "source": "images/kamigawa_neon_dynasty/Fronts/kamigawa_neon_dynasty_brothers_war/kamigawa_neon_dynasty_brothers_war_vertical_split_aligned_v2_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
       "is_correction": true
     },
     {
       "sheet": 8,
       "slot": 1,
       "id": "commander_2013_commander_2016",
-      "source": "images/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_centered_v4_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
+      "source": "images/commander_2013/Fronts/commander_2013_commander_2016/commander_2013_commander_2016_vertical_split_centered_v4_deck_counts_2_2_4138x4858_1440dpi_black_margin_1_8in.png",
       "is_correction": true
     },
     {
       "sheet": 8,
       "slot": 2,
       "id": "commander_2017",
-      "source": "images/commander_2017/commander_2017_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "source": "images/commander_2017/Fronts/commander_2017_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
       "is_correction": true
     },
     {
       "sheet": 8,
       "slot": 3,
       "id": "commander_2018",
-      "source": "images/commander_2018/commander_2018_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "source": "images/commander_2018/Fronts/commander_2018_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
       "is_correction": true
     },
     {
       "sheet": 8,
       "slot": 4,
       "id": "commander_2019",
-      "source": "images/commander_2019/commander_2019_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "source": "images/commander_2019/Fronts/commander_2019_centered_title_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
       "is_correction": true
     },
     {
       "sheet": 8,
       "slot": 5,
       "id": "march_of_the_machine_commander",
-      "source": "images/march_of_the_machine_commander/march_of_the_machine_large_lower_title_v2_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
+      "source": "images/march_of_the_machine/Fronts/march_of_the_machine_large_lower_title_v2_deck_count_5_4138x4858_1440dpi_black_margin_1_8in.png",
       "is_correction": true
     },
     {
       "sheet": 8,
       "slot": 6,
       "id": "lord_of_the_rings_tales_of_middle_earth_commander",
-      "source": "images/lord_of_the_rings_tales_of_middle_earth_commander/lord_of_the_rings_centered_wordmark_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "source": "images/lord_of_the_rings/Fronts/lord_of_the_rings_centered_wordmark_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
       "is_correction": true
     },
     {
       "sheet": 9,
       "slot": 1,
       "id": "lost_caverns_of_ixalan_commander",
-      "source": "images/lost_caverns_of_ixalan_commander/lost_caverns_of_ixalan_centered_wordmark_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+      "source": "images/lost_caverns_of_ixalan/Fronts/lost_caverns_of_ixalan_centered_wordmark_v2_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
       "is_correction": true
     }
   ],

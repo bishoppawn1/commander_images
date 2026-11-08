@@ -1,0 +1,61 @@
+{
+  "contactSheetName": "commander_masters_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "eldrazi_unbound",
+      "deckName": "ELDRAZI UNBOUND",
+      "goalDescription": "CAST COLORLESS \u2022 CASCADE INTO TITANS",
+      "setName": "COMMANDER MASTERS",
+      "artPath": "images/commander_masters/Tops/src/regenerated_art_v1/zhulodok_void_gorger_regenerated_v1.png",
+      "colors": [
+        "COLORLESS"
+      ],
+      "series": 2,
+      "outputStem": "eldrazi_unbound_readability_v4"
+    },
+    {
+      "slug": "enduring_enchantments",
+      "deckName": "ENDURING ENCHANTMENTS",
+      "goalDescription": "MILL ENCHANTMENTS \u2022 RETURN THEM AS ZOMBIES",
+      "setName": "COMMANDER MASTERS",
+      "artPath": "images/commander_masters/Tops/src/regenerated_art_v1/anikthea_hand_of_erebos_regenerated_v1.png",
+      "colors": [
+        "WHITE",
+        "BLACK",
+        "GREEN"
+      ],
+      "series": 2,
+      "outputStem": "enduring_enchantments_readability_v4"
+    },
+    {
+      "slug": "planeswalker_party",
+      "deckName": "PLANESWALKER PARTY",
+      "goalDescription": "DEPLOY PLANESWALKERS \u2022 SHARE THEIR POWER",
+      "setName": "COMMANDER MASTERS",
+      "artPath": "images/commander_masters/Tops/src/regenerated_art_v1/commodore_guff_regenerated_v1.png",
+      "colors": [
+        "BLUE",
+        "RED",
+        "WHITE"
+      ],
+      "series": 2,
+      "outputStem": "planeswalker_party_readability_v4"
+    },
+    {
+      "slug": "sliver_swarm",
+      "deckName": "SLIVER SWARM",
+      "goalDescription": "ADAPT THE HIVE \u2022 OVERWHELM TOGETHER",
+      "setName": "COMMANDER MASTERS",
+      "artPath": "images/commander_masters/Tops/src/regenerated_art_v1/sliver_gravemother_regenerated_v1.png",
+      "colors": [
+        "WHITE",
+        "BLUE",
+        "BLACK",
+        "RED",
+        "GREEN"
+      ],
+      "series": 2,
+      "outputStem": "sliver_swarm_readability_v4"
+    }
+  ]
+}

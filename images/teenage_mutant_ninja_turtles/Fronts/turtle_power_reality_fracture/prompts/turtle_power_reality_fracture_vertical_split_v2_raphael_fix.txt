@@ -1,0 +1,10 @@
+Use case: precise-object-edit.
+Asset type: revised print-ready 6:7 MTG Commander storage drawer front, Turtle Power / Reality Fracture equal vertical split.
+Primary request: Correct ONLY Raphael, the red-masked Ninja Turtle in the upper left panel, using the supplied source art as a character reference. In the previous combined front, red fabric from his eye bandana visually continues onto his raised arm, making his anatomy look wrong. Repaint this area so his RED EYE BANDANA wraps only around his eyes and the back of his head, with two short loose tails behind his head; no red mask fabric connects to or touches his arm. His raised shoulder, bicep, elbow, forearm, wrist, and fist must read as one continuous anatomically coherent GREEN TURTLE ARM. His elbow or wrist may have a small separate DARK BROWN leather guard or wrap, visibly separated from the red head bandana by green skin. No red sleeve, red forearm wraps, red tendrils, duplicated arm, extra hands, or melted joints. His raised arm can be lowered slightly if it helps the anatomy but keep him expressive and all four Turtles visible.
+Input image 1 is the EXISTING COMBINED FRONT to edit; preserve its equal panels, central gold divider, all other three Turtle faces, Jace and his reality shards, city and magic backdrops, lighting, composition, colors, exact title letterforms and text "TURTLE" / "POWER!" and "REALITY" / "FRACTURE", empty bottom areas reserved for count seals, and overall 6:7 crop. Do not introduce numbers or circles.
+Input image 2 is the original Turtle Power official artwork, to identify Raphael's face, pose, green arm and head mask. The source has some red arm material; interpret that as something to correct, not to copy. Keep the bandana strictly on Raphael's head.
+Do not change any other objects, text, spacing, or typography. No logos, watermark, subtitles, or extra text.
+
+Reference inputs:
+../turtle_power_reality_fracture_vertical_split_v1_1800x2100.png (edit target)
+../../turtle_power_commander/src/TMT_sma_key_1080x1920.jpg (official character reference)

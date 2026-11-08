@@ -1,0 +1,61 @@
+{
+  "contactSheetName": "throne_of_eldraine_brawl_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "wild_bounty",
+      "deckName": "WILD BOUNTY",
+      "goalDescription": "CAST CREATURES \u2022 DRAW & PLAY LANDS",
+      "setName": "THRONE OF ELDRAINE BRAWL",
+      "artPath": "images/throne_of_eldraine_brawl/Tops/src/regenerated_art_v1/chulane_teller_of_tales_regenerated_v1.png",
+      "colors": [
+        "GREEN",
+        "WHITE",
+        "BLUE"
+      ],
+      "series": 2,
+      "outputStem": "wild_bounty_readability_v4"
+    },
+    {
+      "slug": "faerie_schemes",
+      "deckName": "FAERIE SCHEMES",
+      "goalDescription": "CAST ARTIFACTS \u2022 BUILD FLYING TOKENS",
+      "setName": "THRONE OF ELDRAINE BRAWL",
+      "artPath": "images/throne_of_eldraine_brawl/Tops/src/regenerated_art_v1/alela_artful_provocateur_regenerated_v1.png",
+      "colors": [
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ],
+      "series": 2,
+      "outputStem": "faerie_schemes_readability_v4"
+    },
+    {
+      "slug": "knights_charge",
+      "deckName": "KNIGHTS\u2019 CHARGE",
+      "goalDescription": "ATTACK WITH KNIGHTS \u2022 RECUR THE FALLEN",
+      "setName": "THRONE OF ELDRAINE BRAWL",
+      "artPath": "images/throne_of_eldraine_brawl/Tops/src/regenerated_art_v1/syr_gwyn_hero_of_ashvale_regenerated_v1.png",
+      "colors": [
+        "RED",
+        "WHITE",
+        "BLACK"
+      ],
+      "series": 2,
+      "outputStem": "knights_charge_readability_v4"
+    },
+    {
+      "slug": "savage_hunger",
+      "deckName": "SAVAGE HUNGER",
+      "goalDescription": "SACRIFICE PERMANENTS \u2022 GROW KORVOLD",
+      "setName": "THRONE OF ELDRAINE BRAWL",
+      "artPath": "images/throne_of_eldraine_brawl/Tops/src/regenerated_art_v1/korvold_fae_cursed_king_regenerated_v1.png",
+      "colors": [
+        "BLACK",
+        "RED",
+        "GREEN"
+      ],
+      "series": 2,
+      "outputStem": "savage_hunger_readability_v4"
+    }
+  ]
+}

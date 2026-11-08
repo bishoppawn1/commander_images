@@ -1,0 +1,61 @@
+{
+  "contactSheetName": "final_fantasy_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "revival_trance",
+      "deckName": "REVIVAL TRANCE",
+      "goalDescription": "MILL CREATURES \u2022 REVIVE THE FALLEN",
+      "setName": "FINAL FANTASY COMMANDER",
+      "artPath": "images/final_fantasy/Tops/src/regenerated_art_v1/terra_herald_of_hope_regenerated_v1.png",
+      "colors": [
+        "WHITE",
+        "BLACK",
+        "RED"
+      ],
+      "series": 2,
+      "outputStem": "revival_trance_readability_v4"
+    },
+    {
+      "slug": "limit_break",
+      "deckName": "LIMIT BREAK",
+      "goalDescription": "EQUIP HEROES \u2022 BREAK EVERY LIMIT",
+      "setName": "FINAL FANTASY COMMANDER",
+      "artPath": "images/final_fantasy/Tops/src/regenerated_art_v1/cloud_ex_soldier_regenerated_v1.png",
+      "colors": [
+        "RED",
+        "GREEN",
+        "WHITE"
+      ],
+      "series": 2,
+      "outputStem": "limit_break_readability_v4"
+    },
+    {
+      "slug": "counter_blitz",
+      "deckName": "COUNTER BLITZ",
+      "goalDescription": "PLACE COUNTERS \u2022 BLITZ THROUGH COMBAT",
+      "setName": "FINAL FANTASY COMMANDER",
+      "artPath": "images/final_fantasy/Tops/src/regenerated_art_v1/tidus_yunas_guardian_regenerated_v1.png",
+      "colors": [
+        "GREEN",
+        "WHITE",
+        "BLUE"
+      ],
+      "series": 2,
+      "outputStem": "counter_blitz_readability_v4"
+    },
+    {
+      "slug": "scions_and_spellcraft",
+      "deckName": "SCIONS & SPELLCRAFT",
+      "goalDescription": "CAST NONCREATURES \u2022 DRAIN & DRAW",
+      "setName": "FINAL FANTASY COMMANDER",
+      "artPath": "images/final_fantasy/Tops/src/regenerated_art_v1/yshtola_nights_blessed_regenerated_v1.png",
+      "colors": [
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ],
+      "series": 2,
+      "outputStem": "scions_and_spellcraft_readability_v4"
+    }
+  ]
+}

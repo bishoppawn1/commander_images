@@ -1,0 +1,141 @@
+{
+  "signature": "1dfb208d4c8f937f01de1286d6e7bf8eb0aec5fd1ed92201b1e0737a7e36f624",
+  "pdf": "04_Boulder_Tops_Forgotten_Realms_Warhammer_40000_Brothers_War_Phyrexia_All_Will_Be_One_1440dpi_1dfb208d4c.pdf",
+  "pdf_sha256": "6440207e40531ce725aaf7f8908f80c656e4db51fc695a300ca64e1d8e7b2b26",
+  "kind": "tops",
+  "count": 12,
+  "labels": [
+    {
+      "group": "adventures_in_the_forgotten_realms",
+      "source": "images/adventures_in_the_forgotten_realms/Tops/draconic_rage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "400f0fedf6d854b222d6c8c9129d20b6c5377acfadebe777b57f4a1760362fdf"
+    },
+    {
+      "group": "adventures_in_the_forgotten_realms",
+      "source": "images/adventures_in_the_forgotten_realms/Tops/dungeons_of_death_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "c06bb9b77d490b6fa239bbcb3abb0949eb8c05dd81d430c4efc9be1478331497"
+    },
+    {
+      "group": "adventures_in_the_forgotten_realms",
+      "source": "images/adventures_in_the_forgotten_realms/Tops/aura_of_courage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "15d709d739ba899bc17affef58e6b77f2533a50504d05410f02c61e1eb3b1a30"
+    },
+    {
+      "group": "adventures_in_the_forgotten_realms",
+      "source": "images/adventures_in_the_forgotten_realms/Tops/planar_portal_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "9adbe9317b3f21cfd67822b2ff0ce4efad3a0cf6a4178235352c4da93c3ff20c"
+    },
+    {
+      "group": "warhammer_40000",
+      "source": "images/warhammer_40000/Tops/tyranid_swarm_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "9f55dd5b1f397dfe90ac1c6987590eae1a0b412bcd39136ac43f2150d87cb063"
+    },
+    {
+      "group": "warhammer_40000",
+      "source": "images/warhammer_40000/Tops/forces_of_the_imperium_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "402c5e72a268bc17dbab0096d55c32b163c058f0c8eca844956bd80a4f9c43e6"
+    },
+    {
+      "group": "warhammer_40000",
+      "source": "images/warhammer_40000/Tops/necron_dynasties_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "83c9196d113042ad671ab538793f41cfa38dd517aaf0e2b39c9c920f2c52225e"
+    },
+    {
+      "group": "warhammer_40000",
+      "source": "images/warhammer_40000/Tops/the_ruinous_powers_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "40600fd8fa5ebee7d820f7e263367831bc1cc1667bd5fe977534fbc0bb7cd00e"
+    },
+    {
+      "group": "brothers_war",
+      "source": "images/brothers_war/Tops/urzas_iron_alliance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "c2fa9fb2b8d08c4dd92ce735cb286bf03dbc503057a775fed0c9f1a49ec43f19"
+    },
+    {
+      "group": "brothers_war",
+      "source": "images/brothers_war/Tops/mishras_burnished_banner_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "8f089e6e5d53a142186db9662b76be00148dd4e84b9222a181e0bc392d78e7c0"
+    },
+    {
+      "group": "phyrexia_all_will_be_one",
+      "source": "images/phyrexia_all_will_be_one/Tops/corrupting_influence_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "d3698f0501aadd92d410e31ba3a41abd146d1237c54c4b7919c268755900db72"
+    },
+    {
+      "group": "phyrexia_all_will_be_one",
+      "source": "images/phyrexia_all_will_be_one/Tops/rebellion_rising_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "982afa764ff23afebce52a689b0160578b9d05e999db209178e218a1f8fd8516"
+    }
+  ]
+}

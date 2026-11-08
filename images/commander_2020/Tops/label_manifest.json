@@ -1,0 +1,75 @@
+{
+  "contactSheetName": "commander_2020_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "enhanced_evolution",
+      "deckName": "ENHANCED EVOLUTION",
+      "goalDescription": "MUTATE CREATURES \u2022 EVOLVE THE BOARD",
+      "setName": "COMMANDER 2020",
+      "artPath": "images/commander_2020/Tops/src/regenerated_art_v1/otrimi_the_ever_playful_regenerated_v1.png",
+      "colors": [
+        "BLACK",
+        "GREEN",
+        "BLUE"
+      ],
+      "series": 1,
+      "outputStem": "enhanced_evolution_readability_v4"
+    },
+    {
+      "slug": "timeless_wisdom",
+      "deckName": "TIMELESS WISDOM",
+      "goalDescription": "CYCLE CARDS \u2022 CREATE DINOSAUR CATS",
+      "setName": "COMMANDER 2020",
+      "artPath": "images/commander_2020/Tops/src/regenerated_art_v1/gavi_nest_warden_regenerated_v1.png",
+      "colors": [
+        "BLUE",
+        "RED",
+        "WHITE"
+      ],
+      "series": 1,
+      "outputStem": "timeless_wisdom_readability_v4"
+    },
+    {
+      "slug": "ruthless_regiment",
+      "deckName": "RUTHLESS REGIMENT",
+      "goalDescription": "MUSTER HUMANS \u2022 ATTACK TOGETHER",
+      "setName": "COMMANDER 2020",
+      "artPath": "images/commander_2020/Tops/src/regenerated_art_v1/jirina_kudro_regenerated_v1.png",
+      "colors": [
+        "RED",
+        "WHITE",
+        "BLACK"
+      ],
+      "series": 1,
+      "outputStem": "ruthless_regiment_readability_v4"
+    },
+    {
+      "slug": "arcane_maelstrom",
+      "deckName": "ARCANE MAELSTROM",
+      "goalDescription": "CAST INSTANTS \u2022 COPY BIG SPELLS",
+      "setName": "COMMANDER 2020",
+      "artPath": "images/commander_2020/Tops/src/regenerated_art_v1/kalamax_the_stormsire_regenerated_v1.png",
+      "colors": [
+        "GREEN",
+        "BLUE",
+        "RED"
+      ],
+      "series": 1,
+      "outputStem": "arcane_maelstrom_readability_v4"
+    },
+    {
+      "slug": "symbiotic_swarm",
+      "deckName": "SYMBIOTIC SWARM",
+      "goalDescription": "MILL KEYWORDS \u2022 BUILD A MONSTER",
+      "setName": "COMMANDER 2020",
+      "artPath": "images/commander_2020/Tops/src/regenerated_art_v1/kathril_aspect_warper_regenerated_v1.png",
+      "colors": [
+        "WHITE",
+        "BLACK",
+        "GREEN"
+      ],
+      "series": 1,
+      "outputStem": "symbiotic_swarm_readability_v4"
+    }
+  ]
+}

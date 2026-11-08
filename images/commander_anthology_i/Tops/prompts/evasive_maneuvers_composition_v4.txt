@@ -1,0 +1,4 @@
+Edit this existing Derevi bird warrior illustration to lower the subject for a deck-box label. Preserve this exact owl-like face, blue-gold feathered wings, armor and staff. Position the complete head lower, its top at 28 percent of canvas height and eyes at 35 percent, horizontally centered. Keep both sweeping wings recognizable, with scene extending across all four edges. Fill top quarter with continuous cloud/sky scenery, no bars or solid header. Reduce the excessive electric cyan glow, gold intensity and HDR-like sharp local contrast to restrained painted daylight with moderate saturation, natural shadows and softly rolled highlights. Exactly one head and original limbs. No text, symbols or border. Output landscape 33:28 aspect ratio.
+
+Built-in ImageGen edit; reference: images/commander_anthology_i/Tops/src/regenerated_art_v3_tall/derevi_empyrial_tactician_regenerated_v3_tall.png
+Output: images/commander_anthology_i/Tops/src/evasive_maneuvers_composition_v4.png

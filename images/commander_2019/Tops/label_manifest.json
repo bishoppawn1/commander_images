@@ -1,0 +1,72 @@
+{
+  "contactSheetName": "commander_2019_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "merciless_rage",
+      "deckName": "MERCILESS RAGE",
+      "goalDescription": "DISCARD CARDS \u2022 UNLEASH MADNESS",
+      "setName": "COMMANDER 2019",
+      "artPath": "images/commander_2019/Tops/src/regenerated_art_v1/anje_falkenrath_regenerated_v1.png",
+      "colors": [
+        "BLACK",
+        "RED"
+      ],
+      "series": 1,
+      "portraitTopInset": 0.13,
+      "manaAlignment": "center",
+      "outputStem": "merciless_rage_readability_v4",
+      "backgroundExtensionPath": "images/commander_2019/Tops/src/merciless_rage_background_extension_v3.png"
+    },
+    {
+      "slug": "primal_genesis",
+      "deckName": "PRIMAL GENESIS",
+      "goalDescription": "MAKE TOKENS \u2022 POPULATE & ATTACK",
+      "setName": "COMMANDER 2019",
+      "artPath": "images/commander_2019/Tops/src/regenerated_art_v1/ghired_conclave_exile_regenerated_v1.png",
+      "colors": [
+        "RED",
+        "GREEN",
+        "WHITE"
+      ],
+      "series": 1,
+      "portraitTopInset": 0.15,
+      "manaAlignment": "center",
+      "outputStem": "primal_genesis_readability_v4",
+      "backgroundExtensionPath": "images/commander_2019/Tops/src/primal_genesis_background_extension_v3.png"
+    },
+    {
+      "slug": "faceless_menace",
+      "deckName": "FACELESS MENACE",
+      "goalDescription": "PLAY FACE-DOWN \u2022 AMBUSH OPPONENTS",
+      "setName": "COMMANDER 2019",
+      "artPath": "images/commander_2019/Tops/src/regenerated_art_v1/kadena_slinking_sorcerer_regenerated_v1.png",
+      "colors": [
+        "BLACK",
+        "GREEN",
+        "BLUE"
+      ],
+      "series": 1,
+      "portraitTopInset": 0.18,
+      "manaAlignment": "center",
+      "outputStem": "faceless_menace_readability_v4",
+      "backgroundExtensionPath": "images/commander_2019/Tops/src/faceless_menace_background_extension_v3.png"
+    },
+    {
+      "slug": "mystic_intellect",
+      "deckName": "MYSTIC INTELLECT",
+      "goalDescription": "CAST FROM GRAVEYARD \u2022 COPY SPELLS",
+      "setName": "COMMANDER 2019",
+      "artPath": "images/commander_2019/Tops/src/regenerated_art_v1/sevinne_the_chronoclasm_regenerated_v1.png",
+      "colors": [
+        "BLUE",
+        "RED",
+        "WHITE"
+      ],
+      "series": 1,
+      "portraitTopInset": 0.15,
+      "manaAlignment": "center",
+      "outputStem": "mystic_intellect_readability_v4",
+      "backgroundExtensionPath": "images/commander_2019/Tops/src/mystic_intellect_background_extension_v3.png"
+    }
+  ]
+}

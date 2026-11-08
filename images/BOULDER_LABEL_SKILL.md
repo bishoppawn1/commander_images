@@ -28,3 +28,11 @@ The reserved mana area is scene artwork, not a solid black header. Artwork must 
 Preserve the reference image's composition, visual hierarchy, palette, typography, material treatment, lighting, and recurring brand elements.
 
 User instructions control requested content and explicit deviations. The retained reference controls layout and formatting where the user has not requested a change.
+
+## Readability and lighting
+
+Give every mana symbol a dark keyline and soft black halo so it separates from busy artwork while its glyph stays crisp. Shade the bottom typography with a feathered translucent black overlay behind all title, strategy and set-name lines; keep the underlying scene visible and focal faces clear.
+
+Preserve the source art’s exposure, palette and medium. Default to restrained natural lighting and moderate saturation; do not add HDR, lifted shadows, contrast/saturation boosts, bright print-oriented exposure, bloom or extra rim light. Avoid automatic screen-lightening and color washes in compositors. Inspect final layered output for duplicate heads, joins and image gaps as well as source quality.
+
+For this repository, use `images/<set>/Tops/` and `images/<set>/Fronts/`, with `src/` and `prompts/` inside each format. Shared assets live once, with relative symlinks from other sets. When the user requests a full refresh, rebuild/repack the whole PDF collection at existing physical sizes instead of accumulating addenda.

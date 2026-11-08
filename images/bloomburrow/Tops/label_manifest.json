@@ -1,0 +1,59 @@
+{
+  "contactSheetName": "bloomburrow_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "animated_army",
+      "deckName": "ANIMATED ARMY",
+      "goalDescription": "ANIMATE ARTIFACTS \u2022 SMASH THE TABLE",
+      "setName": "BLOOMBURROW COMMANDER",
+      "artPath": "images/bloomburrow/Tops/src/regenerated_art_v1/bello_bard_of_the_brambles_regenerated_v1.png",
+      "colors": [
+        "RED",
+        "GREEN"
+      ],
+      "series": 2,
+      "outputStem": "animated_army_readability_v4"
+    },
+    {
+      "slug": "family_matters",
+      "deckName": "FAMILY MATTERS",
+      "goalDescription": "CREATE OFFSPRING \u2022 GO WIDE",
+      "setName": "BLOOMBURROW COMMANDER",
+      "artPath": "images/bloomburrow/Tops/src/regenerated_art_v1/zinnia_valleys_voice_regenerated_v1.png",
+      "colors": [
+        "BLUE",
+        "RED",
+        "WHITE"
+      ],
+      "series": 2,
+      "outputStem": "family_matters_readability_v4"
+    },
+    {
+      "slug": "peace_offering",
+      "deckName": "PEACE OFFERING",
+      "goalDescription": "GIVE GIFTS \u2022 DRAW & GROW",
+      "setName": "BLOOMBURROW COMMANDER",
+      "artPath": "images/bloomburrow/Tops/src/regenerated_art_v1/ms_bumbleflower_regenerated_v1.png",
+      "colors": [
+        "GREEN",
+        "WHITE",
+        "BLUE"
+      ],
+      "series": 2,
+      "outputStem": "peace_offering_readability_v4"
+    },
+    {
+      "slug": "squirreled_away",
+      "deckName": "SQUIRRELED AWAY",
+      "goalDescription": "MAKE SQUIRRELS \u2022 STOCKPILE TOKENS",
+      "setName": "BLOOMBURROW COMMANDER",
+      "artPath": "images/bloomburrow/Tops/src/regenerated_art_v1/hazel_of_the_rootbloom_regenerated_v1.png",
+      "colors": [
+        "BLACK",
+        "GREEN"
+      ],
+      "series": 2,
+      "outputStem": "squirreled_away_readability_v4"
+    }
+  ]
+}

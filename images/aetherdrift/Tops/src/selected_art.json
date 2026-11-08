@@ -1,0 +1,24 @@
+[
+  {
+    "deck": "LIVING ENERGY",
+    "commander": "Saheeli, Radiant Creator",
+    "raw_file": "images/aetherdrift/Tops/src/living_energy_regenerated_v1.png",
+    "raw_pixels": [
+      1362,
+      1155
+    ],
+    "prompt": "images/aetherdrift/Tops/prompts/living_energy_art_v1.txt",
+    "final_file": "images/aetherdrift/Tops/living_energy_boulder_top_label_tall_3960x3360_1440dpi.png"
+  },
+  {
+    "deck": "ETERNAL MIGHT",
+    "commander": "Temmet, Naktamun's Will",
+    "raw_file": "images/aetherdrift/Tops/src/eternal_might_regenerated_v1.png",
+    "raw_pixels": [
+      1362,
+      1155
+    ],
+    "prompt": "images/aetherdrift/Tops/prompts/eternal_might_art_v1.txt",
+    "final_file": "images/aetherdrift/Tops/eternal_might_boulder_top_label_tall_3960x3360_1440dpi.png"
+  }
+]

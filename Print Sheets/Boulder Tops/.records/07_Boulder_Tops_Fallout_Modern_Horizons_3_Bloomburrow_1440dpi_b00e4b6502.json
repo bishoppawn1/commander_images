@@ -1,0 +1,141 @@
+{
+  "signature": "b00e4b65024c5594569b3faae8cb1a8d8e60136f37c731d125844f7d66bb23f7",
+  "pdf": "07_Boulder_Tops_Fallout_Modern_Horizons_3_Bloomburrow_1440dpi_b00e4b6502.pdf",
+  "pdf_sha256": "030e4b9e29796f4f7ba44763cd7f76664cea059075f9772fe9c8754f55d5a54c",
+  "kind": "tops",
+  "count": 12,
+  "labels": [
+    {
+      "group": "fallout",
+      "source": "images/fallout/Tops/scrappy_survivors_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "35ff145bc702fdb0df09f8eb610faab3b3193d586a169f89be88c61d8f7737fa"
+    },
+    {
+      "group": "fallout",
+      "source": "images/fallout/Tops/hail_caesar_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "c7be5af1dc699f7c359a63c949f73890f63b710d1cc39f8da68893db1a8e7b81"
+    },
+    {
+      "group": "fallout",
+      "source": "images/fallout/Tops/science_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "0d30f107112c48675bae178aaabfb6af2f70d8b191091808254851f33f2e4f4b"
+    },
+    {
+      "group": "fallout",
+      "source": "images/fallout/Tops/mutant_menace_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "e45196c65115b91af4aea683a24cf21d3655d3d975b236670a3874f64adde975"
+    },
+    {
+      "group": "modern_horizons_3",
+      "source": "images/modern_horizons_3/Tops/graveyard_overdrive_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "cda8d7f7dedc53bd683c7f7899eab4da5fae1e74fa45a8acbed74ecccb5e9bf3"
+    },
+    {
+      "group": "modern_horizons_3",
+      "source": "images/modern_horizons_3/Tops/creative_energy_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "89bddc0bac1b9e255367844af4198389a5793474ab7b793fe2d7719593282fd5"
+    },
+    {
+      "group": "modern_horizons_3",
+      "source": "images/modern_horizons_3/Tops/tricky_terrain_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "1f92486bc8c234bdb252133519bd4170f704d4803d5ef1cd02be3b820ef7901c"
+    },
+    {
+      "group": "modern_horizons_3",
+      "source": "images/modern_horizons_3/Tops/eldrazi_incursion_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "7851fdaca559057401b1f50d47d510563aeadcc6080333fc2b61c07779a9dd52"
+    },
+    {
+      "group": "bloomburrow",
+      "source": "images/bloomburrow/Tops/animated_army_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "51f23539948bbcde7adc7d39e67e6133793a8775e6fc9931602fac8c9ee59239"
+    },
+    {
+      "group": "bloomburrow",
+      "source": "images/bloomburrow/Tops/family_matters_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "8fa464c81a46b164811576afeb82eebb129920a4c4a5a5142ec38add7adf09f2"
+    },
+    {
+      "group": "bloomburrow",
+      "source": "images/bloomburrow/Tops/peace_offering_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "6b133ef2d5fed7f1411496f0115368ba7ca6e0d511ba6261547e97c521dbc831"
+    },
+    {
+      "group": "bloomburrow",
+      "source": "images/bloomburrow/Tops/squirreled_away_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "9f272cabd2c9847def63a84d1a4f4517038d9c59a43b312cb22432dcb557837b"
+    }
+  ]
+}

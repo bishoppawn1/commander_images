@@ -1,0 +1,4 @@
+Outpaint this existing Fantastic Four artwork ONLY into the black blank band at the top. Keep the entire existing illustrated scene below the band unchanged in placement, identity, style and color. Replace the black band with a seamless continuation of the cool teal futuristic lab background and subdued orange light trails. The head must stay exactly where it is, fully visible below the top scenery. No additional people, heads or body parts, no text, no symbols, no border, no solid black band. Match the restrained painted comic source lighting, without HDR, extra glow or brightening. Keep original 33:28 canvas aspect ratio.
+
+Built-in ImageGen edit; reference: images/marvel_super_heroes/Tops/src/the_fantastic_four_outpaint_reference_v3.png
+Output: images/marvel_super_heroes/Tops/src/the_fantastic_four_composition_v4.png

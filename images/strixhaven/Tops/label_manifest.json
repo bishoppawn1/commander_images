@@ -1,0 +1,70 @@
+{
+  "contactSheetName": "strixhaven_boulder_labels_tall_1200dpi_contact_sheet.png",
+  "labels": [
+    {
+      "slug": "prismari_performance",
+      "deckName": "PRISMARI PERFORMANCE",
+      "goalDescription": "CAST BIG SPELLS \u2022 CONDUCT THE STORM",
+      "setName": "STRIXHAVEN COMMANDER",
+      "artPath": "images/strixhaven/Tops/src/regenerated_art_v1/zaffai_thunder_conductor_regenerated_v1.png",
+      "colors": [
+        "BLUE",
+        "RED"
+      ],
+      "series": 2,
+      "outputStem": "prismari_performance_readability_v4"
+    },
+    {
+      "slug": "silverquill_statement",
+      "deckName": "SILVERQUILL STATEMENT",
+      "goalDescription": "POLITIC FOR POWER \u2022 PUNISH RIVALS",
+      "setName": "STRIXHAVEN COMMANDER",
+      "artPath": "images/strixhaven/Tops/src/regenerated_art_v1/breena_the_demagogue_regenerated_v1.png",
+      "colors": [
+        "WHITE",
+        "BLACK"
+      ],
+      "series": 2,
+      "outputStem": "silverquill_statement_readability_v4"
+    },
+    {
+      "slug": "quantum_quandrix",
+      "deckName": "QUANTUM QUANDRIX",
+      "goalDescription": "DOUBLE TOKENS \u2022 OUTNUMBER THE TABLE",
+      "setName": "STRIXHAVEN COMMANDER",
+      "artPath": "images/strixhaven/Tops/src/regenerated_art_v1/adrix_and_nev_twincasters_regenerated_v1.png",
+      "colors": [
+        "GREEN",
+        "BLUE"
+      ],
+      "series": 2,
+      "outputStem": "quantum_quandrix_readability_v4"
+    },
+    {
+      "slug": "lorehold_legacies",
+      "deckName": "LOREHOLD LEGACIES",
+      "goalDescription": "SACRIFICE ARTIFACTS \u2022 REBUILD TWO",
+      "setName": "STRIXHAVEN COMMANDER",
+      "artPath": "images/strixhaven/Tops/src/regenerated_art_v1/osgir_the_reconstructor_regenerated_v1.png",
+      "colors": [
+        "RED",
+        "WHITE"
+      ],
+      "series": 2,
+      "outputStem": "lorehold_legacies_readability_v4"
+    },
+    {
+      "slug": "witherbloom_witchcraft",
+      "deckName": "WITHERBLOOM WITCHCRAFT",
+      "goalDescription": "GAIN & PAY LIFE \u2022 GROW CREATURES",
+      "setName": "STRIXHAVEN COMMANDER",
+      "artPath": "images/strixhaven/Tops/src/regenerated_art_v1/willowdusk_essence_seer_regenerated_v1.png",
+      "colors": [
+        "BLACK",
+        "GREEN"
+      ],
+      "series": 2,
+      "outputStem": "witherbloom_witchcraft_readability_v4"
+    }
+  ]
+}
