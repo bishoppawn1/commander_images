@@ -161,3 +161,7 @@ This inventory merges:
 - The photo-based group inventory supplied as an attachment, which contributes the Commander 2013 and Commander 2016 partial groups and the deck-level names above.
 
 When the two sources use different names for the same product, this document keeps one canonical row and records the common alternate name in that row. Later explicit user corrections override this inventory and should be recorded here.
+
+## Star Trek label preparation — 2026-11-08
+
+Prepared the requested Star Trek front and four top labels: Federation Fleet (Jean-Luc Picard, Luminary), Landing Party (Commander Spock), Klingon Fury (Worf, Defiant Commander), and We Are the Borg (The Borg Queen). The front has a `4` deck-count seal and five requested captain portraits: Sisko, Kirk, Picard, Janeway and Archer. Label preparation does not establish physical ownership; ownership confirmation remains unspecified. Sources and selected artwork are recorded under `images/star_trek_commander/src/sources.md` and `images/star_trek_boulder_deck_box_labels/src/sources.md`.

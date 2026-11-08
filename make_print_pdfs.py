@@ -95,10 +95,20 @@ def load_groups(kind, scope="all", ids=None, catalog=None, root=ROOT):
 def pack_groups(groups, capacity):
     """First-fit in catalog order: never divide a release, fill earlier free slots."""
     sheets = []
+    numbered = {}
     for group in groups:
         n = len(group["files"])
         if not 0 < n <= capacity:
             raise ValueError(f"{group['id']} has {n} images; cannot keep it on one {capacity}-slot page")
+        if "sheet_number" in group:
+            number = group["sheet_number"]
+            if type(number) is not int or number < 1:
+                raise ValueError(f"Invalid sheet number for {group['id']}: {number}")
+            page = numbered.setdefault(number, [])
+            if sum(len(g["files"]) for g in page) + n > capacity:
+                raise ValueError(f"Numbered sheet {number} exceeds its {capacity}-image capacity")
+            page.append(group)
+            continue
         if group.get("dedicated_sheet"):
             sheets.append([group])
             continue
@@ -110,7 +120,23 @@ def pack_groups(groups, capacity):
                 break
         else:
             sheets.append([group])
-    return sheets
+    return sheets + [numbered[n] for n in sorted(numbered)]
+
+
+def numbered_pages(pages):
+    """Keep appended print-sheet numbers stable, including in subset exports."""
+    reserved = {page[0]["sheet_number"] for page in pages if "sheet_number" in page[0]}
+    result, next_number = [], 1
+    for page in pages:
+        if "sheet_number" in page[0]:
+            number = page[0]["sheet_number"]
+        else:
+            while next_number in reserved:
+                next_number += 1
+            number = next_number
+            next_number += 1
+        result.append((number, page))
+    return sorted(result, key=lambda item: item[0])
 
 
 def preflight(groups, kind, root=ROOT):
@@ -254,7 +280,7 @@ def main(argv=None):
         pages = pack_groups(groups, spec["columns"] * spec["rows"])
         print(f"\n{kind.upper()}: {sum(len(g['files']) for g in groups)} images, {len(pages)} PDFs; "
               f"size {spec['width']/72:.6f} x {spec['height']/72:.6f} inches")
-        for i, page in enumerate(pages, 1):
+        for i, page in numbered_pages(pages):
             print(f"  {i}: {sum(len(g['files']) for g in page)} images - " + ", ".join(g["name"] for g in page))
         jobs.append((kind, pages))
     if args.plan or args.list:
@@ -264,7 +290,7 @@ def main(argv=None):
         return
     for kind, pages in jobs:
         output = args.output / OUTPUT_SUBDIRS[kind]
-        results = [build_page(kind, page, i, output) for i, page in enumerate(pages, 1)]
+        results = [build_page(kind, page, i, output) for i, page in numbered_pages(pages)]
         # Content-addressed PDFs retain older editions. This index identifies the current batch.
         selection = args.scope
         if args.sets:

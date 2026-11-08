@@ -1,0 +1,22 @@
+[
+  {
+    "signature": "e11a467d2e1f4dfd6b0dddc6e4e748082d98286fbc513bac167b1cdd377425e5",
+    "pdf": "09_Star_Trek_Commander_1440dpi_e11a467d2e.pdf",
+    "pdf_sha256": "c172bd4dafde68a912ce9ae68a0ec1facaf5e6eda4190828a28f42727f14b1db",
+    "kind": "fronts",
+    "count": 1,
+    "labels": [
+      {
+        "group": "star_trek_commander",
+        "source": "images/star_trek_commander/star_trek_five_captains_archer_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png",
+        "box_points": [
+          54.0,
+          525.15,
+          197.29999999999998,
+          231.0
+        ],
+        "rgb_sha256": "3dcf93435f33c69da1962db974ffbbf33a44ee99d00e7a5c8ccf5741da5af0c8"
+      }
+    ]
+  }
+]

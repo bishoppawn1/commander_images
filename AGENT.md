@@ -1,5 +1,12 @@
 # MTG Commander Deck Box Face Cards
 
+## Star Trek label additions — 2026-11-08
+
+- Star Trek Commander front features exactly Sisko, Kirk, Picard, Janeway and Jonathan Archer. The user requested Archer after removing the original rightmost captain. Five portraits still represent four Commander decks, so use the standard `4` seal.
+- Current front: `images/star_trek_commander/star_trek_five_captains_archer_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png`, on new normal Fronts sheet 9. Preserve the existing separate sheet 8.
+- Four tops: Federation Fleet, Landing Party, Klingon Fury and We Are the Borg, on Boulder Tops sheet 11. Picard and Spock keep the approved v1 art; Worf and the Queen use card-art-based v2 revisions. Use `images/star_trek_boulder_deck_box_labels/label_manifest.json` and `scripts/build_star_trek_sheets.py`. Mana symbols align left to avoid central faces. Earlier sheets remain unchanged.
+
+
 ## Project purpose
 
 Create deck-box-style face cards that make Magic: The Gathering Commander deck sets easy to identify.

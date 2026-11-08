@@ -183,6 +183,13 @@
         "images/commander_anthology_deck_box_labels/wade_into_battle_boulder_top_label_tall_3960x3360_1440dpi.png",
         "images/commander_anthology_deck_box_labels/breed_lethality_boulder_top_label_tall_3960x3360_1440dpi.png"
       ]
+    },
+    {
+      "id": "star_trek",
+      "name": "Star_Trek_Commander",
+      "scope": "second",
+      "sheet_number": 11,
+      "manifest": "images/star_trek_boulder_deck_box_labels/label_manifest.json"
     }
   ],
   "fronts": [
@@ -418,6 +425,15 @@
       "dedicated_sheet": true,
       "files": [
         "images/overflow/overflow_abstract_magical_vault_target_v1_4138x4858_1440dpi_black_margin_1_8in.png"
+      ]
+    },
+    {
+      "id": "star_trek_commander",
+      "name": "Star_Trek_Commander",
+      "scope": "second",
+      "sheet_number": 9,
+      "files": [
+        "images/star_trek_commander/star_trek_five_captains_archer_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png"
       ]
     }
   ]

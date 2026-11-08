@@ -32,6 +32,7 @@ struct DeckLabel: Codable {
     let reuseRenderedPath: String?
     let colors: [ManaColor]
     let series: Int
+    let manaAlignment: String?
 }
 
 struct LabelManifest: Codable {
@@ -477,7 +478,10 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
     let pipDiameter: CGFloat = 320
     let pipGap: CGFloat = 60
     let totalPipWidth = CGFloat(label.colors.count) * pipDiameter + CGFloat(max(0, label.colors.count - 1)) * pipGap
-    var pipX = CGFloat(logicalCanvasWidth) / 2 - totalPipWidth / 2 + pipDiameter / 2
+    // Left alignment keeps tall central portraits clear without changing artwork.
+    var pipX = label.manaAlignment == "left"
+        ? 120 + pipDiameter / 2
+        : CGFloat(logicalCanvasWidth) / 2 - totalPipWidth / 2 + pipDiameter / 2
     for manaColor in label.colors {
         drawPip(manaColor, center: CGPoint(x: pipX, y: 2530), diameter: pipDiameter, context: context)
         pipX += pipDiameter + pipGap
