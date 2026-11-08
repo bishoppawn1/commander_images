@@ -33,6 +33,10 @@ struct DeckLabel: Codable {
     let colors: [ManaColor]
     let series: Int
     let manaAlignment: String?
+    let portraitTopInset: Double?
+    let portraitScale: Double?
+    let outputStem: String?
+    let sourceTopCrop: Double?
 }
 
 struct LabelManifest: Codable {
@@ -118,6 +122,31 @@ func drawAspectFill(_ image: CGImage, in bounds: CGRect, context: CGContext) {
         height: drawHeight
     )
     context.draw(image, in: rect)
+}
+
+// Portrait layout contract: keep the complete head below the centered mana row,
+// near the image center, with room for hair, ears, horns and headwear. Inspect
+// before opting a label into reframing; already-correct labels keep their art.
+// Insets move the retained artwork as a unit; no subject is regenerated.
+func drawPortraitArt(_ image: CGImage, label: DeckLabel, in bounds: CGRect, context: CGContext) {
+    guard let inset = label.portraitTopInset, inset > 0 else {
+        drawAspectFill(image, in: bounds, context: context)
+        return
+    }
+    let relativeScale = label.portraitScale ?? 1
+    guard inset <= 0.35, relativeScale > 0, relativeScale <= 1 else {
+        fail("Invalid portrait layout for \(label.slug)")
+    }
+    let scale = max(bounds.width / CGFloat(image.width), bounds.height / CGFloat(image.height)) * relativeScale
+    let width = CGFloat(image.width) * scale
+    let height = CGFloat(image.height) * scale
+    let top = bounds.maxY - bounds.height * inset
+    let rect = CGRect(x: bounds.midX - width / 2, y: top - height, width: width, height: height)
+    context.draw(image, in: rect)
+    // Blend only a narrow background seam into the reserved mana header.
+    drawVerticalGradient(context: context, rect: rect,
+        colors: [nearBlack, nearBlack.copy(alpha: 0)!], locations: [0, 1],
+        startY: top, endY: top - 24)
 }
 
 func drawVerticalGradient(
@@ -415,8 +444,17 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
     context.setFillColor(nearBlack)
     context.fill(bounds)
 
-    let art = loadImage(preferredArtURL(for: label))
-    drawAspectFill(art, in: bounds, context: context)
+    var art = loadImage(preferredArtURL(for: label))
+    if let crop = label.sourceTopCrop, crop > 0 {
+        guard crop < 0.1 else { fail("Excessive source crop for \(label.slug)") }
+        let pixels = Int((Double(art.height) * crop).rounded())
+        guard let cropped = art.cropping(to: CGRect(x: 0, y: pixels,
+            width: art.width, height: art.height - pixels)) else {
+            fail("Cannot crop source for \(label.slug)")
+        }
+        art = cropped
+    }
+    drawPortraitArt(art, label: label, in: bounds, context: context)
 
     // Regenerated artwork uses the label's horizontal 33:28 aspect ratio. A
     // restrained screen lift compensates for darkening on home printers.
@@ -478,7 +516,8 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
     let pipDiameter: CGFloat = 320
     let pipGap: CGFloat = 60
     let totalPipWidth = CGFloat(label.colors.count) * pipDiameter + CGFloat(max(0, label.colors.count - 1)) * pipGap
-    // Left alignment keeps tall central portraits clear without changing artwork.
+    // Center is the standard. Reframe the portrait instead of moving symbols
+    // aside to conceal a head-placement problem. Other alignment is opt-in.
     var pipX = label.manaAlignment == "left"
         ? 120 + pipDiameter / 2
         : CGFloat(logicalCanvasWidth) / 2 - totalPipWidth / 2 + pipDiameter / 2
@@ -546,7 +585,7 @@ try? FileManager.default.createDirectory(at: outputDirectory, withIntermediateDi
 var rendered: [(DeckLabel, CGImage)] = []
 for label in labels {
     let image = renderLabel(label)
-    let outputURL = outputDirectory.appendingPathComponent("\(label.slug)_boulder_top_label_tall_\(canvasWidth)x\(canvasHeight)_\(outputDPI)dpi.png")
+    let outputURL = outputDirectory.appendingPathComponent("\(label.outputStem ?? label.slug)_boulder_top_label_tall_\(canvasWidth)x\(canvasHeight)_\(outputDPI)dpi.png")
     writePNG(image, to: outputURL, dpi: outputDPI)
     rendered.append((label, image))
     print("Wrote \(outputURL.path)")

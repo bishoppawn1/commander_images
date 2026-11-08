@@ -1,0 +1,22 @@
+{
+  "contactSheetName": "reality_fracture_labels_preview.png",
+  "labels": [
+    {
+      "slug": "multiverse_reforged",
+      "deckName": "MULTIVERSE REFORGED",
+      "goalDescription": "CREATE TOKENS \u2022 RESHAPE REALITY",
+      "setName": "REALITY FRACTURE COMMANDER",
+      "artPath": "images/reality_fracture_boulder_deck_box_labels/src/multiverse_reforged_regenerated_v2.png",
+      "colors": [
+        "WHITE",
+        "BLUE",
+        "BLACK",
+        "RED"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.13,
+      "manaAlignment": "center",
+      "outputStem": "multiverse_reforged_portrait_v2"
+    }
+  ]
+}

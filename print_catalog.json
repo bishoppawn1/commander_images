@@ -170,7 +170,7 @@
         "images/commander_anthology_deck_box_labels/heavenly_inferno_boulder_top_label_tall_3960x3360_1440dpi.png",
         "images/commander_anthology_deck_box_labels/evasive_maneuvers_boulder_top_label_tall_3960x3360_1440dpi.png",
         "images/commander_anthology_deck_box_labels/guided_by_nature_boulder_top_label_tall_3960x3360_1440dpi.png",
-        "images/commander_anthology_deck_box_labels/plunder_the_graves_boulder_top_label_tall_3960x3360_1440dpi.png"
+        "images/commander_anthology_deck_box_labels/plunder_the_graves_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png"
       ]
     },
     {
@@ -178,11 +178,39 @@
       "name": "Commander_Anthology_II",
       "scope": "anthology",
       "files": [
-        "images/commander_anthology_deck_box_labels/devour_for_power_boulder_top_label_tall_3960x3360_1440dpi.png",
-        "images/commander_anthology_deck_box_labels/built_from_scratch_boulder_top_label_tall_3960x3360_1440dpi.png",
-        "images/commander_anthology_deck_box_labels/wade_into_battle_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "images/commander_anthology_deck_box_labels/devour_for_power_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "images/commander_anthology_deck_box_labels/built_from_scratch_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "images/commander_anthology_deck_box_labels/wade_into_battle_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png",
         "images/commander_anthology_deck_box_labels/breed_lethality_boulder_top_label_tall_3960x3360_1440dpi.png"
       ]
+    },
+    {
+      "id": "aetherdrift",
+      "name": "Aetherdrift",
+      "scope": "second",
+      "sheet_number": 10,
+      "manifest": "images/aetherdrift_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "edge_of_eternities",
+      "name": "Edge_of_Eternities",
+      "scope": "second",
+      "sheet_number": 10,
+      "manifest": "images/edge_of_eternities_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "starter_commander",
+      "name": "Starter_Commander",
+      "scope": "second",
+      "sheet_number": 10,
+      "manifest": "images/starter_commander_boulder_deck_box_labels/label_manifest.json"
+    },
+    {
+      "id": "reality_fracture",
+      "name": "Reality_Fracture",
+      "scope": "second",
+      "sheet_number": 10,
+      "manifest": "images/reality_fracture_boulder_deck_box_labels/label_manifest.json"
     },
     {
       "id": "star_trek",

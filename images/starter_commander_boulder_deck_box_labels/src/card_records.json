@@ -1,0 +1,719 @@
+{
+  "first_flight": {
+    "object": "card",
+    "id": "1e3b82a7-ebef-4190-9f50-40b992ba89c9",
+    "oracle_id": "c46718dc-24dc-4b77-b455-aa4c89570b8d",
+    "multiverse_ids": [
+      482845
+    ],
+    "tcgplayer_id": 212318,
+    "cardmarket_id": 454228,
+    "name": "Isperia, Supreme Judge",
+    "lang": "en",
+    "released_at": "2020-04-17",
+    "uri": "https://api.scryfall.com/cards/1e3b82a7-ebef-4190-9f50-40b992ba89c9",
+    "scryfall_uri": "https://scryfall.com/card/c20/217/isperia-supreme-judge?utm_source=api",
+    "layout": "normal",
+    "highres_image": true,
+    "image_status": "highres_scan",
+    "image_updated_at": "2026-07-13T08:25:47Z",
+    "image_uris": {
+      "small": "https://cards.scryfall.io/small/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.jpg?1783931147",
+      "normal": "https://cards.scryfall.io/normal/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.jpg?1783931147",
+      "large": "https://cards.scryfall.io/large/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.jpg?1783931147",
+      "png": "https://cards.scryfall.io/png/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.png?1783931147",
+      "art_crop": "https://cards.scryfall.io/art_crop/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.jpg?1783931147",
+      "border_crop": "https://cards.scryfall.io/border_crop/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.jpg?1783931147",
+      "thumb": "https://cards.scryfall.io/thumb/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.webp?1783931147",
+      "grid": "https://cards.scryfall.io/grid/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.webp?1783931147",
+      "display": "https://cards.scryfall.io/display/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.webp?1783931147",
+      "art": "https://cards.scryfall.io/art/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.webp?1783931147",
+      "crop": "https://cards.scryfall.io/crop/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.webp?1783931147"
+    },
+    "mana_cost": "{2}{W}{W}{U}{U}",
+    "cmc": 6.0,
+    "type_line": "Legendary Creature \u2014 Sphinx",
+    "oracle_text": "Flying\nWhenever a creature attacks you or a planeswalker you control, you may draw a card.",
+    "power": "6",
+    "toughness": "4",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "color_identity": [
+      "U",
+      "W"
+    ],
+    "keywords": [
+      "Flying"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "timeless": "not_legal",
+      "gladiator": "not_legal",
+      "pioneer": "legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "not_legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "oathbreaker": "legal",
+      "standardbrawl": "not_legal",
+      "brawl": "not_legal",
+      "competitivebrawl": "not_legal",
+      "alchemy": "not_legal",
+      "paupercommander": "not_legal",
+      "duel": "legal",
+      "oldschool": "not_legal",
+      "premodern": "not_legal",
+      "predh": "not_legal",
+      "tlr": "not_legal"
+    },
+    "games": [
+      "paper",
+      "mtgo"
+    ],
+    "reserved": false,
+    "game_changer": false,
+    "foil": false,
+    "nonfoil": true,
+    "finishes": [
+      "nonfoil"
+    ],
+    "oversized": false,
+    "promo": false,
+    "reprint": true,
+    "variation": false,
+    "set_id": "f60ec786-1f8d-42f7-9abc-0d880fe243f6",
+    "set": "c20",
+    "set_name": "Commander 2020",
+    "set_type": "commander",
+    "set_uri": "https://api.scryfall.com/sets/f60ec786-1f8d-42f7-9abc-0d880fe243f6",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Ac20&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/c20?utm_source=api",
+    "rulings_uri": "https://api.scryfall.com/cards/1e3b82a7-ebef-4190-9f50-40b992ba89c9/rulings",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ac46718dc-24dc-4b77-b455-aa4c89570b8d&unique=prints",
+    "collector_number": "217",
+    "digital": false,
+    "rarity": "mythic",
+    "flavor_text": "\"I serve only justice. But through that duty, I serve all of Ravnica.\"",
+    "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+    "artist": "Scott M. Fischer",
+    "artist_ids": [
+      "23b0cf43-3e43-44c6-8329-96446eca5bce"
+    ],
+    "illustration_id": "5e094ab6-b6e0-4305-a6b5-3b41374be861",
+    "border_color": "black",
+    "frame": "2015",
+    "frame_effects": [
+      "legendary"
+    ],
+    "security_stamp": "oval",
+    "full_art": false,
+    "textless": false,
+    "booster": false,
+    "story_spotlight": false,
+    "edhrec_rank": 9037,
+    "penny_rank": 12709,
+    "prices": {
+      "usd": "0.36",
+      "usd_foil": null,
+      "usd_etched": null,
+      "eur": "0.42",
+      "eur_foil": null,
+      "tix": null
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=482845&printed=false",
+      "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DIsperia%252C%2BSupreme%2BJudge",
+      "tcgplayer_infinite_decks": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Fdecks&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fdecks%3FproductLineName%3Dmagic%26q%3DIsperia%252C%2BSupreme%2BJudge",
+      "edhrec": "https://edhrec.com/route/?cc=Isperia%2C+Supreme+Judge"
+    },
+    "purchase_uris": {
+      "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F212318%3Fpage%3D1",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=454228&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Isperia%2C+Supreme+Judge&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    }
+  },
+  "grave_danger": {
+    "object": "card",
+    "id": "bce9bf8d-4d22-4967-bd9e-27fe444ef3f6",
+    "oracle_id": "20e94d0f-6887-45f8-a137-877011d786c6",
+    "multiverse_ids": [
+      686086
+    ],
+    "mtgo_id": 135902,
+    "tcgplayer_id": 609782,
+    "cardmarket_id": 805850,
+    "name": "Gisa and Geralf",
+    "lang": "en",
+    "released_at": "2025-01-24",
+    "uri": "https://api.scryfall.com/cards/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6",
+    "scryfall_uri": "https://scryfall.com/card/inr/237/gisa-and-geralf?utm_source=api",
+    "layout": "normal",
+    "highres_image": true,
+    "image_status": "highres_scan",
+    "image_updated_at": "2026-07-13T02:01:17Z",
+    "image_uris": {
+      "small": "https://cards.scryfall.io/small/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.jpg?1783908077",
+      "normal": "https://cards.scryfall.io/normal/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.jpg?1783908077",
+      "large": "https://cards.scryfall.io/large/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.jpg?1783908077",
+      "png": "https://cards.scryfall.io/png/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.png?1783908077",
+      "art_crop": "https://cards.scryfall.io/art_crop/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.jpg?1783908077",
+      "border_crop": "https://cards.scryfall.io/border_crop/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.jpg?1783908077",
+      "thumb": "https://cards.scryfall.io/thumb/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.webp?1783908077",
+      "grid": "https://cards.scryfall.io/grid/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.webp?1783908077",
+      "display": "https://cards.scryfall.io/display/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.webp?1783908077",
+      "art": "https://cards.scryfall.io/art/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.webp?1783908077",
+      "crop": "https://cards.scryfall.io/crop/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.webp?1783908077"
+    },
+    "mana_cost": "{2}{U}{B}",
+    "cmc": 4.0,
+    "type_line": "Legendary Creature \u2014 Human Wizard",
+    "oracle_text": "When Gisa and Geralf enters, mill four cards.\nOnce during each of your turns, you may cast a Zombie creature spell from your graveyard.",
+    "power": "4",
+    "toughness": "4",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "keywords": [
+      "Mill"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "timeless": "legal",
+      "gladiator": "legal",
+      "pioneer": "legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "not_legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "oathbreaker": "legal",
+      "standardbrawl": "not_legal",
+      "brawl": "legal",
+      "competitivebrawl": "legal",
+      "alchemy": "not_legal",
+      "paupercommander": "not_legal",
+      "duel": "legal",
+      "oldschool": "not_legal",
+      "premodern": "not_legal",
+      "predh": "not_legal",
+      "tlr": "not_legal"
+    },
+    "games": [
+      "paper",
+      "mtgo"
+    ],
+    "reserved": false,
+    "game_changer": false,
+    "foil": true,
+    "nonfoil": true,
+    "finishes": [
+      "nonfoil",
+      "foil"
+    ],
+    "oversized": false,
+    "promo": false,
+    "reprint": true,
+    "variation": false,
+    "set_id": "b9618c8c-9f31-4b42-9798-2991893c27bf",
+    "set": "inr",
+    "set_name": "Innistrad Remastered",
+    "set_type": "masters",
+    "set_uri": "https://api.scryfall.com/sets/b9618c8c-9f31-4b42-9798-2991893c27bf",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Ainr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/inr?utm_source=api",
+    "rulings_uri": "https://api.scryfall.com/cards/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6/rulings",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A20e94d0f-6887-45f8-a137-877011d786c6&unique=prints",
+    "collector_number": "237",
+    "digital": false,
+    "rarity": "rare",
+    "flavor_text": "\"These fiends are slightly less tolerable than you.\"\n\"A sentiment that warms my heart, sister.\"",
+    "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+    "artist": "Karla Ortiz",
+    "artist_ids": [
+      "286a7773-06e5-465c-8a2a-76dfcb4ad110"
+    ],
+    "illustration_id": "0e004588-7f86-4a24-9e9f-e1d3dc76d4ce",
+    "border_color": "black",
+    "frame": "2015",
+    "frame_effects": [
+      "legendary"
+    ],
+    "security_stamp": "oval",
+    "full_art": false,
+    "textless": false,
+    "booster": true,
+    "story_spotlight": false,
+    "edhrec_rank": 3990,
+    "penny_rank": 12685,
+    "prices": {
+      "usd": "0.37",
+      "usd_foil": "0.53",
+      "usd_etched": null,
+      "eur": "0.34",
+      "eur_foil": "0.57",
+      "tix": "0.03"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=686086&printed=false",
+      "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DGisa%2Band%2BGeralf",
+      "tcgplayer_infinite_decks": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Fdecks&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fdecks%3FproductLineName%3Dmagic%26q%3DGisa%2Band%2BGeralf",
+      "edhrec": "https://edhrec.com/route/?cc=Gisa+and+Geralf"
+    },
+    "purchase_uris": {
+      "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F609782%3Fpage%3D1",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=805850&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards/135902?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    }
+  },
+  "chaos_incarnate": {
+    "object": "card",
+    "id": "7c0f7712-7bbf-471b-8107-3a49cf922ad9",
+    "oracle_id": "bc14356c-3a1a-47af-9a6e-2b449de0331f",
+    "multiverse_ids": [
+      676096
+    ],
+    "mtgo_id": 131071,
+    "tcgplayer_id": 578907,
+    "cardmarket_id": 788962,
+    "name": "Kardur, Doomscourge",
+    "lang": "en",
+    "released_at": "2024-09-27",
+    "uri": "https://api.scryfall.com/cards/7c0f7712-7bbf-471b-8107-3a49cf922ad9",
+    "scryfall_uri": "https://scryfall.com/card/dsc/223/kardur-doomscourge?utm_source=api",
+    "layout": "normal",
+    "highres_image": true,
+    "image_status": "highres_scan",
+    "image_updated_at": "2026-07-13T02:26:32Z",
+    "image_uris": {
+      "small": "https://cards.scryfall.io/small/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.jpg?1783909592",
+      "normal": "https://cards.scryfall.io/normal/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.jpg?1783909592",
+      "large": "https://cards.scryfall.io/large/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.jpg?1783909592",
+      "png": "https://cards.scryfall.io/png/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.png?1783909592",
+      "art_crop": "https://cards.scryfall.io/art_crop/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.jpg?1783909592",
+      "border_crop": "https://cards.scryfall.io/border_crop/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.jpg?1783909592",
+      "thumb": "https://cards.scryfall.io/thumb/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.webp?1783909592",
+      "grid": "https://cards.scryfall.io/grid/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.webp?1783909592",
+      "display": "https://cards.scryfall.io/display/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.webp?1783909592",
+      "art": "https://cards.scryfall.io/art/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.webp?1783909592",
+      "crop": "https://cards.scryfall.io/crop/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.webp?1783909592"
+    },
+    "mana_cost": "{2}{B}{R}",
+    "cmc": 4.0,
+    "type_line": "Legendary Creature \u2014 Demon Berserker",
+    "oracle_text": "When Kardur enters, until your next turn, creatures your opponents control attack each combat if able and attack a player other than you if able.\nWhenever an attacking creature dies, each opponent loses 1 life and you gain 1 life.",
+    "power": "4",
+    "toughness": "3",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "color_identity": [
+      "B",
+      "R"
+    ],
+    "keywords": [],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "timeless": "legal",
+      "gladiator": "legal",
+      "pioneer": "legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "not_legal",
+      "vintage": "legal",
+      "penny": "not_legal",
+      "commander": "legal",
+      "oathbreaker": "legal",
+      "standardbrawl": "not_legal",
+      "brawl": "legal",
+      "competitivebrawl": "legal",
+      "alchemy": "not_legal",
+      "paupercommander": "not_legal",
+      "duel": "legal",
+      "oldschool": "not_legal",
+      "premodern": "not_legal",
+      "predh": "not_legal",
+      "tlr": "not_legal"
+    },
+    "games": [
+      "paper",
+      "mtgo"
+    ],
+    "reserved": false,
+    "game_changer": false,
+    "foil": false,
+    "nonfoil": true,
+    "finishes": [
+      "nonfoil"
+    ],
+    "oversized": false,
+    "promo": false,
+    "reprint": true,
+    "variation": false,
+    "set_id": "4c822528-83c3-42c7-8708-dd1d37166819",
+    "set": "dsc",
+    "set_name": "Duskmourn: House of Horror Commander",
+    "set_type": "commander",
+    "set_uri": "https://api.scryfall.com/sets/4c822528-83c3-42c7-8708-dd1d37166819",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Adsc&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/dsc?utm_source=api",
+    "rulings_uri": "https://api.scryfall.com/cards/7c0f7712-7bbf-471b-8107-3a49cf922ad9/rulings",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Abc14356c-3a1a-47af-9a6e-2b449de0331f&unique=prints",
+    "collector_number": "223",
+    "digital": false,
+    "rarity": "uncommon",
+    "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+    "artist": "Chris Rahn",
+    "artist_ids": [
+      "7742047e-0f80-4c0f-a530-d07460165e86"
+    ],
+    "illustration_id": "4f7d3f28-0a69-4d57-826e-5b20935515f3",
+    "border_color": "black",
+    "frame": "2015",
+    "frame_effects": [
+      "legendary"
+    ],
+    "full_art": false,
+    "textless": false,
+    "booster": false,
+    "story_spotlight": false,
+    "edhrec_rank": 989,
+    "penny_rank": 11724,
+    "prices": {
+      "usd": "3.57",
+      "usd_foil": null,
+      "usd_etched": null,
+      "eur": "1.15",
+      "eur_foil": null,
+      "tix": "0.04"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=676096&printed=false",
+      "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DKardur%252C%2BDoomscourge",
+      "tcgplayer_infinite_decks": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Fdecks&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fdecks%3FproductLineName%3Dmagic%26q%3DKardur%252C%2BDoomscourge",
+      "edhrec": "https://edhrec.com/route/?cc=Kardur%2C+Doomscourge"
+    },
+    "purchase_uris": {
+      "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F578907%3Fpage%3D1",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=788962&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards/131071?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    }
+  },
+  "draconic_destruction": {
+    "object": "card",
+    "id": "c569fab1-6901-40ab-b958-001698819585",
+    "oracle_id": "c0b3bbce-977c-42a9-afcb-dabdfc717c97",
+    "multiverse_ids": [
+      696437
+    ],
+    "mtgo_id": 138499,
+    "tcgplayer_id": 624961,
+    "cardmarket_id": 819321,
+    "name": "Atarka, World Render",
+    "lang": "en",
+    "released_at": "2025-04-11",
+    "uri": "https://api.scryfall.com/cards/c569fab1-6901-40ab-b958-001698819585",
+    "scryfall_uri": "https://scryfall.com/card/tdc/281/atarka-world-render?utm_source=api",
+    "layout": "normal",
+    "highres_image": false,
+    "image_status": "lowres",
+    "image_updated_at": "2026-07-13T01:43:54Z",
+    "image_uris": {
+      "small": "https://cards.scryfall.io/small/front/c/5/c569fab1-6901-40ab-b958-001698819585.jpg?1783907034",
+      "normal": "https://cards.scryfall.io/normal/front/c/5/c569fab1-6901-40ab-b958-001698819585.jpg?1783907034",
+      "large": "https://cards.scryfall.io/large/front/c/5/c569fab1-6901-40ab-b958-001698819585.jpg?1783907034",
+      "png": "https://cards.scryfall.io/png/front/c/5/c569fab1-6901-40ab-b958-001698819585.png?1783907034",
+      "art_crop": "https://cards.scryfall.io/art_crop/front/c/5/c569fab1-6901-40ab-b958-001698819585.jpg?1783907034",
+      "border_crop": "https://cards.scryfall.io/border_crop/front/c/5/c569fab1-6901-40ab-b958-001698819585.jpg?1783907034",
+      "thumb": "https://cards.scryfall.io/thumb/front/c/5/c569fab1-6901-40ab-b958-001698819585.webp?1783907034",
+      "grid": "https://cards.scryfall.io/grid/front/c/5/c569fab1-6901-40ab-b958-001698819585.webp?1783907034",
+      "display": "https://cards.scryfall.io/display/front/c/5/c569fab1-6901-40ab-b958-001698819585.webp?1783907034",
+      "art": "https://cards.scryfall.io/art/front/c/5/c569fab1-6901-40ab-b958-001698819585.webp?1783907034",
+      "crop": "https://cards.scryfall.io/crop/front/c/5/c569fab1-6901-40ab-b958-001698819585.webp?1783907034"
+    },
+    "mana_cost": "{5}{R}{G}",
+    "cmc": 7.0,
+    "type_line": "Legendary Creature \u2014 Dragon",
+    "oracle_text": "Flying, trample\nWhenever a Dragon you control attacks, it gains double strike until end of turn.",
+    "power": "6",
+    "toughness": "4",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "color_identity": [
+      "G",
+      "R"
+    ],
+    "keywords": [
+      "Flying",
+      "Trample"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "timeless": "not_legal",
+      "gladiator": "not_legal",
+      "pioneer": "legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "not_legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "oathbreaker": "legal",
+      "standardbrawl": "not_legal",
+      "brawl": "not_legal",
+      "competitivebrawl": "not_legal",
+      "alchemy": "not_legal",
+      "paupercommander": "not_legal",
+      "duel": "legal",
+      "oldschool": "not_legal",
+      "premodern": "not_legal",
+      "predh": "not_legal",
+      "tlr": "not_legal"
+    },
+    "games": [
+      "paper",
+      "mtgo"
+    ],
+    "reserved": false,
+    "game_changer": false,
+    "foil": false,
+    "nonfoil": true,
+    "finishes": [
+      "nonfoil"
+    ],
+    "oversized": false,
+    "promo": false,
+    "reprint": true,
+    "variation": false,
+    "set_id": "bca9779c-0a0b-4ac1-8794-f3fc25549cf4",
+    "set": "tdc",
+    "set_name": "Tarkir: Dragonstorm Commander",
+    "set_type": "commander",
+    "set_uri": "https://api.scryfall.com/sets/bca9779c-0a0b-4ac1-8794-f3fc25549cf4",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atdc&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tdc?utm_source=api",
+    "rulings_uri": "https://api.scryfall.com/cards/c569fab1-6901-40ab-b958-001698819585/rulings",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ac0b3bbce-977c-42a9-afcb-dabdfc717c97&unique=prints",
+    "collector_number": "281",
+    "digital": false,
+    "rarity": "rare",
+    "flavor_text": "\"Her hunger knows no limit. Left unchecked, she would feast on all of Tarkir.\"\n\u2014Yasova Dragonclaw",
+    "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+    "artist": "Karl Kopinski",
+    "artist_ids": [
+      "0fad2c48-a56e-4a0b-b512-224f6f238f20"
+    ],
+    "illustration_id": "a304e69d-64fb-43a7-9467-807de7f5da7c",
+    "border_color": "black",
+    "frame": "2015",
+    "frame_effects": [
+      "legendary"
+    ],
+    "security_stamp": "oval",
+    "full_art": false,
+    "textless": false,
+    "booster": false,
+    "story_spotlight": false,
+    "edhrec_rank": 1365,
+    "penny_rank": 4042,
+    "prices": {
+      "usd": "0.45",
+      "usd_foil": null,
+      "usd_etched": null,
+      "eur": "0.44",
+      "eur_foil": null,
+      "tix": "0.11"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=696437&printed=false",
+      "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DAtarka%252C%2BWorld%2BRender",
+      "tcgplayer_infinite_decks": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Fdecks&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fdecks%3FproductLineName%3Dmagic%26q%3DAtarka%252C%2BWorld%2BRender",
+      "edhrec": "https://edhrec.com/route/?cc=Atarka%2C+World+Render"
+    },
+    "purchase_uris": {
+      "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F624961%3Fpage%3D1",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=819321&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards/138499?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    }
+  },
+  "token_triumph": {
+    "object": "card",
+    "id": "41b930ee-e16b-4612-87de-c03ecc6ff6db",
+    "oracle_id": "c65ba242-3369-48a9-864f-1b1f85238f67",
+    "multiverse_ids": [
+      452918
+    ],
+    "mtgo_id": 69709,
+    "arena_id": 68629,
+    "tcgplayer_id": 175175,
+    "cardmarket_id": 363563,
+    "name": "Emmara, Soul of the Accord",
+    "lang": "en",
+    "released_at": "2018-10-05",
+    "uri": "https://api.scryfall.com/cards/41b930ee-e16b-4612-87de-c03ecc6ff6db",
+    "scryfall_uri": "https://scryfall.com/card/grn/168/emmara-soul-of-the-accord?utm_source=api",
+    "layout": "normal",
+    "highres_image": true,
+    "image_status": "highres_scan",
+    "image_updated_at": "2026-07-13T09:15:36Z",
+    "image_uris": {
+      "small": "https://cards.scryfall.io/small/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1783934136",
+      "normal": "https://cards.scryfall.io/normal/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1783934136",
+      "large": "https://cards.scryfall.io/large/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1783934136",
+      "png": "https://cards.scryfall.io/png/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.png?1783934136",
+      "art_crop": "https://cards.scryfall.io/art_crop/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1783934136",
+      "border_crop": "https://cards.scryfall.io/border_crop/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1783934136",
+      "thumb": "https://cards.scryfall.io/thumb/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.webp?1783934136",
+      "grid": "https://cards.scryfall.io/grid/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.webp?1783934136",
+      "display": "https://cards.scryfall.io/display/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.webp?1783934136",
+      "art": "https://cards.scryfall.io/art/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.webp?1783934136",
+      "crop": "https://cards.scryfall.io/crop/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.webp?1783934136"
+    },
+    "mana_cost": "{G}{W}",
+    "cmc": 2.0,
+    "type_line": "Legendary Creature \u2014 Elf Cleric",
+    "oracle_text": "Whenever Emmara becomes tapped, create a 1/1 white Soldier creature token with lifelink.",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "color_identity": [
+      "G",
+      "W"
+    ],
+    "keywords": [],
+    "all_parts": [
+      {
+        "object": "related_card",
+        "id": "45907b16-af17-4237-ab38-9d7537fd30e8",
+        "component": "token",
+        "name": "Soldier",
+        "type_line": "Token Creature \u2014 Soldier",
+        "uri": "https://api.scryfall.com/cards/45907b16-af17-4237-ab38-9d7537fd30e8"
+      },
+      {
+        "object": "related_card",
+        "id": "41b930ee-e16b-4612-87de-c03ecc6ff6db",
+        "component": "combo_piece",
+        "name": "Emmara, Soul of the Accord",
+        "type_line": "Legendary Creature \u2014 Elf Cleric",
+        "uri": "https://api.scryfall.com/cards/41b930ee-e16b-4612-87de-c03ecc6ff6db"
+      }
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "timeless": "legal",
+      "gladiator": "legal",
+      "pioneer": "legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "not_legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "oathbreaker": "legal",
+      "standardbrawl": "not_legal",
+      "brawl": "legal",
+      "competitivebrawl": "legal",
+      "alchemy": "not_legal",
+      "paupercommander": "not_legal",
+      "duel": "legal",
+      "oldschool": "not_legal",
+      "premodern": "not_legal",
+      "predh": "not_legal",
+      "tlr": "legal"
+    },
+    "games": [
+      "arena",
+      "paper",
+      "mtgo"
+    ],
+    "reserved": false,
+    "game_changer": false,
+    "foil": true,
+    "nonfoil": true,
+    "finishes": [
+      "nonfoil",
+      "foil"
+    ],
+    "oversized": false,
+    "promo": false,
+    "reprint": false,
+    "variation": false,
+    "set_id": "597c6d4a-8212-4903-a6af-12c4ae9e13f0",
+    "set": "grn",
+    "set_name": "Guilds of Ravnica",
+    "set_type": "expansion",
+    "set_uri": "https://api.scryfall.com/sets/597c6d4a-8212-4903-a6af-12c4ae9e13f0",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Agrn&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/grn?utm_source=api",
+    "rulings_uri": "https://api.scryfall.com/cards/41b930ee-e16b-4612-87de-c03ecc6ff6db/rulings",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ac65ba242-3369-48a9-864f-1b1f85238f67&unique=prints",
+    "collector_number": "168",
+    "digital": false,
+    "rarity": "rare",
+    "watermark": "selesnya",
+    "flavor_text": "\"Whatever hatred destroys, a single act of trust can revive.\"",
+    "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+    "artist": "Mark Winters",
+    "artist_ids": [
+      "3d8a379d-f4e8-440d-99d5-5ec107757348"
+    ],
+    "illustration_id": "c9286244-cb23-44a0-bfd3-f44351516def",
+    "border_color": "black",
+    "frame": "2015",
+    "frame_effects": [
+      "legendary"
+    ],
+    "security_stamp": "oval",
+    "full_art": false,
+    "textless": false,
+    "booster": true,
+    "story_spotlight": false,
+    "edhrec_rank": 6650,
+    "penny_rank": 3651,
+    "prices": {
+      "usd": "0.32",
+      "usd_foil": "0.78",
+      "usd_etched": null,
+      "eur": "0.26",
+      "eur_foil": "0.53",
+      "tix": "0.02"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=452918&printed=false",
+      "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DEmmara%252C%2BSoul%2Bof%2Bthe%2BAccord",
+      "tcgplayer_infinite_decks": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Fdecks&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fdecks%3FproductLineName%3Dmagic%26q%3DEmmara%252C%2BSoul%2Bof%2Bthe%2BAccord",
+      "edhrec": "https://edhrec.com/route/?cc=Emmara%2C+Soul+of+the+Accord"
+    },
+    "purchase_uris": {
+      "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175175%3Fpage%3D1",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=363563&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards/69709?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    }
+  }
+}

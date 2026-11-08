@@ -4,38 +4,67 @@
     {
       "slug": "feline_ferocity",
       "deckName": "FELINE FEROCITY",
-      "goalDescription": "EQUIP CATS • ATTACK AS A PRIDE",
+      "goalDescription": "EQUIP CATS \u2022 ATTACK AS A PRIDE",
       "setName": "COMMANDER 2017",
       "artPath": "images/commander_2017_boulder_deck_box_labels/src/regenerated_art_v1/arahbo_roar_of_the_world_regenerated_v1.png",
-      "colors": ["GREEN", "WHITE"],
-      "series": 1
+      "colors": [
+        "GREEN",
+        "WHITE"
+      ],
+      "series": 1,
+      "portraitTopInset": 0.15,
+      "manaAlignment": "center",
+      "outputStem": "feline_ferocity_portrait_v2"
     },
     {
       "slug": "vampiric_bloodlust",
       "deckName": "VAMPIRIC BLOODLUST",
-      "goalDescription": "MAKE VAMPIRES • DRAIN & OVERWHELM",
+      "goalDescription": "MAKE VAMPIRES \u2022 DRAIN & OVERWHELM",
       "setName": "COMMANDER 2017",
       "artPath": "images/commander_2017_boulder_deck_box_labels/src/regenerated_art_v1/edgar_markov_regenerated_v1.png",
-      "colors": ["RED", "WHITE", "BLACK"],
-      "series": 1
+      "colors": [
+        "RED",
+        "WHITE",
+        "BLACK"
+      ],
+      "series": 1,
+      "portraitTopInset": 0.1,
+      "manaAlignment": "center",
+      "outputStem": "vampiric_bloodlust_portrait_v2"
     },
     {
       "slug": "arcane_wizardry",
       "deckName": "ARCANE WIZARDRY",
-      "goalDescription": "CAST WIZARDS • COPY THEIR TRIGGERS",
+      "goalDescription": "CAST WIZARDS \u2022 COPY THEIR TRIGGERS",
       "setName": "COMMANDER 2017",
       "artPath": "images/commander_2017_boulder_deck_box_labels/src/regenerated_art_v1/inalla_archmage_ritualist_regenerated_v1.png",
-      "colors": ["BLUE", "BLACK", "RED"],
-      "series": 1
+      "colors": [
+        "BLUE",
+        "BLACK",
+        "RED"
+      ],
+      "series": 1,
+      "portraitTopInset": 0.1,
+      "manaAlignment": "center",
+      "outputStem": "arcane_wizardry_portrait_v2"
     },
     {
       "slug": "draconic_domination",
       "deckName": "DRACONIC DOMINATION",
-      "goalDescription": "RAMP INTO DRAGONS • RULE THE SKIES",
+      "goalDescription": "RAMP INTO DRAGONS \u2022 RULE THE SKIES",
       "setName": "COMMANDER 2017",
       "artPath": "images/commander_2017_boulder_deck_box_labels/src/regenerated_art_v1/the_ur_dragon_regenerated_v1.png",
-      "colors": ["WHITE", "BLUE", "BLACK", "RED", "GREEN"],
-      "series": 1
+      "colors": [
+        "WHITE",
+        "BLUE",
+        "BLACK",
+        "RED",
+        "GREEN"
+      ],
+      "series": 1,
+      "portraitTopInset": 0.16,
+      "manaAlignment": "center",
+      "outputStem": "draconic_domination_portrait_v2"
     }
   ]
 }

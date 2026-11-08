@@ -1,0 +1,116 @@
+{
+  "contactSheetName": "src/contact_sheet.png",
+  "labels": [
+    {
+      "slug": "heavenly_inferno",
+      "deckName": "HEAVENLY INFERNO",
+      "goalDescription": "KAALIA ATTACKS \u2022 DROP BIG THREATS",
+      "setName": "COMMANDER ANTHOLOGY",
+      "artPath": "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/kaalia_of_the_vast_regenerated_v3_tall.png",
+      "colors": [
+        "RED",
+        "WHITE",
+        "BLACK"
+      ],
+      "series": 1
+    },
+    {
+      "slug": "evasive_maneuvers",
+      "deckName": "EVASIVE MANEUVERS",
+      "goalDescription": "EVADE \u2022 TAP & UNTAP FOR VALUE",
+      "setName": "COMMANDER ANTHOLOGY",
+      "artPath": "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/derevi_empyrial_tactician_regenerated_v3_tall.png",
+      "colors": [
+        "GREEN",
+        "WHITE",
+        "BLUE"
+      ],
+      "series": 1
+    },
+    {
+      "slug": "guided_by_nature",
+      "deckName": "GUIDED BY NATURE",
+      "goalDescription": "MAKE ELVES & MANA \u2022 OVERWHELM",
+      "setName": "COMMANDER ANTHOLOGY",
+      "artPath": "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/freyalise_llanowars_fury_regenerated_v3_tall.png",
+      "colors": [
+        "GREEN"
+      ],
+      "series": 1
+    },
+    {
+      "slug": "plunder_the_graves",
+      "deckName": "PLUNDER THE GRAVES",
+      "goalDescription": "SACRIFICE CREATURES \u2022 REANIMATE",
+      "setName": "COMMANDER ANTHOLOGY",
+      "artPath": "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/meren_of_clan_nel_toth_regenerated_v3_tall.png",
+      "colors": [
+        "BLACK",
+        "GREEN"
+      ],
+      "series": 1,
+      "portraitTopInset": 0.11,
+      "manaAlignment": "center",
+      "outputStem": "plunder_the_graves_portrait_v2"
+    },
+    {
+      "slug": "devour_for_power",
+      "deckName": "DEVOUR FOR POWER",
+      "goalDescription": "FILL GRAVEYARDS \u2022 GROW MIMEOPLASM",
+      "setName": "COMMANDER ANTHOLOGY VOLUME II",
+      "artPath": "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/the_mimeoplasm_regenerated_v3_tall.png",
+      "colors": [
+        "BLACK",
+        "GREEN",
+        "BLUE"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.17,
+      "manaAlignment": "center",
+      "outputStem": "devour_for_power_portrait_v2"
+    },
+    {
+      "slug": "built_from_scratch",
+      "deckName": "BUILT FROM SCRATCH",
+      "goalDescription": "SACRIFICE ARTIFACTS \u2022 REANIMATE",
+      "setName": "COMMANDER ANTHOLOGY VOLUME II",
+      "artPath": "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/daretti_scrap_savant_regenerated_v3_tall.png",
+      "colors": [
+        "RED"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.2,
+      "manaAlignment": "center",
+      "outputStem": "built_from_scratch_portrait_v2"
+    },
+    {
+      "slug": "wade_into_battle",
+      "deckName": "WADE INTO BATTLE",
+      "goalDescription": "RAMP INTO GIANTS \u2022 ATTACK BIG",
+      "setName": "COMMANDER ANTHOLOGY VOLUME II",
+      "artPath": "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/kalemne_disciple_of_iroas_regenerated_v3_tall.png",
+      "colors": [
+        "RED",
+        "WHITE"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.12,
+      "manaAlignment": "center",
+      "outputStem": "wade_into_battle_portrait_v2"
+    },
+    {
+      "slug": "breed_lethality",
+      "deckName": "BREED LETHALITY",
+      "goalDescription": "ADD COUNTERS \u2022 PROLIFERATE",
+      "setName": "COMMANDER ANTHOLOGY VOLUME II",
+      "artPath": "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/atraxa_praetors_voice_regenerated_v3_tall.png",
+      "colors": [
+        "GREEN",
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ],
+      "series": 2
+    }
+  ]
+}

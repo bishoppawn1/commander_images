@@ -4,19 +4,28 @@
     {
       "slug": "fae_dominion",
       "deckName": "FAE DOMINION",
-      "goalDescription": "COMMAND FAERIES • DRAW THROUGH DEATH",
+      "goalDescription": "COMMAND FAERIES \u2022 DRAW THROUGH DEATH",
       "setName": "WILDS OF ELDRAINE",
       "artPath": "images/wilds_of_eldraine_boulder_deck_box_labels/src/regenerated_art_v2/tegwyll_duke_of_splendor_regenerated_v2.png",
-      "colors": ["BLUE", "BLACK"],
-      "series": 2
+      "colors": [
+        "BLUE",
+        "BLACK"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.13,
+      "manaAlignment": "center",
+      "outputStem": "fae_dominion_portrait_v2"
     },
     {
       "slug": "virtue_and_valor",
       "deckName": "VIRTUE AND VALOR",
-      "goalDescription": "ROLE UP CREATURES • ATTACK ENCHANTED",
+      "goalDescription": "ROLE UP CREATURES \u2022 ATTACK ENCHANTED",
       "setName": "WILDS OF ELDRAINE",
       "artPath": "images/wilds_of_eldraine_boulder_deck_box_labels/src/regenerated_art_v2/ellivere_of_the_wild_court_regenerated_v2.png",
-      "colors": ["GREEN", "WHITE"],
+      "colors": [
+        "GREEN",
+        "WHITE"
+      ],
       "series": 2
     }
   ]

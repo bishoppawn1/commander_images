@@ -78,7 +78,7 @@ def load_groups(kind, scope="all", ids=None, catalog=None, root=ROOT):
         if row.get("manifest"):
             manifest_path = root / row["manifest"]
             manifest = json.loads(manifest_path.read_text())
-            paths = [str(manifest_path.parent.relative_to(root) / (item["slug"] + TOP_SUFFIX))
+            paths = [str(manifest_path.parent.relative_to(root) / (item.get("outputStem", item["slug"]) + TOP_SUFFIX))
                      for item in manifest["labels"]] + paths
         if not paths or len(paths) != len(set(paths)):
             raise ValueError(f"Empty or duplicate source entries: {row['id']}")

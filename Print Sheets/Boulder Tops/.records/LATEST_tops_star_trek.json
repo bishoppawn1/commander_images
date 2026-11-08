@@ -1,54 +1,54 @@
 [
   {
-    "signature": "ff6e3b5d6eceef999c233cd721aadcff2483e9924d8197c6925fb3d37eb5efc3",
-    "pdf": "11_Boulder_Tops_Star_Trek_Commander_1440dpi_ff6e3b5d6e.pdf",
-    "pdf_sha256": "237f42d48ebdc99bad167c7ceb0c54052379fa15492689e9e5963a7816be2734",
+    "signature": "6d89b24505005dea90f73444eb6e968168f9396e781ee72671453098a86eaa95",
+    "pdf": "11_Boulder_Tops_Star_Trek_Commander_1440dpi_6d89b24505.pdf",
+    "pdf_sha256": "a2597ec06aff1c9b80cbde4e1f6872f05bf240fe1f030e2adc36e60d687539e7",
     "kind": "tops",
     "count": 4,
     "labels": [
       {
         "group": "star_trek",
-        "source": "images/star_trek_boulder_deck_box_labels/federation_fleet_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/star_trek_boulder_deck_box_labels/federation_fleet_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "caec94426db96fd076c025f435f86304a812cd2ebc137a7bb3873f23f6c3a9f5"
+        "rgb_sha256": "753176ff8700b749919d029ad20e91a3e5fa14e5b5750ca0ab718bfd269a2b45"
       },
       {
         "group": "star_trek",
-        "source": "images/star_trek_boulder_deck_box_labels/landing_party_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/star_trek_boulder_deck_box_labels/landing_party_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           207.0,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "8f581e3eb0a045566d6f8fe3aa2523d67d9f47693183b6084a7ea10dd8852d0f"
+        "rgb_sha256": "7721d0d026f66679e3e42a872a6f0f590a179caa3df69172d5add4e7b1b46e66"
       },
       {
         "group": "star_trek",
-        "source": "images/star_trek_boulder_deck_box_labels/klingon_fury_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/star_trek_boulder_deck_box_labels/klingon_fury_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "bf155847e8a18a35cb63ad0cf22dcfe9de419fea622f596fec374781413ddece"
+        "rgb_sha256": "e7b508f094eedbc7403128e9902dab66d93d0a935d6cc817cc108dc022b29d16"
       },
       {
         "group": "star_trek",
-        "source": "images/star_trek_boulder_deck_box_labels/we_are_the_borg_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/star_trek_boulder_deck_box_labels/we_are_the_borg_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "104ecfc97375e63877d0c53d7c4a8208ce11f1897bbf5be4db73efd151c48b5d"
+        "rgb_sha256": "4d9e63506658d088357d38214f896f0814c21198723db6303eb34f052043ebe2"
       }
     ]
   }

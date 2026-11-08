@@ -4,38 +4,65 @@
     {
       "slug": "adaptive_enchantment",
       "deckName": "ADAPTIVE ENCHANTMENT",
-      "goalDescription": "PLAY AURAS • ADAPT TO THE BOARD",
+      "goalDescription": "PLAY AURAS \u2022 ADAPT TO THE BOARD",
       "setName": "COMMANDER 2018",
       "artPath": "images/commander_2018_boulder_deck_box_labels/src/regenerated_art_v1/estrid_the_masked_regenerated_v1.png",
-      "colors": ["GREEN", "WHITE", "BLUE"],
-      "series": 2
+      "colors": [
+        "GREEN",
+        "WHITE",
+        "BLUE"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.18,
+      "manaAlignment": "center",
+      "outputStem": "adaptive_enchantment_portrait_v2"
     },
     {
       "slug": "exquisite_invention",
       "deckName": "EXQUISITE INVENTION",
-      "goalDescription": "MAKE ARTIFACTS • CAST BIG SPELLS",
+      "goalDescription": "MAKE ARTIFACTS \u2022 CAST BIG SPELLS",
       "setName": "COMMANDER 2018",
       "artPath": "images/commander_2018_boulder_deck_box_labels/src/regenerated_art_v1/saheeli_the_gifted_regenerated_v1.png",
-      "colors": ["BLUE", "RED"],
-      "series": 2
+      "colors": [
+        "BLUE",
+        "RED"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.19,
+      "manaAlignment": "center",
+      "outputStem": "exquisite_invention_portrait_v2"
     },
     {
       "slug": "natures_vengeance",
-      "deckName": "NATURE’S VENGEANCE",
-      "goalDescription": "FILL THE GRAVEYARD • RECUR LANDS",
+      "deckName": "NATURE\u2019S VENGEANCE",
+      "goalDescription": "FILL THE GRAVEYARD \u2022 RECUR LANDS",
       "setName": "COMMANDER 2018",
       "artPath": "images/commander_2018_boulder_deck_box_labels/src/regenerated_art_v1/lord_windgrace_regenerated_v1.png",
-      "colors": ["BLACK", "RED", "GREEN"],
-      "series": 2
+      "colors": [
+        "BLACK",
+        "RED",
+        "GREEN"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.18,
+      "manaAlignment": "center",
+      "outputStem": "natures_vengeance_portrait_v2"
     },
     {
       "slug": "subjective_reality",
       "deckName": "SUBJECTIVE REALITY",
-      "goalDescription": "BLINK PERMANENTS • CONTROL THE TOP",
+      "goalDescription": "BLINK PERMANENTS \u2022 CONTROL THE TOP",
       "setName": "COMMANDER 2018",
       "artPath": "images/commander_2018_boulder_deck_box_labels/src/regenerated_art_v1/aminatou_the_fateshifter_regenerated_v1.png",
-      "colors": ["WHITE", "BLUE", "BLACK"],
-      "series": 2
+      "colors": [
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.12,
+      "manaAlignment": "center",
+      "outputStem": "subjective_reality_portrait_v2"
     }
   ]
 }

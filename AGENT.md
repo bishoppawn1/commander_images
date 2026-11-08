@@ -1,10 +1,18 @@
 # MTG Commander Deck Box Face Cards
 
+## Boulder-top portrait framing — 2026-11-08
+
+- Visually audit existing tops before changing them. Preserve satisfactory images; do not regenerate the collection by default. Prefer moving/scaling retained artwork, and regenerate/outpaint only when the source itself lacks necessary content.
+- Keep complete heads (including hair, ears, horns, crowns and hats) clear of the cut border, mana symbols and titles. Focal faces gravitate toward the central artwork area, below the mana row and above the title, rather than against the upper edge.
+- Mana symbols normally form a single TOP-CENTERED row. Fix high portrait placement instead of moving the symbols aside. The former Star Trek left-alignment exception is retired.
+- New art prompts must reserve the upper 18% for the centered mana row, place complete focal heads typically 22–52% down the canvas, and keep the lower title area clear. Verify the final composed label, not just its source image.
+- The shared builder supports per-label `portraitTopInset` and `portraitScale` for deterministic placement and `outputStem` for non-destructive versioned results. Leave these unset on satisfactory labels. See `images/BOULDER_TOP_COMPOSITION.md` for the production brief and verification rules.
+
 ## Star Trek label additions — 2026-11-08
 
 - Star Trek Commander front features exactly Sisko, Kirk, Picard, Janeway and Jonathan Archer. The user requested Archer after removing the original rightmost captain. Five portraits still represent four Commander decks, so use the standard `4` seal.
 - Current front: `images/star_trek_commander/star_trek_five_captains_archer_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png`, on new normal Fronts sheet 9. Preserve the existing separate sheet 8.
-- Four tops: Federation Fleet, Landing Party, Klingon Fury and We Are the Borg, on Boulder Tops sheet 11. Picard and Spock keep the approved v1 art; Worf and the Queen use card-art-based v2 revisions. Use `images/star_trek_boulder_deck_box_labels/label_manifest.json` and `scripts/build_star_trek_sheets.py`. Mana symbols align left to avoid central faces. Earlier sheets remain unchanged.
+- Four tops: Federation Fleet, Landing Party, Klingon Fury and We Are the Borg, on Boulder Tops sheet 11. Picard and Spock keep the approved v1 art; Worf and the Queen use card-art-based v2 revisions. Use `images/star_trek_boulder_deck_box_labels/label_manifest.json` and `scripts/build_star_trek_sheets.py`. The current `_portrait_v2` outputs place complete heads below top-centered mana symbols; earlier output versions remain available.
 
 
 ## Project purpose

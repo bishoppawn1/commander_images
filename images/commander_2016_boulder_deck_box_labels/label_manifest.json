@@ -4,20 +4,33 @@
     {
       "slug": "invent_superiority",
       "deckName": "INVENT SUPERIORITY",
-      "goalDescription": "BUILD ARTIFACTS • SACRIFICE FOR VALUE",
+      "goalDescription": "BUILD ARTIFACTS \u2022 SACRIFICE FOR VALUE",
       "setName": "COMMANDER 2016",
       "artPath": "images/commander_2016_boulder_deck_box_labels/src/regenerated_art_v1/breya_etherium_shaper_regenerated_v1.png",
-      "colors": ["WHITE", "BLUE", "BLACK", "RED"],
-      "series": 2
+      "colors": [
+        "WHITE",
+        "BLUE",
+        "BLACK",
+        "RED"
+      ],
+      "series": 2,
+      "portraitTopInset": 0.19,
+      "manaAlignment": "center",
+      "outputStem": "invent_superiority_portrait_v2"
     },
     {
       "slug": "breed_lethality",
       "deckName": "BREED LETHALITY",
-      "goalDescription": "ADD COUNTERS • PROLIFERATE",
+      "goalDescription": "ADD COUNTERS \u2022 PROLIFERATE",
       "setName": "COMMANDER ANTHOLOGY VOLUME II",
       "artPath": "images/commander_anthology_deck_box_labels/src/regenerated_art_v3_tall/atraxa_praetors_voice_regenerated_v3_tall.png",
       "reuseRenderedPath": "images/commander_anthology_deck_box_labels/breed_lethality_boulder_top_label_tall_3300x2800_1200dpi.png",
-      "colors": ["GREEN", "WHITE", "BLUE", "BLACK"],
+      "colors": [
+        "GREEN",
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ],
       "series": 2
     }
   ]

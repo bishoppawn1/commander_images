@@ -1,0 +1,119 @@
+{
+  "signature": "2041d23097a08e0f082360859cf6af5b84d2a035c5d3fee660b352ef081a3d47",
+  "pdf": "10_Boulder_Tops_Aetherdrift_Edge_of_Eternities_Starter_Commander_Reality_Fracture_1440dpi_2041d23097.pdf",
+  "pdf_sha256": "c9a96b1d61a5e159c1ffe3170213bd9960acdaa1239ca9f0ccaeef5e9155d3c4",
+  "kind": "tops",
+  "count": 10,
+  "labels": [
+    {
+      "group": "aetherdrift",
+      "source": "images/aetherdrift_boulder_deck_box_labels/living_energy_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "545dd4bd72a77c00cbfd7bc2f2203fc0b0e7c0dc6e11fb5c371b97da95146f10"
+    },
+    {
+      "group": "aetherdrift",
+      "source": "images/aetherdrift_boulder_deck_box_labels/eternal_might_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "8b591a21df68aa0b45595012afde378a6806ab7748bd5fee9f249df5b54242e0"
+    },
+    {
+      "group": "edge_of_eternities",
+      "source": "images/edge_of_eternities_boulder_deck_box_labels/world_shaper_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "1e3d6fdd1fbf74b1881d725dc4560072e646bcff1e74665d941e71535545a5ec"
+    },
+    {
+      "group": "edge_of_eternities",
+      "source": "images/edge_of_eternities_boulder_deck_box_labels/counter_intelligence_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "3209546a8ab9d44f2df25aca6ff2967fac2c64757045e221ffdcd556cf2850cc"
+    },
+    {
+      "group": "starter_commander",
+      "source": "images/starter_commander_boulder_deck_box_labels/first_flight_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "6a050de91fcba536e637930e2fb36c846292e7d8a771a64ec0338d19a858c631"
+    },
+    {
+      "group": "starter_commander",
+      "source": "images/starter_commander_boulder_deck_box_labels/grave_danger_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "c5e8821a7678a041028fdef35ea4295c69a6b1a05d24f2e0c80a97672c88c876"
+    },
+    {
+      "group": "starter_commander",
+      "source": "images/starter_commander_boulder_deck_box_labels/chaos_incarnate_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "5fb1f4df68d39747418b40dd21e191870ad5a07ed187dbe0f063b3d6d9a50b39"
+    },
+    {
+      "group": "starter_commander",
+      "source": "images/starter_commander_boulder_deck_box_labels/draconic_destruction_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "3a4807963ba0646039bfe3e859c5f462bbafa4a10cff8918bb1c3afad8c22c10"
+    },
+    {
+      "group": "starter_commander",
+      "source": "images/starter_commander_boulder_deck_box_labels/token_triumph_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "f6db6808a433871f75e3acd11dc1a3d6006fc363da772c410b72099a394127c1"
+    },
+    {
+      "group": "reality_fracture",
+      "source": "images/reality_fracture_boulder_deck_box_labels/multiverse_reforged_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "a07c359040e9ab0c00d4d03267781df99dd93a7dcbe32ef852d8cb0ecc74aaf1"
+    }
+  ]
+}
