@@ -23,6 +23,8 @@ When correcting an existing collection, visually audit every current label first
 
 Include this composition requirement in each new art brief: "Reserve the upper 18% for a top-centered mana row; place the complete focal head within the central artwork area, typically 22–52% down the canvas, with clearance for hair, ears, horns and headwear. Keep the lower title area clear. No text or symbols in art-only output."
 
+The reserved mana area is scene artwork, not a solid black header. Artwork must reach every edge inside the normal decorative/cut frame. If moving a short image downward leaves a black band or other empty area, use ImageGen to outpaint additional background above it and at any other exposed edge. Preserve approved character placement and likeness; keep typography and mana crisp in the compositor. Do not stretch, mirror or duplicate background strips to fill the gap. Audit the final composition specifically for exposed canvas and seams, and provide a table/list pairing every affected label with its before/after recreation.
+
 Preserve the reference image's composition, visual hierarchy, palette, typography, material treatment, lighting, and recurring brand elements.
 
 User instructions control requested content and explicit deviations. The retained reference controls layout and formatting where the user has not requested a change.

@@ -15,7 +15,8 @@
       "series": 2,
       "portraitTopInset": 0.1,
       "manaAlignment": "center",
-      "outputStem": "ahoy_mateys_portrait_v2"
+      "outputStem": "ahoy_mateys_full_bleed_v3",
+      "backgroundExtensionPath": "images/lost_caverns_of_ixalan_boulder_deck_box_labels/src/ahoy_mateys_background_extension_v3.png"
     },
     {
       "slug": "blood_rites",

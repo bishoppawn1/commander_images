@@ -54,7 +54,8 @@
       "series": 2,
       "portraitTopInset": 0.12,
       "manaAlignment": "center",
-      "outputStem": "mutant_menace_portrait_v2"
+      "outputStem": "mutant_menace_full_bleed_v3",
+      "backgroundExtensionPath": "images/fallout_boulder_deck_box_labels/src/mutant_menace_background_extension_v3.png"
     }
   ]
 }

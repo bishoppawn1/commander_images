@@ -14,7 +14,8 @@
       "series": 2,
       "portraitTopInset": 0.16,
       "manaAlignment": "center",
-      "outputStem": "first_flight_portrait_v2"
+      "outputStem": "first_flight_full_bleed_v3",
+      "backgroundExtensionPath": "images/starter_commander_boulder_deck_box_labels/src/first_flight_background_extension_v3.png"
     },
     {
       "slug": "grave_danger",
@@ -29,7 +30,8 @@
       "series": 2,
       "portraitTopInset": 0.11,
       "manaAlignment": "center",
-      "outputStem": "grave_danger_portrait_v2"
+      "outputStem": "grave_danger_full_bleed_v3",
+      "backgroundExtensionPath": "images/starter_commander_boulder_deck_box_labels/src/grave_danger_background_extension_v3.png"
     },
     {
       "slug": "chaos_incarnate",
@@ -56,7 +58,8 @@
       "series": 2,
       "portraitTopInset": 0.17,
       "manaAlignment": "center",
-      "outputStem": "draconic_destruction_portrait_v2"
+      "outputStem": "draconic_destruction_full_bleed_v3",
+      "backgroundExtensionPath": "images/starter_commander_boulder_deck_box_labels/src/draconic_destruction_background_extension_v3.png"
     },
     {
       "slug": "token_triumph",

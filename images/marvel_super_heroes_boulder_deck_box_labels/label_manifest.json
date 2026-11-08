@@ -32,7 +32,8 @@
       "series": 2,
       "portraitTopInset": 0.17,
       "manaAlignment": "center",
-      "outputStem": "wakanda_forever_portrait_v2"
+      "outputStem": "wakanda_forever_full_bleed_v3",
+      "backgroundExtensionPath": "images/marvel_super_heroes_boulder_deck_box_labels/src/wakanda_forever_background_extension_v3.png"
     },
     {
       "slug": "the_fantastic_four",
@@ -65,7 +66,8 @@
       "series": 2,
       "portraitTopInset": 0.16,
       "manaAlignment": "center",
-      "outputStem": "doom_prevails_portrait_v2"
+      "outputStem": "doom_prevails_full_bleed_v3",
+      "backgroundExtensionPath": "images/marvel_super_heroes_boulder_deck_box_labels/src/doom_prevails_background_extension_v3.png"
     }
   ]
 }

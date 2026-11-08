@@ -15,7 +15,8 @@
       "series": 2,
       "manaAlignment": "center",
       "portraitTopInset": 0.2,
-      "outputStem": "federation_fleet_portrait_v2"
+      "outputStem": "federation_fleet_full_bleed_v3",
+      "backgroundExtensionPath": "images/star_trek_boulder_deck_box_labels/src/federation_fleet_background_extension_v3.png"
     },
     {
       "slug": "landing_party",
@@ -31,7 +32,8 @@
       "series": 2,
       "manaAlignment": "center",
       "portraitTopInset": 0.2,
-      "outputStem": "landing_party_portrait_v2"
+      "outputStem": "landing_party_full_bleed_v3",
+      "backgroundExtensionPath": "images/star_trek_boulder_deck_box_labels/src/landing_party_background_extension_v3.png"
     },
     {
       "slug": "klingon_fury",
@@ -47,7 +49,8 @@
       "series": 2,
       "manaAlignment": "center",
       "portraitTopInset": 0.13,
-      "outputStem": "klingon_fury_portrait_v2"
+      "outputStem": "klingon_fury_full_bleed_v3",
+      "backgroundExtensionPath": "images/star_trek_boulder_deck_box_labels/src/klingon_fury_background_extension_v3.png"
     },
     {
       "slug": "we_are_the_borg",
@@ -63,7 +66,8 @@
       "series": 2,
       "manaAlignment": "center",
       "portraitTopInset": 0.2,
-      "outputStem": "we_are_the_borg_portrait_v2"
+      "outputStem": "we_are_the_borg_full_bleed_v3",
+      "backgroundExtensionPath": "images/star_trek_boulder_deck_box_labels/src/we_are_the_borg_background_extension_v3.png"
     }
   ]
 }

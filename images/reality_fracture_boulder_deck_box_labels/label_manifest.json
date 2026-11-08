@@ -16,7 +16,8 @@
       "series": 2,
       "portraitTopInset": 0.13,
       "manaAlignment": "center",
-      "outputStem": "multiverse_reforged_portrait_v2"
+      "outputStem": "multiverse_reforged_full_bleed_v3",
+      "backgroundExtensionPath": "images/reality_fracture_boulder_deck_box_labels/src/multiverse_reforged_background_extension_v3.png"
     }
   ]
 }

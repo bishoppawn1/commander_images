@@ -1,0 +1,141 @@
+{
+  "signature": "957f00e743dc5e9b28092bed78fb141a956bdef54d322d176b7419462d46c50b",
+  "pdf": "01_Boulder_Tops_Commander_2013_Commander_2016_Commander_2017_Commander_2018_1440dpi_957f00e743.pdf",
+  "pdf_sha256": "a3eba2f70f8d6fbe6b3b862dba086630d37722e7648a3b8894aca78ecf3352ed",
+  "kind": "tops",
+  "count": 12,
+  "labels": [
+    {
+      "group": "commander_2013",
+      "source": "images/commander_2013_boulder_deck_box_labels/eternal_bargain_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "686bddf2f8f8d3069f2c9450d4ab2569fe46fcfe965cd60490d6ab0749b218f9"
+    },
+    {
+      "group": "commander_2013",
+      "source": "images/commander_2013_boulder_deck_box_labels/mind_seize_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "73a256f082b0271c999eddbc5c58c77fcba6da80ec93b472d38d22a572b445cf"
+    },
+    {
+      "group": "commander_2016",
+      "source": "images/commander_2016_boulder_deck_box_labels/invent_superiority_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "14fbc08d87c880ff7d45c22131d86c3bb969691ac24eae30a5d3dd43ceb51ea3"
+    },
+    {
+      "group": "commander_2016",
+      "source": "images/commander_2016_boulder_deck_box_labels/breed_lethality_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "f48ee112e0a53b5aa6c39cb9e0cbb9d79b1f0181898b264cf2c1d658d25571d3"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017_boulder_deck_box_labels/feline_ferocity_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "29a122aeb378d1838c4d019cfc1ee753658f6a3a43c603b9769e1dfdf8744730"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017_boulder_deck_box_labels/vampiric_bloodlust_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "4ff1f5e7a8c12ba0317ae70ef4ab0bb212548274e8733b721033ee1bd40c8edc"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017_boulder_deck_box_labels/arcane_wizardry_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "5c0d246055e1f176b495064b737ab8d0778e912962a59deb82da82dacb65928e"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017_boulder_deck_box_labels/draconic_domination_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "9bd98d514e8b360b2be06bf66bce860fcc161725bf5c7781ae71edbdf4e83f50"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018_boulder_deck_box_labels/adaptive_enchantment_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "d3551fbab899f3cc082f83b3544b9d311d4ee7f647dc0d68109e45d7bbc3c8c8"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018_boulder_deck_box_labels/exquisite_invention_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "d6c7b3e63bf0a49e58170cf35e000ae5a927fd98b20e8d060c53de885bde1447"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018_boulder_deck_box_labels/natures_vengeance_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "1c1474ae002f16ff6a45602115ba23417e7a2bad55a8e2cf67bf4810ae977b99"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018_boulder_deck_box_labels/subjective_reality_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "addfd913fce4a56237ddcae1ae2175c0b736263785f55fbbdff6e1aaee24649b"
+    }
+  ]
+}

@@ -51,7 +51,8 @@
       "series": 1,
       "portraitTopInset": 0.11,
       "manaAlignment": "center",
-      "outputStem": "plunder_the_graves_portrait_v2"
+      "outputStem": "plunder_the_graves_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_anthology_deck_box_labels/src/plunder_the_graves_background_extension_v3.png"
     },
     {
       "slug": "devour_for_power",
@@ -67,7 +68,8 @@
       "series": 2,
       "portraitTopInset": 0.17,
       "manaAlignment": "center",
-      "outputStem": "devour_for_power_portrait_v2"
+      "outputStem": "devour_for_power_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_anthology_deck_box_labels/src/devour_for_power_background_extension_v3.png"
     },
     {
       "slug": "built_from_scratch",
@@ -81,7 +83,8 @@
       "series": 2,
       "portraitTopInset": 0.2,
       "manaAlignment": "center",
-      "outputStem": "built_from_scratch_portrait_v2"
+      "outputStem": "built_from_scratch_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_anthology_deck_box_labels/src/built_from_scratch_background_extension_v3.png"
     },
     {
       "slug": "wade_into_battle",
@@ -96,7 +99,8 @@
       "series": 2,
       "portraitTopInset": 0.12,
       "manaAlignment": "center",
-      "outputStem": "wade_into_battle_portrait_v2"
+      "outputStem": "wade_into_battle_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_anthology_deck_box_labels/src/wade_into_battle_background_extension_v3.png"
     },
     {
       "slug": "breed_lethality",

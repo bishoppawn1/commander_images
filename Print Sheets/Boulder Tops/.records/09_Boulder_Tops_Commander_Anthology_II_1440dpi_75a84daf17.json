@@ -1,0 +1,53 @@
+{
+  "signature": "75a84daf17bdc2ce0d6a01ca051bc5d6f52d794e7a4a80cb39d000625bd90f7a",
+  "pdf": "09_Boulder_Tops_Commander_Anthology_II_1440dpi_75a84daf17.pdf",
+  "pdf_sha256": "d436c3a7b41d35f5e0c3aa56259315b2e2680877c60ed78102bf478651653ffc",
+  "kind": "tops",
+  "count": 4,
+  "labels": [
+    {
+      "group": "commander_anthology_ii",
+      "source": "images/commander_anthology_deck_box_labels/devour_for_power_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "7884d701d297caed76e76cd318df29a05fc1a45aeb01bd1192e166d930758e68"
+    },
+    {
+      "group": "commander_anthology_ii",
+      "source": "images/commander_anthology_deck_box_labels/built_from_scratch_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "40081ea3e0f65bc681efa5edd097822a9f4c9015f7614a16b10a9494ab3dd57c"
+    },
+    {
+      "group": "commander_anthology_ii",
+      "source": "images/commander_anthology_deck_box_labels/wade_into_battle_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        409.5,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "f28c9056791e8bfc9592aef6119c7a53e3e6c1a23f4d703c95a75babe70543bd"
+    },
+    {
+      "group": "commander_anthology_ii",
+      "source": "images/commander_anthology_deck_box_labels/breed_lethality_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        4.5,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "f48ee112e0a53b5aa6c39cb9e0cbb9d79b1f0181898b264cf2c1d658d25571d3"
+    }
+  ]
+}

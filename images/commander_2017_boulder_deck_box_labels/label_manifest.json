@@ -14,7 +14,8 @@
       "series": 1,
       "portraitTopInset": 0.15,
       "manaAlignment": "center",
-      "outputStem": "feline_ferocity_portrait_v2"
+      "outputStem": "feline_ferocity_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_2017_boulder_deck_box_labels/src/feline_ferocity_background_extension_v3.png"
     },
     {
       "slug": "vampiric_bloodlust",
@@ -30,7 +31,8 @@
       "series": 1,
       "portraitTopInset": 0.1,
       "manaAlignment": "center",
-      "outputStem": "vampiric_bloodlust_portrait_v2"
+      "outputStem": "vampiric_bloodlust_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_2017_boulder_deck_box_labels/src/vampiric_bloodlust_background_extension_v3.png"
     },
     {
       "slug": "arcane_wizardry",
@@ -46,7 +48,8 @@
       "series": 1,
       "portraitTopInset": 0.1,
       "manaAlignment": "center",
-      "outputStem": "arcane_wizardry_portrait_v2"
+      "outputStem": "arcane_wizardry_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_2017_boulder_deck_box_labels/src/arcane_wizardry_background_extension_v3.png"
     },
     {
       "slug": "draconic_domination",
@@ -64,7 +67,8 @@
       "series": 1,
       "portraitTopInset": 0.16,
       "manaAlignment": "center",
-      "outputStem": "draconic_domination_portrait_v2"
+      "outputStem": "draconic_domination_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_2017_boulder_deck_box_labels/src/draconic_domination_background_extension_v3.png"
     }
   ]
 }

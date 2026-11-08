@@ -15,7 +15,8 @@
       "series": 2,
       "portraitTopInset": 0.14,
       "manaAlignment": "center",
-      "outputStem": "world_shaper_portrait_v2"
+      "outputStem": "world_shaper_full_bleed_v3",
+      "backgroundExtensionPath": "images/edge_of_eternities_boulder_deck_box_labels/src/world_shaper_background_extension_v3.png"
     },
     {
       "slug": "counter_intelligence",

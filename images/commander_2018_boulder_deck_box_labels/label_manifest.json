@@ -15,7 +15,8 @@
       "series": 2,
       "portraitTopInset": 0.18,
       "manaAlignment": "center",
-      "outputStem": "adaptive_enchantment_portrait_v2"
+      "outputStem": "adaptive_enchantment_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_2018_boulder_deck_box_labels/src/adaptive_enchantment_background_extension_v3.png"
     },
     {
       "slug": "exquisite_invention",
@@ -30,7 +31,8 @@
       "series": 2,
       "portraitTopInset": 0.19,
       "manaAlignment": "center",
-      "outputStem": "exquisite_invention_portrait_v2"
+      "outputStem": "exquisite_invention_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_2018_boulder_deck_box_labels/src/exquisite_invention_background_extension_v3.png"
     },
     {
       "slug": "natures_vengeance",
@@ -46,7 +48,8 @@
       "series": 2,
       "portraitTopInset": 0.18,
       "manaAlignment": "center",
-      "outputStem": "natures_vengeance_portrait_v2"
+      "outputStem": "natures_vengeance_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_2018_boulder_deck_box_labels/src/natures_vengeance_background_extension_v3.png"
     },
     {
       "slug": "subjective_reality",
@@ -62,7 +65,8 @@
       "series": 2,
       "portraitTopInset": 0.12,
       "manaAlignment": "center",
-      "outputStem": "subjective_reality_portrait_v2"
+      "outputStem": "subjective_reality_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_2018_boulder_deck_box_labels/src/subjective_reality_background_extension_v3.png"
     }
   ]
 }

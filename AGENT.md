@@ -2,6 +2,10 @@
 
 ## Boulder-top portrait framing — 2026-11-08
 
+- Artwork must fill the top label from top to bottom inside its normal decorative/cut frame. If lowering or shrinking a portrait exposes a black band or an empty area, generate/outpaint the missing background above or around it. A reserved mana area means continuous scene artwork behind the symbols, not a solid black header. Preserve the approved character, head placement, title and mana layout; do not stretch or mirror background pixels as a substitute for generation.
+- Re-audit the final composite specifically for exposed canvas, seams and accidental dark bands. Preserve earlier versions and provide a before/after table identifying every affected label and its recreation.
+- Current background audit: `images/boulder_background_audit_2026_11_08.json`; visual before/after table: `reviews/boulder_backgrounds_2026_11_08/index.html`. Of 114 placements, 80 had no gap, 32 use `_full_bleed_v3` extensions, and Avengers Assemble / The Fantastic Four retain `_portrait_v2` because ImageGen rejected the output attempts. Do not mark those two as corrected. Rebuild completed corrections with `scripts/build_boulder_background_extensions.py`; the builder intentionally rejects new lowered-art renders without an extension.
+
 - Visually audit existing tops before changing them. Preserve satisfactory images; do not regenerate the collection by default. Prefer moving/scaling retained artwork, and regenerate/outpaint only when the source itself lacks necessary content.
 - Keep complete heads (including hair, ears, horns, crowns and hats) clear of the cut border, mana symbols and titles. Focal faces gravitate toward the central artwork area, below the mana row and above the title, rather than against the upper edge.
 - Mana symbols normally form a single TOP-CENTERED row. Fix high portrait placement instead of moving the symbols aside. The former Star Trek left-alignment exception is retired.
@@ -12,8 +16,7 @@
 
 - Star Trek Commander front features exactly Sisko, Kirk, Picard, Janeway and Jonathan Archer. The user requested Archer after removing the original rightmost captain. Five portraits still represent four Commander decks, so use the standard `4` seal.
 - Current front: `images/star_trek_commander/star_trek_five_captains_archer_v3_deck_count_4_4138x4858_1440dpi_black_margin_1_8in.png`, on new normal Fronts sheet 9. Preserve the existing separate sheet 8.
-- Four tops: Federation Fleet, Landing Party, Klingon Fury and We Are the Borg, on Boulder Tops sheet 11. Picard and Spock keep the approved v1 art; Worf and the Queen use card-art-based v2 revisions. Use `images/star_trek_boulder_deck_box_labels/label_manifest.json` and `scripts/build_star_trek_sheets.py`. The current `_portrait_v2` outputs place complete heads below top-centered mana symbols; earlier output versions remain available.
-
+- Four tops: Federation Fleet, Landing Party, Klingon Fury and We Are the Borg, on Boulder Tops sheet 11. Picard and Spock keep the approved v1 art; Worf and the Queen use card-art-based v2 revisions. Use `images/star_trek_boulder_deck_box_labels/label_manifest.json` and `scripts/build_star_trek_sheets.py`. The current `_full_bleed_v3` outputs place complete heads below top-centered mana symbols and extend the scene to the top; earlier output versions remain available.
 
 ## Project purpose
 

@@ -14,7 +14,8 @@
       "series": 2,
       "portraitTopInset": 0.13,
       "manaAlignment": "center",
-      "outputStem": "fae_dominion_portrait_v2"
+      "outputStem": "fae_dominion_full_bleed_v3",
+      "backgroundExtensionPath": "images/wilds_of_eldraine_boulder_deck_box_labels/src/fae_dominion_background_extension_v3.png"
     },
     {
       "slug": "virtue_and_valor",

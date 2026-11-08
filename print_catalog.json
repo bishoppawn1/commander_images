@@ -170,7 +170,7 @@
         "images/commander_anthology_deck_box_labels/heavenly_inferno_boulder_top_label_tall_3960x3360_1440dpi.png",
         "images/commander_anthology_deck_box_labels/evasive_maneuvers_boulder_top_label_tall_3960x3360_1440dpi.png",
         "images/commander_anthology_deck_box_labels/guided_by_nature_boulder_top_label_tall_3960x3360_1440dpi.png",
-        "images/commander_anthology_deck_box_labels/plunder_the_graves_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png"
+        "images/commander_anthology_deck_box_labels/plunder_the_graves_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png"
       ]
     },
     {
@@ -178,9 +178,9 @@
       "name": "Commander_Anthology_II",
       "scope": "anthology",
       "files": [
-        "images/commander_anthology_deck_box_labels/devour_for_power_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png",
-        "images/commander_anthology_deck_box_labels/built_from_scratch_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png",
-        "images/commander_anthology_deck_box_labels/wade_into_battle_portrait_v2_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "images/commander_anthology_deck_box_labels/devour_for_power_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "images/commander_anthology_deck_box_labels/built_from_scratch_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "images/commander_anthology_deck_box_labels/wade_into_battle_full_bleed_v3_boulder_top_label_tall_3960x3360_1440dpi.png",
         "images/commander_anthology_deck_box_labels/breed_lethality_boulder_top_label_tall_3960x3360_1440dpi.png"
       ]
     },

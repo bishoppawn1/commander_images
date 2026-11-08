@@ -14,7 +14,8 @@
       "series": 1,
       "portraitTopInset": 0.13,
       "manaAlignment": "center",
-      "outputStem": "merciless_rage_portrait_v2"
+      "outputStem": "merciless_rage_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_2019_boulder_deck_box_labels/src/merciless_rage_background_extension_v3.png"
     },
     {
       "slug": "primal_genesis",
@@ -30,7 +31,8 @@
       "series": 1,
       "portraitTopInset": 0.15,
       "manaAlignment": "center",
-      "outputStem": "primal_genesis_portrait_v2"
+      "outputStem": "primal_genesis_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_2019_boulder_deck_box_labels/src/primal_genesis_background_extension_v3.png"
     },
     {
       "slug": "faceless_menace",
@@ -46,7 +48,8 @@
       "series": 1,
       "portraitTopInset": 0.18,
       "manaAlignment": "center",
-      "outputStem": "faceless_menace_portrait_v2"
+      "outputStem": "faceless_menace_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_2019_boulder_deck_box_labels/src/faceless_menace_background_extension_v3.png"
     },
     {
       "slug": "mystic_intellect",
@@ -62,7 +65,8 @@
       "series": 1,
       "portraitTopInset": 0.15,
       "manaAlignment": "center",
-      "outputStem": "mystic_intellect_portrait_v2"
+      "outputStem": "mystic_intellect_full_bleed_v3",
+      "backgroundExtensionPath": "images/commander_2019_boulder_deck_box_labels/src/mystic_intellect_background_extension_v3.png"
     }
   ]
 }

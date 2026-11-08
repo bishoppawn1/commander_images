@@ -37,6 +37,7 @@ struct DeckLabel: Codable {
     let portraitScale: Double?
     let outputStem: String?
     let sourceTopCrop: Double?
+    let backgroundExtensionPath: String?
 }
 
 struct LabelManifest: Codable {
@@ -142,11 +143,27 @@ func drawPortraitArt(_ image: CGImage, label: DeckLabel, in bounds: CGRect, cont
     let height = CGFloat(image.height) * scale
     let top = bounds.maxY - bounds.height * inset
     let rect = CGRect(x: bounds.midX - width / 2, y: top - height, width: width, height: height)
-    context.draw(image, in: rect)
-    // Blend only a narrow background seam into the reserved mana header.
-    drawVerticalGradient(context: context, rect: rect,
-        colors: [nearBlack, nearBlack.copy(alpha: 0)!], locations: [0, 1],
-        startY: top, endY: top - 24)
+    if label.backgroundExtensionPath != nil {
+        // Blend only the narrow scenery join; retain the original portrait below.
+        context.saveGState()
+        context.beginTransparencyLayer(auxiliaryInfo: nil)
+        context.draw(image, in: rect)
+        context.setBlendMode(.destinationIn)
+        let feather = bounds.height * 0.012
+        let gradient = CGGradient(colorsSpace: colorSpace,
+            colors: [CGColor(gray: 0, alpha: 0), CGColor(gray: 0, alpha: 1)] as CFArray,
+            locations: [0, 1])!
+        context.drawLinearGradient(gradient,
+            start: CGPoint(x: bounds.midX, y: top),
+            end: CGPoint(x: bounds.midX, y: top - feather),
+            options: [.drawsBeforeStartLocation, .drawsAfterEndLocation])
+        context.endTransparencyLayer()
+        context.restoreGState()
+    } else {
+        context.draw(image, in: rect)
+    }
+    // A lowered portrait needs generated scenery behind its exposed canvas.
+    // Never paint a solid black header over the extension.
 }
 
 func drawVerticalGradient(
@@ -444,6 +461,14 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
     context.setFillColor(nearBlack)
     context.fill(bounds)
 
+    let artOnly = ProcessInfo.processInfo.environment["BOULDER_ART_ONLY"] == "1"
+    if let extensionPath = label.backgroundExtensionPath {
+        let background = loadImage(repositoryRoot.appendingPathComponent(extensionPath))
+        context.draw(background, in: bounds)
+    } else if (label.portraitTopInset ?? 0) > 0 && !artOnly {
+        fail("\(label.slug) exposes empty canvas: supply backgroundExtensionPath with generated scene extension")
+    }
+
     var art = loadImage(preferredArtURL(for: label))
     if let crop = label.sourceTopCrop, crop > 0 {
         guard crop < 0.1 else { fail("Excessive source crop for \(label.slug)") }
@@ -455,6 +480,12 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
         art = cropped
     }
     drawPortraitArt(art, label: label, in: bounds, context: context)
+
+    // Authoring reference only; this incomplete canvas is never a final label.
+    if artOnly {
+        guard let image = context.makeImage() else { fail("Cannot render art reference") }
+        return image
+    }
 
     // Regenerated artwork uses the label's horizontal 33:28 aspect ratio. A
     // restrained screen lift compensates for darkening on home printers.
