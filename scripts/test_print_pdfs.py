@@ -11,6 +11,19 @@ import make_print_pdfs as tool
 
 
 class LayoutTests(unittest.TestCase):
+    def test_top_columns_reclaim_gutters_for_printer_margins(self):
+        boxes = tool.positions("tops", 12)
+        for offset in range(0, 12, 3):
+            row = boxes[offset:offset + 3]
+            self.assertAlmostEqual(row[0][0], 8.75)
+            self.assertAlmostEqual(612 - row[-1][0] - row[-1][2], 8.75)
+            for left, right in zip(row, row[1:]):
+                self.assertAlmostEqual(right[0] - left[0] - left[2], 0.25)
+            self.assertGreater(row[0][0] / 72 * 25.4, 3.0)
+            for _, _, width, height in row:
+                self.assertAlmostEqual(width, 2.75 * 72)
+                self.assertAlmostEqual(height, 7 / 3 * 72)
+
     def test_original_sizes_and_bounds(self):
         for kind, count in (("tops", 12), ("fronts", 6)):
             spec = tool.layout(kind)

@@ -12,7 +12,7 @@ def main():
     OUT.mkdir(parents=True,exist_ok=True)
     jobs=[]
     parts=['# Current print sheets\n',
-           'Rebuilt November 8, 2026: 10 top sheets and 7 front sheets. Print at 100% / Actual Size. Top sheets require Letter Borderless; fronts fit ordinary Letter. All earlier PDF editions have been removed.\n',
+           'Rebuilt November 8, 2026: 10 top sheets and 7 front sheets. Print at 100% / Actual Size. Top columns retain 0.25-point white separators for cutter alignment, with 3.09-mm side margins and unchanged label sizes. Use a Letter mode that supports those margins; disable automatic enlargement if using Borderless. Front spacing is unchanged. All earlier PDF editions have been removed.\n',
            'Use the PNG previews to inspect pages without opening a PDF preview in Codex.\n',
            '| Format / sheet | Labels | Sets | Preview | Print PDF |',
            '| --- | ---: | --- | --- | --- |']

@@ -1,7 +1,7 @@
 {
-  "signature": "3f2cd4775da10d1b5b1776f6fc18583f56a0ffad5b83722751859be6eac020b0",
-  "pdf": "06_Boulder_Tops_Commander_Masters_Doctor_Who_Lost_Caverns_of_Ixalan_1440dpi_3f2cd4775d.pdf",
-  "pdf_sha256": "d1e906f36e6a01830a2a669932a826005311148b9227796b15904a73f83e81a0",
+  "signature": "ca6712d68af7b1110d9b10ab1e3da0292b1f7ce73a5345d8c880d5dc79404df3",
+  "pdf": "06_Boulder_Tops_Commander_Masters_Doctor_Who_Lost_Caverns_of_Ixalan_1440dpi_ca6712d68a.pdf",
+  "pdf_sha256": "22cba0f3048b49c99d1e18e1f1c634387027c8a098bc7716f86f4e676080efa7",
   "kind": "tops",
   "count": 12,
   "labels": [
@@ -9,7 +9,7 @@
       "group": "commander_masters",
       "source": "images/commander_masters/Tops/eldrazi_unbound_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         570.75,
         198.0,
         168.0
@@ -31,7 +31,7 @@
       "group": "commander_masters",
       "source": "images/commander_masters/Tops/planeswalker_party_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         570.75,
         198.0,
         168.0
@@ -42,7 +42,7 @@
       "group": "commander_masters",
       "source": "images/commander_masters/Tops/sliver_swarm_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         398.25,
         198.0,
         168.0
@@ -64,7 +64,7 @@
       "group": "doctor_who",
       "source": "images/doctor_who/Tops/timey_wimey_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         398.25,
         198.0,
         168.0
@@ -75,7 +75,7 @@
       "group": "doctor_who",
       "source": "images/doctor_who/Tops/paradox_power_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         225.75,
         198.0,
         168.0
@@ -97,7 +97,7 @@
       "group": "lost_caverns_of_ixalan",
       "source": "images/lost_caverns_of_ixalan/Tops/ahoy_mateys_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         225.75,
         198.0,
         168.0
@@ -108,7 +108,7 @@
       "group": "lost_caverns_of_ixalan",
       "source": "images/lost_caverns_of_ixalan/Tops/blood_rites_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         53.25,
         198.0,
         168.0
@@ -130,7 +130,7 @@
       "group": "lost_caverns_of_ixalan",
       "source": "images/lost_caverns_of_ixalan/Tops/veloci_ramp_tor_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         53.25,
         198.0,
         168.0

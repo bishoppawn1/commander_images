@@ -1,7 +1,7 @@
 {
-  "signature": "72987489fc46dce0b4bf85eb64a2910d10f7c0b404f02081554ddd6119e71535",
-  "pdf": "03_Boulder_Tops_Commander_2020_Strixhaven_Kamigawa_Neon_Dynasty_1440dpi_72987489fc.pdf",
-  "pdf_sha256": "6a8bcde4455caeacfa83ed9f42f4ca4539fc9fe227c1732a716bb5479ec39077",
+  "signature": "a8f2ceaf7e518ff9636a9367df7a59cffeb9b236db47f32edda91bbb6e1ac492",
+  "pdf": "03_Boulder_Tops_Commander_2020_Strixhaven_Kamigawa_Neon_Dynasty_1440dpi_a8f2ceaf7e.pdf",
+  "pdf_sha256": "445ebfa3379b3da8264f4295ca96dfa3277beef17e2877d1f9656d4dd54b95b4",
   "kind": "tops",
   "count": 12,
   "labels": [
@@ -9,7 +9,7 @@
       "group": "commander_2020",
       "source": "images/commander_2020/Tops/enhanced_evolution_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         570.75,
         198.0,
         168.0
@@ -31,7 +31,7 @@
       "group": "commander_2020",
       "source": "images/commander_2020/Tops/ruthless_regiment_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         570.75,
         198.0,
         168.0
@@ -42,7 +42,7 @@
       "group": "commander_2020",
       "source": "images/commander_2020/Tops/arcane_maelstrom_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         398.25,
         198.0,
         168.0
@@ -64,7 +64,7 @@
       "group": "strixhaven",
       "source": "images/strixhaven/Tops/prismari_performance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         398.25,
         198.0,
         168.0
@@ -75,7 +75,7 @@
       "group": "strixhaven",
       "source": "images/strixhaven/Tops/silverquill_statement_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         225.75,
         198.0,
         168.0
@@ -97,7 +97,7 @@
       "group": "strixhaven",
       "source": "images/strixhaven/Tops/lorehold_legacies_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         225.75,
         198.0,
         168.0
@@ -108,7 +108,7 @@
       "group": "strixhaven",
       "source": "images/strixhaven/Tops/witherbloom_witchcraft_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         53.25,
         198.0,
         168.0
@@ -130,7 +130,7 @@
       "group": "kamigawa_neon_dynasty",
       "source": "images/kamigawa_neon_dynasty/Tops/buckle_up_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         53.25,
         198.0,
         168.0

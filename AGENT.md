@@ -1,5 +1,9 @@
 # MTG Commander Deck Box Face Cards
 
+## Top-sheet printer edge clearance — 2026-11-08
+
+- Keep tops at 2.75 × 2 1/3 inches. Keep 0.25-point white separators between the three columns for cutter alignment and center the grid on Letter: 8.75-point (3.09-mm) left/right margins and unchanged vertical row spacing. Never remove the white separators entirely. Do not resize or crop image files to fix this printer-edge issue. Front-sheet spacing remains unchanged. Rebuild the full current PDF collection and its PNG previews after layout changes.
+
 ## Readability, restrained lighting and collection layout — 2026-11-08
 
 - Use a dark opaque keyline plus a soft black halo behind every mana pip, keeping its original glyph crisp and its row top centered. Verify separation on both bright and dark scenery.
@@ -83,7 +87,7 @@ Create deck-box-style face cards that make Magic: The Gathering Commander deck s
 ## Ongoing instructions
 
 - Organize the project-root `Print Sheets/` folder into two subfolders: `Boulder Tops/` for the complete Boulder deck-box top collection and `Fronts/` for large drawer fronts, including the optional Overflow sheet. Keep `Boulder_Tops` in top-sheet filenames; archived sheets are not a substitute for the current printable set. Future PDF generation must use these same subfolders.
-- For the first-half Boulder-top PDF sheets, preserve the approved 3300 x 2800 images at 2.75 x 2 1/3 inches. Use the Epson ET-8550 (the user replaced the HP), Letter borderless-compatible printing, and a 3 x 4 grid with 1/16-inch side margins/gaps and approximately 0.739583-inch top/bottom margins. Keep each release in one PDF and name the PDF for every release it contains. Never silently shrink labels to fit; warn about driver borderless expansion changing physical size.
+- For the first-half Boulder-top PDF sheets, preserve the approved 3300 x 2800 images at 2.75 x 2 1/3 inches. Use the Epson ET-8550 (the user replaced the HP), Letter borderless-compatible printing, and a 3 x 4 grid with 3.09-mm side margins, 0.25-point white column separators, 1/16-inch row gaps and approximately 0.739583-inch top/bottom margins. Keep each release in one PDF and name the PDF for every release it contains. Never silently shrink labels to fit; warn about driver borderless expansion changing physical size.
 - Treat later user directions as additions or refinements to these project requirements.
 - Record durable follow-on project requirements in this file so future work remains consistent.
 - If a later instruction conflicts with an earlier one, follow the most recent explicit user instruction and update this file accordingly.

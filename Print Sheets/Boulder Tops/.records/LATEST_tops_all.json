@@ -1,8 +1,8 @@
 [
   {
-    "signature": "d2e864996b52f3061ae7b2e8afc799855dfe21609525378a1cb1359966640d7f",
-    "pdf": "01_Boulder_Tops_Commander_2013_Commander_2016_Commander_2017_Commander_2018_1440dpi_d2e864996b.pdf",
-    "pdf_sha256": "a54d82163af6142c039ab33c17062d31d103f51618ff778422a9bbc3c9b1a23b",
+    "signature": "36daab83e46498a2d3a1b62dfedb159100d144e0f15be73389f7fe1fa807bb4d",
+    "pdf": "01_Boulder_Tops_Commander_2013_Commander_2016_Commander_2017_Commander_2018_1440dpi_36daab83e4.pdf",
+    "pdf_sha256": "e0dfcf9903bd55892ebfa050cf42623cc46fbbb127215a343babce3a03fadb1f",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -10,7 +10,7 @@
         "group": "commander_2013",
         "source": "images/commander_2013/Tops/eternal_bargain_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           570.75,
           198.0,
           168.0
@@ -32,7 +32,7 @@
         "group": "commander_2016",
         "source": "images/commander_2016/Tops/invent_superiority_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           570.75,
           198.0,
           168.0
@@ -43,7 +43,7 @@
         "group": "commander_2016",
         "source": "images/commander_2016/Tops/breed_lethality_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           398.25,
           198.0,
           168.0
@@ -65,7 +65,7 @@
         "group": "commander_2017",
         "source": "images/commander_2017/Tops/vampiric_bloodlust_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           398.25,
           198.0,
           168.0
@@ -76,7 +76,7 @@
         "group": "commander_2017",
         "source": "images/commander_2017/Tops/arcane_wizardry_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           225.75,
           198.0,
           168.0
@@ -98,7 +98,7 @@
         "group": "commander_2018",
         "source": "images/commander_2018/Tops/adaptive_enchantment_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           225.75,
           198.0,
           168.0
@@ -109,7 +109,7 @@
         "group": "commander_2018",
         "source": "images/commander_2018/Tops/exquisite_invention_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           53.25,
           198.0,
           168.0
@@ -131,7 +131,7 @@
         "group": "commander_2018",
         "source": "images/commander_2018/Tops/subjective_reality_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           53.25,
           198.0,
           168.0
@@ -141,9 +141,9 @@
     ]
   },
   {
-    "signature": "ddf430e3d51c227851af4c1df0bc4277a4e6b9afb8070ede47c7d747411dcf19",
-    "pdf": "02_Boulder_Tops_Commander_2019_Eldraine_Brawl_Zendikar_Rising_Commander_Legends_1440dpi_ddf430e3d5.pdf",
-    "pdf_sha256": "5df4aef54bc3b079f6b321565a0ae2300e106068dc83fee8aba51ebb3a7eb4c0",
+    "signature": "3501a95d02b99ed43df42c9e1267b6a4e2574736819445bdee86f3b8a61eb393",
+    "pdf": "02_Boulder_Tops_Commander_2019_Eldraine_Brawl_Zendikar_Rising_Commander_Legends_1440dpi_3501a95d02.pdf",
+    "pdf_sha256": "8d9b615c120907a61ce1298651714e2b286e4209f26ae0e9153b3d6bbe661aef",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -151,7 +151,7 @@
         "group": "commander_2019",
         "source": "images/commander_2019/Tops/merciless_rage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           570.75,
           198.0,
           168.0
@@ -173,7 +173,7 @@
         "group": "commander_2019",
         "source": "images/commander_2019/Tops/faceless_menace_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           570.75,
           198.0,
           168.0
@@ -184,7 +184,7 @@
         "group": "commander_2019",
         "source": "images/commander_2019/Tops/mystic_intellect_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           398.25,
           198.0,
           168.0
@@ -206,7 +206,7 @@
         "group": "throne_of_eldraine_brawl",
         "source": "images/throne_of_eldraine_brawl/Tops/faerie_schemes_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           398.25,
           198.0,
           168.0
@@ -217,7 +217,7 @@
         "group": "throne_of_eldraine_brawl",
         "source": "images/throne_of_eldraine_brawl/Tops/knights_charge_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           225.75,
           198.0,
           168.0
@@ -239,7 +239,7 @@
         "group": "zendikar_rising",
         "source": "images/zendikar_rising/Tops/sneak_attack_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           225.75,
           198.0,
           168.0
@@ -250,7 +250,7 @@
         "group": "zendikar_rising",
         "source": "images/zendikar_rising/Tops/lands_wrath_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           53.25,
           198.0,
           168.0
@@ -272,7 +272,7 @@
         "group": "commander_legends",
         "source": "images/commander_legends/Tops/reap_the_tides_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           53.25,
           198.0,
           168.0
@@ -282,9 +282,9 @@
     ]
   },
   {
-    "signature": "72987489fc46dce0b4bf85eb64a2910d10f7c0b404f02081554ddd6119e71535",
-    "pdf": "03_Boulder_Tops_Commander_2020_Strixhaven_Kamigawa_Neon_Dynasty_1440dpi_72987489fc.pdf",
-    "pdf_sha256": "6a8bcde4455caeacfa83ed9f42f4ca4539fc9fe227c1732a716bb5479ec39077",
+    "signature": "a8f2ceaf7e518ff9636a9367df7a59cffeb9b236db47f32edda91bbb6e1ac492",
+    "pdf": "03_Boulder_Tops_Commander_2020_Strixhaven_Kamigawa_Neon_Dynasty_1440dpi_a8f2ceaf7e.pdf",
+    "pdf_sha256": "445ebfa3379b3da8264f4295ca96dfa3277beef17e2877d1f9656d4dd54b95b4",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -292,7 +292,7 @@
         "group": "commander_2020",
         "source": "images/commander_2020/Tops/enhanced_evolution_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           570.75,
           198.0,
           168.0
@@ -314,7 +314,7 @@
         "group": "commander_2020",
         "source": "images/commander_2020/Tops/ruthless_regiment_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           570.75,
           198.0,
           168.0
@@ -325,7 +325,7 @@
         "group": "commander_2020",
         "source": "images/commander_2020/Tops/arcane_maelstrom_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           398.25,
           198.0,
           168.0
@@ -347,7 +347,7 @@
         "group": "strixhaven",
         "source": "images/strixhaven/Tops/prismari_performance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           398.25,
           198.0,
           168.0
@@ -358,7 +358,7 @@
         "group": "strixhaven",
         "source": "images/strixhaven/Tops/silverquill_statement_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           225.75,
           198.0,
           168.0
@@ -380,7 +380,7 @@
         "group": "strixhaven",
         "source": "images/strixhaven/Tops/lorehold_legacies_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           225.75,
           198.0,
           168.0
@@ -391,7 +391,7 @@
         "group": "strixhaven",
         "source": "images/strixhaven/Tops/witherbloom_witchcraft_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           53.25,
           198.0,
           168.0
@@ -413,7 +413,7 @@
         "group": "kamigawa_neon_dynasty",
         "source": "images/kamigawa_neon_dynasty/Tops/buckle_up_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           53.25,
           198.0,
           168.0
@@ -423,9 +423,9 @@
     ]
   },
   {
-    "signature": "1dfb208d4c8f937f01de1286d6e7bf8eb0aec5fd1ed92201b1e0737a7e36f624",
-    "pdf": "04_Boulder_Tops_Forgotten_Realms_Warhammer_40000_Brothers_War_Phyrexia_All_Will_Be_One_1440dpi_1dfb208d4c.pdf",
-    "pdf_sha256": "3b88f2875ac55dc3adfa67d8cbcbd0e82f220edd524c5f96b0362f65e30ddbf6",
+    "signature": "7de7e473034ef2521108f4f564af8ea9b6a781e9a93de813ef6e80a3528f9be2",
+    "pdf": "04_Boulder_Tops_Forgotten_Realms_Warhammer_40000_Brothers_War_Phyrexia_All_Will_Be_One_1440dpi_7de7e47303.pdf",
+    "pdf_sha256": "67e1fd8363caf0ad92827a7a7c602aeed4869cd824f3868053448d1aea769bc7",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -433,7 +433,7 @@
         "group": "adventures_in_the_forgotten_realms",
         "source": "images/adventures_in_the_forgotten_realms/Tops/draconic_rage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           570.75,
           198.0,
           168.0
@@ -455,7 +455,7 @@
         "group": "adventures_in_the_forgotten_realms",
         "source": "images/adventures_in_the_forgotten_realms/Tops/aura_of_courage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           570.75,
           198.0,
           168.0
@@ -466,7 +466,7 @@
         "group": "adventures_in_the_forgotten_realms",
         "source": "images/adventures_in_the_forgotten_realms/Tops/planar_portal_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           398.25,
           198.0,
           168.0
@@ -488,7 +488,7 @@
         "group": "warhammer_40000",
         "source": "images/warhammer_40000/Tops/forces_of_the_imperium_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           398.25,
           198.0,
           168.0
@@ -499,7 +499,7 @@
         "group": "warhammer_40000",
         "source": "images/warhammer_40000/Tops/necron_dynasties_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           225.75,
           198.0,
           168.0
@@ -521,7 +521,7 @@
         "group": "brothers_war",
         "source": "images/brothers_war/Tops/urzas_iron_alliance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           225.75,
           198.0,
           168.0
@@ -532,7 +532,7 @@
         "group": "brothers_war",
         "source": "images/brothers_war/Tops/mishras_burnished_banner_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           53.25,
           198.0,
           168.0
@@ -554,7 +554,7 @@
         "group": "phyrexia_all_will_be_one",
         "source": "images/phyrexia_all_will_be_one/Tops/rebellion_rising_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           53.25,
           198.0,
           168.0
@@ -564,9 +564,9 @@
     ]
   },
   {
-    "signature": "f279dea48e41e2084dc2014e0283acc44f4063668164c9c93d4b0c63d561eb5e",
-    "pdf": "05_Boulder_Tops_March_of_the_Machine_Lord_of_the_Rings_Wilds_of_Eldraine_Turtle_Power_1440dpi_f279dea48e.pdf",
-    "pdf_sha256": "12b32904e021dfa181a957aaad2431e7b223bf0f2c967f04d476e26cd8a70881",
+    "signature": "157f0f5d468a5581a72ad9528ad19ea501f312bd0f8c31b5e33562e8a300b61d",
+    "pdf": "05_Boulder_Tops_March_of_the_Machine_Lord_of_the_Rings_Wilds_of_Eldraine_Turtle_Power_1440dpi_157f0f5d46.pdf",
+    "pdf_sha256": "665e73c73c69984006dbee375b3b6ed0b21a4e1febe8514af19b010b5a519613",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -574,7 +574,7 @@
         "group": "march_of_the_machine",
         "source": "images/march_of_the_machine/Tops/call_for_backup_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           570.75,
           198.0,
           168.0
@@ -596,7 +596,7 @@
         "group": "march_of_the_machine",
         "source": "images/march_of_the_machine/Tops/divine_convocation_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           570.75,
           198.0,
           168.0
@@ -607,7 +607,7 @@
         "group": "march_of_the_machine",
         "source": "images/march_of_the_machine/Tops/growing_threat_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           398.25,
           198.0,
           168.0
@@ -629,7 +629,7 @@
         "group": "lord_of_the_rings",
         "source": "images/lord_of_the_rings/Tops/food_and_fellowship_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           398.25,
           198.0,
           168.0
@@ -640,7 +640,7 @@
         "group": "lord_of_the_rings",
         "source": "images/lord_of_the_rings/Tops/riders_of_rohan_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           225.75,
           198.0,
           168.0
@@ -662,7 +662,7 @@
         "group": "lord_of_the_rings",
         "source": "images/lord_of_the_rings/Tops/elven_council_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           225.75,
           198.0,
           168.0
@@ -673,7 +673,7 @@
         "group": "wilds_of_eldraine",
         "source": "images/wilds_of_eldraine/Tops/fae_dominion_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           53.25,
           198.0,
           168.0
@@ -695,7 +695,7 @@
         "group": "teenage_mutant_ninja_turtles",
         "source": "images/teenage_mutant_ninja_turtles/Tops/turtle_power_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           53.25,
           198.0,
           168.0
@@ -705,9 +705,9 @@
     ]
   },
   {
-    "signature": "3f2cd4775da10d1b5b1776f6fc18583f56a0ffad5b83722751859be6eac020b0",
-    "pdf": "06_Boulder_Tops_Commander_Masters_Doctor_Who_Lost_Caverns_of_Ixalan_1440dpi_3f2cd4775d.pdf",
-    "pdf_sha256": "d1e906f36e6a01830a2a669932a826005311148b9227796b15904a73f83e81a0",
+    "signature": "ca6712d68af7b1110d9b10ab1e3da0292b1f7ce73a5345d8c880d5dc79404df3",
+    "pdf": "06_Boulder_Tops_Commander_Masters_Doctor_Who_Lost_Caverns_of_Ixalan_1440dpi_ca6712d68a.pdf",
+    "pdf_sha256": "22cba0f3048b49c99d1e18e1f1c634387027c8a098bc7716f86f4e676080efa7",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -715,7 +715,7 @@
         "group": "commander_masters",
         "source": "images/commander_masters/Tops/eldrazi_unbound_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           570.75,
           198.0,
           168.0
@@ -737,7 +737,7 @@
         "group": "commander_masters",
         "source": "images/commander_masters/Tops/planeswalker_party_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           570.75,
           198.0,
           168.0
@@ -748,7 +748,7 @@
         "group": "commander_masters",
         "source": "images/commander_masters/Tops/sliver_swarm_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           398.25,
           198.0,
           168.0
@@ -770,7 +770,7 @@
         "group": "doctor_who",
         "source": "images/doctor_who/Tops/timey_wimey_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           398.25,
           198.0,
           168.0
@@ -781,7 +781,7 @@
         "group": "doctor_who",
         "source": "images/doctor_who/Tops/paradox_power_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           225.75,
           198.0,
           168.0
@@ -803,7 +803,7 @@
         "group": "lost_caverns_of_ixalan",
         "source": "images/lost_caverns_of_ixalan/Tops/ahoy_mateys_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           225.75,
           198.0,
           168.0
@@ -814,7 +814,7 @@
         "group": "lost_caverns_of_ixalan",
         "source": "images/lost_caverns_of_ixalan/Tops/blood_rites_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           53.25,
           198.0,
           168.0
@@ -836,7 +836,7 @@
         "group": "lost_caverns_of_ixalan",
         "source": "images/lost_caverns_of_ixalan/Tops/veloci_ramp_tor_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           53.25,
           198.0,
           168.0
@@ -846,9 +846,9 @@
     ]
   },
   {
-    "signature": "411a7a7ee69bc021a02f6c11ba4b918759f75bf911eb3acccae0b2bc077dd670",
-    "pdf": "07_Boulder_Tops_Fallout_Modern_Horizons_3_Bloomburrow_1440dpi_411a7a7ee6.pdf",
-    "pdf_sha256": "e2d3e31b75de313a8b8004490f61422d014673986e5be4fd7c1b8629b8854905",
+    "signature": "5d6bb9f555af474c07c097fa649c42caf13a6f2fc6b0b4958616c32749194848",
+    "pdf": "07_Boulder_Tops_Fallout_Modern_Horizons_3_Bloomburrow_1440dpi_5d6bb9f555.pdf",
+    "pdf_sha256": "ad4d900f25aaf37ed0fc3b3aba43ab4d7273eced6ac0b1b0780eb1ad9c1b7b7b",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -856,7 +856,7 @@
         "group": "fallout",
         "source": "images/fallout/Tops/scrappy_survivors_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           570.75,
           198.0,
           168.0
@@ -878,7 +878,7 @@
         "group": "fallout",
         "source": "images/fallout/Tops/science_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           570.75,
           198.0,
           168.0
@@ -889,7 +889,7 @@
         "group": "fallout",
         "source": "images/fallout/Tops/mutant_menace_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           398.25,
           198.0,
           168.0
@@ -911,7 +911,7 @@
         "group": "modern_horizons_3",
         "source": "images/modern_horizons_3/Tops/creative_energy_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           398.25,
           198.0,
           168.0
@@ -922,7 +922,7 @@
         "group": "modern_horizons_3",
         "source": "images/modern_horizons_3/Tops/tricky_terrain_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           225.75,
           198.0,
           168.0
@@ -944,7 +944,7 @@
         "group": "bloomburrow",
         "source": "images/bloomburrow/Tops/animated_army_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           225.75,
           198.0,
           168.0
@@ -955,7 +955,7 @@
         "group": "bloomburrow",
         "source": "images/bloomburrow/Tops/family_matters_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           53.25,
           198.0,
           168.0
@@ -977,7 +977,7 @@
         "group": "bloomburrow",
         "source": "images/bloomburrow/Tops/squirreled_away_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           53.25,
           198.0,
           168.0
@@ -987,9 +987,9 @@
     ]
   },
   {
-    "signature": "aabb5326a31019c3df93ed9ca67e8c3196455841f3e9877d56f0f1ea309ff46f",
-    "pdf": "08_Boulder_Tops_Final_Fantasy_Marvel_Super_Heroes_Commander_Anthology_I_1440dpi_aabb5326a3.pdf",
-    "pdf_sha256": "7125ccefa4f05e3261769d0fa866f2bfe5a78bc030687f7943b24b7d9c252212",
+    "signature": "3cc11684bd0c2b302be3b0a5ec5b38d61024a3dc6190c4810376cca1886d00ef",
+    "pdf": "08_Boulder_Tops_Final_Fantasy_Marvel_Super_Heroes_Commander_Anthology_I_1440dpi_3cc11684bd.pdf",
+    "pdf_sha256": "474ea2dcb9fbb0eb41f51fdbfc58d6d62dd10970b313046efe1098f9c089ca3e",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -997,7 +997,7 @@
         "group": "final_fantasy",
         "source": "images/final_fantasy/Tops/revival_trance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           570.75,
           198.0,
           168.0
@@ -1019,7 +1019,7 @@
         "group": "final_fantasy",
         "source": "images/final_fantasy/Tops/counter_blitz_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           570.75,
           198.0,
           168.0
@@ -1030,7 +1030,7 @@
         "group": "final_fantasy",
         "source": "images/final_fantasy/Tops/scions_and_spellcraft_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           398.25,
           198.0,
           168.0
@@ -1052,7 +1052,7 @@
         "group": "marvel_super_heroes",
         "source": "images/marvel_super_heroes/Tops/wakanda_forever_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           398.25,
           198.0,
           168.0
@@ -1063,7 +1063,7 @@
         "group": "marvel_super_heroes",
         "source": "images/marvel_super_heroes/Tops/the_fantastic_four_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           225.75,
           198.0,
           168.0
@@ -1085,7 +1085,7 @@
         "group": "commander_anthology_i",
         "source": "images/commander_anthology_i/Tops/heavenly_inferno_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           225.75,
           198.0,
           168.0
@@ -1096,7 +1096,7 @@
         "group": "commander_anthology_i",
         "source": "images/commander_anthology_i/Tops/evasive_maneuvers_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           53.25,
           198.0,
           168.0
@@ -1118,7 +1118,7 @@
         "group": "commander_anthology_i",
         "source": "images/commander_anthology_i/Tops/plunder_the_graves_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           53.25,
           198.0,
           168.0
@@ -1128,9 +1128,9 @@
     ]
   },
   {
-    "signature": "af1a651ec8a173863c96f13be98d11fc9d9982a24229209efb0aa0af6236c0e0",
-    "pdf": "09_Boulder_Tops_Commander_Anthology_II_Aetherdrift_Edge_of_Eternities_Reality_Fracture_1440dpi_af1a651ec8.pdf",
-    "pdf_sha256": "b3899c5012e65553187bafb9e441c98283d17ab0e1b5506afeac9e576f32263c",
+    "signature": "d7197bfbb2111bc129ced8feeefee22d9a57c0818420cb547d182b4f9aa10430",
+    "pdf": "09_Boulder_Tops_Commander_Anthology_II_Aetherdrift_Edge_of_Eternities_Reality_Fracture_1440dpi_d7197bfbb2.pdf",
+    "pdf_sha256": "a0d78634a890ab652028782ad29d9f696c378ee891112de9432d5ab95631283a",
     "kind": "tops",
     "count": 9,
     "labels": [
@@ -1138,7 +1138,7 @@
         "group": "commander_anthology_ii",
         "source": "images/commander_anthology_i/Tops/devour_for_power_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           570.75,
           198.0,
           168.0
@@ -1160,7 +1160,7 @@
         "group": "commander_anthology_ii",
         "source": "images/commander_anthology_i/Tops/wade_into_battle_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           570.75,
           198.0,
           168.0
@@ -1171,7 +1171,7 @@
         "group": "commander_anthology_ii",
         "source": "images/commander_anthology_i/Tops/breed_lethality_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           398.25,
           198.0,
           168.0
@@ -1193,7 +1193,7 @@
         "group": "aetherdrift",
         "source": "images/aetherdrift/Tops/eternal_might_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           398.25,
           198.0,
           168.0
@@ -1204,7 +1204,7 @@
         "group": "edge_of_eternities",
         "source": "images/edge_of_eternities/Tops/world_shaper_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           225.75,
           198.0,
           168.0
@@ -1226,7 +1226,7 @@
         "group": "reality_fracture",
         "source": "images/reality_fracture/Tops/multiverse_reforged_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           225.75,
           198.0,
           168.0
@@ -1236,9 +1236,9 @@
     ]
   },
   {
-    "signature": "cadb2827680545b9f0fe5964ada69a99fb0392785d41e69c6dce41daf1feb1af",
-    "pdf": "10_Boulder_Tops_Starter_Commander_Star_Trek_Commander_1440dpi_cadb282768.pdf",
-    "pdf_sha256": "fdf3b3ae6f8ac2f78104f6dc81099826b9a5f2ad8ce9825cdc19693ffc5c3cda",
+    "signature": "dc9abc4855ab66df3081bf2919b6292fcd817213584453718b112da211685dad",
+    "pdf": "10_Boulder_Tops_Starter_Commander_Star_Trek_Commander_1440dpi_dc9abc4855.pdf",
+    "pdf_sha256": "61524d8d7c3b6a2935791d386b53bcdf073dc2fa2da0c4bafff124bd7c5d1be7",
     "kind": "tops",
     "count": 9,
     "labels": [
@@ -1246,7 +1246,7 @@
         "group": "starter_commander",
         "source": "images/starter_commander/Tops/first_flight_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           570.75,
           198.0,
           168.0
@@ -1268,7 +1268,7 @@
         "group": "starter_commander",
         "source": "images/starter_commander/Tops/chaos_incarnate_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           570.75,
           198.0,
           168.0
@@ -1279,7 +1279,7 @@
         "group": "starter_commander",
         "source": "images/starter_commander/Tops/draconic_destruction_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           398.25,
           198.0,
           168.0
@@ -1301,7 +1301,7 @@
         "group": "star_trek",
         "source": "images/star_trek/Tops/federation_fleet_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           398.25,
           198.0,
           168.0
@@ -1312,7 +1312,7 @@
         "group": "star_trek",
         "source": "images/star_trek/Tops/landing_party_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          4.5,
+          8.75,
           225.75,
           198.0,
           168.0
@@ -1334,7 +1334,7 @@
         "group": "star_trek",
         "source": "images/star_trek/Tops/we_are_the_borg_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
-          409.5,
+          405.25,
           225.75,
           198.0,
           168.0

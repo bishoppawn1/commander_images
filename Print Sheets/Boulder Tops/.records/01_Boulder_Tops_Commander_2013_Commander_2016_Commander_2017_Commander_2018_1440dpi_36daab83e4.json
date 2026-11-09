@@ -1,7 +1,7 @@
 {
-  "signature": "d2e864996b52f3061ae7b2e8afc799855dfe21609525378a1cb1359966640d7f",
-  "pdf": "01_Boulder_Tops_Commander_2013_Commander_2016_Commander_2017_Commander_2018_1440dpi_d2e864996b.pdf",
-  "pdf_sha256": "a54d82163af6142c039ab33c17062d31d103f51618ff778422a9bbc3c9b1a23b",
+  "signature": "36daab83e46498a2d3a1b62dfedb159100d144e0f15be73389f7fe1fa807bb4d",
+  "pdf": "01_Boulder_Tops_Commander_2013_Commander_2016_Commander_2017_Commander_2018_1440dpi_36daab83e4.pdf",
+  "pdf_sha256": "e0dfcf9903bd55892ebfa050cf42623cc46fbbb127215a343babce3a03fadb1f",
   "kind": "tops",
   "count": 12,
   "labels": [
@@ -9,7 +9,7 @@
       "group": "commander_2013",
       "source": "images/commander_2013/Tops/eternal_bargain_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         570.75,
         198.0,
         168.0
@@ -31,7 +31,7 @@
       "group": "commander_2016",
       "source": "images/commander_2016/Tops/invent_superiority_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         570.75,
         198.0,
         168.0
@@ -42,7 +42,7 @@
       "group": "commander_2016",
       "source": "images/commander_2016/Tops/breed_lethality_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         398.25,
         198.0,
         168.0
@@ -64,7 +64,7 @@
       "group": "commander_2017",
       "source": "images/commander_2017/Tops/vampiric_bloodlust_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         398.25,
         198.0,
         168.0
@@ -75,7 +75,7 @@
       "group": "commander_2017",
       "source": "images/commander_2017/Tops/arcane_wizardry_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         225.75,
         198.0,
         168.0
@@ -97,7 +97,7 @@
       "group": "commander_2018",
       "source": "images/commander_2018/Tops/adaptive_enchantment_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         225.75,
         198.0,
         168.0
@@ -108,7 +108,7 @@
       "group": "commander_2018",
       "source": "images/commander_2018/Tops/exquisite_invention_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         53.25,
         198.0,
         168.0
@@ -130,7 +130,7 @@
       "group": "commander_2018",
       "source": "images/commander_2018/Tops/subjective_reality_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         53.25,
         198.0,
         168.0

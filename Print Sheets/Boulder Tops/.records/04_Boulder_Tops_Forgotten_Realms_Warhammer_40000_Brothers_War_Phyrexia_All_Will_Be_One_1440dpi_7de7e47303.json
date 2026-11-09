@@ -1,7 +1,7 @@
 {
-  "signature": "1dfb208d4c8f937f01de1286d6e7bf8eb0aec5fd1ed92201b1e0737a7e36f624",
-  "pdf": "04_Boulder_Tops_Forgotten_Realms_Warhammer_40000_Brothers_War_Phyrexia_All_Will_Be_One_1440dpi_1dfb208d4c.pdf",
-  "pdf_sha256": "3b88f2875ac55dc3adfa67d8cbcbd0e82f220edd524c5f96b0362f65e30ddbf6",
+  "signature": "7de7e473034ef2521108f4f564af8ea9b6a781e9a93de813ef6e80a3528f9be2",
+  "pdf": "04_Boulder_Tops_Forgotten_Realms_Warhammer_40000_Brothers_War_Phyrexia_All_Will_Be_One_1440dpi_7de7e47303.pdf",
+  "pdf_sha256": "67e1fd8363caf0ad92827a7a7c602aeed4869cd824f3868053448d1aea769bc7",
   "kind": "tops",
   "count": 12,
   "labels": [
@@ -9,7 +9,7 @@
       "group": "adventures_in_the_forgotten_realms",
       "source": "images/adventures_in_the_forgotten_realms/Tops/draconic_rage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         570.75,
         198.0,
         168.0
@@ -31,7 +31,7 @@
       "group": "adventures_in_the_forgotten_realms",
       "source": "images/adventures_in_the_forgotten_realms/Tops/aura_of_courage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         570.75,
         198.0,
         168.0
@@ -42,7 +42,7 @@
       "group": "adventures_in_the_forgotten_realms",
       "source": "images/adventures_in_the_forgotten_realms/Tops/planar_portal_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         398.25,
         198.0,
         168.0
@@ -64,7 +64,7 @@
       "group": "warhammer_40000",
       "source": "images/warhammer_40000/Tops/forces_of_the_imperium_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         398.25,
         198.0,
         168.0
@@ -75,7 +75,7 @@
       "group": "warhammer_40000",
       "source": "images/warhammer_40000/Tops/necron_dynasties_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         225.75,
         198.0,
         168.0
@@ -97,7 +97,7 @@
       "group": "brothers_war",
       "source": "images/brothers_war/Tops/urzas_iron_alliance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         225.75,
         198.0,
         168.0
@@ -108,7 +108,7 @@
       "group": "brothers_war",
       "source": "images/brothers_war/Tops/mishras_burnished_banner_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        4.5,
+        8.75,
         53.25,
         198.0,
         168.0
@@ -130,7 +130,7 @@
       "group": "phyrexia_all_will_be_one",
       "source": "images/phyrexia_all_will_be_one/Tops/rebellion_rising_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        409.5,
+        405.25,
         53.25,
         198.0,
         168.0
