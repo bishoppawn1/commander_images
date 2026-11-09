@@ -1,7 +1,7 @@
 {
-  "signature": "b00e4b65024c5594569b3faae8cb1a8d8e60136f37c731d125844f7d66bb23f7",
-  "pdf": "07_Boulder_Tops_Fallout_Modern_Horizons_3_Bloomburrow_1440dpi_b00e4b6502.pdf",
-  "pdf_sha256": "030e4b9e29796f4f7ba44763cd7f76664cea059075f9772fe9c8754f55d5a54c",
+  "signature": "411a7a7ee69bc021a02f6c11ba4b918759f75bf911eb3acccae0b2bc077dd670",
+  "pdf": "07_Boulder_Tops_Fallout_Modern_Horizons_3_Bloomburrow_1440dpi_411a7a7ee6.pdf",
+  "pdf_sha256": "e2d3e31b75de313a8b8004490f61422d014673986e5be4fd7c1b8629b8854905",
   "kind": "tops",
   "count": 12,
   "labels": [
@@ -40,14 +40,14 @@
     },
     {
       "group": "fallout",
-      "source": "images/fallout/Tops/mutant_menace_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "source": "images/fallout/Tops/mutant_menace_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
         4.5,
         398.25,
         198.0,
         168.0
       ],
-      "rgb_sha256": "e45196c65115b91af4aea683a24cf21d3655d3d975b236670a3874f64adde975"
+      "rgb_sha256": "ad07bbf46319b315d560fb9f46a7467c2084b67cedb7bc9f368b9095cec40233"
     },
     {
       "group": "modern_horizons_3",
@@ -95,14 +95,14 @@
     },
     {
       "group": "bloomburrow",
-      "source": "images/bloomburrow/Tops/animated_army_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "source": "images/bloomburrow/Tops/animated_army_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
         409.5,
         225.75,
         198.0,
         168.0
       ],
-      "rgb_sha256": "51f23539948bbcde7adc7d39e67e6133793a8775e6fc9931602fac8c9ee59239"
+      "rgb_sha256": "7b8b6f61e9b4afdbfd51e4f514ad71844a3d7f63c8d34fc42ed7f2e61e9f8136"
     },
     {
       "group": "bloomburrow",

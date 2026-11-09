@@ -12,7 +12,8 @@
         "GREEN"
       ],
       "series": 2,
-      "outputStem": "animated_army_readability_v4"
+      "outputStem": "animated_army_upper_third_v5",
+      "artTopCrop": 0.18
     },
     {
       "slug": "family_matters",

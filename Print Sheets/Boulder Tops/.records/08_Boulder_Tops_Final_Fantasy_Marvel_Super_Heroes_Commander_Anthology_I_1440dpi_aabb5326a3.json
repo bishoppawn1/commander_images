@@ -1,7 +1,7 @@
 {
-  "signature": "07897dd8b5c8ac9f951fbb125ada6e544a5842741351184b2f97df86d01df756",
-  "pdf": "08_Boulder_Tops_Final_Fantasy_Marvel_Super_Heroes_Commander_Anthology_I_1440dpi_07897dd8b5.pdf",
-  "pdf_sha256": "d18aabd7af1c7a03d103b89652285bf27b831d6bebde6a6ea2a823dfee9b9c27",
+  "signature": "aabb5326a31019c3df93ed9ca67e8c3196455841f3e9877d56f0f1ea309ff46f",
+  "pdf": "08_Boulder_Tops_Final_Fantasy_Marvel_Super_Heroes_Commander_Anthology_I_1440dpi_aabb5326a3.pdf",
+  "pdf_sha256": "7125ccefa4f05e3261769d0fa866f2bfe5a78bc030687f7943b24b7d9c252212",
   "kind": "tops",
   "count": 12,
   "labels": [
@@ -62,14 +62,14 @@
     },
     {
       "group": "marvel_super_heroes",
-      "source": "images/marvel_super_heroes/Tops/wakanda_forever_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "source": "images/marvel_super_heroes/Tops/wakanda_forever_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
         409.5,
         398.25,
         198.0,
         168.0
       ],
-      "rgb_sha256": "a5f2dd821c7e986cb004d81b3d3deaa6c23e82a67d5581a2f5a2b0e887271472"
+      "rgb_sha256": "e429f7be040c39366fd0f858eba5fbfe3284b28f8d35a54684254eb92d4f9af4"
     },
     {
       "group": "marvel_super_heroes",

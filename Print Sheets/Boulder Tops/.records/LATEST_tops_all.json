@@ -1,8 +1,8 @@
 [
   {
-    "signature": "618f3fb784e355a8c5731f36e98183319e3e592bab96ca1e13d809ed9ec78cf9",
-    "pdf": "01_Boulder_Tops_Commander_2013_Commander_2016_Commander_2017_Commander_2018_1440dpi_618f3fb784.pdf",
-    "pdf_sha256": "d212355b8c231ce71a105d9bd64eb32a07e27c096b2f4643fc8e303bd001d156",
+    "signature": "d2e864996b52f3061ae7b2e8afc799855dfe21609525378a1cb1359966640d7f",
+    "pdf": "01_Boulder_Tops_Commander_2013_Commander_2016_Commander_2017_Commander_2018_1440dpi_d2e864996b.pdf",
+    "pdf_sha256": "a54d82163af6142c039ab33c17062d31d103f51618ff778422a9bbc3c9b1a23b",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -107,14 +107,14 @@
       },
       {
         "group": "commander_2018",
-        "source": "images/commander_2018/Tops/exquisite_invention_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_2018/Tops/exquisite_invention_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           53.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "48e6ebae4d190b0233b8d463838eca53564988417279e458b97fbf48473e56c0"
+        "rgb_sha256": "d737a0df0930f1a45bafaac61ca568a6d84e866167a9ee61e557cb47eae34a37"
       },
       {
         "group": "commander_2018",
@@ -143,7 +143,7 @@
   {
     "signature": "ddf430e3d51c227851af4c1df0bc4277a4e6b9afb8070ede47c7d747411dcf19",
     "pdf": "02_Boulder_Tops_Commander_2019_Eldraine_Brawl_Zendikar_Rising_Commander_Legends_1440dpi_ddf430e3d5.pdf",
-    "pdf_sha256": "f5a677ce10d41a3674c4bb913e57213e97cf06b286f305ff9c87cae847aef710",
+    "pdf_sha256": "5df4aef54bc3b079f6b321565a0ae2300e106068dc83fee8aba51ebb3a7eb4c0",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -284,7 +284,7 @@
   {
     "signature": "72987489fc46dce0b4bf85eb64a2910d10f7c0b404f02081554ddd6119e71535",
     "pdf": "03_Boulder_Tops_Commander_2020_Strixhaven_Kamigawa_Neon_Dynasty_1440dpi_72987489fc.pdf",
-    "pdf_sha256": "7c26230a32d3bae83bd9515cd11521fcf0d63d7fd64c7117c706c81524d56589",
+    "pdf_sha256": "6a8bcde4455caeacfa83ed9f42f4ca4539fc9fe227c1732a716bb5479ec39077",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -425,7 +425,7 @@
   {
     "signature": "1dfb208d4c8f937f01de1286d6e7bf8eb0aec5fd1ed92201b1e0737a7e36f624",
     "pdf": "04_Boulder_Tops_Forgotten_Realms_Warhammer_40000_Brothers_War_Phyrexia_All_Will_Be_One_1440dpi_1dfb208d4c.pdf",
-    "pdf_sha256": "6440207e40531ce725aaf7f8908f80c656e4db51fc695a300ca64e1d8e7b2b26",
+    "pdf_sha256": "3b88f2875ac55dc3adfa67d8cbcbd0e82f220edd524c5f96b0362f65e30ddbf6",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -566,7 +566,7 @@
   {
     "signature": "f279dea48e41e2084dc2014e0283acc44f4063668164c9c93d4b0c63d561eb5e",
     "pdf": "05_Boulder_Tops_March_of_the_Machine_Lord_of_the_Rings_Wilds_of_Eldraine_Turtle_Power_1440dpi_f279dea48e.pdf",
-    "pdf_sha256": "006a1e47cbc99bf240db6ff802ab8020eb7f1f59d9528acbe60d8fc5cbd2b790",
+    "pdf_sha256": "12b32904e021dfa181a957aaad2431e7b223bf0f2c967f04d476e26cd8a70881",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -707,7 +707,7 @@
   {
     "signature": "3f2cd4775da10d1b5b1776f6fc18583f56a0ffad5b83722751859be6eac020b0",
     "pdf": "06_Boulder_Tops_Commander_Masters_Doctor_Who_Lost_Caverns_of_Ixalan_1440dpi_3f2cd4775d.pdf",
-    "pdf_sha256": "b89c434af3e9589f43521d23f3e08c2376dd890b21f12ef2722bd207263889b9",
+    "pdf_sha256": "d1e906f36e6a01830a2a669932a826005311148b9227796b15904a73f83e81a0",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -846,9 +846,9 @@
     ]
   },
   {
-    "signature": "b00e4b65024c5594569b3faae8cb1a8d8e60136f37c731d125844f7d66bb23f7",
-    "pdf": "07_Boulder_Tops_Fallout_Modern_Horizons_3_Bloomburrow_1440dpi_b00e4b6502.pdf",
-    "pdf_sha256": "030e4b9e29796f4f7ba44763cd7f76664cea059075f9772fe9c8754f55d5a54c",
+    "signature": "411a7a7ee69bc021a02f6c11ba4b918759f75bf911eb3acccae0b2bc077dd670",
+    "pdf": "07_Boulder_Tops_Fallout_Modern_Horizons_3_Bloomburrow_1440dpi_411a7a7ee6.pdf",
+    "pdf_sha256": "e2d3e31b75de313a8b8004490f61422d014673986e5be4fd7c1b8629b8854905",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -887,14 +887,14 @@
       },
       {
         "group": "fallout",
-        "source": "images/fallout/Tops/mutant_menace_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/fallout/Tops/mutant_menace_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "e45196c65115b91af4aea683a24cf21d3655d3d975b236670a3874f64adde975"
+        "rgb_sha256": "ad07bbf46319b315d560fb9f46a7467c2084b67cedb7bc9f368b9095cec40233"
       },
       {
         "group": "modern_horizons_3",
@@ -942,14 +942,14 @@
       },
       {
         "group": "bloomburrow",
-        "source": "images/bloomburrow/Tops/animated_army_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/bloomburrow/Tops/animated_army_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           225.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "51f23539948bbcde7adc7d39e67e6133793a8775e6fc9931602fac8c9ee59239"
+        "rgb_sha256": "7b8b6f61e9b4afdbfd51e4f514ad71844a3d7f63c8d34fc42ed7f2e61e9f8136"
       },
       {
         "group": "bloomburrow",
@@ -987,9 +987,9 @@
     ]
   },
   {
-    "signature": "07897dd8b5c8ac9f951fbb125ada6e544a5842741351184b2f97df86d01df756",
-    "pdf": "08_Boulder_Tops_Final_Fantasy_Marvel_Super_Heroes_Commander_Anthology_I_1440dpi_07897dd8b5.pdf",
-    "pdf_sha256": "d18aabd7af1c7a03d103b89652285bf27b831d6bebde6a6ea2a823dfee9b9c27",
+    "signature": "aabb5326a31019c3df93ed9ca67e8c3196455841f3e9877d56f0f1ea309ff46f",
+    "pdf": "08_Boulder_Tops_Final_Fantasy_Marvel_Super_Heroes_Commander_Anthology_I_1440dpi_aabb5326a3.pdf",
+    "pdf_sha256": "7125ccefa4f05e3261769d0fa866f2bfe5a78bc030687f7943b24b7d9c252212",
     "kind": "tops",
     "count": 12,
     "labels": [
@@ -1050,14 +1050,14 @@
       },
       {
         "group": "marvel_super_heroes",
-        "source": "images/marvel_super_heroes/Tops/wakanda_forever_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/marvel_super_heroes/Tops/wakanda_forever_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           409.5,
           398.25,
           198.0,
           168.0
         ],
-        "rgb_sha256": "a5f2dd821c7e986cb004d81b3d3deaa6c23e82a67d5581a2f5a2b0e887271472"
+        "rgb_sha256": "e429f7be040c39366fd0f858eba5fbfe3284b28f8d35a54684254eb92d4f9af4"
       },
       {
         "group": "marvel_super_heroes",
@@ -1128,22 +1128,22 @@
     ]
   },
   {
-    "signature": "fce7bce466c24a6f1e8dc96ccc7ecbaaea59b2e009ed50c08e3d47a5df6c5208",
-    "pdf": "09_Boulder_Tops_Commander_Anthology_II_Aetherdrift_Edge_of_Eternities_Reality_Fracture_1440dpi_fce7bce466.pdf",
-    "pdf_sha256": "e264c253d9d8acfb31a9295874b42d319b066c79675017cea4624513b596a62e",
+    "signature": "af1a651ec8a173863c96f13be98d11fc9d9982a24229209efb0aa0af6236c0e0",
+    "pdf": "09_Boulder_Tops_Commander_Anthology_II_Aetherdrift_Edge_of_Eternities_Reality_Fracture_1440dpi_af1a651ec8.pdf",
+    "pdf_sha256": "b3899c5012e65553187bafb9e441c98283d17ab0e1b5506afeac9e576f32263c",
     "kind": "tops",
     "count": 9,
     "labels": [
       {
         "group": "commander_anthology_ii",
-        "source": "images/commander_anthology_i/Tops/devour_for_power_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+        "source": "images/commander_anthology_i/Tops/devour_for_power_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
         "box_points": [
           4.5,
           570.75,
           198.0,
           168.0
         ],
-        "rgb_sha256": "6f96ded983ce17d5b2a82315c4e51c4878b978c4f98065a5e65671fa8ebd0782"
+        "rgb_sha256": "4a219c4a420c3cf154acc04581835178381b73201a88c2d0d341c8d929e17dfc"
       },
       {
         "group": "commander_anthology_ii",
@@ -1238,7 +1238,7 @@
   {
     "signature": "cadb2827680545b9f0fe5964ada69a99fb0392785d41e69c6dce41daf1feb1af",
     "pdf": "10_Boulder_Tops_Starter_Commander_Star_Trek_Commander_1440dpi_cadb282768.pdf",
-    "pdf_sha256": "90f443cc4b543e68f2df862b8c91a0910121d29cc166c30c2bd3f635ad57b051",
+    "pdf_sha256": "fdf3b3ae6f8ac2f78104f6dc81099826b9a5f2ad8ce9825cdc19693ffc5c3cda",
     "kind": "tops",
     "count": 9,
     "labels": [

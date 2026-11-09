@@ -30,7 +30,8 @@
       ],
       "series": 2,
       "manaAlignment": "center",
-      "outputStem": "exquisite_invention_readability_v4"
+      "outputStem": "exquisite_invention_upper_third_v5",
+      "artTopCrop": 0.12
     },
     {
       "slug": "natures_vengeance",

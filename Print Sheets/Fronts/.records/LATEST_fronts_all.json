@@ -2,7 +2,7 @@
   {
     "signature": "0f883ad81e9f9a1743fadb1cbcf849b5e6e71111006d649ed5789304a6842a58",
     "pdf": "01_Commander_2013_Commander_2016_Commander_2017_Commander_2018_Commander_2019_Eldraine_Brawl_Commander_2020_Ikoria_1440dpi_0f883ad81e.pdf",
-    "pdf_sha256": "d728774b5c55e6a364ffdcd3b9d640a1434778c37a300faec1e3b11aa998dbaf",
+    "pdf_sha256": "99bcb6c74ecc00dbfb07ab1d76079a98d28c4d4fe02819df784a9044471786f3",
     "kind": "fronts",
     "count": 6,
     "labels": [
@@ -77,7 +77,7 @@
   {
     "signature": "3377d4f0ee74f57a61f1c455a4035cac9b5cba0874232f6e16e44517595da419",
     "pdf": "02_Zendikar_Rising_Commander_Legends_Strixhaven_Forgotten_Realms_Kamigawa_Neon_Dynasty_Brothers_War_Warhammer_40000_Phyrexia_All_Will_Be_One_Wilds_of_Eldraine_1440dpi_3377d4f0ee.pdf",
-    "pdf_sha256": "30dc87a3c669433c9a14dd75771128c871ce6433a956399241d6b6e940671a48",
+    "pdf_sha256": "85e9d71d27921e39cfb11c94310a4ddc4dcb7796c27d47519d505a5a1963a06b",
     "kind": "fronts",
     "count": 6,
     "labels": [
@@ -152,7 +152,7 @@
   {
     "signature": "e9d27114957f2490e96456ff4172b0c12a530c4de90a5acb9a77252993245723",
     "pdf": "03_March_of_the_Machine_Lord_of_the_Rings_Commander_Masters_Doctor_Who_Lost_Caverns_of_Ixalan_Fallout_1440dpi_e9d2711495.pdf",
-    "pdf_sha256": "880b7d910fda2be91e18115fc89edec8266fb40693cf9f85ce2b98f72681f3cf",
+    "pdf_sha256": "fc1d5e1f04f709ea78507d9d39241131338f044c9ab246093870491cd426b64f",
     "kind": "fronts",
     "count": 6,
     "labels": [
@@ -227,7 +227,7 @@
   {
     "signature": "fb982256d26efd64d185c2b5a51592f3cdc773f474ca47e4d7e858b09e49ac48",
     "pdf": "04_Modern_Horizons_3_Bloomburrow_Final_Fantasy_Marvel_Super_Heroes_Commander_Anthology_I_Commander_Anthology_II_1440dpi_fb982256d2.pdf",
-    "pdf_sha256": "d2c219818e3bab457789fff01200c2edd8c4eaaa4cb0025c1fa7bf18034b322a",
+    "pdf_sha256": "3ef680d1d3a1360d607e2a2114e444dec0466b22af4373391848c508459ea883",
     "kind": "fronts",
     "count": 6,
     "labels": [
@@ -302,7 +302,7 @@
   {
     "signature": "94a27459fcc126e0942fd79f7645ca785d95bf0ce439c53764996323fdb713f7",
     "pdf": "05_Heroes_vs_Monsters_Secret_Lair_Custom_Commander_Decks_Aetherdrift_Edge_of_Eternities_Starter_Commander_Turtle_Power_Reality_Fracture_1440dpi_94a27459fc.pdf",
-    "pdf_sha256": "01cbbdb2b94058e495e0dcc0f1102a5bd40170055020d5d1faaf13eed709381e",
+    "pdf_sha256": "dab0d944a8df8cf3eac677d994c8ed006dcd5a0767df4d12baa518f0c16a5bb9",
     "kind": "fronts",
     "count": 6,
     "labels": [
@@ -377,7 +377,7 @@
   {
     "signature": "bdd6bdf53fddeb7bd960dd0bc1b70a3ef5cad3fe096bbab95442909d44d1998b",
     "pdf": "06_6_Overflows_Optional_1440dpi_bdd6bdf53f.pdf",
-    "pdf_sha256": "cbc5a5c72e0b39f8cf17de3a6791f611c56c0884cdefe2e1333cb5cd1c81a402",
+    "pdf_sha256": "4f77b3def6cf27506c5c99d67dc610ec057506e13e840f0d6374734dad4161cb",
     "kind": "fronts",
     "count": 6,
     "labels": [
@@ -452,7 +452,7 @@
   {
     "signature": "d34d03e845d558aa60b3abe65e1b054875f6fb51667e22182c52b8f28a932a3f",
     "pdf": "07_Star_Trek_Commander_1440dpi_d34d03e845.pdf",
-    "pdf_sha256": "bd647222934c2e3a4eeaa24f86ba454b1aa5bc0e3f4e0a991cd04bee67d855f5",
+    "pdf_sha256": "cde90e8ce57d3c7649d186b3cdb5f50154a75c4207f00bb2f6b700458a101aa6",
     "kind": "fronts",
     "count": 1,
     "labels": [

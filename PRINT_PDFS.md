@@ -10,7 +10,9 @@ Star Trek tops now share **top sheet 10** with Starter Commander. The Star Trek 
 
 Each set lives in `images/<set>/`, with `Tops/` and `Fronts/` subdirectories. Sources and prompts are inside the relevant format. Shared paired fronts and Anthology tops use relative symlinks. `print_catalog.json` selects the current images; earlier PNG versions remain available.
 
-Inspect [all old/new top images](reviews/boulder_readability_2026_11_08/index.html) or use [the direct image-link table](reviews/boulder_readability_2026_11_08/IMAGE_LINKS.md).
+Inspect the latest [five approved upward framing corrections](reviews/boulder_upper_third_2026_11_08/index.html), with [direct old/new image links](reviews/boulder_upper_third_2026_11_08/IMAGE_LINKS.md). Exquisite Invention, Animated Army, Wakanda Forever, Mutant Menace and Devour for Power use retained artwork reframed upward; the other 109 top placements are unchanged. The upper-third guideline allows headwear, wings and large-scene exceptions.
+
+The earlier [whole-collection readability comparison](reviews/boulder_readability_2026_11_08/index.html) remains available as historical provenance.
 
 ## Physical sizes
 

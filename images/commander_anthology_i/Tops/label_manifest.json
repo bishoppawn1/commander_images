@@ -71,8 +71,9 @@
       "series": 2,
       "portraitTopInset": 0.17,
       "manaAlignment": "center",
-      "outputStem": "devour_for_power_readability_v4",
-      "backgroundExtensionPath": "images/commander_anthology_i/Tops/src/devour_for_power_background_extension_v3.png"
+      "outputStem": "devour_for_power_upper_third_v5",
+      "backgroundExtensionPath": "images/commander_anthology_i/Tops/src/devour_for_power_background_extension_v3.png",
+      "artTopCrop": 0.16
     },
     {
       "slug": "built_from_scratch",

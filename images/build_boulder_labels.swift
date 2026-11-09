@@ -38,6 +38,7 @@ struct DeckLabel: Codable {
     let outputStem: String?
     let sourceTopCrop: Double?
     let backgroundExtensionPath: String?
+    let artTopCrop: Double?
 }
 
 struct LabelManifest: Codable {
@@ -126,7 +127,7 @@ func drawAspectFill(_ image: CGImage, in bounds: CGRect, context: CGContext) {
 }
 
 // Portrait layout contract: keep the complete head below the centered mana row,
-// near the image center, with room for hair, ears, horns and headwear. Inspect
+// around the upper third, with room for hair, ears, horns and headwear. Inspect
 // before opting a label into reframing; already-correct labels keep their art.
 // Insets move the retained artwork as a unit; no subject is regenerated.
 func drawPortraitArt(_ image: CGImage, label: DeckLabel, in bounds: CGRect, context: CGContext) {
@@ -469,6 +470,15 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
     context.fill(bounds)
 
     let artOnly = ProcessInfo.processInfo.environment["BOULDER_ART_ONLY"] == "1"
+    // Reframe the complete art layer uniformly, including existing outpaint.
+    // Anchor its bottom edge so lifting the subject never exposes blank canvas.
+    // Typography, mana and borders retain their original position and size.
+    let topCrop = label.artTopCrop ?? 0
+    guard topCrop >= 0, topCrop <= 0.30 else { fail("Invalid artTopCrop for \(label.slug)") }
+    context.saveGState()
+    let artScale = 1 / (1 - topCrop)
+    context.translateBy(x: bounds.width * (1 - artScale) / 2, y: 0)
+    context.scaleBy(x: artScale, y: artScale)
     if let extensionPath = label.backgroundExtensionPath {
         let background = loadImage(repositoryRoot.appendingPathComponent(extensionPath))
         context.draw(background, in: bounds)
@@ -487,6 +497,7 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
         art = cropped
     }
     drawPortraitArt(art, label: label, in: bounds, context: context)
+    context.restoreGState()
 
     // Authoring reference only; this incomplete canvas is never a final label.
     if artOnly {

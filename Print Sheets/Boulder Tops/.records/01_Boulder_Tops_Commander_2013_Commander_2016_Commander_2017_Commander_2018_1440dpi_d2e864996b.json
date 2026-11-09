@@ -1,7 +1,7 @@
 {
-  "signature": "618f3fb784e355a8c5731f36e98183319e3e592bab96ca1e13d809ed9ec78cf9",
-  "pdf": "01_Boulder_Tops_Commander_2013_Commander_2016_Commander_2017_Commander_2018_1440dpi_618f3fb784.pdf",
-  "pdf_sha256": "d212355b8c231ce71a105d9bd64eb32a07e27c096b2f4643fc8e303bd001d156",
+  "signature": "d2e864996b52f3061ae7b2e8afc799855dfe21609525378a1cb1359966640d7f",
+  "pdf": "01_Boulder_Tops_Commander_2013_Commander_2016_Commander_2017_Commander_2018_1440dpi_d2e864996b.pdf",
+  "pdf_sha256": "a54d82163af6142c039ab33c17062d31d103f51618ff778422a9bbc3c9b1a23b",
   "kind": "tops",
   "count": 12,
   "labels": [
@@ -106,14 +106,14 @@
     },
     {
       "group": "commander_2018",
-      "source": "images/commander_2018/Tops/exquisite_invention_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "source": "images/commander_2018/Tops/exquisite_invention_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
         4.5,
         53.25,
         198.0,
         168.0
       ],
-      "rgb_sha256": "48e6ebae4d190b0233b8d463838eca53564988417279e458b97fbf48473e56c0"
+      "rgb_sha256": "d737a0df0930f1a45bafaac61ca568a6d84e866167a9ee61e557cb47eae34a37"
     },
     {
       "group": "commander_2018",

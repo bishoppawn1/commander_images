@@ -30,9 +30,10 @@
       "series": 2,
       "portraitTopInset": 0.17,
       "manaAlignment": "center",
-      "outputStem": "wakanda_forever_readability_v4",
+      "outputStem": "wakanda_forever_upper_third_v5",
       "backgroundExtensionPath": "images/marvel_super_heroes/Tops/src/wakanda_forever_background_extension_v3.png",
-      "sourceTopCrop": 0.03
+      "sourceTopCrop": 0.03,
+      "artTopCrop": 0.24
     },
     {
       "slug": "the_fantastic_four",

@@ -10,17 +10,22 @@
 - Keep set assets together as `images/<set>/Tops/` and `images/<set>/Fronts/`, each with its own sources/prompts. Store shared assets once and link from the other set with relative symlinks.
 - For this collection refresh, rebuild the entire PDF collection, removing superseded PDF editions and old page reservations. Repack whole sets at existing physical sizes. Current target: 114 top placements on 10 sheets; 37 front placements on 7 sheets including six optional overflow labels. Earlier sheet-number/addendum preservation directions below are historical and superseded.
 
+## Approved upper-third corrections — 2026-11-08
+
+- Shift only Exquisite Invention, Animated Army, Wakanda Forever, Mutant Menace (slightly) and Devour for Power. Current outputs use `_upper_third_v5`; earlier images remain available. See `images/boulder_upper_third_audit_2026_11_08.json` and `reviews/boulder_upper_third_2026_11_08/index.html`.
+- Preserve Evasive Maneuvers / Derevi (wings), Food and Fellowship (large scene), Grave Danger and Subjective Reality. Other reviewed subjective cases remain approved: Federation Fleet, Landing Party, We Are the Borg, Avengers Assemble, Counter Intelligence and Enhanced Evolution. Do not mechanically recenter these.
+
 ## Boulder-top portrait framing — 2026-11-08
 
 - Artwork must fill the top label from top to bottom inside its normal decorative/cut frame. If lowering or shrinking a portrait exposes a black band or an empty area, generate/outpaint the missing background above or around it. A reserved mana area means continuous scene artwork behind the symbols, not a solid black header. Preserve the approved character, head placement, title and mana layout; do not stretch or mirror background pixels as a substitute for generation.
 - Re-audit the final composite specifically for exposed canvas, seams and accidental dark bands. Preserve earlier versions and provide a before/after table identifying every affected label and its recreation.
-- Historical gap-audit records remain at `images/boulder_background_audit_2026_11_08.json` and `reviews/boulder_backgrounds_2026_11_08/index.html`. They describe the earlier v3 pass, including two unsuccessful generation attempts. The current v4 refresh resolves Fantastic Four with generated scenery and Avengers Assemble with retained-source framing. Current audit: `images/boulder_readability_audit_2026_11_08.json`; current old/new gallery: `reviews/boulder_readability_2026_11_08/index.html`. Use the current manifests and `scripts/build_boulder_collection.py` for rendering.
+- Historical gap-audit records remain at `images/boulder_background_audit_2026_11_08.json` and `reviews/boulder_backgrounds_2026_11_08/index.html`. They describe the earlier v3 pass, including two unsuccessful generation attempts. The readability v4 refresh resolves Fantastic Four with generated scenery and Avengers Assemble with retained-source framing. Readability audit: `images/boulder_readability_audit_2026_11_08.json`; readability old/new gallery: `reviews/boulder_readability_2026_11_08/index.html`. Use the current manifests and `scripts/build_boulder_collection.py` for rendering.
 
 - Visually audit existing tops before changing them. Preserve satisfactory images; do not regenerate the collection by default. Prefer moving/scaling retained artwork, and regenerate/outpaint only when the source itself lacks necessary content.
-- Keep complete heads (including hair, ears, horns, crowns and hats) clear of the cut border, mana symbols and titles. Focal faces gravitate toward the central artwork area, below the mana row and above the title, rather than against the upper edge.
+- Keep complete heads (including hair, ears, horns, crowns and hats) clear of the cut border, mana symbols and titles. Place the focal head center near the upper third (about 33% down / two-thirds up), following normal portrait composition rather than vertical centering. Tall headwear, crests, wings and large scenes can justify lower faces; preserve user-approved exceptions.
 - Mana symbols normally form a single TOP-CENTERED row. Fix high portrait placement instead of moving the symbols aside. The former Star Trek left-alignment exception is retired.
-- New art prompts must reserve the upper 18% for the centered mana row, place complete focal heads typically 22–52% down the canvas, and keep the lower title area clear. Verify the final composed label, not just its source image.
-- The shared builder supports per-label `portraitTopInset` and `portraitScale` for deterministic placement and `outputStem` for non-destructive versioned results. Leave these unset on satisfactory labels. See `images/BOULDER_TOP_COMPOSITION.md` for the production brief and verification rules.
+- New art prompts must reserve the upper 18% for the centered mana row, place focal head centers approximately 33% down the canvas, and keep the lower title area clear. Verify the final composed label, not just its source image.
+- The shared builder supports per-label `portraitTopInset`, `portraitScale` and `artTopCrop` for deterministic placement and `outputStem` for non-destructive versioned results. Leave these unset on satisfactory labels. See `images/BOULDER_TOP_COMPOSITION.md` for the production brief and verification rules.
 
 ## Star Trek label additions — 2026-11-08
 

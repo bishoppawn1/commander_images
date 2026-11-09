@@ -1,0 +1,67 @@
+[
+  {
+    "name": "EXQUISITE INVENTION",
+    "slug": "exquisite_invention",
+    "manifest": "images/commander_2018/Tops/label_manifest.json",
+    "before": "images/commander_2018/Tops/exquisite_invention_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "ea4c05a00ff0118c718af0c73e596ccee92ebf7b5a8e9ad3e8fe4cddfc31fabe",
+    "after": "images/commander_2018/Tops/exquisite_invention_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "artTopCrop": 0.12,
+    "sha256_after": "8d68f898e1d7768a6bc4ba63e6580c9ff021c10501728fda327cc716b1932db8",
+    "change": "Upward reframe with full-bleed retained artwork.",
+    "method": "Uniform art-only scale 1/(1-artTopCrop), bottom anchored; overlays unchanged.",
+    "qa": "Final composite inspected; full-size dimensions, DPI and opacity validated; previous file hash unchanged."
+  },
+  {
+    "name": "ANIMATED ARMY",
+    "slug": "animated_army",
+    "manifest": "images/bloomburrow/Tops/label_manifest.json",
+    "before": "images/bloomburrow/Tops/animated_army_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "62727822f01ff197f3f8d375dad16d9c80d3da4694724a825f6125662460d5ca",
+    "after": "images/bloomburrow/Tops/animated_army_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "artTopCrop": 0.18,
+    "sha256_after": "a6fe004cb7763832e7f08e2b0f09080f868aeb24ee4bab88f00150d02b8cc8e9",
+    "change": "Upward reframe with full-bleed retained artwork.",
+    "method": "Uniform art-only scale 1/(1-artTopCrop), bottom anchored; overlays unchanged.",
+    "qa": "Final composite inspected; full-size dimensions, DPI and opacity validated; previous file hash unchanged."
+  },
+  {
+    "name": "WAKANDA FOREVER",
+    "slug": "wakanda_forever",
+    "manifest": "images/marvel_super_heroes/Tops/label_manifest.json",
+    "before": "images/marvel_super_heroes/Tops/wakanda_forever_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "a8aef7aeb5718778a7970519a86ece510029b55b135cd7f656c9b6c039fcdaed",
+    "after": "images/marvel_super_heroes/Tops/wakanda_forever_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "artTopCrop": 0.24,
+    "sha256_after": "35d9fd57cf939301e7a68dd26b20dcc63f5b7dff6268294f3ed085dda6bac1db",
+    "change": "Upward reframe with full-bleed retained artwork.",
+    "method": "Uniform art-only scale 1/(1-artTopCrop), bottom anchored; overlays unchanged.",
+    "qa": "Final composite inspected; full-size dimensions, DPI and opacity validated; previous file hash unchanged."
+  },
+  {
+    "name": "MUTANT MENACE",
+    "slug": "mutant_menace",
+    "manifest": "images/fallout/Tops/label_manifest.json",
+    "before": "images/fallout/Tops/mutant_menace_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "00794726f30155751460b7ccac87ce379ae09395cb9012a4287e3e637dd43db3",
+    "after": "images/fallout/Tops/mutant_menace_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "artTopCrop": 0.07,
+    "sha256_after": "893fd3ba7e46b2ac9bfd75d6e56be72aec5d5b17d7006bea51af5c0078094dd2",
+    "change": "Slight upward reframe.",
+    "method": "Uniform art-only scale 1/(1-artTopCrop), bottom anchored; overlays unchanged.",
+    "qa": "Final composite inspected; full-size dimensions, DPI and opacity validated; previous file hash unchanged."
+  },
+  {
+    "name": "DEVOUR FOR POWER",
+    "slug": "devour_for_power",
+    "manifest": "images/commander_anthology_i/Tops/label_manifest.json",
+    "before": "images/commander_anthology_i/Tops/devour_for_power_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "b1a2429796cb5858fca1a59aef94bab154994bd95aacc62ad252a9368cb6424d",
+    "after": "images/commander_anthology_i/Tops/devour_for_power_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "artTopCrop": 0.16,
+    "sha256_after": "09784c02d3233b025798fbb5b82eed743db48aa890723e1003a2ccb2b7b13d91",
+    "change": "Upward reframe with full-bleed retained artwork.",
+    "method": "Uniform art-only scale 1/(1-artTopCrop), bottom anchored; overlays unchanged.",
+    "qa": "Final composite inspected; full-size dimensions, DPI and opacity validated; previous file hash unchanged."
+  }
+]

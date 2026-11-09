@@ -57,8 +57,9 @@
       "series": 2,
       "portraitTopInset": 0.12,
       "manaAlignment": "center",
-      "outputStem": "mutant_menace_readability_v4",
-      "backgroundExtensionPath": "images/fallout/Tops/src/mutant_menace_background_extension_v3.png"
+      "outputStem": "mutant_menace_upper_third_v5",
+      "backgroundExtensionPath": "images/fallout/Tops/src/mutant_menace_background_extension_v3.png",
+      "artTopCrop": 0.07
     }
   ]
 }

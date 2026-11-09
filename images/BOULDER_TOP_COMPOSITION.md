@@ -2,7 +2,7 @@
 
 Use this directive for every new top-label prompt and final composition. The art canvas is 33:28 landscape; the final top is 3960 x 3360 at 1440 DPI (2.75 x 2 1/3 inches).
 
-"Keep the focal face near the center of the artwork. Reserve the upper 18% for a horizontally centered mana-symbol row. Place the complete focal head typically 22–52% down the canvas, with comfortable space around hair, ears, horns, crowns and hats. Keep heads above the lower title area and fully inside the cut border. Leave atmospheric scenery behind the top symbols and lower typography. Art-only output has no text, logos or symbols. Preserve character identity and anatomy."
+"Position the focal head center near the upper third of the canvas (about one-third down or two-thirds up), following normal portrait composition rather than geometric centering. Reserve the upper 18% for a horizontally centered mana-symbol row. Place the focal head center approximately 33% down the canvas, with comfortable space around hair, ears, horns, crowns and hats. Keep heads above the lower title area and fully inside the cut border. Leave atmospheric scenery behind the top symbols and lower typography. Art-only output has no text, logos or symbols. Preserve character identity and anatomy."
 
 The mana row belongs at top center by default. Reframe a high portrait instead of shifting the mana row sideways to avoid it. The shared builder preserves approved artwork and allows explicit per-label placement/scale overrides. It does not attempt automatic face detection or change every label indiscriminately.
 
@@ -18,3 +18,7 @@ For corrections, inspect every selected final label and compare failed cases wit
 - Outpaint missing scenery when reframing leaves a gap; inspect the FINAL layered composite for duplicate heads, seams, missing edges and symbol/head overlap. A clean generated source alone does not prove the composite is correct. Keep old/new image links in the review.
 - Keep set assets together as `images/<set>/Tops/` and `images/<set>/Fronts/`, each with its own sources/prompts. Store shared assets once and link from the other set with relative symlinks.
 - For this collection refresh, rebuild the entire PDF collection, removing superseded PDF editions and old page reservations. Repack whole sets at existing physical sizes. Current target: 114 top placements on 10 sheets; 37 front placements on 7 sheets including six optional overflow labels. Earlier sheet-number/addendum preservation directions below are historical and superseded.
+
+Treat the upper-third position as a photographic guideline, not a mandatory coordinate. Tall headwear, crests, expansive wings and large group or environmental scenes may justify lower faces. Preserve explicit user-approved exceptions and inspect full head clearance under the mana row. Move or uniformly scale the retained artwork first; leave compliant labels unchanged.
+
+The native builder supports optional `artTopCrop` (0–0.30) to crop the top of the complete artwork layer, including retained background extensions, at uniform scale and anchored to the bottom. It raises subjects without exposing canvas. Mana, typography and borders remain fixed. Use only after visual inspection; the default zero preserves existing rendering.

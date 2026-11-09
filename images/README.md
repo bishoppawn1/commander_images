@@ -19,8 +19,9 @@ Paired fronts belong to the earlier set's `Fronts/<pair>/`, with a relative syml
 
 `../print_catalog.json` selects current printable assets. Older PNG versions remain available for comparison. Cross-set builders and audits stay at this level or in `../scripts/`; multi-set PDFs remain in `../Print Sheets/`.
 
-- [Current old/new gallery](../reviews/boulder_readability_2026_11_08/index.html)
-- [Old/new image links](../reviews/boulder_readability_2026_11_08/IMAGE_LINKS.md)
+- [Current five upward framing corrections](../reviews/boulder_upper_third_2026_11_08/index.html)
+- [Current old/new image links](../reviews/boulder_upper_third_2026_11_08/IMAGE_LINKS.md)
+- [Earlier whole-collection readability gallery](../reviews/boulder_readability_2026_11_08/index.html)
 - [Composition and lighting directions](BOULDER_TOP_COMPOSITION.md)
 - [Old-to-new directory mapping](asset_path_migration_2026_11_08.json)
 
