@@ -1,7 +1,7 @@
 {
-  "signature": "d7197bfbb2111bc129ced8feeefee22d9a57c0818420cb547d182b4f9aa10430",
-  "pdf": "09_Boulder_Tops_Commander_Anthology_II_Aetherdrift_Edge_of_Eternities_Reality_Fracture_1440dpi_d7197bfbb2.pdf",
-  "pdf_sha256": "a0d78634a890ab652028782ad29d9f696c378ee891112de9432d5ab95631283a",
+  "signature": "63d736ddd07651f4ca202d582713b250a3a67c250cd246ea5b8113661c7d5af4",
+  "pdf": "09_Boulder_Tops_Commander_Anthology_II_Aetherdrift_Edge_of_Eternities_Reality_Fracture_1440dpi_63d736ddd0.pdf",
+  "pdf_sha256": "ef62e0858d5c74ef14725763c231547d6edaac4282b8face6bff25196a5b47db",
   "kind": "tops",
   "count": 9,
   "labels": [
@@ -9,7 +9,7 @@
       "group": "commander_anthology_ii",
       "source": "images/commander_anthology_i/Tops/devour_for_power_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         570.75,
         198.0,
         168.0
@@ -31,7 +31,7 @@
       "group": "commander_anthology_ii",
       "source": "images/commander_anthology_i/Tops/wade_into_battle_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         570.75,
         198.0,
         168.0
@@ -42,7 +42,7 @@
       "group": "commander_anthology_ii",
       "source": "images/commander_anthology_i/Tops/breed_lethality_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         398.25,
         198.0,
         168.0
@@ -64,7 +64,7 @@
       "group": "aetherdrift",
       "source": "images/aetherdrift/Tops/eternal_might_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         398.25,
         198.0,
         168.0
@@ -75,7 +75,7 @@
       "group": "edge_of_eternities",
       "source": "images/edge_of_eternities/Tops/world_shaper_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         225.75,
         198.0,
         168.0
@@ -97,7 +97,7 @@
       "group": "reality_fracture",
       "source": "images/reality_fracture/Tops/multiverse_reforged_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         225.75,
         198.0,
         168.0

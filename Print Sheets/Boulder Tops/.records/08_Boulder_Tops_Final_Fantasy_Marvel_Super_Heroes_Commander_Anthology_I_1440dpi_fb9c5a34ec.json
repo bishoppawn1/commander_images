@@ -1,7 +1,7 @@
 {
-  "signature": "3cc11684bd0c2b302be3b0a5ec5b38d61024a3dc6190c4810376cca1886d00ef",
-  "pdf": "08_Boulder_Tops_Final_Fantasy_Marvel_Super_Heroes_Commander_Anthology_I_1440dpi_3cc11684bd.pdf",
-  "pdf_sha256": "474ea2dcb9fbb0eb41f51fdbfc58d6d62dd10970b313046efe1098f9c089ca3e",
+  "signature": "fb9c5a34ec3a8e85eddcf210438f5f05ad9d033ad3e7dd16b441f106fe6a1bf8",
+  "pdf": "08_Boulder_Tops_Final_Fantasy_Marvel_Super_Heroes_Commander_Anthology_I_1440dpi_fb9c5a34ec.pdf",
+  "pdf_sha256": "d78bb8c41091394a6602f32cab0459ba85e6fb269c5b0b1b89dfc6e2db504dbe",
   "kind": "tops",
   "count": 12,
   "labels": [
@@ -9,7 +9,7 @@
       "group": "final_fantasy",
       "source": "images/final_fantasy/Tops/revival_trance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         570.75,
         198.0,
         168.0
@@ -31,7 +31,7 @@
       "group": "final_fantasy",
       "source": "images/final_fantasy/Tops/counter_blitz_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         570.75,
         198.0,
         168.0
@@ -42,7 +42,7 @@
       "group": "final_fantasy",
       "source": "images/final_fantasy/Tops/scions_and_spellcraft_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         398.25,
         198.0,
         168.0
@@ -64,7 +64,7 @@
       "group": "marvel_super_heroes",
       "source": "images/marvel_super_heroes/Tops/wakanda_forever_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         398.25,
         198.0,
         168.0
@@ -75,7 +75,7 @@
       "group": "marvel_super_heroes",
       "source": "images/marvel_super_heroes/Tops/the_fantastic_four_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         225.75,
         198.0,
         168.0
@@ -97,7 +97,7 @@
       "group": "commander_anthology_i",
       "source": "images/commander_anthology_i/Tops/heavenly_inferno_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         225.75,
         198.0,
         168.0
@@ -108,7 +108,7 @@
       "group": "commander_anthology_i",
       "source": "images/commander_anthology_i/Tops/evasive_maneuvers_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         53.25,
         198.0,
         168.0
@@ -130,7 +130,7 @@
       "group": "commander_anthology_i",
       "source": "images/commander_anthology_i/Tops/plunder_the_graves_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         53.25,
         198.0,
         168.0

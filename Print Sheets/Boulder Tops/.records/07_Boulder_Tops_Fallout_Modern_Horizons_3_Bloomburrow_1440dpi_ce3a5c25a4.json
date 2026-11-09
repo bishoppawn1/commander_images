@@ -1,7 +1,7 @@
 {
-  "signature": "5d6bb9f555af474c07c097fa649c42caf13a6f2fc6b0b4958616c32749194848",
-  "pdf": "07_Boulder_Tops_Fallout_Modern_Horizons_3_Bloomburrow_1440dpi_5d6bb9f555.pdf",
-  "pdf_sha256": "ad4d900f25aaf37ed0fc3b3aba43ab4d7273eced6ac0b1b0780eb1ad9c1b7b7b",
+  "signature": "ce3a5c25a49805698397173435b7da7e4e2484422569151ba91fece6f28b2d43",
+  "pdf": "07_Boulder_Tops_Fallout_Modern_Horizons_3_Bloomburrow_1440dpi_ce3a5c25a4.pdf",
+  "pdf_sha256": "b0e29bf630de7e57d1beea0a428d06993314b98a463a603b009dd67abb01cde7",
   "kind": "tops",
   "count": 12,
   "labels": [
@@ -9,7 +9,7 @@
       "group": "fallout",
       "source": "images/fallout/Tops/scrappy_survivors_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         570.75,
         198.0,
         168.0
@@ -31,7 +31,7 @@
       "group": "fallout",
       "source": "images/fallout/Tops/science_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         570.75,
         198.0,
         168.0
@@ -42,7 +42,7 @@
       "group": "fallout",
       "source": "images/fallout/Tops/mutant_menace_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         398.25,
         198.0,
         168.0
@@ -64,7 +64,7 @@
       "group": "modern_horizons_3",
       "source": "images/modern_horizons_3/Tops/creative_energy_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         398.25,
         198.0,
         168.0
@@ -75,7 +75,7 @@
       "group": "modern_horizons_3",
       "source": "images/modern_horizons_3/Tops/tricky_terrain_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         225.75,
         198.0,
         168.0
@@ -97,7 +97,7 @@
       "group": "bloomburrow",
       "source": "images/bloomburrow/Tops/animated_army_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         225.75,
         198.0,
         168.0
@@ -108,7 +108,7 @@
       "group": "bloomburrow",
       "source": "images/bloomburrow/Tops/family_matters_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         53.25,
         198.0,
         168.0
@@ -130,7 +130,7 @@
       "group": "bloomburrow",
       "source": "images/bloomburrow/Tops/squirreled_away_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         53.25,
         198.0,
         168.0

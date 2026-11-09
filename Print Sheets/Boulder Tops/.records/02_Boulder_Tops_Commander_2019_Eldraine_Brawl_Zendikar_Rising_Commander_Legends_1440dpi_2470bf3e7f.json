@@ -1,7 +1,7 @@
 {
-  "signature": "3501a95d02b99ed43df42c9e1267b6a4e2574736819445bdee86f3b8a61eb393",
-  "pdf": "02_Boulder_Tops_Commander_2019_Eldraine_Brawl_Zendikar_Rising_Commander_Legends_1440dpi_3501a95d02.pdf",
-  "pdf_sha256": "8d9b615c120907a61ce1298651714e2b286e4209f26ae0e9153b3d6bbe661aef",
+  "signature": "2470bf3e7f1b360767d969f962a44e07fb0f39b77bac7f5e7e5507004aed01d9",
+  "pdf": "02_Boulder_Tops_Commander_2019_Eldraine_Brawl_Zendikar_Rising_Commander_Legends_1440dpi_2470bf3e7f.pdf",
+  "pdf_sha256": "0c8a9028dc1e06bf24846495cc850702de6df3f8d708bf482eba58a63e75a8c0",
   "kind": "tops",
   "count": 12,
   "labels": [
@@ -9,7 +9,7 @@
       "group": "commander_2019",
       "source": "images/commander_2019/Tops/merciless_rage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         570.75,
         198.0,
         168.0
@@ -31,7 +31,7 @@
       "group": "commander_2019",
       "source": "images/commander_2019/Tops/faceless_menace_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         570.75,
         198.0,
         168.0
@@ -42,7 +42,7 @@
       "group": "commander_2019",
       "source": "images/commander_2019/Tops/mystic_intellect_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         398.25,
         198.0,
         168.0
@@ -64,7 +64,7 @@
       "group": "throne_of_eldraine_brawl",
       "source": "images/throne_of_eldraine_brawl/Tops/faerie_schemes_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         398.25,
         198.0,
         168.0
@@ -75,7 +75,7 @@
       "group": "throne_of_eldraine_brawl",
       "source": "images/throne_of_eldraine_brawl/Tops/knights_charge_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         225.75,
         198.0,
         168.0
@@ -97,7 +97,7 @@
       "group": "zendikar_rising",
       "source": "images/zendikar_rising/Tops/sneak_attack_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         225.75,
         198.0,
         168.0
@@ -108,7 +108,7 @@
       "group": "zendikar_rising",
       "source": "images/zendikar_rising/Tops/lands_wrath_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         53.25,
         198.0,
         168.0
@@ -130,7 +130,7 @@
       "group": "commander_legends",
       "source": "images/commander_legends/Tops/reap_the_tides_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         53.25,
         198.0,
         168.0

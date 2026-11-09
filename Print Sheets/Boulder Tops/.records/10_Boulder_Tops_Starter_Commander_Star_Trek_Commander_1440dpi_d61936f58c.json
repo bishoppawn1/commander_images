@@ -1,7 +1,7 @@
 {
-  "signature": "dc9abc4855ab66df3081bf2919b6292fcd817213584453718b112da211685dad",
-  "pdf": "10_Boulder_Tops_Starter_Commander_Star_Trek_Commander_1440dpi_dc9abc4855.pdf",
-  "pdf_sha256": "61524d8d7c3b6a2935791d386b53bcdf073dc2fa2da0c4bafff124bd7c5d1be7",
+  "signature": "d61936f58cacbfeb4085a314a40e3fa3ebea58669e966e4c5df3a01c5a37f195",
+  "pdf": "10_Boulder_Tops_Starter_Commander_Star_Trek_Commander_1440dpi_d61936f58c.pdf",
+  "pdf_sha256": "6b2cdf96cbf7f6cd242f568ff5302eb6b8b62eff1ddefdb947235985e551f45b",
   "kind": "tops",
   "count": 9,
   "labels": [
@@ -9,7 +9,7 @@
       "group": "starter_commander",
       "source": "images/starter_commander/Tops/first_flight_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         570.75,
         198.0,
         168.0
@@ -31,7 +31,7 @@
       "group": "starter_commander",
       "source": "images/starter_commander/Tops/chaos_incarnate_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         570.75,
         198.0,
         168.0
@@ -42,7 +42,7 @@
       "group": "starter_commander",
       "source": "images/starter_commander/Tops/draconic_destruction_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         398.25,
         198.0,
         168.0
@@ -64,7 +64,7 @@
       "group": "star_trek",
       "source": "images/star_trek/Tops/federation_fleet_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         398.25,
         198.0,
         168.0
@@ -75,7 +75,7 @@
       "group": "star_trek",
       "source": "images/star_trek/Tops/landing_party_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         225.75,
         198.0,
         168.0
@@ -97,7 +97,7 @@
       "group": "star_trek",
       "source": "images/star_trek/Tops/we_are_the_borg_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         225.75,
         198.0,
         168.0

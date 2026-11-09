@@ -1,7 +1,7 @@
 {
-  "signature": "157f0f5d468a5581a72ad9528ad19ea501f312bd0f8c31b5e33562e8a300b61d",
-  "pdf": "05_Boulder_Tops_March_of_the_Machine_Lord_of_the_Rings_Wilds_of_Eldraine_Turtle_Power_1440dpi_157f0f5d46.pdf",
-  "pdf_sha256": "665e73c73c69984006dbee375b3b6ed0b21a4e1febe8514af19b010b5a519613",
+  "signature": "606921ae7b5f3e90282eca16760d5d40e8e55e63c61977644a2e3dc995ba5da4",
+  "pdf": "05_Boulder_Tops_March_of_the_Machine_Lord_of_the_Rings_Wilds_of_Eldraine_Turtle_Power_1440dpi_606921ae7b.pdf",
+  "pdf_sha256": "d8f9edb0ce331764141300deef16d658dcc41b4a9e69ded748afe13007207298",
   "kind": "tops",
   "count": 12,
   "labels": [
@@ -9,7 +9,7 @@
       "group": "march_of_the_machine",
       "source": "images/march_of_the_machine/Tops/call_for_backup_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         570.75,
         198.0,
         168.0
@@ -31,7 +31,7 @@
       "group": "march_of_the_machine",
       "source": "images/march_of_the_machine/Tops/divine_convocation_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         570.75,
         198.0,
         168.0
@@ -42,7 +42,7 @@
       "group": "march_of_the_machine",
       "source": "images/march_of_the_machine/Tops/growing_threat_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         398.25,
         198.0,
         168.0
@@ -64,7 +64,7 @@
       "group": "lord_of_the_rings",
       "source": "images/lord_of_the_rings/Tops/food_and_fellowship_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         398.25,
         198.0,
         168.0
@@ -75,7 +75,7 @@
       "group": "lord_of_the_rings",
       "source": "images/lord_of_the_rings/Tops/riders_of_rohan_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         225.75,
         198.0,
         168.0
@@ -97,7 +97,7 @@
       "group": "lord_of_the_rings",
       "source": "images/lord_of_the_rings/Tops/elven_council_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         225.75,
         198.0,
         168.0
@@ -108,7 +108,7 @@
       "group": "wilds_of_eldraine",
       "source": "images/wilds_of_eldraine/Tops/fae_dominion_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        8.75,
+        8.25,
         53.25,
         198.0,
         168.0
@@ -130,7 +130,7 @@
       "group": "teenage_mutant_ninja_turtles",
       "source": "images/teenage_mutant_ninja_turtles/Tops/turtle_power_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
       "box_points": [
-        405.25,
+        405.75,
         53.25,
         198.0,
         168.0

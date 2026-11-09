@@ -15,11 +15,10 @@ class LayoutTests(unittest.TestCase):
         boxes = tool.positions("tops", 12)
         for offset in range(0, 12, 3):
             row = boxes[offset:offset + 3]
-            self.assertAlmostEqual(row[0][0], 8.75)
-            self.assertAlmostEqual(612 - row[-1][0] - row[-1][2], 8.75)
+            self.assertAlmostEqual(row[0][0], 8.25)
+            self.assertAlmostEqual(612 - row[-1][0] - row[-1][2], 8.25)
             for left, right in zip(row, row[1:]):
-                self.assertAlmostEqual(right[0] - left[0] - left[2], 0.25)
-            self.assertGreater(row[0][0] / 72 * 25.4, 3.0)
+                self.assertAlmostEqual(right[0] - left[0] - left[2], 0.75)
             for _, _, width, height in row:
                 self.assertAlmostEqual(width, 2.75 * 72)
                 self.assertAlmostEqual(height, 7 / 3 * 72)

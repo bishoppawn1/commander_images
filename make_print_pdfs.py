@@ -24,8 +24,8 @@ VERSION = 1
 OUTPUT_SUBDIRS = {"tops": "Boulder Tops", "fronts": "Fronts"}
 LAYOUTS = {
     # Three full-size tops occupy 8.25 inches. Move the column gutters to the
-    # outside while retaining 0.25-point white cutting guides between columns.
-    "tops": dict(pixels=(3960, 3360), columns=3, rows=4, left=8.75, gap_x=0.25, gap_y=4.5),
+    # outside while retaining 0.75-point white cutting guides between columns.
+    "tops": dict(pixels=(3960, 3360), columns=3, rows=4, left=8.25, gap_x=0.75, gap_y=4.5),
     # Keep the complete black-margin source, but place the whole image smaller.
     "fronts": dict(pixels=(4138, 4858), print_pixels=(3946, 4620), columns=2, rows=3, left=54, gap_y=13.65),
 }
@@ -320,7 +320,7 @@ def main(argv=None):
                 shutil.copytree(destination / OUTPUT_SUBDIRS[kind], output, dirs_exist_ok=True)
         for kind, _ in jobs:
             print(f"DONE: {args.output / OUTPUT_SUBDIRS[kind]}")
-    print("Print at Actual Size / 100%. Tops have 3.09-mm side margins; disable borderless enlargement and measure a proof.")
+    print("Print at Actual Size / 100%. Tops have 2.91-mm side margins; disable borderless enlargement and measure a proof.")
 
 
 if __name__ == "__main__":

@@ -23,9 +23,9 @@ Print at **100% / Actual Size**. Do not fit to page.
 | Boulder tops | 3960 × 3360, 1440 DPI | 2.75 × 2.333333 inches | 3 columns × 4 rows |
 | Drawer fronts | 4138 × 4858, 1440 DPI | 2.740278 × 3.208333 inches | 2 columns × 3 rows |
 
-Top columns retain a **0.25-point white separator (0.09 mm)** for cutter alignment. Narrowing the former 4.5-point gutters increases the left/right page margins from 1/16 inch (1.59 mm) to **0.1215 inch (3.09 mm)** while keeping every label at its original physical size. Vertical row spacing is unchanged. Front-sheet spacing is unchanged. The side clearance exceeds the ET-8550's [specified 3 mm minimum](https://files.support.epson.com/docid/cpd5/cpd59879/source/specifications/references/et8500_8550_l8160_l8180/spex_printable_area_et8500_8550.html).
+Top columns retain a **0.75-point white separator (0.26 mm)** for cutter alignment. Narrowing the former 4.5-point gutters increases the left/right page margins from 1/16 inch (1.59 mm) to **0.1146 inch (2.91 mm)** while keeping every label at its original physical size. Vertical row spacing is unchanged. Front-sheet spacing is unchanged. The separator is three times wider than the preceding 0.25-point version, as requested because the earlier line was too thin to register.
 
-Use a Letter mode that prints within those 3.09-mm side margins; if using Borderless, disable automatic enlargement where available and measure a proof. Fronts fit ordinary Letter. The complete front image, including its existing black margin, is scaled as one unit. Artwork pixels are embedded losslessly with ICC color profiles.
+Use Letter Borderless with automatic enlargement disabled or minimized to preserve the outer borders at these 2.91-mm side margins. Print at Actual Size and measure a proof. Fronts fit ordinary Letter. The complete front image, including its existing black margin, is scaled as one unit. Artwork pixels are embedded losslessly with ICC color profiles.
 
 ## Rebuilding
 
