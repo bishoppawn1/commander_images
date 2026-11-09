@@ -12,7 +12,7 @@
         "GREEN"
       ],
       "series": 1,
-      "outputStem": "draconic_rage_readability_v4"
+      "outputStem": "draconic_rage_mana_border_v6"
     },
     {
       "slug": "dungeons_of_death",
@@ -26,7 +26,7 @@
         "BLACK"
       ],
       "series": 1,
-      "outputStem": "dungeons_of_death_readability_v4"
+      "outputStem": "dungeons_of_death_mana_border_v6"
     },
     {
       "slug": "aura_of_courage",
@@ -40,7 +40,7 @@
         "BLUE"
       ],
       "series": 1,
-      "outputStem": "aura_of_courage_readability_v4"
+      "outputStem": "aura_of_courage_mana_border_v6"
     },
     {
       "slug": "planar_portal",
@@ -53,7 +53,7 @@
         "RED"
       ],
       "series": 1,
-      "outputStem": "planar_portal_readability_v4"
+      "outputStem": "planar_portal_mana_border_v6"
     }
   ]
 }

@@ -14,7 +14,7 @@
       "series": 2,
       "portraitTopInset": 0.13,
       "manaAlignment": "center",
-      "outputStem": "fae_dominion_readability_v4",
+      "outputStem": "fae_dominion_mana_border_v6",
       "backgroundExtensionPath": "images/wilds_of_eldraine/Tops/src/fae_dominion_background_extension_v3.png"
     },
     {
@@ -28,7 +28,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "virtue_and_valor_readability_v4"
+      "outputStem": "virtue_and_valor_mana_border_v6"
     }
   ]
 }

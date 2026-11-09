@@ -15,7 +15,7 @@
       "series": 2,
       "manaAlignment": "center",
       "portraitTopInset": 0.2,
-      "outputStem": "federation_fleet_readability_v4",
+      "outputStem": "federation_fleet_mana_border_v6",
       "backgroundExtensionPath": "images/star_trek/Tops/src/federation_fleet_background_extension_v3.png"
     },
     {
@@ -32,7 +32,7 @@
       "series": 2,
       "manaAlignment": "center",
       "portraitTopInset": 0.2,
-      "outputStem": "landing_party_readability_v4",
+      "outputStem": "landing_party_mana_border_v6",
       "backgroundExtensionPath": "images/star_trek/Tops/src/landing_party_background_extension_v3.png"
     },
     {
@@ -49,7 +49,7 @@
       "series": 2,
       "manaAlignment": "center",
       "portraitTopInset": 0.13,
-      "outputStem": "klingon_fury_readability_v4",
+      "outputStem": "klingon_fury_mana_border_v6",
       "backgroundExtensionPath": "images/star_trek/Tops/src/klingon_fury_background_extension_v3.png"
     },
     {
@@ -66,7 +66,7 @@
       "series": 2,
       "manaAlignment": "center",
       "portraitTopInset": 0.2,
-      "outputStem": "we_are_the_borg_readability_v4",
+      "outputStem": "we_are_the_borg_mana_border_v6",
       "backgroundExtensionPath": "images/star_trek/Tops/src/we_are_the_borg_background_extension_v3.png"
     }
   ]

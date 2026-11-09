@@ -11,7 +11,7 @@
         "COLORLESS"
       ],
       "series": 2,
-      "outputStem": "eldrazi_unbound_readability_v4"
+      "outputStem": "eldrazi_unbound_mana_border_v6"
     },
     {
       "slug": "enduring_enchantments",
@@ -25,7 +25,7 @@
         "GREEN"
       ],
       "series": 2,
-      "outputStem": "enduring_enchantments_readability_v4"
+      "outputStem": "enduring_enchantments_mana_border_v6"
     },
     {
       "slug": "planeswalker_party",
@@ -39,7 +39,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "planeswalker_party_readability_v4"
+      "outputStem": "planeswalker_party_mana_border_v6"
     },
     {
       "slug": "sliver_swarm",
@@ -55,7 +55,7 @@
         "GREEN"
       ],
       "series": 2,
-      "outputStem": "sliver_swarm_readability_v4"
+      "outputStem": "sliver_swarm_mana_border_v6"
     }
   ]
 }

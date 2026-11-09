@@ -70,9 +70,45 @@ let nearBlack = CGColor(srgbRed: 0.015, green: 0.018, blue: 0.024, alpha: 1)
 let trueWhite = CGColor(srgbRed: 1, green: 1, blue: 1, alpha: 1)
 let shadow = CGColor(srgbRed: 0, green: 0, blue: 0, alpha: 0.88)
 let anthologyGold = CGColor(srgbRed: 0.83, green: 0.57, blue: 0.20, alpha: 1)
-let anthologyPaleGold = CGColor(srgbRed: 0.98, green: 0.82, blue: 0.43, alpha: 1)
 let anthologyGreen = CGColor(srgbRed: 0.17, green: 0.68, blue: 0.47, alpha: 1)
-let anthologySilver = CGColor(srgbRed: 0.70, green: 0.87, blue: 0.79, alpha: 1)
+
+// Printed mana-identity border: long, smooth transitions rather than bands.
+// Charcoal stays distinct from the black cut edge; white uses warm ivory.
+func borderRGB(_ mana: ManaColor) -> [CGFloat] {
+    switch mana {
+    case .white: return [0.95, 0.91, 0.73]
+    case .blue: return [0.20, 0.55, 0.85]
+    case .black: return [0.32, 0.29, 0.35]
+    case .red: return [0.86, 0.25, 0.18]
+    case .green: return [0.20, 0.61, 0.35]
+    case .colorless: return [0.62, 0.68, 0.74]
+    }
+}
+
+func drawManaBorder(_ colors: [ManaColor], bounds: CGRect, inset: CGFloat,
+                    width: CGFloat, highlight: Bool, context: CGContext) {
+    guard !colors.isEmpty else { fail("A mana border requires a color identity") }
+    var stops = colors.map { borderRGB($0) }
+    if stops.count == 1 {
+        let base = stops[0]
+        stops = [base.map { $0 * 0.78 }, base, base.map { $0 + (1 - $0) * 0.22 }]
+    }
+    let palette = stops.map { rgb -> CGColor in
+        let tone = highlight ? rgb.map { $0 + (1 - $0) * 0.30 } : rgb
+        return CGColor(srgbRed: tone[0], green: tone[1], blue: tone[2], alpha: highlight ? 0.82 : 1)
+    }
+    let locations = palette.indices.map { CGFloat($0) / CGFloat(palette.count - 1) }
+    guard let gradient = CGGradient(colorsSpace: colorSpace, colors: palette as CFArray,
+                                    locations: locations) else { fail("Cannot create mana border") }
+    context.saveGState()
+    context.setLineWidth(width)
+    context.addRect(bounds.insetBy(dx: inset, dy: inset))
+    context.replacePathWithStrokedPath()
+    context.clip()
+    context.drawLinearGradient(gradient, start: CGPoint(x: bounds.minX, y: bounds.maxY),
+                               end: CGPoint(x: bounds.maxX, y: bounds.minY), options: [])
+    context.restoreGState()
+}
 
 func loadImage(_ url: URL) -> CGImage {
     guard let source = CGImageSourceCreateWithURL(url as CFURL, nil),
@@ -534,16 +570,13 @@ func renderLabel(_ label: DeckLabel) -> CGImage {
     )
 
     let accent = label.series == 1 ? anthologyGold : anthologyGreen
-    let accentHighlight = label.series == 1 ? anthologyPaleGold : anthologySilver
     context.setStrokeColor(nearBlack)
     context.setLineWidth(72)
     context.stroke(bounds.insetBy(dx: 36, dy: 36))
-    context.setStrokeColor(accent)
-    context.setLineWidth(28)
-    context.stroke(bounds.insetBy(dx: 68, dy: 68))
-    context.setStrokeColor(accentHighlight.copy(alpha: 0.82)!)
-    context.setLineWidth(8)
-    context.stroke(bounds.insetBy(dx: 94, dy: 94))
+    drawManaBorder(label.colors, bounds: bounds, inset: 68, width: 28,
+                   highlight: false, context: context)
+    drawManaBorder(label.colors, bounds: bounds, inset: 94, width: 8,
+                   highlight: true, context: context)
 
     // Keep every mana symbol fully inside the inner artwork frame. The prior
     // 360 px row centered at y=2580 crossed the top frame line.

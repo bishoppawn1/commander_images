@@ -13,7 +13,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "call_for_backup_readability_v4"
+      "outputStem": "call_for_backup_mana_border_v6"
     },
     {
       "slug": "cavalry_charge",
@@ -27,7 +27,7 @@
         "BLACK"
       ],
       "series": 2,
-      "outputStem": "cavalry_charge_readability_v4"
+      "outputStem": "cavalry_charge_mana_border_v6"
     },
     {
       "slug": "divine_convocation",
@@ -41,7 +41,7 @@
         "RED"
       ],
       "series": 2,
-      "outputStem": "divine_convocation_readability_v4"
+      "outputStem": "divine_convocation_mana_border_v6"
     },
     {
       "slug": "growing_threat",
@@ -54,7 +54,7 @@
         "BLACK"
       ],
       "series": 2,
-      "outputStem": "growing_threat_readability_v4"
+      "outputStem": "growing_threat_mana_border_v6"
     },
     {
       "slug": "tinker_time",
@@ -68,7 +68,7 @@
         "RED"
       ],
       "series": 2,
-      "outputStem": "tinker_time_readability_v4"
+      "outputStem": "tinker_time_mana_border_v6"
     }
   ]
 }

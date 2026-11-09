@@ -14,7 +14,7 @@
       ],
       "series": 2,
       "manaAlignment": "center",
-      "outputStem": "avengers_assemble_readability_v4",
+      "outputStem": "avengers_assemble_mana_border_v6",
       "sourceTopCrop": 0.02
     },
     {
@@ -30,7 +30,7 @@
       "series": 2,
       "portraitTopInset": 0.17,
       "manaAlignment": "center",
-      "outputStem": "wakanda_forever_upper_third_v5",
+      "outputStem": "wakanda_forever_mana_border_v6",
       "backgroundExtensionPath": "images/marvel_super_heroes/Tops/src/wakanda_forever_background_extension_v3.png",
       "sourceTopCrop": 0.03,
       "artTopCrop": 0.24
@@ -49,7 +49,7 @@
       ],
       "series": 2,
       "manaAlignment": "center",
-      "outputStem": "the_fantastic_four_readability_v4"
+      "outputStem": "the_fantastic_four_mana_border_v6"
     },
     {
       "slug": "doom_prevails",
@@ -65,7 +65,7 @@
       "series": 2,
       "portraitTopInset": 0.16,
       "manaAlignment": "center",
-      "outputStem": "doom_prevails_readability_v4",
+      "outputStem": "doom_prevails_mana_border_v6",
       "backgroundExtensionPath": "images/marvel_super_heroes/Tops/src/doom_prevails_background_extension_v3.png",
       "sourceTopCrop": 0.025
     }

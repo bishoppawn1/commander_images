@@ -13,7 +13,7 @@
         "RED"
       ],
       "series": 1,
-      "outputStem": "tyranid_swarm_readability_v4"
+      "outputStem": "tyranid_swarm_mana_border_v6"
     },
     {
       "slug": "forces_of_the_imperium",
@@ -27,7 +27,7 @@
         "BLACK"
       ],
       "series": 1,
-      "outputStem": "forces_of_the_imperium_readability_v4"
+      "outputStem": "forces_of_the_imperium_mana_border_v6"
     },
     {
       "slug": "necron_dynasties",
@@ -39,7 +39,7 @@
         "BLACK"
       ],
       "series": 1,
-      "outputStem": "necron_dynasties_readability_v4"
+      "outputStem": "necron_dynasties_mana_border_v6"
     },
     {
       "slug": "the_ruinous_powers",
@@ -53,7 +53,7 @@
         "RED"
       ],
       "series": 1,
-      "outputStem": "the_ruinous_powers_readability_v4"
+      "outputStem": "the_ruinous_powers_mana_border_v6"
     }
   ]
 }

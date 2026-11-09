@@ -1,0 +1,141 @@
+{
+  "signature": "7134f26f9e33e4c6bda5b02b9685d574c1a0b8ceb472b420a23b987070c52a44",
+  "pdf": "03_Boulder_Tops_Commander_2020_Strixhaven_Kamigawa_Neon_Dynasty_1440dpi_7134f26f9e.pdf",
+  "pdf_sha256": "3076be11168484f7c3451e382236dea7914807e9a769277ec68f753281336cbe",
+  "kind": "tops",
+  "count": 12,
+  "labels": [
+    {
+      "group": "commander_2020",
+      "source": "images/commander_2020/Tops/enhanced_evolution_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "c76f80bd10c3bf975bfa9819bb2406ab53d82bde92b2c57fe2c40ac1bd663324"
+    },
+    {
+      "group": "commander_2020",
+      "source": "images/commander_2020/Tops/timeless_wisdom_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "2f02d13d49e57e9b695a09f8b6bec8140dde5236ef61efa20c57522f1a14356d"
+    },
+    {
+      "group": "commander_2020",
+      "source": "images/commander_2020/Tops/ruthless_regiment_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "aa9f04f6f2c037837af55579b1194f5c1a1547a51059ae21a63cf213b242e497"
+    },
+    {
+      "group": "commander_2020",
+      "source": "images/commander_2020/Tops/arcane_maelstrom_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "aecb9bfd28ddb0db448efb8361adb773e37c4ad60cd7408f758e15652d2e1489"
+    },
+    {
+      "group": "commander_2020",
+      "source": "images/commander_2020/Tops/symbiotic_swarm_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "7acb8253b059f6f8fd6fec2da217a57f9472db67509366de94c6c7b53036ba45"
+    },
+    {
+      "group": "strixhaven",
+      "source": "images/strixhaven/Tops/prismari_performance_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "f77842bf4ad1db383520c06a28d8fa9358685c7b226abb87c70176615dc6f904"
+    },
+    {
+      "group": "strixhaven",
+      "source": "images/strixhaven/Tops/silverquill_statement_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "4f91f3448eaa5948504ddf47f7085d4e176a5521cdffc06b6a42c8db0473e021"
+    },
+    {
+      "group": "strixhaven",
+      "source": "images/strixhaven/Tops/quantum_quandrix_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "baff6ab9a1e32fa98a237075a352786a71993f021a08016f22245f78751f2748"
+    },
+    {
+      "group": "strixhaven",
+      "source": "images/strixhaven/Tops/lorehold_legacies_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "633c2297ecaebd1f02212bea0d80ff48532f77a437739dd78af54f32247a5297"
+    },
+    {
+      "group": "strixhaven",
+      "source": "images/strixhaven/Tops/witherbloom_witchcraft_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "6511bd1aa23969c1184687eb7e1055d7023ffdbeb05835a4501e4c0d1cfb8f89"
+    },
+    {
+      "group": "kamigawa_neon_dynasty",
+      "source": "images/kamigawa_neon_dynasty/Tops/upgrades_unleashed_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "c2d03a21d76673c618aeeb3ac451ae7f73d52a9b47ce4faf759f1ebbcc4aeb9a"
+    },
+    {
+      "group": "kamigawa_neon_dynasty",
+      "source": "images/kamigawa_neon_dynasty/Tops/buckle_up_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "68e4f401792f8246b6910205f572e1db32a288b969d986bbe0c1c487726e5617"
+    }
+  ]
+}

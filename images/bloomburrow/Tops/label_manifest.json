@@ -12,7 +12,7 @@
         "GREEN"
       ],
       "series": 2,
-      "outputStem": "animated_army_upper_third_v5",
+      "outputStem": "animated_army_mana_border_v6",
       "artTopCrop": 0.18
     },
     {
@@ -27,7 +27,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "family_matters_readability_v4"
+      "outputStem": "family_matters_mana_border_v6"
     },
     {
       "slug": "peace_offering",
@@ -41,7 +41,7 @@
         "BLUE"
       ],
       "series": 2,
-      "outputStem": "peace_offering_readability_v4"
+      "outputStem": "peace_offering_mana_border_v6"
     },
     {
       "slug": "squirreled_away",
@@ -54,7 +54,7 @@
         "GREEN"
       ],
       "series": 2,
-      "outputStem": "squirreled_away_readability_v4"
+      "outputStem": "squirreled_away_mana_border_v6"
     }
   ]
 }

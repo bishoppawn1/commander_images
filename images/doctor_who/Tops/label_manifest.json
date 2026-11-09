@@ -13,7 +13,7 @@
         "BLUE"
       ],
       "series": 2,
-      "outputStem": "blast_from_the_past_readability_v4"
+      "outputStem": "blast_from_the_past_mana_border_v6"
     },
     {
       "slug": "timey_wimey",
@@ -27,7 +27,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "timey_wimey_readability_v4"
+      "outputStem": "timey_wimey_mana_border_v6"
     },
     {
       "slug": "paradox_power",
@@ -41,7 +41,7 @@
         "RED"
       ],
       "series": 2,
-      "outputStem": "paradox_power_readability_v4"
+      "outputStem": "paradox_power_mana_border_v6"
     },
     {
       "slug": "masters_of_evil",
@@ -55,7 +55,7 @@
         "RED"
       ],
       "series": 2,
-      "outputStem": "masters_of_evil_readability_v4"
+      "outputStem": "masters_of_evil_mana_border_v6"
     }
   ]
 }

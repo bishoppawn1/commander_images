@@ -14,7 +14,7 @@
       "series": 2,
       "portraitTopInset": 0.16,
       "manaAlignment": "center",
-      "outputStem": "first_flight_readability_v4",
+      "outputStem": "first_flight_mana_border_v6",
       "backgroundExtensionPath": "images/starter_commander/Tops/src/first_flight_background_extension_v3.png"
     },
     {
@@ -30,7 +30,7 @@
       "series": 2,
       "portraitTopInset": 0.11,
       "manaAlignment": "center",
-      "outputStem": "grave_danger_readability_v4",
+      "outputStem": "grave_danger_mana_border_v6",
       "backgroundExtensionPath": "images/starter_commander/Tops/src/grave_danger_background_extension_v3.png"
     },
     {
@@ -44,7 +44,7 @@
         "RED"
       ],
       "series": 2,
-      "outputStem": "chaos_incarnate_readability_v4"
+      "outputStem": "chaos_incarnate_mana_border_v6"
     },
     {
       "slug": "draconic_destruction",
@@ -59,7 +59,7 @@
       "series": 2,
       "portraitTopInset": 0.17,
       "manaAlignment": "center",
-      "outputStem": "draconic_destruction_readability_v4",
+      "outputStem": "draconic_destruction_mana_border_v6",
       "backgroundExtensionPath": "images/starter_commander/Tops/src/draconic_destruction_background_extension_v3.png"
     },
     {
@@ -73,7 +73,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "token_triumph_readability_v4"
+      "outputStem": "token_triumph_mana_border_v6"
     }
   ]
 }

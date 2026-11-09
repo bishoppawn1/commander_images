@@ -13,7 +13,7 @@
         "BLACK"
       ],
       "series": 1,
-      "outputStem": "heavenly_inferno_readability_v4"
+      "outputStem": "heavenly_inferno_mana_border_v6"
     },
     {
       "slug": "evasive_maneuvers",
@@ -27,7 +27,7 @@
         "BLUE"
       ],
       "series": 1,
-      "outputStem": "evasive_maneuvers_readability_v4"
+      "outputStem": "evasive_maneuvers_mana_border_v6"
     },
     {
       "slug": "guided_by_nature",
@@ -39,7 +39,7 @@
         "GREEN"
       ],
       "series": 1,
-      "outputStem": "guided_by_nature_readability_v4"
+      "outputStem": "guided_by_nature_mana_border_v6"
     },
     {
       "slug": "plunder_the_graves",
@@ -54,7 +54,7 @@
       "series": 1,
       "portraitTopInset": 0.11,
       "manaAlignment": "center",
-      "outputStem": "plunder_the_graves_readability_v4",
+      "outputStem": "plunder_the_graves_mana_border_v6",
       "backgroundExtensionPath": "images/commander_anthology_i/Tops/src/plunder_the_graves_background_extension_v3.png"
     },
     {
@@ -71,7 +71,7 @@
       "series": 2,
       "portraitTopInset": 0.17,
       "manaAlignment": "center",
-      "outputStem": "devour_for_power_upper_third_v5",
+      "outputStem": "devour_for_power_mana_border_v6",
       "backgroundExtensionPath": "images/commander_anthology_i/Tops/src/devour_for_power_background_extension_v3.png",
       "artTopCrop": 0.16
     },
@@ -87,7 +87,7 @@
       "series": 2,
       "portraitTopInset": 0.2,
       "manaAlignment": "center",
-      "outputStem": "built_from_scratch_readability_v4",
+      "outputStem": "built_from_scratch_mana_border_v6",
       "backgroundExtensionPath": "images/commander_anthology_i/Tops/src/built_from_scratch_background_extension_v3.png"
     },
     {
@@ -103,7 +103,7 @@
       "series": 2,
       "portraitTopInset": 0.12,
       "manaAlignment": "center",
-      "outputStem": "wade_into_battle_readability_v4",
+      "outputStem": "wade_into_battle_mana_border_v6",
       "backgroundExtensionPath": "images/commander_anthology_i/Tops/src/wade_into_battle_background_extension_v3.png"
     },
     {
@@ -119,7 +119,7 @@
         "BLACK"
       ],
       "series": 2,
-      "outputStem": "breed_lethality_readability_v4"
+      "outputStem": "breed_lethality_mana_border_v6"
     }
   ]
 }

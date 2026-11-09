@@ -12,7 +12,7 @@
         "WHITE"
       ],
       "series": 1,
-      "outputStem": "arm_for_battle_readability_v4"
+      "outputStem": "arm_for_battle_mana_border_v6"
     },
     {
       "slug": "reap_the_tides",
@@ -25,7 +25,7 @@
         "BLUE"
       ],
       "series": 1,
-      "outputStem": "reap_the_tides_readability_v4"
+      "outputStem": "reap_the_tides_mana_border_v6"
     }
   ]
 }

@@ -13,7 +13,7 @@
         "RED"
       ],
       "series": 2,
-      "outputStem": "revival_trance_readability_v4"
+      "outputStem": "revival_trance_mana_border_v6"
     },
     {
       "slug": "limit_break",
@@ -27,7 +27,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "limit_break_readability_v4"
+      "outputStem": "limit_break_mana_border_v6"
     },
     {
       "slug": "counter_blitz",
@@ -41,7 +41,7 @@
         "BLUE"
       ],
       "series": 2,
-      "outputStem": "counter_blitz_readability_v4"
+      "outputStem": "counter_blitz_mana_border_v6"
     },
     {
       "slug": "scions_and_spellcraft",
@@ -55,7 +55,7 @@
         "BLACK"
       ],
       "series": 2,
-      "outputStem": "scions_and_spellcraft_readability_v4"
+      "outputStem": "scions_and_spellcraft_mana_border_v6"
     }
   ]
 }

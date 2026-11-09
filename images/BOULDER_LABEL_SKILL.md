@@ -38,3 +38,7 @@ Preserve the source art’s exposure, palette and medium. Default to restrained 
 For this repository, use `images/<set>/Tops/` and `images/<set>/Fronts/`, with `src/` and `prompts/` inside each format. Shared assets live once, with relative symlinks from other sets. When the user requests a full refresh, rebuild/repack the whole PDF collection at existing physical sizes instead of accumulating addenda.
 
 Treat the upper-third position as a photographic guideline, not a mandatory coordinate. Tall headwear, crests, expansive wings and large group or environmental scenes may justify lower faces. Preserve explicit user-approved exceptions and inspect full head clearance under the mana row. Move or uniformly scale the retained artwork first; leave compliant labels unchanged.
+
+## Mana-identity borders
+
+Use slow, continuous gradients through the deck’s mana identity for both colored border lines instead of fixed green or gold. Use only the colors represented by its mana row: warm ivory, blue, visible charcoal, red and green. Single-color decks use tonal shades of that color; colorless decks use silver-gray. Preserve the black outer cut edge, border widths, typography and artwork. This is a native compositor change, not a request to regenerate the art.

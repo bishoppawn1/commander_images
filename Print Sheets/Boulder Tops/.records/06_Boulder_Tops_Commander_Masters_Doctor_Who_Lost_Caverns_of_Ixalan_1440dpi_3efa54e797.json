@@ -1,0 +1,141 @@
+{
+  "signature": "3efa54e79740a5a1cf554280464b4948293deed202acbcc25b94bfd4229868c6",
+  "pdf": "06_Boulder_Tops_Commander_Masters_Doctor_Who_Lost_Caverns_of_Ixalan_1440dpi_3efa54e797.pdf",
+  "pdf_sha256": "8c8f88fbe1716df1605a3c4440ec17548dd56900c445c8489ad2f0ed46133e10",
+  "kind": "tops",
+  "count": 12,
+  "labels": [
+    {
+      "group": "commander_masters",
+      "source": "images/commander_masters/Tops/eldrazi_unbound_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "60a48735d0bb5a10d05564a0889123756900198913653318424bfbe6da43d3d7"
+    },
+    {
+      "group": "commander_masters",
+      "source": "images/commander_masters/Tops/enduring_enchantments_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "0074429336621662383f58239c1aeda7c5447044009fc9869b79ed2a02bc786c"
+    },
+    {
+      "group": "commander_masters",
+      "source": "images/commander_masters/Tops/planeswalker_party_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "8144d9bbfe530122e307bd9058cd4d356d9601a2df5cb8ae6086648b124fd818"
+    },
+    {
+      "group": "commander_masters",
+      "source": "images/commander_masters/Tops/sliver_swarm_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "3792440bfb09d93757130b7caa474530ba521770a0733bf34bebffce4d714705"
+    },
+    {
+      "group": "doctor_who",
+      "source": "images/doctor_who/Tops/blast_from_the_past_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "538aaa583661928978075fa8e805f3166a2ca6d4e1101a7771dcee71e802755a"
+    },
+    {
+      "group": "doctor_who",
+      "source": "images/doctor_who/Tops/timey_wimey_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "46ca0d1fb4d3d4dd9a91883b5ad68520a1f690cced546643fb2b52be11c3f01e"
+    },
+    {
+      "group": "doctor_who",
+      "source": "images/doctor_who/Tops/paradox_power_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "97d5b5e1afd73b6bcf22eb08e210f392fd9a5cd09e6919d9db96fb95366955e8"
+    },
+    {
+      "group": "doctor_who",
+      "source": "images/doctor_who/Tops/masters_of_evil_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "68d2aa4f94fab52628853d4a500f445bde998882767657c346a6c9474a74cb29"
+    },
+    {
+      "group": "lost_caverns_of_ixalan",
+      "source": "images/lost_caverns_of_ixalan/Tops/ahoy_mateys_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "27c97cffe8c43059c49389a9097649f3136ef5b6c39db1f1ef1b3b85ff37474c"
+    },
+    {
+      "group": "lost_caverns_of_ixalan",
+      "source": "images/lost_caverns_of_ixalan/Tops/blood_rites_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "ccea0818c79aa78c8cb7cadfbd879c182cfbb62f97fa3b6eaa608a050d024732"
+    },
+    {
+      "group": "lost_caverns_of_ixalan",
+      "source": "images/lost_caverns_of_ixalan/Tops/explorers_of_the_deep_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "0fbff0ace4b021879b7f0b7072eaae2807c2e8238e1656c42b92bff0b8252ffb"
+    },
+    {
+      "group": "lost_caverns_of_ixalan",
+      "source": "images/lost_caverns_of_ixalan/Tops/veloci_ramp_tor_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "70bca5092af9438f64b5467851c350fba95d1d1e99d8ac5ace9516466ff6c52c"
+    }
+  ]
+}

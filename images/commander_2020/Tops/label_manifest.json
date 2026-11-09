@@ -13,7 +13,7 @@
         "BLUE"
       ],
       "series": 1,
-      "outputStem": "enhanced_evolution_readability_v4"
+      "outputStem": "enhanced_evolution_mana_border_v6"
     },
     {
       "slug": "timeless_wisdom",
@@ -27,7 +27,7 @@
         "WHITE"
       ],
       "series": 1,
-      "outputStem": "timeless_wisdom_readability_v4"
+      "outputStem": "timeless_wisdom_mana_border_v6"
     },
     {
       "slug": "ruthless_regiment",
@@ -41,7 +41,7 @@
         "BLACK"
       ],
       "series": 1,
-      "outputStem": "ruthless_regiment_readability_v4"
+      "outputStem": "ruthless_regiment_mana_border_v6"
     },
     {
       "slug": "arcane_maelstrom",
@@ -55,7 +55,7 @@
         "RED"
       ],
       "series": 1,
-      "outputStem": "arcane_maelstrom_readability_v4"
+      "outputStem": "arcane_maelstrom_mana_border_v6"
     },
     {
       "slug": "symbiotic_swarm",
@@ -69,7 +69,7 @@
         "GREEN"
       ],
       "series": 1,
-      "outputStem": "symbiotic_swarm_readability_v4"
+      "outputStem": "symbiotic_swarm_mana_border_v6"
     }
   ]
 }

@@ -1,0 +1,141 @@
+{
+  "signature": "6ee5206b2d4ce3807f9bbe64fd0a29428a3d93f9c91cef756e46ecadb4a4084a",
+  "pdf": "02_Boulder_Tops_Commander_2019_Eldraine_Brawl_Zendikar_Rising_Commander_Legends_1440dpi_6ee5206b2d.pdf",
+  "pdf_sha256": "61b54618eb35b42802d6b24ad4746bae36dcec93fadff8dd72552bb448bc1ae0",
+  "kind": "tops",
+  "count": 12,
+  "labels": [
+    {
+      "group": "commander_2019",
+      "source": "images/commander_2019/Tops/merciless_rage_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "8d71882f14b5036bf0453c158a1064f7928aff35a881d02e4df5f76ed2445498"
+    },
+    {
+      "group": "commander_2019",
+      "source": "images/commander_2019/Tops/primal_genesis_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "36f694ea4fe1daf772b3282878c1b6c82bb8f823f0bba8c1cd09cafa5426701f"
+    },
+    {
+      "group": "commander_2019",
+      "source": "images/commander_2019/Tops/faceless_menace_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "3bdf81056132f8b852d3e3e285660d366bb172d6388b5bb9fcc145dd3d449677"
+    },
+    {
+      "group": "commander_2019",
+      "source": "images/commander_2019/Tops/mystic_intellect_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "402a24d6c371f18f05b1bf52e9b6d5816122750704052ad61f7fd5d103348161"
+    },
+    {
+      "group": "throne_of_eldraine_brawl",
+      "source": "images/throne_of_eldraine_brawl/Tops/wild_bounty_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "4429fd2ada04b78b51b3fd15fdba5f140b5a884f26c52faa0dbd9d993ad56bbf"
+    },
+    {
+      "group": "throne_of_eldraine_brawl",
+      "source": "images/throne_of_eldraine_brawl/Tops/faerie_schemes_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "aebb9bfd5fdd7d3c2ade01142038e31b6e5db97e703d06325ac4d75f63342bf1"
+    },
+    {
+      "group": "throne_of_eldraine_brawl",
+      "source": "images/throne_of_eldraine_brawl/Tops/knights_charge_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "869a36f62107429cc063d3cf47b459d02d919f5e2f34a8ebeca5c9ad2b02b3e3"
+    },
+    {
+      "group": "throne_of_eldraine_brawl",
+      "source": "images/throne_of_eldraine_brawl/Tops/savage_hunger_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "12964e0675cd0e095571488cd0f1903d989ff27f69145d001dc6320a7cd35755"
+    },
+    {
+      "group": "zendikar_rising",
+      "source": "images/zendikar_rising/Tops/sneak_attack_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "c47ebcc14542e835ee3c020fecb7b2c31408ac0e1209013a6cc7f7ce396e3218"
+    },
+    {
+      "group": "zendikar_rising",
+      "source": "images/zendikar_rising/Tops/lands_wrath_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "8855d1b03c98f3b2b67ee55e70d9186f396d760bbc992ae8502d76c0751e9bff"
+    },
+    {
+      "group": "commander_legends",
+      "source": "images/commander_legends/Tops/arm_for_battle_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "5cd743a7546fdf5d9dfe2ced02b816e8068bed1e866db5a96ccf5f257865502c"
+    },
+    {
+      "group": "commander_legends",
+      "source": "images/commander_legends/Tops/reap_the_tides_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "a55ac4a241771142d7ba1e6a699f5772c960c7675e3efbdeddd1858345e8c805"
+    }
+  ]
+}

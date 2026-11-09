@@ -1,0 +1,108 @@
+{
+  "signature": "cf003204b9e08a3054305674ee838324a22fa6ef7e6352fff2eda6e93c359d82",
+  "pdf": "09_Boulder_Tops_Commander_Anthology_II_Aetherdrift_Edge_of_Eternities_Reality_Fracture_1440dpi_cf003204b9.pdf",
+  "pdf_sha256": "6a6b2aa7a07ac588016f18587f310400c51367ed7c7a1f0427abca6b2f1d15c7",
+  "kind": "tops",
+  "count": 9,
+  "labels": [
+    {
+      "group": "commander_anthology_ii",
+      "source": "images/commander_anthology_i/Tops/devour_for_power_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "c70f3b9f0db85494c3c3386a00706841b03465d2388529478e792a5095c5aa3d"
+    },
+    {
+      "group": "commander_anthology_ii",
+      "source": "images/commander_anthology_i/Tops/built_from_scratch_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "dbdea35a41e0616621a965b8a520de3f3fede2e4cdaf9fc6439075f0b3a250e8"
+    },
+    {
+      "group": "commander_anthology_ii",
+      "source": "images/commander_anthology_i/Tops/wade_into_battle_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "1ede1a67720ab11e8299892e621cf47c88bcac6ab5a9eb3969933817e8af95e2"
+    },
+    {
+      "group": "commander_anthology_ii",
+      "source": "images/commander_anthology_i/Tops/breed_lethality_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "4d428e8e702514fd10138d9750061bf936769c2b1517e4a566e0fecd8bbf3948"
+    },
+    {
+      "group": "aetherdrift",
+      "source": "images/aetherdrift/Tops/living_energy_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "0ff5fe9cd3034ee9d7f3a6443dcf12465353c460a5c67a51b656d31eb5bf4af0"
+    },
+    {
+      "group": "aetherdrift",
+      "source": "images/aetherdrift/Tops/eternal_might_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "fb272c82b4e86e1acf2cd3fbb3daa0569333fc9c59bf76afc61f2a2e9d173f3a"
+    },
+    {
+      "group": "edge_of_eternities",
+      "source": "images/edge_of_eternities/Tops/world_shaper_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "f840fa704966f18a750b6a654438f2d4a8c9f92778162df982a6b9d94114f059"
+    },
+    {
+      "group": "edge_of_eternities",
+      "source": "images/edge_of_eternities/Tops/counter_intelligence_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "1171a39c9c296687d758bd3228b594b80cada6138594b8951395c1d8785a89e0"
+    },
+    {
+      "group": "reality_fracture",
+      "source": "images/reality_fracture/Tops/multiverse_reforged_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "bc2cc7d0687d7bf6bd4325b26a466946fb37f7c5eff0be1683c7e13ec1247172"
+    }
+  ]
+}

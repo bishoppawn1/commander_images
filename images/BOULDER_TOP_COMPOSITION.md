@@ -22,3 +22,7 @@ For corrections, inspect every selected final label and compare failed cases wit
 Treat the upper-third position as a photographic guideline, not a mandatory coordinate. Tall headwear, crests, expansive wings and large group or environmental scenes may justify lower faces. Preserve explicit user-approved exceptions and inspect full head clearance under the mana row. Move or uniformly scale the retained artwork first; leave compliant labels unchanged.
 
 The native builder supports optional `artTopCrop` (0–0.30) to crop the top of the complete artwork layer, including retained background extensions, at uniform scale and anchored to the bottom. It raises subjects without exposing canvas. Mana, typography and borders remain fixed. Use only after visual inspection; the default zero preserves existing rendering.
+
+## Mana-identity borders
+
+Use slow, continuous gradients through the deck’s mana identity for both colored border lines instead of fixed green or gold. Use only the colors represented by its mana row: warm ivory, blue, visible charcoal, red and green. Single-color decks use tonal shades of that color; colorless decks use silver-gray. Preserve the black outer cut edge, border widths, typography and artwork. This is a native compositor change, not a request to regenerate the art.

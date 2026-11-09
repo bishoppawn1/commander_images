@@ -15,7 +15,7 @@
       "series": 2,
       "portraitTopInset": 0.1,
       "manaAlignment": "center",
-      "outputStem": "ahoy_mateys_readability_v4",
+      "outputStem": "ahoy_mateys_mana_border_v6",
       "backgroundExtensionPath": "images/lost_caverns_of_ixalan/Tops/src/ahoy_mateys_background_extension_v3.png"
     },
     {
@@ -29,7 +29,7 @@
         "BLACK"
       ],
       "series": 2,
-      "outputStem": "blood_rites_readability_v4"
+      "outputStem": "blood_rites_mana_border_v6"
     },
     {
       "slug": "explorers_of_the_deep",
@@ -42,7 +42,7 @@
         "BLUE"
       ],
       "series": 2,
-      "outputStem": "explorers_of_the_deep_readability_v4"
+      "outputStem": "explorers_of_the_deep_mana_border_v6"
     },
     {
       "slug": "veloci_ramp_tor",
@@ -56,7 +56,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "veloci_ramp_tor_readability_v4"
+      "outputStem": "veloci_ramp_tor_mana_border_v6"
     }
   ]
 }

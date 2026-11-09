@@ -12,7 +12,7 @@
         "RED"
       ],
       "series": 2,
-      "outputStem": "prismari_performance_readability_v4"
+      "outputStem": "prismari_performance_mana_border_v6"
     },
     {
       "slug": "silverquill_statement",
@@ -25,7 +25,7 @@
         "BLACK"
       ],
       "series": 2,
-      "outputStem": "silverquill_statement_readability_v4"
+      "outputStem": "silverquill_statement_mana_border_v6"
     },
     {
       "slug": "quantum_quandrix",
@@ -38,7 +38,7 @@
         "BLUE"
       ],
       "series": 2,
-      "outputStem": "quantum_quandrix_readability_v4"
+      "outputStem": "quantum_quandrix_mana_border_v6"
     },
     {
       "slug": "lorehold_legacies",
@@ -51,7 +51,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "lorehold_legacies_readability_v4"
+      "outputStem": "lorehold_legacies_mana_border_v6"
     },
     {
       "slug": "witherbloom_witchcraft",
@@ -64,7 +64,7 @@
         "GREEN"
       ],
       "series": 2,
-      "outputStem": "witherbloom_witchcraft_readability_v4"
+      "outputStem": "witherbloom_witchcraft_mana_border_v6"
     }
   ]
 }

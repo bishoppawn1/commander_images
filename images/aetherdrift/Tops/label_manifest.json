@@ -13,7 +13,7 @@
         "RED"
       ],
       "series": 2,
-      "outputStem": "living_energy_readability_v4"
+      "outputStem": "living_energy_mana_border_v6"
     },
     {
       "slug": "eternal_might",
@@ -29,7 +29,7 @@
       "series": 2,
       "portraitTopInset": 0.13,
       "manaAlignment": "center",
-      "outputStem": "eternal_might_readability_v4",
+      "outputStem": "eternal_might_mana_border_v6",
       "backgroundExtensionPath": "images/aetherdrift/Tops/src/eternal_might_background_extension_v3.png"
     }
   ]

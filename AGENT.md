@@ -1,5 +1,10 @@
 # MTG Commander Deck Box Face Cards
 
+## Mana-identity top borders — 2026-11-08
+
+- Use slow, continuous gradients through the deck’s mana identity for both colored border lines instead of fixed green or gold. Use only the colors represented by its mana row: warm ivory, blue, visible charcoal, red and green. Single-color decks use tonal shades of that color; colorless decks use silver-gray. Preserve the black outer cut edge, border widths, typography and artwork. This is a native compositor change, not a request to regenerate the art.
+- Current tops use `_mana_border_v6`, preserving the previous v4/v5 files and all approved head positions. Review: `reviews/boulder_mana_borders_2026_11_08/index.html`; before/after hashes: `images/boulder_mana_border_audit_2026_11_08.json`.
+
 ## Top-sheet printer edge clearance — 2026-11-08
 
 - Keep tops at 2.75 × 2 1/3 inches. Keep 0.75-point white separators between the three columns for cutter alignment and center the grid on Letter: 8.25-point (2.91-mm) left/right margins and unchanged vertical row spacing. The user reported that the 0.25-point guide was too thin to register; keep the separator at least 0.75 point. Never remove it entirely. Do not resize or crop image files to fix this printer-edge issue. Front-sheet spacing remains unchanged. Rebuild the full current PDF collection and its PNG previews after layout changes.
@@ -16,7 +21,7 @@
 
 ## Approved upper-third corrections — 2026-11-08
 
-- Shift only Exquisite Invention, Animated Army, Wakanda Forever, Mutant Menace (slightly) and Devour for Power. Current outputs use `_upper_third_v5`; earlier images remain available. See `images/boulder_upper_third_audit_2026_11_08.json` and `reviews/boulder_upper_third_2026_11_08/index.html`.
+- Shift only Exquisite Invention, Animated Army, Wakanda Forever, Mutant Menace (slightly) and Devour for Power. The `_upper_third_v5` versions record these framing corrections, which remain in effect in later border editions; earlier images remain available. See `images/boulder_upper_third_audit_2026_11_08.json` and `reviews/boulder_upper_third_2026_11_08/index.html`.
 - Preserve Evasive Maneuvers / Derevi (wings), Food and Fellowship (large scene), Grave Danger and Subjective Reality. Other reviewed subjective cases remain approved: Federation Fleet, Landing Party, We Are the Borg, Avengers Assemble, Counter Intelligence and Enhanced Evolution. Do not mechanically recenter these.
 
 ## Boulder-top portrait framing — 2026-11-08

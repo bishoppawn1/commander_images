@@ -14,7 +14,7 @@
       "series": 1,
       "portraitTopInset": 0.13,
       "manaAlignment": "center",
-      "outputStem": "merciless_rage_readability_v4",
+      "outputStem": "merciless_rage_mana_border_v6",
       "backgroundExtensionPath": "images/commander_2019/Tops/src/merciless_rage_background_extension_v3.png"
     },
     {
@@ -31,7 +31,7 @@
       "series": 1,
       "portraitTopInset": 0.15,
       "manaAlignment": "center",
-      "outputStem": "primal_genesis_readability_v4",
+      "outputStem": "primal_genesis_mana_border_v6",
       "backgroundExtensionPath": "images/commander_2019/Tops/src/primal_genesis_background_extension_v3.png"
     },
     {
@@ -48,7 +48,7 @@
       "series": 1,
       "portraitTopInset": 0.18,
       "manaAlignment": "center",
-      "outputStem": "faceless_menace_readability_v4",
+      "outputStem": "faceless_menace_mana_border_v6",
       "backgroundExtensionPath": "images/commander_2019/Tops/src/faceless_menace_background_extension_v3.png"
     },
     {
@@ -65,7 +65,7 @@
       "series": 1,
       "portraitTopInset": 0.15,
       "manaAlignment": "center",
-      "outputStem": "mystic_intellect_readability_v4",
+      "outputStem": "mystic_intellect_mana_border_v6",
       "backgroundExtensionPath": "images/commander_2019/Tops/src/mystic_intellect_background_extension_v3.png"
     }
   ]

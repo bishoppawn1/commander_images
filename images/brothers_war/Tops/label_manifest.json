@@ -13,7 +13,7 @@
         "BLACK"
       ],
       "series": 2,
-      "outputStem": "urzas_iron_alliance_readability_v4"
+      "outputStem": "urzas_iron_alliance_mana_border_v6"
     },
     {
       "slug": "mishras_burnished_banner",
@@ -27,7 +27,7 @@
         "RED"
       ],
       "series": 2,
-      "outputStem": "mishras_burnished_banner_readability_v4"
+      "outputStem": "mishras_burnished_banner_mana_border_v6"
     }
   ]
 }

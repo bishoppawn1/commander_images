@@ -13,7 +13,7 @@
         "GREEN"
       ],
       "series": 2,
-      "outputStem": "graveyard_overdrive_readability_v4"
+      "outputStem": "graveyard_overdrive_mana_border_v6"
     },
     {
       "slug": "creative_energy",
@@ -27,7 +27,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "creative_energy_readability_v4"
+      "outputStem": "creative_energy_mana_border_v6"
     },
     {
       "slug": "tricky_terrain",
@@ -40,7 +40,7 @@
         "BLUE"
       ],
       "series": 2,
-      "outputStem": "tricky_terrain_readability_v4"
+      "outputStem": "tricky_terrain_mana_border_v6"
     },
     {
       "slug": "eldrazi_incursion",
@@ -56,7 +56,7 @@
         "GREEN"
       ],
       "series": 2,
-      "outputStem": "eldrazi_incursion_readability_v4"
+      "outputStem": "eldrazi_incursion_mana_border_v6"
     }
   ]
 }

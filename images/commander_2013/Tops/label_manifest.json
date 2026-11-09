@@ -13,7 +13,7 @@
         "BLACK"
       ],
       "series": 1,
-      "outputStem": "eternal_bargain_readability_v4"
+      "outputStem": "eternal_bargain_mana_border_v6"
     },
     {
       "slug": "mind_seize",
@@ -27,7 +27,7 @@
         "RED"
       ],
       "series": 1,
-      "outputStem": "mind_seize_readability_v4"
+      "outputStem": "mind_seize_mana_border_v6"
     }
   ]
 }

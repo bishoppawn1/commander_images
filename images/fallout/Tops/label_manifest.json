@@ -13,7 +13,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "scrappy_survivors_readability_v4"
+      "outputStem": "scrappy_survivors_mana_border_v6"
     },
     {
       "slug": "hail_caesar",
@@ -27,7 +27,7 @@
         "BLACK"
       ],
       "series": 2,
-      "outputStem": "hail_caesar_readability_v4"
+      "outputStem": "hail_caesar_mana_border_v6"
     },
     {
       "slug": "science",
@@ -41,7 +41,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "science_readability_v4"
+      "outputStem": "science_mana_border_v6"
     },
     {
       "slug": "mutant_menace",
@@ -57,7 +57,7 @@
       "series": 2,
       "portraitTopInset": 0.12,
       "manaAlignment": "center",
-      "outputStem": "mutant_menace_upper_third_v5",
+      "outputStem": "mutant_menace_mana_border_v6",
       "backgroundExtensionPath": "images/fallout/Tops/src/mutant_menace_background_extension_v3.png",
       "artTopCrop": 0.07
     }

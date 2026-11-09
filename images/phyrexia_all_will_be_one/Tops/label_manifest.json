@@ -13,7 +13,7 @@
         "GREEN"
       ],
       "series": 1,
-      "outputStem": "corrupting_influence_readability_v4"
+      "outputStem": "corrupting_influence_mana_border_v6"
     },
     {
       "slug": "rebellion_rising",
@@ -26,7 +26,7 @@
         "WHITE"
       ],
       "series": 1,
-      "outputStem": "rebellion_rising_readability_v4"
+      "outputStem": "rebellion_rising_mana_border_v6"
     }
   ]
 }

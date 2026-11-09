@@ -13,7 +13,7 @@
         "BLUE"
       ],
       "series": 2,
-      "outputStem": "wild_bounty_readability_v4"
+      "outputStem": "wild_bounty_mana_border_v6"
     },
     {
       "slug": "faerie_schemes",
@@ -27,7 +27,7 @@
         "BLACK"
       ],
       "series": 2,
-      "outputStem": "faerie_schemes_readability_v4"
+      "outputStem": "faerie_schemes_mana_border_v6"
     },
     {
       "slug": "knights_charge",
@@ -41,7 +41,7 @@
         "BLACK"
       ],
       "series": 2,
-      "outputStem": "knights_charge_readability_v4"
+      "outputStem": "knights_charge_mana_border_v6"
     },
     {
       "slug": "savage_hunger",
@@ -55,7 +55,7 @@
         "GREEN"
       ],
       "series": 2,
-      "outputStem": "savage_hunger_readability_v4"
+      "outputStem": "savage_hunger_mana_border_v6"
     }
   ]
 }

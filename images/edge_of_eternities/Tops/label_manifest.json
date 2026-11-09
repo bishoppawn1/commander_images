@@ -15,7 +15,7 @@
       "series": 2,
       "portraitTopInset": 0.14,
       "manaAlignment": "center",
-      "outputStem": "world_shaper_readability_v4",
+      "outputStem": "world_shaper_mana_border_v6",
       "backgroundExtensionPath": "images/edge_of_eternities/Tops/src/world_shaper_background_extension_v3.png"
     },
     {
@@ -30,7 +30,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "counter_intelligence_readability_v4"
+      "outputStem": "counter_intelligence_mana_border_v6"
     }
   ]
 }

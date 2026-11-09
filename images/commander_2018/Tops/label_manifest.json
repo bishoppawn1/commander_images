@@ -15,7 +15,7 @@
       "series": 2,
       "portraitTopInset": 0.18,
       "manaAlignment": "center",
-      "outputStem": "adaptive_enchantment_readability_v4",
+      "outputStem": "adaptive_enchantment_mana_border_v6",
       "backgroundExtensionPath": "images/commander_2018/Tops/src/adaptive_enchantment_background_extension_v3.png"
     },
     {
@@ -30,7 +30,7 @@
       ],
       "series": 2,
       "manaAlignment": "center",
-      "outputStem": "exquisite_invention_upper_third_v5",
+      "outputStem": "exquisite_invention_mana_border_v6",
       "artTopCrop": 0.12
     },
     {
@@ -47,7 +47,7 @@
       "series": 2,
       "portraitTopInset": 0.18,
       "manaAlignment": "center",
-      "outputStem": "natures_vengeance_readability_v4",
+      "outputStem": "natures_vengeance_mana_border_v6",
       "backgroundExtensionPath": "images/commander_2018/Tops/src/natures_vengeance_background_extension_v3.png"
     },
     {
@@ -64,7 +64,7 @@
       "series": 2,
       "portraitTopInset": 0.12,
       "manaAlignment": "center",
-      "outputStem": "subjective_reality_readability_v4",
+      "outputStem": "subjective_reality_mana_border_v6",
       "backgroundExtensionPath": "images/commander_2018/Tops/src/subjective_reality_background_extension_v3.png"
     }
   ]

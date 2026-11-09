@@ -14,7 +14,7 @@
       "series": 1,
       "portraitTopInset": 0.15,
       "manaAlignment": "center",
-      "outputStem": "feline_ferocity_readability_v4",
+      "outputStem": "feline_ferocity_mana_border_v6",
       "backgroundExtensionPath": "images/commander_2017/Tops/src/feline_ferocity_background_extension_v3.png"
     },
     {
@@ -31,7 +31,7 @@
       "series": 1,
       "portraitTopInset": 0.1,
       "manaAlignment": "center",
-      "outputStem": "vampiric_bloodlust_readability_v4",
+      "outputStem": "vampiric_bloodlust_mana_border_v6",
       "backgroundExtensionPath": "images/commander_2017/Tops/src/vampiric_bloodlust_background_extension_v3.png"
     },
     {
@@ -48,7 +48,7 @@
       "series": 1,
       "portraitTopInset": 0.1,
       "manaAlignment": "center",
-      "outputStem": "arcane_wizardry_readability_v4",
+      "outputStem": "arcane_wizardry_mana_border_v6",
       "backgroundExtensionPath": "images/commander_2017/Tops/src/arcane_wizardry_background_extension_v3.png"
     },
     {
@@ -67,7 +67,7 @@
       "series": 1,
       "portraitTopInset": 0.16,
       "manaAlignment": "center",
-      "outputStem": "draconic_domination_readability_v4",
+      "outputStem": "draconic_domination_mana_border_v6",
       "backgroundExtensionPath": "images/commander_2017/Tops/src/draconic_domination_background_extension_v3.png"
     }
   ]

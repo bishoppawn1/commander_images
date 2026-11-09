@@ -1,0 +1,141 @@
+{
+  "signature": "1ebbcefe7677c3e32a40281685ffc864812093f2804f350388cedaedfda3f5c0",
+  "pdf": "05_Boulder_Tops_March_of_the_Machine_Lord_of_the_Rings_Wilds_of_Eldraine_Turtle_Power_1440dpi_1ebbcefe76.pdf",
+  "pdf_sha256": "efd832a17bd0d635ee86b00f821a3bb202669242c07e57567519eb9e3faced7f",
+  "kind": "tops",
+  "count": 12,
+  "labels": [
+    {
+      "group": "march_of_the_machine",
+      "source": "images/march_of_the_machine/Tops/call_for_backup_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "93a924eaf21205a01b8513b7ca84a6f0847f744b4fa288f2d35745e55ffb83e1"
+    },
+    {
+      "group": "march_of_the_machine",
+      "source": "images/march_of_the_machine/Tops/cavalry_charge_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "e3076eeef449797c0f3734365c572646ce533295b02e2e6094f917f7a0b5b5cb"
+    },
+    {
+      "group": "march_of_the_machine",
+      "source": "images/march_of_the_machine/Tops/divine_convocation_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "3e32f7f7321225c1e0842b11e441b3d2f7aced7452b75a5fa576d13c7b9459f3"
+    },
+    {
+      "group": "march_of_the_machine",
+      "source": "images/march_of_the_machine/Tops/growing_threat_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "4600c82f1b1dc66f6905aa5f7fc5c2a50b4da3864ae6c1459a5731f499c0fd8d"
+    },
+    {
+      "group": "march_of_the_machine",
+      "source": "images/march_of_the_machine/Tops/tinker_time_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "277eb2c84ea2c17f2e6d2df9c54c6ff4f108ef25268f2c4a5a8a2a17f94245ef"
+    },
+    {
+      "group": "lord_of_the_rings",
+      "source": "images/lord_of_the_rings/Tops/food_and_fellowship_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "500b3a3046baf019e724449990c75324688cf2fb8e0d6975f921123239a6f720"
+    },
+    {
+      "group": "lord_of_the_rings",
+      "source": "images/lord_of_the_rings/Tops/riders_of_rohan_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "f5bab98f3dd5b12541a2f3c7299a2456ff28ccca1caa0aa88a453e7aadc60e3f"
+    },
+    {
+      "group": "lord_of_the_rings",
+      "source": "images/lord_of_the_rings/Tops/the_hosts_of_mordor_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "f851ebb75893a4c96694f5f3d22474df1cba6b6bd3e94a26ceb85e4831607d07"
+    },
+    {
+      "group": "lord_of_the_rings",
+      "source": "images/lord_of_the_rings/Tops/elven_council_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "b9aef553d49845b60012b9003b231aec8c1a9fec51561e629c57fc125ebff482"
+    },
+    {
+      "group": "wilds_of_eldraine",
+      "source": "images/wilds_of_eldraine/Tops/fae_dominion_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "65dc43b622b159e177464159f3aca8277679fe453691c748c9cba8f43942359f"
+    },
+    {
+      "group": "wilds_of_eldraine",
+      "source": "images/wilds_of_eldraine/Tops/virtue_and_valor_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "9294b7e8b60fa1aef5b63e5a4175d884e3a4c16983a12693de2bb0e6a413da1f"
+    },
+    {
+      "group": "teenage_mutant_ninja_turtles",
+      "source": "images/teenage_mutant_ninja_turtles/Tops/turtle_power_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "71ade167c74ae8c5ef08ad098b41767ac9d93bc0acccd24fb2e9aa2d36624d61"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "signature": "2f0cf186879500358fb9daa7fd10bbe65e445f7f9a52fea849e4612265ccaf48",
+  "pdf": "01_Boulder_Tops_Commander_2013_Commander_2016_Commander_2017_Commander_2018_1440dpi_2f0cf18687.pdf",
+  "pdf_sha256": "e9364b082b87c71583f58ccf6db55bcc36c996895ccc81a27a4168c96813bfd6",
+  "kind": "tops",
+  "count": 12,
+  "labels": [
+    {
+      "group": "commander_2013",
+      "source": "images/commander_2013/Tops/eternal_bargain_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "fea61132913f2406ccaef232316f5ab96faaf939aa18966fbac3c12d2ad4da51"
+    },
+    {
+      "group": "commander_2013",
+      "source": "images/commander_2013/Tops/mind_seize_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "90e1dbccb4d026e012b8a9f4270f2f54d0b5737183d17840daaeeb4708857916"
+    },
+    {
+      "group": "commander_2016",
+      "source": "images/commander_2016/Tops/invent_superiority_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "4d94392fe32d099b1943d9400f4dd4655bfb45f9b8693d6e8c20c1315d166151"
+    },
+    {
+      "group": "commander_2016",
+      "source": "images/commander_2016/Tops/breed_lethality_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "4d428e8e702514fd10138d9750061bf936769c2b1517e4a566e0fecd8bbf3948"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017/Tops/feline_ferocity_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "91bd22b854b59fd1e035ff5f98be61ed636ca656db8947b994ff0c9b06d83e3a"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017/Tops/vampiric_bloodlust_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "6cd28d6de6ec3a1c8c80107b28831b5789c4e0b01ce1a0e0f120cc5f0a2e10e8"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017/Tops/arcane_wizardry_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "f5bc8cd3aafb852de9a2d46ea66703e0acc7bed1d4359d695609261af4079aea"
+    },
+    {
+      "group": "commander_2017",
+      "source": "images/commander_2017/Tops/draconic_domination_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "89d16a2b9396233f527cb83b7d51ce7606545c6471b56037d01e4fd75a526e2a"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018/Tops/adaptive_enchantment_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "1b1ec1a8df8731950348ade7fa93ba7f0fa1b0b56ae12c5137c2acc8c82cb0a7"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018/Tops/exquisite_invention_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "6998a6acb7a1559f6bf6b4f56e68ad31b51d13471ca48edc5e91d9946a3b7aa9"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018/Tops/natures_vengeance_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "0fde659f029c8e63f43bd2437b233c626916502b0b03ef4482b54b0f32970d08"
+    },
+    {
+      "group": "commander_2018",
+      "source": "images/commander_2018/Tops/subjective_reality_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "2d4ebe0063da895cdb395fdc2022b4bca1313882815df58fec7f5a44a4ff8859"
+    }
+  ]
+}

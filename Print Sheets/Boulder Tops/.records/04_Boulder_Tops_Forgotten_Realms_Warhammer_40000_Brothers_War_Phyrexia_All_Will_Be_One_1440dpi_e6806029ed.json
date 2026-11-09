@@ -1,0 +1,141 @@
+{
+  "signature": "e6806029ed4c11f7960c808094e8468ea836e499425012c8784cc8e7b6b0a473",
+  "pdf": "04_Boulder_Tops_Forgotten_Realms_Warhammer_40000_Brothers_War_Phyrexia_All_Will_Be_One_1440dpi_e6806029ed.pdf",
+  "pdf_sha256": "c6796c36040297c4d17c091e27fa6a78b633819a271ce3c206ffda4b4b773008",
+  "kind": "tops",
+  "count": 12,
+  "labels": [
+    {
+      "group": "adventures_in_the_forgotten_realms",
+      "source": "images/adventures_in_the_forgotten_realms/Tops/draconic_rage_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "049e7d9d593c493f263e5482bd34e2f0f3ad89915b443fe047579562cbad1b09"
+    },
+    {
+      "group": "adventures_in_the_forgotten_realms",
+      "source": "images/adventures_in_the_forgotten_realms/Tops/dungeons_of_death_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "86079e3a6c432dcb0d89e49b2c2e8f6a55b71412c856b874c69ce22accc2283f"
+    },
+    {
+      "group": "adventures_in_the_forgotten_realms",
+      "source": "images/adventures_in_the_forgotten_realms/Tops/aura_of_courage_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        570.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "164a5877f90939126ed20bdf9eff284cdab0cd3274111cf98d5763fff47df712"
+    },
+    {
+      "group": "adventures_in_the_forgotten_realms",
+      "source": "images/adventures_in_the_forgotten_realms/Tops/planar_portal_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "398b3919875978e3deb1b8c756153a51a3e7c9c6b1ce8be439bb9040f108052c"
+    },
+    {
+      "group": "warhammer_40000",
+      "source": "images/warhammer_40000/Tops/tyranid_swarm_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "5874eb379d710e93fbaccb2b93c965004676213993742fecf2730fd42226423b"
+    },
+    {
+      "group": "warhammer_40000",
+      "source": "images/warhammer_40000/Tops/forces_of_the_imperium_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        398.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "31c3630f8950e3bba15d18b9e3d4ed126f8a71558a9a66d1773f85be9e977dc0"
+    },
+    {
+      "group": "warhammer_40000",
+      "source": "images/warhammer_40000/Tops/necron_dynasties_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "58f325ea4daeb2fa33d6b09f0cb7bd0a26a3d9a4c56ebc45c4333b6c734d59b1"
+    },
+    {
+      "group": "warhammer_40000",
+      "source": "images/warhammer_40000/Tops/the_ruinous_powers_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "f4a6a10cd492266ee84221c98e3cb27be82bef63de32ae3e4dabd54e76b599a3"
+    },
+    {
+      "group": "brothers_war",
+      "source": "images/brothers_war/Tops/urzas_iron_alliance_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        225.75,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "911aefa281eda012c2cf6a2f0c14080cd18a1c7e803eedfa86361f80454dad6c"
+    },
+    {
+      "group": "brothers_war",
+      "source": "images/brothers_war/Tops/mishras_burnished_banner_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        8.25,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "f72691d346fc16c371479be6508476f1afffd8a9c1cf49c66ec085b6440ad029"
+    },
+    {
+      "group": "phyrexia_all_will_be_one",
+      "source": "images/phyrexia_all_will_be_one/Tops/corrupting_influence_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        207.0,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "bc95806d67562cfbef950151478c343b5a6fbd3e89ca00189314103fb01c355c"
+    },
+    {
+      "group": "phyrexia_all_will_be_one",
+      "source": "images/phyrexia_all_will_be_one/Tops/rebellion_rising_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+      "box_points": [
+        405.75,
+        53.25,
+        198.0,
+        168.0
+      ],
+      "rgb_sha256": "537014beea4cde3b83bd12e4a970ccb7381372d82951e2c566339985b15f50b3"
+    }
+  ]
+}

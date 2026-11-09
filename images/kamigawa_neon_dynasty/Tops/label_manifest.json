@@ -12,7 +12,7 @@
         "GREEN"
       ],
       "series": 2,
-      "outputStem": "upgrades_unleashed_readability_v4"
+      "outputStem": "upgrades_unleashed_mana_border_v6"
     },
     {
       "slug": "buckle_up",
@@ -25,7 +25,7 @@
         "BLUE"
       ],
       "series": 2,
-      "outputStem": "buckle_up_readability_v4"
+      "outputStem": "buckle_up_mana_border_v6"
     }
   ]
 }

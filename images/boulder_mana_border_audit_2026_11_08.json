@@ -1,0 +1,1798 @@
+[
+  {
+    "manifest": "images/commander_2018/Tops/label_manifest.json",
+    "slug": "exquisite_invention",
+    "name": "EXQUISITE INVENTION",
+    "set": "COMMANDER 2018",
+    "colors": [
+      "BLUE",
+      "RED"
+    ],
+    "before": "images/commander_2018/Tops/exquisite_invention_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2018/Tops/exquisite_invention_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "8d68f898e1d7768a6bc4ba63e6580c9ff021c10501728fda327cc716b1932db8",
+    "sha256_after": "809052121dd5e2acb3ce3c5b0a3ad3ead10c8b77a8d3660afae6332cf1fc4c07",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_anthology_i/Tops/label_manifest.json",
+    "slug": "devour_for_power",
+    "name": "DEVOUR FOR POWER",
+    "set": "COMMANDER ANTHOLOGY VOLUME II",
+    "colors": [
+      "BLACK",
+      "GREEN",
+      "BLUE"
+    ],
+    "before": "images/commander_anthology_i/Tops/devour_for_power_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_anthology_i/Tops/devour_for_power_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "09784c02d3233b025798fbb5b82eed743db48aa890723e1003a2ccb2b7b13d91",
+    "sha256_after": "80b79a8c03a6433a4d8e05306a6a40d97ecc27d8be3f701e4ecf0aa0ee5693f6",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2016/Tops/label_manifest.json",
+    "slug": "invent_superiority",
+    "name": "INVENT SUPERIORITY",
+    "set": "COMMANDER 2016",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/commander_2016/Tops/invent_superiority_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2016/Tops/invent_superiority_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "de20f84199cffc6d7cd72fd3c9adb3f8fe6e7b3b541a73be8cac7599ced818ee",
+    "sha256_after": "dde587b3bc5ea6caa1432dbee57b4fdbbeff925ae9054f8e156cd2ba7ab12ab2",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_masters/Tops/label_manifest.json",
+    "slug": "sliver_swarm",
+    "name": "SLIVER SWARM",
+    "set": "COMMANDER MASTERS",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK",
+      "RED",
+      "GREEN"
+    ],
+    "before": "images/commander_masters/Tops/sliver_swarm_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_masters/Tops/sliver_swarm_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "39972d73555d8dc79bddacf8d65715712d14ebd9d02bc3ea1db82315d5e393e1",
+    "sha256_after": "65efebab74bd5429f1e899cf66927ec8236ee1842a1a47c9d7f2adf35aff929f",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_anthology_i/Tops/label_manifest.json",
+    "slug": "guided_by_nature",
+    "name": "GUIDED BY NATURE",
+    "set": "COMMANDER ANTHOLOGY",
+    "colors": [
+      "GREEN"
+    ],
+    "before": "images/commander_anthology_i/Tops/guided_by_nature_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_anthology_i/Tops/guided_by_nature_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "ce259529ae511b9919ddc80d0c9972be42aeb65ea97a7086ae66720e3d6dbbe3",
+    "sha256_after": "3274d6075ce4b93980e8a92ff0e46973cdddf5c6538ce65d90b6f136b6d38b04",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_masters/Tops/label_manifest.json",
+    "slug": "eldrazi_unbound",
+    "name": "ELDRAZI UNBOUND",
+    "set": "COMMANDER MASTERS",
+    "colors": [
+      "COLORLESS"
+    ],
+    "before": "images/commander_masters/Tops/eldrazi_unbound_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_masters/Tops/eldrazi_unbound_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "e59935d1ecaafe518ef028cdba1fa26b6d7eab26f47f9cd42bd925724fdd7da7",
+    "sha256_after": "dd2c59b7576150f663af2841ac4c61654e2ea7df15fa83b873507975bc0e0dba",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/adventures_in_the_forgotten_realms/Tops/label_manifest.json",
+    "slug": "aura_of_courage",
+    "name": "AURA OF COURAGE",
+    "set": "ADVENTURES IN THE FORGOTTEN REALMS",
+    "colors": [
+      "GREEN",
+      "WHITE",
+      "BLUE"
+    ],
+    "before": "images/adventures_in_the_forgotten_realms/Tops/aura_of_courage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/adventures_in_the_forgotten_realms/Tops/aura_of_courage_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "f9d861128c25845f84317432537c84eaf9a2103ff43d21c123c1fdbf8c82010c",
+    "sha256_after": "d46b940e64c4b0a885467af7c724456ebba48b3c4a707d0e1b88e7d04aa6bfe3",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/adventures_in_the_forgotten_realms/Tops/label_manifest.json",
+    "slug": "draconic_rage",
+    "name": "DRACONIC RAGE",
+    "set": "ADVENTURES IN THE FORGOTTEN REALMS",
+    "colors": [
+      "RED",
+      "GREEN"
+    ],
+    "before": "images/adventures_in_the_forgotten_realms/Tops/draconic_rage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/adventures_in_the_forgotten_realms/Tops/draconic_rage_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "8bbdc7ebd45f0727065e80855b0c7e4d6b1ba6c5e81c4270ae99cda40876f02a",
+    "sha256_after": "9bc045b9b41bc706ddd39795964af0bcd7e3d777f78bbe7efc946445dfa10127",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/adventures_in_the_forgotten_realms/Tops/label_manifest.json",
+    "slug": "dungeons_of_death",
+    "name": "DUNGEONS OF DEATH",
+    "set": "ADVENTURES IN THE FORGOTTEN REALMS",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/adventures_in_the_forgotten_realms/Tops/dungeons_of_death_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/adventures_in_the_forgotten_realms/Tops/dungeons_of_death_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "958034541bb499da77f07e768f05de3bb7d865c1ba6724f47ae59bdc01570a64",
+    "sha256_after": "dddcd01b1a1db7ad681a34bb450f4ab5a3d87ecd1362953cd48c18a6f8e5aeef",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/adventures_in_the_forgotten_realms/Tops/label_manifest.json",
+    "slug": "planar_portal",
+    "name": "PLANAR PORTAL",
+    "set": "ADVENTURES IN THE FORGOTTEN REALMS",
+    "colors": [
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/adventures_in_the_forgotten_realms/Tops/planar_portal_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/adventures_in_the_forgotten_realms/Tops/planar_portal_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "2da33a0218ad9e58105591f6e6f64b7cce7d129275728f369386e011b7a9cef1",
+    "sha256_after": "4380d6ad5c380c00f5adf1ec038094c5e5ec3418d287eb2e088025834b367672",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/aetherdrift/Tops/label_manifest.json",
+    "slug": "eternal_might",
+    "name": "ETERNAL MIGHT",
+    "set": "AETHERDRIFT COMMANDER",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/aetherdrift/Tops/eternal_might_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/aetherdrift/Tops/eternal_might_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "eeb4f103c4ab29119677e4f256bff9a0492a83b07753928d3ba63552db134d73",
+    "sha256_after": "043160324206502a6c59b20bda08d8e6a11eda9381c90cc6cdb190bc9902eb34",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/aetherdrift/Tops/label_manifest.json",
+    "slug": "living_energy",
+    "name": "LIVING ENERGY",
+    "set": "AETHERDRIFT COMMANDER",
+    "colors": [
+      "GREEN",
+      "BLUE",
+      "RED"
+    ],
+    "before": "images/aetherdrift/Tops/living_energy_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/aetherdrift/Tops/living_energy_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "2f7c24c70c5c6879ed012696eb9d7288c6c768bcea3a1f99eae2247657d04a4b",
+    "sha256_after": "01c2f6e481d02daad791a079ec672d49988a9743bf993220bd21c4f1459a9198",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/bloomburrow/Tops/label_manifest.json",
+    "slug": "animated_army",
+    "name": "ANIMATED ARMY",
+    "set": "BLOOMBURROW COMMANDER",
+    "colors": [
+      "RED",
+      "GREEN"
+    ],
+    "before": "images/bloomburrow/Tops/animated_army_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/bloomburrow/Tops/animated_army_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "a6fe004cb7763832e7f08e2b0f09080f868aeb24ee4bab88f00150d02b8cc8e9",
+    "sha256_after": "d1bc6cab79aef911480ca01062cc9252728ed4089d25ad25d48b71350a8d0b17",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/bloomburrow/Tops/label_manifest.json",
+    "slug": "family_matters",
+    "name": "FAMILY MATTERS",
+    "set": "BLOOMBURROW COMMANDER",
+    "colors": [
+      "BLUE",
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/bloomburrow/Tops/family_matters_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/bloomburrow/Tops/family_matters_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "3b4f1bdc48759070aec678f0d497e548fbd53526cfc88c4a24583c0186b837bd",
+    "sha256_after": "d625907350f19f546383b07235e55f1b8a78f17e6fcc0b4cb9207af423426f1c",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/bloomburrow/Tops/label_manifest.json",
+    "slug": "peace_offering",
+    "name": "PEACE OFFERING",
+    "set": "BLOOMBURROW COMMANDER",
+    "colors": [
+      "GREEN",
+      "WHITE",
+      "BLUE"
+    ],
+    "before": "images/bloomburrow/Tops/peace_offering_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/bloomburrow/Tops/peace_offering_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "3f31790a5c7d64fd44d3736497bb8f2220472fb7af84dd40108e04bc05cd1abc",
+    "sha256_after": "759cf37595cdbab6636231430260b61c6d320f3661453537c0ba43f6598b70cd",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/bloomburrow/Tops/label_manifest.json",
+    "slug": "squirreled_away",
+    "name": "SQUIRRELED AWAY",
+    "set": "BLOOMBURROW COMMANDER",
+    "colors": [
+      "BLACK",
+      "GREEN"
+    ],
+    "before": "images/bloomburrow/Tops/squirreled_away_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/bloomburrow/Tops/squirreled_away_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "b022fc624b861b76fe069d22e9ee8aa6d976813dd0e7a5b38ee099ebaed66b3a",
+    "sha256_after": "1367b0481a80db776d9be2e91d7c83c4a32fae32c9144067c18b658b1e954754",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2013/Tops/label_manifest.json",
+    "slug": "eternal_bargain",
+    "name": "ETERNAL BARGAIN",
+    "set": "COMMANDER 2013",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/commander_2013/Tops/eternal_bargain_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2013/Tops/eternal_bargain_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "140167e47a43ffc36c5f8b8eb9607a5a9b47ab46eadf774b432377eaad495d74",
+    "sha256_after": "d2960042c92fac16878c17312f543f3f1c4b3f344f8a9cb963e01a2c7462ed6b",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2013/Tops/label_manifest.json",
+    "slug": "mind_seize",
+    "name": "MIND SEIZE",
+    "set": "COMMANDER 2013",
+    "colors": [
+      "BLUE",
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/commander_2013/Tops/mind_seize_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2013/Tops/mind_seize_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "3cda855cea8ff5434aefc3e6c8945b10d3e30a98b1be39116e0e871f630626dd",
+    "sha256_after": "9e0691309de963fdab67d69f79134947b476bd99cc9b60f0b9d4885e889fc1c4",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2017/Tops/label_manifest.json",
+    "slug": "arcane_wizardry",
+    "name": "ARCANE WIZARDRY",
+    "set": "COMMANDER 2017",
+    "colors": [
+      "BLUE",
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/commander_2017/Tops/arcane_wizardry_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2017/Tops/arcane_wizardry_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "b44d8ece1a2d3ed3f93fb7d4d30f1f810907a1c2c2d998a6e13349abb653f664",
+    "sha256_after": "ba10ba9bf37d37ace5587b4480cbbb2427aa592addd97775d396ae180475fc9b",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2017/Tops/label_manifest.json",
+    "slug": "draconic_domination",
+    "name": "DRACONIC DOMINATION",
+    "set": "COMMANDER 2017",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK",
+      "RED",
+      "GREEN"
+    ],
+    "before": "images/commander_2017/Tops/draconic_domination_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2017/Tops/draconic_domination_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "1030a7995779ba3b7a553910e54004ca3f938beb2c1f89e4bae74c820cc04c60",
+    "sha256_after": "34df396432ecfe8a8dbdf700dd6c8d112d565ee7a3388c4edafcf713e52b9918",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2017/Tops/label_manifest.json",
+    "slug": "feline_ferocity",
+    "name": "FELINE FEROCITY",
+    "set": "COMMANDER 2017",
+    "colors": [
+      "GREEN",
+      "WHITE"
+    ],
+    "before": "images/commander_2017/Tops/feline_ferocity_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2017/Tops/feline_ferocity_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "b3c9c8426ace86dcafee969f0735918e4057695811266a3f18cbe50337496ff8",
+    "sha256_after": "97367fee4a2f42b510671686ec8cb3f28311e9fef43cde9d514986ca630cbd6f",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2017/Tops/label_manifest.json",
+    "slug": "vampiric_bloodlust",
+    "name": "VAMPIRIC BLOODLUST",
+    "set": "COMMANDER 2017",
+    "colors": [
+      "RED",
+      "WHITE",
+      "BLACK"
+    ],
+    "before": "images/commander_2017/Tops/vampiric_bloodlust_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2017/Tops/vampiric_bloodlust_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "2104ac77d346f273e654e99f006c7e2495b12ded8bc18e88cc16e310e7941264",
+    "sha256_after": "147fed738fcbeef206d9facdef489912fdd1cda9c7085d5665ad1e5b9cf90990",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2018/Tops/label_manifest.json",
+    "slug": "adaptive_enchantment",
+    "name": "ADAPTIVE ENCHANTMENT",
+    "set": "COMMANDER 2018",
+    "colors": [
+      "GREEN",
+      "WHITE",
+      "BLUE"
+    ],
+    "before": "images/commander_2018/Tops/adaptive_enchantment_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2018/Tops/adaptive_enchantment_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "c2da7565cfd257c38229942353645bf318af1c254419200b07775a0799172195",
+    "sha256_after": "30f211c3a7d9e068e05f6391b506e6f4e2324d439dc90fe7a58f6b09b1f0eb2c",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2018/Tops/label_manifest.json",
+    "slug": "natures_vengeance",
+    "name": "NATURE\u2019S VENGEANCE",
+    "set": "COMMANDER 2018",
+    "colors": [
+      "BLACK",
+      "RED",
+      "GREEN"
+    ],
+    "before": "images/commander_2018/Tops/natures_vengeance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2018/Tops/natures_vengeance_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "c415028bef2cf17fb1a035f4b24cc74038305fe002fa8d7ba77422ed974b08b2",
+    "sha256_after": "21c4c6f27f4d1dbeb3719b1388df6b9c3894a4234696ea9cd32a82940a702581",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2018/Tops/label_manifest.json",
+    "slug": "subjective_reality",
+    "name": "SUBJECTIVE REALITY",
+    "set": "COMMANDER 2018",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/commander_2018/Tops/subjective_reality_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2018/Tops/subjective_reality_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "283cd21d529731abf4ba69669b308dddee041f23b4e0904df76798fdf5d2f564",
+    "sha256_after": "1a0d59b01bd1d4534d349e4857a7886f9e51b0042e1d2b2121c0181decbec995",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2019/Tops/label_manifest.json",
+    "slug": "faceless_menace",
+    "name": "FACELESS MENACE",
+    "set": "COMMANDER 2019",
+    "colors": [
+      "BLACK",
+      "GREEN",
+      "BLUE"
+    ],
+    "before": "images/commander_2019/Tops/faceless_menace_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2019/Tops/faceless_menace_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "03977b2fef8ec4113146854f8d773ef6acf75ef5c7810e61ae4e7fe254b1269c",
+    "sha256_after": "6c63c034df63aa0220ab2bfaaa3f69fcb9fed4a76dfcc031b85e32f266c8d664",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2019/Tops/label_manifest.json",
+    "slug": "merciless_rage",
+    "name": "MERCILESS RAGE",
+    "set": "COMMANDER 2019",
+    "colors": [
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/commander_2019/Tops/merciless_rage_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2019/Tops/merciless_rage_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "fc6849c4605c5fd344bd57f879e1a6fdc83157bccf0dd821459bda725d43a153",
+    "sha256_after": "4d70ba8af54a0c9eb73a1b73c3ce7886540742011d444127a7a4182b4c3c96ff",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2019/Tops/label_manifest.json",
+    "slug": "mystic_intellect",
+    "name": "MYSTIC INTELLECT",
+    "set": "COMMANDER 2019",
+    "colors": [
+      "BLUE",
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/commander_2019/Tops/mystic_intellect_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2019/Tops/mystic_intellect_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "90993507e6e7612f4e9de38d1dd68a594814c9a31f05a899209734c600ee1b5e",
+    "sha256_after": "c2f14b8a1949bb73c55e127c4d796a1444839683e72ac6d99f3ba7ba6e795189",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2019/Tops/label_manifest.json",
+    "slug": "primal_genesis",
+    "name": "PRIMAL GENESIS",
+    "set": "COMMANDER 2019",
+    "colors": [
+      "RED",
+      "GREEN",
+      "WHITE"
+    ],
+    "before": "images/commander_2019/Tops/primal_genesis_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2019/Tops/primal_genesis_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "530a164e4b92ac100f106258f407841952080189ad3393e51eb7bdc7e8a127e4",
+    "sha256_after": "fdfbe5b3ca3612a5d028bcecc4a91962b84d28145467dc3aab27c14598d40515",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2020/Tops/label_manifest.json",
+    "slug": "arcane_maelstrom",
+    "name": "ARCANE MAELSTROM",
+    "set": "COMMANDER 2020",
+    "colors": [
+      "GREEN",
+      "BLUE",
+      "RED"
+    ],
+    "before": "images/commander_2020/Tops/arcane_maelstrom_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2020/Tops/arcane_maelstrom_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "fb13ce06c6fd42e0b83ea41d6d884ddf873367604aefa66ac9352cd27809cfc1",
+    "sha256_after": "091b385590456fa20ff7e96b7f1a949892d9913a60feb8296488adacb53ef9c3",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2020/Tops/label_manifest.json",
+    "slug": "enhanced_evolution",
+    "name": "ENHANCED EVOLUTION",
+    "set": "COMMANDER 2020",
+    "colors": [
+      "BLACK",
+      "GREEN",
+      "BLUE"
+    ],
+    "before": "images/commander_2020/Tops/enhanced_evolution_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2020/Tops/enhanced_evolution_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "4dfcec8046646fd3520c3ba5aad8d3775a4a3d1fa5a990ba6c1a83d925b8cbf1",
+    "sha256_after": "8d840da3cb322688fe1e83e530c9f35092f104c17a6aa63f04647aeb3fc609c0",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2020/Tops/label_manifest.json",
+    "slug": "ruthless_regiment",
+    "name": "RUTHLESS REGIMENT",
+    "set": "COMMANDER 2020",
+    "colors": [
+      "RED",
+      "WHITE",
+      "BLACK"
+    ],
+    "before": "images/commander_2020/Tops/ruthless_regiment_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2020/Tops/ruthless_regiment_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "b93ed26a65a105a6a8f9a1b645d7e1f0645241367a15fc4d5ffcce672e19635d",
+    "sha256_after": "9d28411887ef83cdafa11d4f719508a984ddca4c8008da9d4b3aec03d4dc1fa8",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2020/Tops/label_manifest.json",
+    "slug": "symbiotic_swarm",
+    "name": "SYMBIOTIC SWARM",
+    "set": "COMMANDER 2020",
+    "colors": [
+      "WHITE",
+      "BLACK",
+      "GREEN"
+    ],
+    "before": "images/commander_2020/Tops/symbiotic_swarm_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2020/Tops/symbiotic_swarm_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "28803e958ebf9bbba048d8e516a4eda3a417f0e36dc7fc90a801840ee2ea405a",
+    "sha256_after": "a19daa742b83749fc8d7e82967afd0ac2892eb3cca6713f0410690cb03ffa7b7",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2020/Tops/label_manifest.json",
+    "slug": "timeless_wisdom",
+    "name": "TIMELESS WISDOM",
+    "set": "COMMANDER 2020",
+    "colors": [
+      "BLUE",
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/commander_2020/Tops/timeless_wisdom_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2020/Tops/timeless_wisdom_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "597640ff153726fb1042f353d9f2239c1bb7d0e8d523303502b30ace4a087425",
+    "sha256_after": "6174627d96b33de8fa3b0b8654239804c03a6a7f57ae142988c766a5de132aec",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_anthology_i/Tops/label_manifest.json",
+    "slug": "evasive_maneuvers",
+    "name": "EVASIVE MANEUVERS",
+    "set": "COMMANDER ANTHOLOGY",
+    "colors": [
+      "GREEN",
+      "WHITE",
+      "BLUE"
+    ],
+    "before": "images/commander_anthology_i/Tops/evasive_maneuvers_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_anthology_i/Tops/evasive_maneuvers_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "7a723a8a8e9abbddc8588735c7c111927501c6dadbe276e28ab0c78b27a75611",
+    "sha256_after": "0a91c7db6dd3d64c3410266446e1bbb9bb84f80fc0edf77001e91be86ff4dbb3",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_anthology_i/Tops/label_manifest.json",
+    "slug": "heavenly_inferno",
+    "name": "HEAVENLY INFERNO",
+    "set": "COMMANDER ANTHOLOGY",
+    "colors": [
+      "RED",
+      "WHITE",
+      "BLACK"
+    ],
+    "before": "images/commander_anthology_i/Tops/heavenly_inferno_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_anthology_i/Tops/heavenly_inferno_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "092a23fbfdd3abd024a98fd81012c8705c2a3efb3f39c4a9c1c10bf3eb7c1693",
+    "sha256_after": "41e3f67577c393bb433d5954241b4105286331630211bc9eb43589c0a76f1cb2",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_anthology_i/Tops/label_manifest.json",
+    "slug": "plunder_the_graves",
+    "name": "PLUNDER THE GRAVES",
+    "set": "COMMANDER ANTHOLOGY",
+    "colors": [
+      "BLACK",
+      "GREEN"
+    ],
+    "before": "images/commander_anthology_i/Tops/plunder_the_graves_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_anthology_i/Tops/plunder_the_graves_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "3dda608e900445963d911fe5b2384543cf50bfff563105c8165799353eeb0878",
+    "sha256_after": "02f938484ca293f3bf1fbfdf8b15986568bb8484297cbe9ec08df0707d82eae5",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_2016/Tops/label_manifest.json",
+    "slug": "breed_lethality",
+    "name": "BREED LETHALITY",
+    "set": "COMMANDER ANTHOLOGY VOLUME II",
+    "colors": [
+      "GREEN",
+      "WHITE",
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/commander_2016/Tops/breed_lethality_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_2016/Tops/breed_lethality_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "a3a8d8b81e36e8c19d60cf0ecaf62b9907a7754fc5351d4aa793f26ac27ab07e",
+    "sha256_after": "970ab817e785a2f7770774ead6b90aa81692c355d64a07d8f9f560d1da6e784f",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_anthology_i/Tops/label_manifest.json",
+    "slug": "breed_lethality",
+    "name": "BREED LETHALITY",
+    "set": "COMMANDER ANTHOLOGY VOLUME II",
+    "colors": [
+      "GREEN",
+      "WHITE",
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/commander_anthology_i/Tops/breed_lethality_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_anthology_i/Tops/breed_lethality_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "a3a8d8b81e36e8c19d60cf0ecaf62b9907a7754fc5351d4aa793f26ac27ab07e",
+    "sha256_after": "970ab817e785a2f7770774ead6b90aa81692c355d64a07d8f9f560d1da6e784f",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_anthology_i/Tops/label_manifest.json",
+    "slug": "built_from_scratch",
+    "name": "BUILT FROM SCRATCH",
+    "set": "COMMANDER ANTHOLOGY VOLUME II",
+    "colors": [
+      "RED"
+    ],
+    "before": "images/commander_anthology_i/Tops/built_from_scratch_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_anthology_i/Tops/built_from_scratch_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "7205053862065dffeb5bfa58bb609a8db616474e7119d9679ec07d84991d0bbc",
+    "sha256_after": "679c6101f26946a957748242e75b0b204ed34b791c7443c9e522119f42e83490",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_anthology_i/Tops/label_manifest.json",
+    "slug": "wade_into_battle",
+    "name": "WADE INTO BATTLE",
+    "set": "COMMANDER ANTHOLOGY VOLUME II",
+    "colors": [
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/commander_anthology_i/Tops/wade_into_battle_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_anthology_i/Tops/wade_into_battle_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "6733546f386fea96c478349d345fbcc5c6a0dfb160952775ce13babe822fa9db",
+    "sha256_after": "b89b530eacf614f480440eec56646b6575b8710834dca134decd7f0c13f7a7fb",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_legends/Tops/label_manifest.json",
+    "slug": "arm_for_battle",
+    "name": "ARM FOR BATTLE",
+    "set": "COMMANDER LEGENDS",
+    "colors": [
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/commander_legends/Tops/arm_for_battle_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_legends/Tops/arm_for_battle_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "645bbafdccd6d9e0f5a7eb069f678136750758e31612984d4c7506ff8d5ecc38",
+    "sha256_after": "8b751d3fb61974ef9c7f35588c7b72864aec7c07d0028934c226117c583b32bf",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_legends/Tops/label_manifest.json",
+    "slug": "reap_the_tides",
+    "name": "REAP THE TIDES",
+    "set": "COMMANDER LEGENDS",
+    "colors": [
+      "GREEN",
+      "BLUE"
+    ],
+    "before": "images/commander_legends/Tops/reap_the_tides_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_legends/Tops/reap_the_tides_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "bd7ebe9e4bfd444c702d3467372f8c1fcda748d8df37c73418d497a3d615dd86",
+    "sha256_after": "831436097e27576cdc9eb751128823c13f89a4f8c8aa77c94491499900b03cfd",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_masters/Tops/label_manifest.json",
+    "slug": "enduring_enchantments",
+    "name": "ENDURING ENCHANTMENTS",
+    "set": "COMMANDER MASTERS",
+    "colors": [
+      "WHITE",
+      "BLACK",
+      "GREEN"
+    ],
+    "before": "images/commander_masters/Tops/enduring_enchantments_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_masters/Tops/enduring_enchantments_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "7fddf8c69a581d092a2841f115c383b830a2727d73052b3a6dca36669beb6051",
+    "sha256_after": "dab0944505dcbb675b29f0e07d520543806d9609a8b3749c1014aaf7bdf745d4",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/commander_masters/Tops/label_manifest.json",
+    "slug": "planeswalker_party",
+    "name": "PLANESWALKER PARTY",
+    "set": "COMMANDER MASTERS",
+    "colors": [
+      "BLUE",
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/commander_masters/Tops/planeswalker_party_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/commander_masters/Tops/planeswalker_party_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "c38979f0936d2b3125bab7ae184f121819d5bd87031b004a1c53ae400b79e9b3",
+    "sha256_after": "8f0e84e14f53ad260851c5332115710754d4c124a9f555e6f52fe9b7d1aedda4",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/doctor_who/Tops/label_manifest.json",
+    "slug": "blast_from_the_past",
+    "name": "BLAST FROM THE PAST",
+    "set": "DOCTOR WHO COMMANDER",
+    "colors": [
+      "GREEN",
+      "WHITE",
+      "BLUE"
+    ],
+    "before": "images/doctor_who/Tops/blast_from_the_past_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/doctor_who/Tops/blast_from_the_past_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "de164f7a30d652a3a789ea7e65ffaa0865f887994e1309c4ffdd1f262049eaf6",
+    "sha256_after": "ab87f4b3427f3b6bbdb61884beeab18f1ee26b30cdbe4715e4d13776f3ee6e96",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/doctor_who/Tops/label_manifest.json",
+    "slug": "masters_of_evil",
+    "name": "MASTERS OF EVIL",
+    "set": "DOCTOR WHO COMMANDER",
+    "colors": [
+      "BLUE",
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/doctor_who/Tops/masters_of_evil_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/doctor_who/Tops/masters_of_evil_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "e3614a1445fe6462609dd59d1a7f474784bb51d6ada8ae1cf91e2ca0e46d257c",
+    "sha256_after": "ae5214d8ed9adea2c946f264825ef49988bf8cf48f27c679a0dae37c62fd1390",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/doctor_who/Tops/label_manifest.json",
+    "slug": "paradox_power",
+    "name": "PARADOX POWER",
+    "set": "DOCTOR WHO COMMANDER",
+    "colors": [
+      "GREEN",
+      "BLUE",
+      "RED"
+    ],
+    "before": "images/doctor_who/Tops/paradox_power_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/doctor_who/Tops/paradox_power_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "2fba670ba977740fd30b23f547d8acd604ceb3584b36c4702a9d95a0e3040ddd",
+    "sha256_after": "62b851bd78eb47dae639e67db8fc9527eb30e5eca64011a873b87510e5116269",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/doctor_who/Tops/label_manifest.json",
+    "slug": "timey_wimey",
+    "name": "TIMEY-WIMEY",
+    "set": "DOCTOR WHO COMMANDER",
+    "colors": [
+      "BLUE",
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/doctor_who/Tops/timey_wimey_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/doctor_who/Tops/timey_wimey_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "82b9207c1cc07899c4e20a99be0316d5db79e430b0ade3ae90d6af7c7a8af395",
+    "sha256_after": "0d27d7dfeb4d29798d7d33ab80a3a18e3eeb83b3d7e2c556fe35c2028ac911ff",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/edge_of_eternities/Tops/label_manifest.json",
+    "slug": "counter_intelligence",
+    "name": "COUNTER INTELLIGENCE",
+    "set": "EDGE OF ETERNITIES COMMANDER",
+    "colors": [
+      "BLUE",
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/edge_of_eternities/Tops/counter_intelligence_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/edge_of_eternities/Tops/counter_intelligence_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "3e69e2713c2ca30c609e6d5e1881c07a33c12491b2e744cfc321694c38c8c460",
+    "sha256_after": "e1371fd5dec5df358f12e915e0018e36bf30acd6a19e6abd63173cc6b2ae01d0",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/edge_of_eternities/Tops/label_manifest.json",
+    "slug": "world_shaper",
+    "name": "WORLD SHAPER",
+    "set": "EDGE OF ETERNITIES COMMANDER",
+    "colors": [
+      "BLACK",
+      "RED",
+      "GREEN"
+    ],
+    "before": "images/edge_of_eternities/Tops/world_shaper_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/edge_of_eternities/Tops/world_shaper_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "1d4336bef5fb9fa4b1f2bce5d85c76c479d61767f970e1e21e4a095deabd6fb0",
+    "sha256_after": "2b69f7b2ce0f1172a32197889ab36686f8dd1cc5192c0125ca97119fe9b759c1",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/fallout/Tops/label_manifest.json",
+    "slug": "hail_caesar",
+    "name": "HAIL, CAESAR",
+    "set": "FALLOUT COMMANDER",
+    "colors": [
+      "RED",
+      "WHITE",
+      "BLACK"
+    ],
+    "before": "images/fallout/Tops/hail_caesar_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/fallout/Tops/hail_caesar_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "66990e3b7e6b99b0868dca52226390e229133b55acd45c321e832b74234344c1",
+    "sha256_after": "b7540de2c1524274ec6af76b34a79f11ecb56313d93d774d875a28bd7df4e47a",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/fallout/Tops/label_manifest.json",
+    "slug": "mutant_menace",
+    "name": "MUTANT MENACE",
+    "set": "FALLOUT COMMANDER",
+    "colors": [
+      "BLACK",
+      "GREEN",
+      "BLUE"
+    ],
+    "before": "images/fallout/Tops/mutant_menace_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/fallout/Tops/mutant_menace_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "893fd3ba7e46b2ac9bfd75d6e56be72aec5d5b17d7006bea51af5c0078094dd2",
+    "sha256_after": "cf0dcddcacf86ccb5a2558e4a9634ef490425d9092ffd08eea0f30579fcc946c",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/fallout/Tops/label_manifest.json",
+    "slug": "science",
+    "name": "SCIENCE!",
+    "set": "FALLOUT COMMANDER",
+    "colors": [
+      "BLUE",
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/fallout/Tops/science_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/fallout/Tops/science_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "6f59c51cecb3faa6367a5e7128304feefba94dd055f30e561bc98bd6f3705ad6",
+    "sha256_after": "65f68cf8d2d33f380c5649d4d3a8c473b1f7e2084b4a6c28da4fa0417f93881a",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/fallout/Tops/label_manifest.json",
+    "slug": "scrappy_survivors",
+    "name": "SCRAPPY SURVIVORS",
+    "set": "FALLOUT COMMANDER",
+    "colors": [
+      "RED",
+      "GREEN",
+      "WHITE"
+    ],
+    "before": "images/fallout/Tops/scrappy_survivors_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/fallout/Tops/scrappy_survivors_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "f2964bc0fdf5c4f9fadd1abf7712fcc4d2372a4c376dc7759f4a9797e54782cf",
+    "sha256_after": "3c984b139954999107054dc0b2a26f21ce6cb9cf582072ff39494116be085da7",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/final_fantasy/Tops/label_manifest.json",
+    "slug": "counter_blitz",
+    "name": "COUNTER BLITZ",
+    "set": "FINAL FANTASY COMMANDER",
+    "colors": [
+      "GREEN",
+      "WHITE",
+      "BLUE"
+    ],
+    "before": "images/final_fantasy/Tops/counter_blitz_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/final_fantasy/Tops/counter_blitz_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "9091d45b7113bfca3c77348c42a0d6414c165729f61b05cafca62fa67354a57d",
+    "sha256_after": "b290d2d668eb259a0e821e70602564799730183cb78a361b594445f78dbbb727",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/final_fantasy/Tops/label_manifest.json",
+    "slug": "limit_break",
+    "name": "LIMIT BREAK",
+    "set": "FINAL FANTASY COMMANDER",
+    "colors": [
+      "RED",
+      "GREEN",
+      "WHITE"
+    ],
+    "before": "images/final_fantasy/Tops/limit_break_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/final_fantasy/Tops/limit_break_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "ee60d90b44cd712338113f5710998a59664aa231ff8468275209dede34fd8737",
+    "sha256_after": "b808eda356b5e74891eb90041ad0eacac4c1b67a430a3b95555fdc7d20519be8",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/final_fantasy/Tops/label_manifest.json",
+    "slug": "revival_trance",
+    "name": "REVIVAL TRANCE",
+    "set": "FINAL FANTASY COMMANDER",
+    "colors": [
+      "WHITE",
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/final_fantasy/Tops/revival_trance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/final_fantasy/Tops/revival_trance_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "49ec7f55b4db5b9cb2596199805446441026f5a3ae97239f6379332229bc95a4",
+    "sha256_after": "a0dc9a8198440e022406dad92b00372f3aee14a5aaee939e36e4d36c89772fdc",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/final_fantasy/Tops/label_manifest.json",
+    "slug": "scions_and_spellcraft",
+    "name": "SCIONS & SPELLCRAFT",
+    "set": "FINAL FANTASY COMMANDER",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/final_fantasy/Tops/scions_and_spellcraft_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/final_fantasy/Tops/scions_and_spellcraft_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "f20830bb618cd286369afb3cf9dbed1b607cb7f39877c358d1f6a6ad9e4c5e1c",
+    "sha256_after": "91cca4f3afba23edc8201646a08e1877805546662fc912cc591a505df11260c0",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/kamigawa_neon_dynasty/Tops/label_manifest.json",
+    "slug": "buckle_up",
+    "name": "BUCKLE UP",
+    "set": "KAMIGAWA: NEON DYNASTY",
+    "colors": [
+      "WHITE",
+      "BLUE"
+    ],
+    "before": "images/kamigawa_neon_dynasty/Tops/buckle_up_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/kamigawa_neon_dynasty/Tops/buckle_up_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "c016572ad0bc32c4bc0bc3db51b7f56cb33fb625d9b366472d502d094ce057c7",
+    "sha256_after": "0e46d1620852cec53a1f20306992e27ac8a96d4effb92fd5d8c9e5d24d037405",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/kamigawa_neon_dynasty/Tops/label_manifest.json",
+    "slug": "upgrades_unleashed",
+    "name": "UPGRADES UNLEASHED",
+    "set": "KAMIGAWA: NEON DYNASTY",
+    "colors": [
+      "RED",
+      "GREEN"
+    ],
+    "before": "images/kamigawa_neon_dynasty/Tops/upgrades_unleashed_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/kamigawa_neon_dynasty/Tops/upgrades_unleashed_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "33975bbdb5a24f4706d0f78ebc254b56e8e02373e4d16edf710dbad5b5ceb120",
+    "sha256_after": "8cbb3225c2633aa2c771cf83b2329f72315620bf742f244c4e103f78b03797f3",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/march_of_the_machine/Tops/label_manifest.json",
+    "slug": "call_for_backup",
+    "name": "CALL FOR BACKUP",
+    "set": "MARCH OF THE MACHINE",
+    "colors": [
+      "RED",
+      "GREEN",
+      "WHITE"
+    ],
+    "before": "images/march_of_the_machine/Tops/call_for_backup_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/march_of_the_machine/Tops/call_for_backup_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "42185433147c290d4534a0aeca4e49c6a6f1667932dee412089b24d993b91699",
+    "sha256_after": "da9b06affd47d3649aee6b43f5cd44de60a032c7d276b4c8a60f40e6b02a1a30",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/march_of_the_machine/Tops/label_manifest.json",
+    "slug": "cavalry_charge",
+    "name": "CAVALRY CHARGE",
+    "set": "MARCH OF THE MACHINE",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/march_of_the_machine/Tops/cavalry_charge_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/march_of_the_machine/Tops/cavalry_charge_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "4b44f8baec2e95b8bbc2b36a6b8065933acaddd3dae0da604b3a21e0366b9d5f",
+    "sha256_after": "62d84a1b036edbd8e6c1678f67ca5ce57a45b197639c7755bc1b9b902dc08f42",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/march_of_the_machine/Tops/label_manifest.json",
+    "slug": "divine_convocation",
+    "name": "DIVINE CONVOCATION",
+    "set": "MARCH OF THE MACHINE",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "RED"
+    ],
+    "before": "images/march_of_the_machine/Tops/divine_convocation_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/march_of_the_machine/Tops/divine_convocation_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "067a78a80aa1d66afa06e8577ce64ea62fb6cf233caea1be6418509362dc2e6c",
+    "sha256_after": "6d66c29b4fec3b6388ed0f2cd728ea2049373913ce337853ffeba79589e220ad",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/march_of_the_machine/Tops/label_manifest.json",
+    "slug": "growing_threat",
+    "name": "GROWING THREAT",
+    "set": "MARCH OF THE MACHINE",
+    "colors": [
+      "WHITE",
+      "BLACK"
+    ],
+    "before": "images/march_of_the_machine/Tops/growing_threat_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/march_of_the_machine/Tops/growing_threat_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "d1463f4084e41b884f0b9207e70790c74a5b2429a84eb85a4ac9cacacf771c76",
+    "sha256_after": "ed24781b6ed74766233c5de65ed78e9c16adfbb95dae8d23ad54eadd46d65bb3",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/march_of_the_machine/Tops/label_manifest.json",
+    "slug": "tinker_time",
+    "name": "TINKER TIME",
+    "set": "MARCH OF THE MACHINE",
+    "colors": [
+      "GREEN",
+      "BLUE",
+      "RED"
+    ],
+    "before": "images/march_of_the_machine/Tops/tinker_time_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/march_of_the_machine/Tops/tinker_time_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "28a086aee7cb8585f461b6b6f4dcc331d35f8706d1b21786b073c3436b8db91d",
+    "sha256_after": "6991122dd3f329bd5a7d72b96f2e79df6502a429952b189d3aaaa164c4776781",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/marvel_super_heroes/Tops/label_manifest.json",
+    "slug": "avengers_assemble",
+    "name": "AVENGERS ASSEMBLE",
+    "set": "MARVEL SUPER HEROES",
+    "colors": [
+      "BLUE",
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/marvel_super_heroes/Tops/avengers_assemble_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/marvel_super_heroes/Tops/avengers_assemble_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "1aec4cecf27d3482a8c3bdc7cef776495cde1f9943a334c05fa4b94bac8f1805",
+    "sha256_after": "e6df0a99e2478583adc46c4c11a488bc2925e4760b433d154addc6c1c8540350",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/marvel_super_heroes/Tops/label_manifest.json",
+    "slug": "doom_prevails",
+    "name": "DOOM PREVAILS",
+    "set": "MARVEL SUPER HEROES",
+    "colors": [
+      "BLUE",
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/marvel_super_heroes/Tops/doom_prevails_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/marvel_super_heroes/Tops/doom_prevails_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "bf96c3880bb44a36de680af32ed298666c345cbc65d86daecf8cfbf70bfcde43",
+    "sha256_after": "342fee03b954f481b03c495fba157255edf526ef928c7e9e2de8bea35ed76e15",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/marvel_super_heroes/Tops/label_manifest.json",
+    "slug": "the_fantastic_four",
+    "name": "THE FANTASTIC FOUR",
+    "set": "MARVEL SUPER HEROES",
+    "colors": [
+      "RED",
+      "GREEN",
+      "WHITE",
+      "BLUE"
+    ],
+    "before": "images/marvel_super_heroes/Tops/the_fantastic_four_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/marvel_super_heroes/Tops/the_fantastic_four_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "5c22d0fb1100d58aa454115c1cc2bbd8fce9b5556548c533ed3f269e25f028e2",
+    "sha256_after": "82196cd2bcdc49d1152d121a46ebd41968cf0c3ab70533f526523b5f70732f96",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/marvel_super_heroes/Tops/label_manifest.json",
+    "slug": "wakanda_forever",
+    "name": "WAKANDA FOREVER",
+    "set": "MARVEL SUPER HEROES",
+    "colors": [
+      "GREEN",
+      "WHITE"
+    ],
+    "before": "images/marvel_super_heroes/Tops/wakanda_forever_upper_third_v5_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/marvel_super_heroes/Tops/wakanda_forever_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "35d9fd57cf939301e7a68dd26b20dcc63f5b7dff6268294f3ed085dda6bac1db",
+    "sha256_after": "73e0666e8df7ade254c979fd9221911fcdb0ef290903caff8a0d6642c2af8ad3",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/modern_horizons_3/Tops/label_manifest.json",
+    "slug": "creative_energy",
+    "name": "CREATIVE ENERGY",
+    "set": "MODERN HORIZONS 3 COMMANDER",
+    "colors": [
+      "BLUE",
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/modern_horizons_3/Tops/creative_energy_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/modern_horizons_3/Tops/creative_energy_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "19a2b1935edb351ded6e666a20d6e8a1a97a3ea35f7ae5e9b5104ff7e52dd13b",
+    "sha256_after": "a4bae9bd1545fa9180666d279a0e858fe98ab7da27a65e8e621851984336ba75",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/modern_horizons_3/Tops/label_manifest.json",
+    "slug": "eldrazi_incursion",
+    "name": "ELDRAZI INCURSION",
+    "set": "MODERN HORIZONS 3 COMMANDER",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK",
+      "RED",
+      "GREEN"
+    ],
+    "before": "images/modern_horizons_3/Tops/eldrazi_incursion_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/modern_horizons_3/Tops/eldrazi_incursion_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "d2d264f109f65b900cdda65485a9631cff42f63f6ff556d678d4047da39baf61",
+    "sha256_after": "ca8e0438673e062ae71022af611e8b1524d01b5bd6cfd5d1cca1454c73956393",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/modern_horizons_3/Tops/label_manifest.json",
+    "slug": "graveyard_overdrive",
+    "name": "GRAVEYARD OVERDRIVE",
+    "set": "MODERN HORIZONS 3 COMMANDER",
+    "colors": [
+      "BLACK",
+      "RED",
+      "GREEN"
+    ],
+    "before": "images/modern_horizons_3/Tops/graveyard_overdrive_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/modern_horizons_3/Tops/graveyard_overdrive_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "a5862cd363ddb381fcd010caf448c6b1479206d41c9786d8d5d5db9a24c4a14c",
+    "sha256_after": "4af299b9f7a5a82e34d9e038f4eaa9a3c46b550d07aa8a725c68bf9a4c554565",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/modern_horizons_3/Tops/label_manifest.json",
+    "slug": "tricky_terrain",
+    "name": "TRICKY TERRAIN",
+    "set": "MODERN HORIZONS 3 COMMANDER",
+    "colors": [
+      "GREEN",
+      "BLUE"
+    ],
+    "before": "images/modern_horizons_3/Tops/tricky_terrain_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/modern_horizons_3/Tops/tricky_terrain_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "df4700df2eee3b0ac7302b7b3dd3632d6f19950b473eac04239ce26f179ef83a",
+    "sha256_after": "feb47bb82e78490b2d9e956aad029c8c3757c5a1b993c9da87f1fda5cf728432",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/phyrexia_all_will_be_one/Tops/label_manifest.json",
+    "slug": "corrupting_influence",
+    "name": "CORRUPTING INFLUENCE",
+    "set": "PHYREXIA: ALL WILL BE ONE",
+    "colors": [
+      "WHITE",
+      "BLACK",
+      "GREEN"
+    ],
+    "before": "images/phyrexia_all_will_be_one/Tops/corrupting_influence_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/phyrexia_all_will_be_one/Tops/corrupting_influence_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "30e436c3ce20078bd5aa4f5e3397cdca737920a52378b5fa5715285e8811191a",
+    "sha256_after": "56bdefa97ae847ab9602f1bead03c5e69b35323e06b4f3cbd366a34073714065",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/phyrexia_all_will_be_one/Tops/label_manifest.json",
+    "slug": "rebellion_rising",
+    "name": "REBELLION RISING",
+    "set": "PHYREXIA: ALL WILL BE ONE",
+    "colors": [
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/phyrexia_all_will_be_one/Tops/rebellion_rising_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/phyrexia_all_will_be_one/Tops/rebellion_rising_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "4a3f9b677da4542d1e03f2a812c171746db494fcbf41ca1cc45b0b7b189b6e5d",
+    "sha256_after": "7b6274e32db767b32d9878395852c205557e7b31571d6e7c491e4e6eea3b3352",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/reality_fracture/Tops/label_manifest.json",
+    "slug": "multiverse_reforged",
+    "name": "MULTIVERSE REFORGED",
+    "set": "REALITY FRACTURE COMMANDER",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/reality_fracture/Tops/multiverse_reforged_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/reality_fracture/Tops/multiverse_reforged_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "42162dc5d8c85ef31b494adb8ca67545906915933293f087444fda22cd3e633c",
+    "sha256_after": "1618198b1fe677ddd1299254f989e2e24ab86f5bb5a32afe1fc72be89acb8a07",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/star_trek/Tops/label_manifest.json",
+    "slug": "federation_fleet",
+    "name": "FEDERATION FLEET",
+    "set": "STAR TREK COMMANDER",
+    "colors": [
+      "BLUE",
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/star_trek/Tops/federation_fleet_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/star_trek/Tops/federation_fleet_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "df743c950410e9ec6dc3e5200b92b978ad115b24e442305ca80872ee8ed01f9b",
+    "sha256_after": "d6505e76fdf81b189f269827c6934dabb2043c9e80e41504e32856be6e946ec5",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/star_trek/Tops/label_manifest.json",
+    "slug": "klingon_fury",
+    "name": "KLINGON FURY",
+    "set": "STAR TREK COMMANDER",
+    "colors": [
+      "RED",
+      "WHITE",
+      "BLACK"
+    ],
+    "before": "images/star_trek/Tops/klingon_fury_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/star_trek/Tops/klingon_fury_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "0a79b5c721f91d0cea786811d09eaf270a432273cf701592441596c677d5cbd3",
+    "sha256_after": "3e3c54f1c41c3bb71554a5da549c5e8a7509e80358e040f9445d5f51642f3123",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/star_trek/Tops/label_manifest.json",
+    "slug": "landing_party",
+    "name": "LANDING PARTY",
+    "set": "STAR TREK COMMANDER",
+    "colors": [
+      "GREEN",
+      "WHITE",
+      "BLUE"
+    ],
+    "before": "images/star_trek/Tops/landing_party_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/star_trek/Tops/landing_party_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "00e1d395d1be470314b245bb132d96b41e76c2b7d0e37f94be99bda9c4eca103",
+    "sha256_after": "553b06cf21fe780dba627d210f36ed547d2a0be656e90cb3c8ea74c90a5b5782",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/star_trek/Tops/label_manifest.json",
+    "slug": "we_are_the_borg",
+    "name": "WE ARE THE BORG",
+    "set": "STAR TREK COMMANDER",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/star_trek/Tops/we_are_the_borg_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/star_trek/Tops/we_are_the_borg_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "3fb2102da7b3a46aaca82e04c3c2b06afba591e4de6a0302e626b4293b74be49",
+    "sha256_after": "ad9d5aa1f2e495db6d4bf999caf88d42fed064c29e51ea8ba480bdda63756d6d",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/starter_commander/Tops/label_manifest.json",
+    "slug": "chaos_incarnate",
+    "name": "CHAOS INCARNATE",
+    "set": "STARTER COMMANDER",
+    "colors": [
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/starter_commander/Tops/chaos_incarnate_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/starter_commander/Tops/chaos_incarnate_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "39f1dd89dc24f30179f6ad0ad50effb53ef6447671e64e97505078a54a9176ee",
+    "sha256_after": "f8e764279210d3f85fb441fad95bd001f1f5c9b7722f18ce2b3fe1bc3e089d45",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/starter_commander/Tops/label_manifest.json",
+    "slug": "draconic_destruction",
+    "name": "DRACONIC DESTRUCTION",
+    "set": "STARTER COMMANDER",
+    "colors": [
+      "RED",
+      "GREEN"
+    ],
+    "before": "images/starter_commander/Tops/draconic_destruction_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/starter_commander/Tops/draconic_destruction_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "fbedec33f0005783fe682282d3e451cdbd3366e360a042fa9ec5bcf3f70f6a0e",
+    "sha256_after": "9f44e813463d7f26f6892748f1099c11ff2cac2f3461abee02622668cf290df6",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/starter_commander/Tops/label_manifest.json",
+    "slug": "first_flight",
+    "name": "FIRST FLIGHT",
+    "set": "STARTER COMMANDER",
+    "colors": [
+      "WHITE",
+      "BLUE"
+    ],
+    "before": "images/starter_commander/Tops/first_flight_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/starter_commander/Tops/first_flight_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "eb5b4a3c80d3d776bd1a8472041470ac3e015745961044a13d8fc8afb8462bbd",
+    "sha256_after": "74adfe67d87fbe472c485c94de564c9e790c83ea51fe3d88a2395e2549196ec8",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/starter_commander/Tops/label_manifest.json",
+    "slug": "grave_danger",
+    "name": "GRAVE DANGER",
+    "set": "STARTER COMMANDER",
+    "colors": [
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/starter_commander/Tops/grave_danger_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/starter_commander/Tops/grave_danger_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "74f3c480f87d57627737c8243fda87e31118aa9d70c09ba3a6b2d23bc26b71ef",
+    "sha256_after": "da83c1582c62fc0f416bd9cde150011e2aa2880f776bfb42c414875bed5e3a29",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/starter_commander/Tops/label_manifest.json",
+    "slug": "token_triumph",
+    "name": "TOKEN TRIUMPH",
+    "set": "STARTER COMMANDER",
+    "colors": [
+      "GREEN",
+      "WHITE"
+    ],
+    "before": "images/starter_commander/Tops/token_triumph_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/starter_commander/Tops/token_triumph_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "fed20547e7fe407f243062c44a9766c50e253636c0f509d481fc3a0446ce0274",
+    "sha256_after": "ddc4ea0fcfebb78fc436f1eccd66210ae79c5acd4e941cb5a20f9fdcfdbddd0c",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/strixhaven/Tops/label_manifest.json",
+    "slug": "lorehold_legacies",
+    "name": "LOREHOLD LEGACIES",
+    "set": "STRIXHAVEN COMMANDER",
+    "colors": [
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/strixhaven/Tops/lorehold_legacies_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/strixhaven/Tops/lorehold_legacies_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "e731be1d4f03788bfaa17bdd92ea5e8fc311b47f7e7f80fa6f3cdb315060bdcf",
+    "sha256_after": "2f7f44dd4ff1d8292329e3306d6fb78454f85af572e09a4c2a136e37fef14502",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/strixhaven/Tops/label_manifest.json",
+    "slug": "prismari_performance",
+    "name": "PRISMARI PERFORMANCE",
+    "set": "STRIXHAVEN COMMANDER",
+    "colors": [
+      "BLUE",
+      "RED"
+    ],
+    "before": "images/strixhaven/Tops/prismari_performance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/strixhaven/Tops/prismari_performance_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "51614979d12a3849dc9a48e4e86d8e4e6829774a66abb03bd05093c192693388",
+    "sha256_after": "ea17b2fc5830be2eb36aaead4da128d2b1cdc9d68fcff6aef8ef135fa23e0b1b",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/strixhaven/Tops/label_manifest.json",
+    "slug": "quantum_quandrix",
+    "name": "QUANTUM QUANDRIX",
+    "set": "STRIXHAVEN COMMANDER",
+    "colors": [
+      "GREEN",
+      "BLUE"
+    ],
+    "before": "images/strixhaven/Tops/quantum_quandrix_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/strixhaven/Tops/quantum_quandrix_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "885d2e69cdc9e094b43493d306fe5f684bcedc9910a9b6313692f1280deb412b",
+    "sha256_after": "a3eb8dac56683c3209f56969eacb1bfff706397604dcbdd897e1e91dc66251b7",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/strixhaven/Tops/label_manifest.json",
+    "slug": "silverquill_statement",
+    "name": "SILVERQUILL STATEMENT",
+    "set": "STRIXHAVEN COMMANDER",
+    "colors": [
+      "WHITE",
+      "BLACK"
+    ],
+    "before": "images/strixhaven/Tops/silverquill_statement_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/strixhaven/Tops/silverquill_statement_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "ecfe4ade92acc308cc64097cac1b91c3a499ad1be827ca95ad5f2a301ba304fa",
+    "sha256_after": "d464693dd4dbd532813aa2110565d4706b408f406489c335d0f13d16ac39c57b",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/strixhaven/Tops/label_manifest.json",
+    "slug": "witherbloom_witchcraft",
+    "name": "WITHERBLOOM WITCHCRAFT",
+    "set": "STRIXHAVEN COMMANDER",
+    "colors": [
+      "BLACK",
+      "GREEN"
+    ],
+    "before": "images/strixhaven/Tops/witherbloom_witchcraft_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/strixhaven/Tops/witherbloom_witchcraft_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "a7e2898143e8f1bfaa1d5cc4efbb0a42a108de9c0de374fb37aa246d99688dcd",
+    "sha256_after": "ec09cfbc5e3885106da4c3a2f63dc7c49f0cdfbcef0aac8cb60c74564e0bdb44",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/teenage_mutant_ninja_turtles/Tops/label_manifest.json",
+    "slug": "turtle_power",
+    "name": "TURTLE POWER!",
+    "set": "TEENAGE MUTANT NINJA TURTLES",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK",
+      "RED",
+      "GREEN"
+    ],
+    "before": "images/teenage_mutant_ninja_turtles/Tops/turtle_power_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/teenage_mutant_ninja_turtles/Tops/turtle_power_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "4b0d73e89652b65e2bb6edc95baaf90437bac57d50eb86040920d5bbe5d1cbca",
+    "sha256_after": "fcbbd1d01931a73fa1801a98b4b98b1d696a254b94bbfab4821bcad9976c7ec6",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/brothers_war/Tops/label_manifest.json",
+    "slug": "mishras_burnished_banner",
+    "name": "MISHRA\u2019S BURNISHED BANNER",
+    "set": "THE BROTHERS\u2019 WAR COMMANDER",
+    "colors": [
+      "BLUE",
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/brothers_war/Tops/mishras_burnished_banner_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/brothers_war/Tops/mishras_burnished_banner_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "2c0efce0043ac4404725e098b6e8c7e245ee7e36fc6d0b4c41db707a2b4ea6b0",
+    "sha256_after": "0ba2529a2792f4881472ee805747446dcf14b34c70c44fc1ad6571275bdffab4",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/brothers_war/Tops/label_manifest.json",
+    "slug": "urzas_iron_alliance",
+    "name": "URZA\u2019S IRON ALLIANCE",
+    "set": "THE BROTHERS\u2019 WAR COMMANDER",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/brothers_war/Tops/urzas_iron_alliance_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/brothers_war/Tops/urzas_iron_alliance_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "a18cfe2a4591808a9780617e9ce796190175f38aaa6aac0b709c6d9a6228585e",
+    "sha256_after": "b861458736ecb172c60ee9e20b445b34b4078e8ab27c08bad9254fb924dba3e4",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/lord_of_the_rings/Tops/label_manifest.json",
+    "slug": "elven_council",
+    "name": "ELVEN COUNCIL",
+    "set": "THE LORD OF THE RINGS",
+    "colors": [
+      "GREEN",
+      "BLUE"
+    ],
+    "before": "images/lord_of_the_rings/Tops/elven_council_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/lord_of_the_rings/Tops/elven_council_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "b553c4c62907c85f077b2157fe7696b9443ddb87145447d89c15d58a70eddcd4",
+    "sha256_after": "dd12e48709c70bf15b875457fbe3366b4e196be84e6ee0b1b6024a61143be123",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/lord_of_the_rings/Tops/label_manifest.json",
+    "slug": "food_and_fellowship",
+    "name": "FOOD AND FELLOWSHIP",
+    "set": "THE LORD OF THE RINGS",
+    "colors": [
+      "WHITE",
+      "BLACK",
+      "GREEN"
+    ],
+    "before": "images/lord_of_the_rings/Tops/food_and_fellowship_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/lord_of_the_rings/Tops/food_and_fellowship_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "b06144a7bd32a27f619617fba36763e7a3bd93c3ef0ac64c18851fcb42e767db",
+    "sha256_after": "889cbf1d950a01215b39fe13481172f2dfa90c1c7c3cbac06a2e10bd301c2170",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/lord_of_the_rings/Tops/label_manifest.json",
+    "slug": "riders_of_rohan",
+    "name": "RIDERS OF ROHAN",
+    "set": "THE LORD OF THE RINGS",
+    "colors": [
+      "BLUE",
+      "RED",
+      "WHITE"
+    ],
+    "before": "images/lord_of_the_rings/Tops/riders_of_rohan_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/lord_of_the_rings/Tops/riders_of_rohan_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "bf1653aa55ce3addc56cfb2b5c151ca6324cbae73d3e5b061e8cd012858b4db9",
+    "sha256_after": "a74404c624c06ca29227ca0f59ecf333a83064c3076fe21cea39cbab70460c23",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/lord_of_the_rings/Tops/label_manifest.json",
+    "slug": "the_hosts_of_mordor",
+    "name": "THE HOSTS OF MORDOR",
+    "set": "THE LORD OF THE RINGS",
+    "colors": [
+      "BLUE",
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/lord_of_the_rings/Tops/the_hosts_of_mordor_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/lord_of_the_rings/Tops/the_hosts_of_mordor_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "e68085ce1516d782b4fc35ee7463cb086d38bf94b3e3c05b0ad010d116eb893b",
+    "sha256_after": "7d63686c2936608f6192dfbc6d3b3d086da6120f68876708aa30ed34fe07cbb6",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/lost_caverns_of_ixalan/Tops/label_manifest.json",
+    "slug": "ahoy_mateys",
+    "name": "AHOY MATEYS",
+    "set": "THE LOST CAVERNS OF IXALAN",
+    "colors": [
+      "BLUE",
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/lost_caverns_of_ixalan/Tops/ahoy_mateys_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/lost_caverns_of_ixalan/Tops/ahoy_mateys_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "ab68e7915387a34511b6ddd02e7da09b25ffb2abf0f7c4e56c063c5809c36e07",
+    "sha256_after": "0ef1ab64bb72b69202e7dfa5f254d303bc3fc239b4583ba62eb380193bea4ba4",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/lost_caverns_of_ixalan/Tops/label_manifest.json",
+    "slug": "blood_rites",
+    "name": "BLOOD RITES",
+    "set": "THE LOST CAVERNS OF IXALAN",
+    "colors": [
+      "WHITE",
+      "BLACK"
+    ],
+    "before": "images/lost_caverns_of_ixalan/Tops/blood_rites_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/lost_caverns_of_ixalan/Tops/blood_rites_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "9e2b38c21254f54ff804f3a6d5fb0aeb10b367bfea83e4e80e538c23d2c15abe",
+    "sha256_after": "138d58fdea92b31b97355e6dfbf8262eb56c932182c52662047793d2f33f83d2",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/lost_caverns_of_ixalan/Tops/label_manifest.json",
+    "slug": "explorers_of_the_deep",
+    "name": "EXPLORERS OF THE DEEP",
+    "set": "THE LOST CAVERNS OF IXALAN",
+    "colors": [
+      "GREEN",
+      "BLUE"
+    ],
+    "before": "images/lost_caverns_of_ixalan/Tops/explorers_of_the_deep_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/lost_caverns_of_ixalan/Tops/explorers_of_the_deep_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "fcd2cca1521e67a548f2cef15a21eac4e97ab47e1042375f942c1944efd75280",
+    "sha256_after": "e53bd874ea37b22d0bf693924b49258ffb03a715cc594f61615b30e38da8bb9e",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/lost_caverns_of_ixalan/Tops/label_manifest.json",
+    "slug": "veloci_ramp_tor",
+    "name": "VELOCI-RAMP-TOR",
+    "set": "THE LOST CAVERNS OF IXALAN",
+    "colors": [
+      "RED",
+      "GREEN",
+      "WHITE"
+    ],
+    "before": "images/lost_caverns_of_ixalan/Tops/veloci_ramp_tor_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/lost_caverns_of_ixalan/Tops/veloci_ramp_tor_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "2672dc8ac5437f80b47f91c12df9c2dea4526bd431c1ea96b1e29891d7ca6a59",
+    "sha256_after": "d852303031fc9f46a6f654a0dd1914b5eb786cb42b5d402429daa1f1d60adef2",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/throne_of_eldraine_brawl/Tops/label_manifest.json",
+    "slug": "faerie_schemes",
+    "name": "FAERIE SCHEMES",
+    "set": "THRONE OF ELDRAINE BRAWL",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/throne_of_eldraine_brawl/Tops/faerie_schemes_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/throne_of_eldraine_brawl/Tops/faerie_schemes_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "aff9ad98dd29d73129f54b24412e7cddf68244154bbe895482666114cd09f99a",
+    "sha256_after": "725465d452674a7a9766de1fd246c188984932686ee8e4db89a829fb63349fde",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/throne_of_eldraine_brawl/Tops/label_manifest.json",
+    "slug": "knights_charge",
+    "name": "KNIGHTS\u2019 CHARGE",
+    "set": "THRONE OF ELDRAINE BRAWL",
+    "colors": [
+      "RED",
+      "WHITE",
+      "BLACK"
+    ],
+    "before": "images/throne_of_eldraine_brawl/Tops/knights_charge_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/throne_of_eldraine_brawl/Tops/knights_charge_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "5819a1e7f525c625e3e3929f533583cca01af2a030f1af943145134915cf2b60",
+    "sha256_after": "960c996a88b285bd28826999f4dba99d9c553ecf502d90b75040816b5e28dae3",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/throne_of_eldraine_brawl/Tops/label_manifest.json",
+    "slug": "savage_hunger",
+    "name": "SAVAGE HUNGER",
+    "set": "THRONE OF ELDRAINE BRAWL",
+    "colors": [
+      "BLACK",
+      "RED",
+      "GREEN"
+    ],
+    "before": "images/throne_of_eldraine_brawl/Tops/savage_hunger_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/throne_of_eldraine_brawl/Tops/savage_hunger_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "12478ad5d95ae7bb0908b0861a52570176523c6b1c70829a73cbe17787724c20",
+    "sha256_after": "dd6f2c4d4dbb0560d7e24ddf3e6436c0188d8b41bbc77e4bb9195e4c0108f5eb",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/throne_of_eldraine_brawl/Tops/label_manifest.json",
+    "slug": "wild_bounty",
+    "name": "WILD BOUNTY",
+    "set": "THRONE OF ELDRAINE BRAWL",
+    "colors": [
+      "GREEN",
+      "WHITE",
+      "BLUE"
+    ],
+    "before": "images/throne_of_eldraine_brawl/Tops/wild_bounty_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/throne_of_eldraine_brawl/Tops/wild_bounty_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "7573e49e2b0c88d7f1a92052581cd5d587b11f65cbf946ad79db02fa8d836429",
+    "sha256_after": "598568ce62063a79493d2f0f91a071d5474e11d238e37f6063d9b1d92ae879a4",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/warhammer_40000/Tops/label_manifest.json",
+    "slug": "forces_of_the_imperium",
+    "name": "FORCES OF THE IMPERIUM",
+    "set": "WARHAMMER 40,000 COMMANDER",
+    "colors": [
+      "WHITE",
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/warhammer_40000/Tops/forces_of_the_imperium_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/warhammer_40000/Tops/forces_of_the_imperium_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "95b029b179f7259e793b3d9f1a6121922c4bac0f2d5af5699c5acc538fd588cd",
+    "sha256_after": "a6656e54464e990a1dac1d49cc46d2fba7e5b86e66d80063294822a475b4fb06",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/warhammer_40000/Tops/label_manifest.json",
+    "slug": "necron_dynasties",
+    "name": "NECRON DYNASTIES",
+    "set": "WARHAMMER 40,000 COMMANDER",
+    "colors": [
+      "BLACK"
+    ],
+    "before": "images/warhammer_40000/Tops/necron_dynasties_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/warhammer_40000/Tops/necron_dynasties_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "4552d21cb2c707013b3bbf164cef1ac2e5262f97b422c61ca16eabd0e5e9c82f",
+    "sha256_after": "ccafe829246dce3229b46efc7c6d96951635251324bf1e00d2c7ebe53acd05d7",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/warhammer_40000/Tops/label_manifest.json",
+    "slug": "the_ruinous_powers",
+    "name": "THE RUINOUS POWERS",
+    "set": "WARHAMMER 40,000 COMMANDER",
+    "colors": [
+      "BLUE",
+      "BLACK",
+      "RED"
+    ],
+    "before": "images/warhammer_40000/Tops/the_ruinous_powers_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/warhammer_40000/Tops/the_ruinous_powers_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "9549695283ea88a8dbe7a80c8e0702f405ce13cffaa9e39d3a7cdd3effa20234",
+    "sha256_after": "212dc5a6577fc32ec5033aacb9696c7b60c1764accf04c8ef485c7359b5c0c04",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/warhammer_40000/Tops/label_manifest.json",
+    "slug": "tyranid_swarm",
+    "name": "TYRANID SWARM",
+    "set": "WARHAMMER 40,000 COMMANDER",
+    "colors": [
+      "GREEN",
+      "BLUE",
+      "RED"
+    ],
+    "before": "images/warhammer_40000/Tops/tyranid_swarm_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/warhammer_40000/Tops/tyranid_swarm_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "785aec59c5867757e480cae357bfdca465ebdd8d989d18b787bba598c1902446",
+    "sha256_after": "671249736a226ed78327a9646e8930f3dd72280d4406a7c50580239e401622d3",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/wilds_of_eldraine/Tops/label_manifest.json",
+    "slug": "fae_dominion",
+    "name": "FAE DOMINION",
+    "set": "WILDS OF ELDRAINE",
+    "colors": [
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/wilds_of_eldraine/Tops/fae_dominion_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/wilds_of_eldraine/Tops/fae_dominion_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "92ce52aa9d86248ac9f3d48441a444f0a16bbba98d57a80359e47fafe0d14686",
+    "sha256_after": "520ed4aed575cd0826665ff3b9b292d624e68b09f6263fe3fc07c93b66b17bf0",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/wilds_of_eldraine/Tops/label_manifest.json",
+    "slug": "virtue_and_valor",
+    "name": "VIRTUE AND VALOR",
+    "set": "WILDS OF ELDRAINE",
+    "colors": [
+      "GREEN",
+      "WHITE"
+    ],
+    "before": "images/wilds_of_eldraine/Tops/virtue_and_valor_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/wilds_of_eldraine/Tops/virtue_and_valor_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "d3fe3298e2175a06c1aa7d63c3caa2dde2f1a293fbc792858bae0d67d705b180",
+    "sha256_after": "b4ae8fc9ffb57f28f0b8d64f3791a4fe816b486af82a76f0eaa7b9197ce966b9",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/zendikar_rising/Tops/label_manifest.json",
+    "slug": "lands_wrath",
+    "name": "LAND\u2019S WRATH",
+    "set": "ZENDIKAR RISING",
+    "colors": [
+      "RED",
+      "GREEN",
+      "WHITE"
+    ],
+    "before": "images/zendikar_rising/Tops/lands_wrath_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/zendikar_rising/Tops/lands_wrath_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "0eea7b00ce10c6f8bca3637f826109bb4f7d67f705b1972ea0203b2a192550a1",
+    "sha256_after": "3b0c49a3f5189b5260099b905864df065dfc1a1dffd45ed8d7e4432be3b3fafc",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  },
+  {
+    "manifest": "images/zendikar_rising/Tops/label_manifest.json",
+    "slug": "sneak_attack",
+    "name": "SNEAK ATTACK",
+    "set": "ZENDIKAR RISING",
+    "colors": [
+      "BLUE",
+      "BLACK"
+    ],
+    "before": "images/zendikar_rising/Tops/sneak_attack_readability_v4_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "after": "images/zendikar_rising/Tops/sneak_attack_mana_border_v6_boulder_top_label_tall_3960x3360_1440dpi.png",
+    "sha256_before": "f32551d7a4f56ad78eeeb516b97ddeb94a4bf570a7d5e6b86f08c100bc8a1334",
+    "sha256_after": "bc9b308492e96d5953e088bf0a8d63b6a10cf7a2e3c1c44e2bf455d43e29ec1e",
+    "qa": "Original preserved; artwork, text, mana and black outer edge pixel-identical; only colored frame region differs. Dimensions, DPI and opacity checked."
+  }
+]

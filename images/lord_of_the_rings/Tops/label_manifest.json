@@ -13,7 +13,7 @@
         "GREEN"
       ],
       "series": 2,
-      "outputStem": "food_and_fellowship_readability_v4"
+      "outputStem": "food_and_fellowship_mana_border_v6"
     },
     {
       "slug": "riders_of_rohan",
@@ -27,7 +27,7 @@
         "WHITE"
       ],
       "series": 2,
-      "outputStem": "riders_of_rohan_readability_v4"
+      "outputStem": "riders_of_rohan_mana_border_v6"
     },
     {
       "slug": "the_hosts_of_mordor",
@@ -41,7 +41,7 @@
         "RED"
       ],
       "series": 2,
-      "outputStem": "the_hosts_of_mordor_readability_v4"
+      "outputStem": "the_hosts_of_mordor_mana_border_v6"
     },
     {
       "slug": "elven_council",
@@ -54,7 +54,7 @@
         "BLUE"
       ],
       "series": 2,
-      "outputStem": "elven_council_readability_v4"
+      "outputStem": "elven_council_mana_border_v6"
     }
   ]
 }
