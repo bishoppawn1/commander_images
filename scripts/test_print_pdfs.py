@@ -11,20 +11,25 @@ import make_print_pdfs as tool
 
 
 class LayoutTests(unittest.TestCase):
-    def test_top_columns_reclaim_gutters_for_printer_margins(self):
-        boxes = tool.positions("tops", 12)
-        for offset in range(0, 12, 3):
-            row = boxes[offset:offset + 3]
-            self.assertAlmostEqual(row[0][0], 8.25)
-            self.assertAlmostEqual(612 - row[-1][0] - row[-1][2], 8.25)
+    def test_two_top_columns_have_one_inch_margins_and_gutter(self):
+        boxes = tool.positions("tops", 8)
+        with self.assertRaises(ValueError):
+            tool.positions("tops", 9)
+        self.assertAlmostEqual(boxes[-1][1], 53.25)
+        self.assertAlmostEqual(792 - boxes[0][1] - boxes[0][3], 53.25)
+        self.assertAlmostEqual(boxes[0][1] - boxes[2][1] - boxes[2][3], 4.5)
+        for offset in range(0, 8, 2):
+            row = boxes[offset:offset + 2]
+            self.assertAlmostEqual(row[0][0], 72)
+            self.assertAlmostEqual(612 - row[-1][0] - row[-1][2], 72)
             for left, right in zip(row, row[1:]):
-                self.assertAlmostEqual(right[0] - left[0] - left[2], 0.75)
+                self.assertAlmostEqual(right[0] - left[0] - left[2], 72)
             for _, _, width, height in row:
                 self.assertAlmostEqual(width, 2.75 * 72)
                 self.assertAlmostEqual(height, 7 / 3 * 72)
 
     def test_original_sizes_and_bounds(self):
-        for kind, count in (("tops", 12), ("fronts", 6)):
+        for kind, count in (("tops", 8), ("fronts", 6)):
             spec = tool.layout(kind)
             boxes = tool.positions(kind, count)
             for i, (x, y, w, h) in enumerate(boxes):
@@ -93,7 +98,7 @@ class LayoutTests(unittest.TestCase):
     def test_condensed_collection_is_complete(self):
         from collections import Counter
         import math
-        for kind, capacity in (("tops", 12), ("fronts", 6)):
+        for kind, capacity in (("tops", 8), ("fronts", 6)):
             groups = tool.load_groups(kind)
             pages = tool.pack_groups(groups, capacity)
             expected = Counter((g['id'], f) for g in groups for f in g['files'])
@@ -113,6 +118,24 @@ class LayoutTests(unittest.TestCase):
                     tool.main(['--kind','tops','--replace-all','--output',str(output)])
             self.assertEqual(old.read_bytes(), b'previous verified edition')
 
+    def test_refresh_preserves_separate_addendum(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary)
+            tops = output / 'Boulder Tops'
+            addendum = tops / 'Temporary Addenda' / 'dated'
+            addendum.mkdir(parents=True)
+            (addendum / 'page.pdf').write_bytes(b'addendum')
+            (tops / 'old.pdf').write_bytes(b'old')
+            def build(kind, page, number, target):
+                (target / '.records').mkdir(parents=True, exist_ok=True)
+                (target / 'new.pdf').write_bytes(b'new')
+                return {'pdf': 'new.pdf'}
+            with patch.object(tool, 'load_groups', return_value=[dict(id='g', name='G', files=['image'])]), patch.object(tool, 'preflight'), patch.object(tool, 'build_page', side_effect=build):
+                tool.main(['--kind', 'tops', '--replace-all', '--output', str(output)])
+            self.assertEqual((addendum / 'page.pdf').read_bytes(), b'addendum')
+            self.assertTrue((tops / 'new.pdf').exists())
+            self.assertFalse((tops / 'old.pdf').exists())
+
     def test_output_names_and_hidden_records(self):
         target = Path("Print Sheets/Boulder Tops/example.pdf")
         self.assertEqual(tool.receipt_path(target), Path("Print Sheets/Boulder Tops/.records/example.json"))
@@ -127,7 +150,7 @@ class LayoutTests(unittest.TestCase):
 
 
 def integration(output):
-    for kind, capacity in (("tops", 12), ("fronts", 6)):
+    for kind, capacity in (("tops", 8), ("fronts", 6)):
         groups = tool.load_groups(kind)
         page = tool.pack_groups(groups, capacity)[0]
         target = output / kind
@@ -147,7 +170,7 @@ def integration(output):
         else:
             raise AssertionError("Modified cached output should not be silently overwritten")
         receipt.write_text(json.dumps(first))
-    print("PASS: real 12-top and six-front pages, pixel/ICC/size verification, unchanged reruns and overwrite guard")
+    print("PASS: real eight-top and six-front pages, pixel/ICC/size verification, unchanged reruns and overwrite guard")
 
 
 if __name__ == "__main__":

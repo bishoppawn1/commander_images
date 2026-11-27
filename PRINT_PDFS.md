@@ -22,12 +22,10 @@ Print at **100% / Actual Size**. Do not fit to page.
 
 | Format | PNG source | Printed size | Letter layout |
 | --- | --- | --- | --- |
-| Boulder tops | 3960 × 3360, 1440 DPI | 2.75 × 2.333333 inches | 3 columns × 4 rows |
+| Boulder tops | 3960 × 3360, 1440 DPI | 2.75 × 2.333333 inches | 2 columns × 4 rows (new builds) |
 | Drawer fronts | 4138 × 4858, 1440 DPI | 2.740278 × 3.208333 inches | 2 columns × 3 rows |
 
-Top columns retain a **0.75-point white separator (0.26 mm)** for cutter alignment. Narrowing the former 4.5-point gutters increases the left/right page margins from 1/16 inch (1.59 mm) to **0.1146 inch (2.91 mm)** while keeping every label at its original physical size. Vertical row spacing is unchanged. Front-sheet spacing is unchanged. The separator is three times wider than the preceding 0.25-point version, as requested because the earlier line was too thin to register.
-
-Use Letter Borderless with automatic enlargement disabled or minimized to preserve the outer borders at these 2.91-mm side margins. Print at Actual Size and measure a proof. Fronts fit ordinary Letter. The complete front image, including its existing black margin, is scaled as one unit. Artwork pixels are embedded losslessly with ICC color profiles.
+For new top sheets, the default is two columns by four rows on US Letter, with one inch at each side and between columns, and 1/16 inch between rows. Each top prints at 2.75 × 2⅓ inches. Use Actual Size with page fitting disabled. The PDFs currently linked from this branch use the earlier three-column layout. Run the tops builder with `--replace-all` and regenerate the sheet index to use the new layout locally. The complete front image, including its existing black margin, is scaled as one unit. Artwork pixels are embedded losslessly with ICC color profiles.
 
 ## Rebuilding
 

@@ -12,10 +12,12 @@ def main():
     OUT.mkdir(parents=True,exist_ok=True)
     jobs=[]
     parts=['# Current print sheets\n',
-           'Rebuilt November 8, 2026: 10 top sheets and 7 front sheets. Print at 100% / Actual Size. Top columns retain 0.75-point white separators for cutter alignment, with 2.91-mm side margins and unchanged label sizes. Use Letter Borderless with automatic enlargement disabled or minimized. Front spacing is unchanged. All earlier PDF editions have been removed.\n',
+           'Print on US Letter at 100% / Actual Size. Boulder tops use two columns and four rows with one inch of white space between columns and one-inch side margins. Each top measures 2.75 × 2⅓ inches.\n',
            'Use the PNG previews to inspect pages without opening a PDF preview in Codex.\n',
            '| Format / sheet | Labels | Sets | Preview | Print PDF |',
            '| --- | ---: | --- | --- | --- |']
+    for addendum in sorted((ROOT/'Print Sheets/Boulder Tops/Temporary Addenda').glob('*/README.md')):
+        parts.insert(-2, f'[Temporary Boulder-top addendum ({addendum.parent.name})](<{addendum.relative_to(ROOT/"Print Sheets")}>)\n')
     for kind,folder in [('tops','Boulder Tops'),('fronts','Fronts')]:
         rows=json.loads((ROOT/'Print Sheets'/folder/'.records'/f'LATEST_{kind}_all.json').read_text())
         for r in rows:

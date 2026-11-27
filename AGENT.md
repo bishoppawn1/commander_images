@@ -7,9 +7,9 @@ Use the [label names and print filenames guide](LABEL_NAMES.md) when naming a fi
 - Use slow, continuous gradients through the deck’s mana identity for both colored border lines instead of fixed green or gold. Use only the colors represented by its mana row: warm ivory, blue, visible charcoal, red and green. Single-color decks use tonal shades of that color; colorless decks use silver-gray. Preserve the black outer cut edge, border widths, typography and artwork. This is a native compositor change, not a request to regenerate the art.
 - Current tops use `_mana_border_v6`, preserving the previous v4/v5 files and all approved head positions. Review: `reviews/boulder_mana_borders_2026_11_08/index.html`; before/after hashes: `images/boulder_mana_border_audit_2026_11_08.json`.
 
-## Top-sheet printer edge clearance — 2026-11-08
+## Boulder-top print layout
 
-- Keep tops at 2.75 × 2 1/3 inches. Keep 0.75-point white separators between the three columns for cutter alignment and center the grid on Letter: 8.25-point (2.91-mm) left/right margins and unchanged vertical row spacing. The user reported that the 0.25-point guide was too thin to register; keep the separator at least 0.75 point. Never remove it entirely. Do not resize or crop image files to fix this printer-edge issue. Front-sheet spacing remains unchanged. Rebuild the full current PDF collection and its PNG previews after layout changes.
+Default to two columns and four rows on portrait US Letter. Leave one inch of white space between columns and one inch at each outside edge. Keep each complete top at 2.75 × 2⅓ inches, with 1/16 inch between rows. Pack whole sets together and continue onto another sheet when needed, including for addenda. Print at 100% with page fitting disabled.
 
 ## Readability, restrained lighting and collection layout — 2026-11-08
 
@@ -94,7 +94,7 @@ Create deck-box-style face cards that make Magic: The Gathering Commander deck s
 ## Ongoing instructions
 
 - Organize the project-root `Print Sheets/` folder into two subfolders: `Boulder Tops/` for the complete Boulder deck-box top collection and `Fronts/` for large drawer fronts, including the optional Overflow sheet. Keep `Boulder_Tops` in top-sheet filenames; archived sheets are not a substitute for the current printable set. Future PDF generation must use these same subfolders.
-- For the first-half Boulder-top PDF sheets, preserve the approved 3300 x 2800 images at 2.75 x 2 1/3 inches. Use the Epson ET-8550 (the user replaced the HP), Letter borderless-compatible printing, and a 3 x 4 grid with 2.91-mm side margins, 0.75-point white column separators, 1/16-inch row gaps and approximately 0.739583-inch top/bottom margins. Keep each release in one PDF and name the PDF for every release it contains. Never silently shrink labels to fit; warn about driver borderless expansion changing physical size.
+- Use the two-column Letter layout for all Boulder-top batches, including addenda.
 - Treat later user directions as additions or refinements to these project requirements.
 - Record durable follow-on project requirements in this file so future work remains consistent.
 - If a later instruction conflicts with an earlier one, follow the most recent explicit user instruction and update this file accordingly.
