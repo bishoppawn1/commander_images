@@ -29,6 +29,6 @@ Keep each word group’s proportions and leave clearance around the inner frame 
 | Boulder top PNG | The set’s `Tops/label_manifest.json` supplies `outputStem`, falling back to `slug`. The print suffix is `_boulder_top_label_tall_3960x3360_1440dpi.png`. For example, the logo edition of World Shaper uses `world_shaper_set_logo_v7_boulder_top_label_tall_3960x3360_1440dpi.png`. |
 | Drawer front PNG | Take the exact file from the front entry in the print catalog. The print filename ends in `_4138x4858_1440dpi_black_margin_1_8in.png`. Keep the corresponding build master. |
 | Print PDF | Use `Print Sheets/Boulder Tops/` or `Print Sheets/Fronts/`. The builder names each PDF with its sheet number, release groups, `1440dpi`, and a ten-character build signature. Top-sheet filenames also include `Boulder_Tops`. |
-| Temporary addendum | Keep the requested 12-top addendum under `Print Sheets/Boulder Tops/Temporary Addenda/2026-11-26/`, with its dated selection and receipt. It includes Commander 2013 on its own. |
+| Temporary addendum | Keep the requested eight-top addendum under `Print Sheets/Boulder Tops/Temporary Addenda/2026-11-26/`, with its dated selection and receipt. It contains Commander 2013, Aetherdrift, Edge of Eternities, Reality Fracture, and Turtle Power. |
 
 Use the catalog, active manifests, and latest sheet receipts to resolve the current filenames. After a replacement passes verification, retire superseded generated PNGs and PDFs. [Print catalog](print_catalog.json) · [Current print sheet index](Print%20Sheets/INDEX.md)

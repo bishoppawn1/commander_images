@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the requested 12-top temporary addendum without changing normal sheets."""
+"""Build the requested eight-top temporary addendum without changing normal sheets."""
 import json
 from pathlib import Path
 import subprocess
@@ -12,7 +12,6 @@ from make_print_pdfs import build_page, layout, load_groups, pack_groups, prefli
 OUT = ROOT / 'Print Sheets/Boulder Tops/Temporary Addenda/2026-11-26'
 SELECTION = [
     ('commander_2013', 'Commander 2013', 2),
-    ('commander_anthology_i', 'Commander Anthology I', 4),
     ('aetherdrift', 'Aetherdrift', 2),
     ('edge_of_eternities', 'Edge of Eternities', 2),
     ('reality_fracture', 'Reality Fracture', 1),
@@ -25,17 +24,19 @@ def main():
     groups = [dict(catalog[key]) for key, _, _ in SELECTION]
     counts = [len(g['files']) for g in groups]
     expected = [count for _, _, count in SELECTION]
-    if counts != expected or sum(counts) != 12:
-        raise ValueError(f'Expected 12 tops with set counts {expected}; found {counts} ({sum(counts)} total).')
+    if counts != expected or sum(counts) != 8:
+        raise ValueError(f'Expected 8 tops with set counts {expected}; found {counts} ({sum(counts)} total).')
     assert 'commander_2016' not in {g['id'] for g in groups}
-    assert len({f for g in groups for f in g['files']}) == 12
+    assert len({f for g in groups for f in g['files']}) == 8
     preflight(groups, 'tops')
     spec = layout('tops')
     pages = pack_groups(groups, spec['columns'] * spec['rows'])
+    if len(pages) != 1:
+        raise ValueError('The eight selected tops must fit on one sheet.')
     receipts = []
     previews = []
     lines = ['# Temporary Boulder-top addendum — November 26, 2026',
-             '', f'All 12 requested tops on {len(pages)} US Letter sheets. Print at **Actual Size / 100%**.',
+             '', 'All eight requested tops on one US Letter sheet. Print at **Actual Size / 100%**.',
              '', '| Page | Tops | Sets | PDF | Preview |', '| --- | ---: | --- | --- | --- |']
     for number, page in enumerate(pages, 1):
         named_page = [dict(g) for g in page]
