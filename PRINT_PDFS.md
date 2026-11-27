@@ -8,7 +8,7 @@ Star Trek tops now share **top sheet 10** with Starter Commander. The Star Trek 
 
 ## Artwork and folders
 
-Each set lives in `images/<set>/`, with `Tops/` and `Fronts/` subdirectories. Sources and prompts are inside the relevant format. Shared paired fronts and Anthology tops use relative symlinks. `print_catalog.json` selects the current images; earlier PNG versions remain available.
+Each set lives in `images/<set>/`, with `Tops/` and `Fronts/` subdirectories. Sources and prompts are inside the relevant format. Shared paired fronts and Anthology tops use relative symlinks. `print_catalog.json` selects the current images; retire superseded PNGs after verification. See the [label names and print filenames guide](LABEL_NAMES.md) for naming examples and approved title treatments.
 
 Inspect the latest [mana-color border comparison](reviews/boulder_mana_borders_2026_11_08/index.html), with [direct old/new image links](reviews/boulder_mana_borders_2026_11_08/IMAGE_LINKS.md) for all 114 top placements. Both colored frame lines now blend gradually through each deck's mana colors; the black outer edge, artwork, text, symbols and physical size remain unchanged.
 

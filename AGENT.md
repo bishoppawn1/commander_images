@@ -1,5 +1,7 @@
 # MTG Commander Deck Box Face Cards
 
+Use the [label names and print filenames guide](LABEL_NAMES.md) when naming a file or setting the text on a top or front.
+
 ## Mana-identity top borders — 2026-11-08
 
 - Use slow, continuous gradients through the deck’s mana identity for both colored border lines instead of fixed green or gold. Use only the colors represented by its mana row: warm ivory, blue, visible charcoal, red and green. Single-color decks use tonal shades of that color; colorless decks use silver-gray. Preserve the black outer cut edge, border widths, typography and artwork. This is a native compositor change, not a request to regenerate the art.
